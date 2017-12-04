@@ -1,0 +1,7 @@
+GENERATOR: 
+  PackageName: godot
+  PackageDescription: "Package godot provides Go bindings for Godot Engine"
+  SysIncludes: 
+    - "godot_nativescript.h"
+  FlagGroups:
+    - {name: CFLAGS, flags: [-I/usr/local/include]}
