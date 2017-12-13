@@ -1,7 +1,24 @@
 GENERATOR: 
   PackageName: godot
   PackageDescription: "Package godot provides Go bindings for Godot Engine"
-  SysIncludes: 
-    - "godot_nativescript.h"
+  Includes:
+    - gdnative_api_struct.gen.h
   FlagGroups:
-    - {name: CFLAGS, flags: [-I/usr/local/include]}
+    - {name: "CFLAGS", flags: ["-Igodot_headers", -std=c11", "-fPIC", "-c"]}
+    - {name: "LDFLAGS", traits: ["darwin"], flags: ["-framework Cocoa", "-Wl,-undefined,dynamic_lookup"]}
+PARSER:
+  IncludePaths: ["godot_headers","/usr/include","./"]
+  SourcesPaths: ["gdnative_api_struct.gen.h"]
+TRANSLATOR:
+  ConstRules:
+    defines: eval
+  Rules:
+    global: 
+      - {transform: lower}
+      - {action: accept, from: "^godot_"}
+      - {transform: export}
+    private:
+      - {transform: unexport}
+    post-global: 
+      - {action: replace, from: _$}
+      - {load: snakecase}
