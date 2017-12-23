@@ -1,0 +1,13 @@
+[gd_scene load_steps=1 format=2]
+
+[ext_resource path="res://libgodot.gdnlib" type="GDNativeLibrary" id=1]
+
+[sub_resource type="NativeScript" id=1]
+
+resource_name = "Go"
+class_name = "Go"
+library = ExtResource( 1 )
+
+[node name="Node2D Scene" type="Node2D"]
+
+script = SubResource( 1 )
