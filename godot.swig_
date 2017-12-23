@@ -10,7 +10,7 @@
 %include "gdnative_api_struct.gen.h"
 
 %include "gdnative/gdnative.h"
-%include "gdnative/aabb.h"
+/*%include "gdnative/aabb.h"
 %include "gdnative/array.h"
 %include "gdnative/basis.h"
 %include "gdnative/color.h"
@@ -33,7 +33,7 @@
 
 %include "nativescript/godot_nativescript.h" 
 
-%include "pluginscript/godot_pluginscript.h" 
+%include "pluginscript/godot_pluginscript.h" */
 
 
 
