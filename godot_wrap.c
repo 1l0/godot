@@ -8,7 +8,7 @@
  * interface file instead.
  * ----------------------------------------------------------------------------- */
 
-/* source: godot.swig */
+/* source: godot.swig_ */
 
 #define SWIGMODULE godot
 /* -----------------------------------------------------------------------------
@@ -222,7 +222,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_godot_5192ef1abe3e06df(void *_swig_go_0) {
+void _wrap_Swig_free_godot_fc372a972f111bee(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -232,7 +232,7 @@ void _wrap_Swig_free_godot_5192ef1abe3e06df(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_godot_5192ef1abe3e06df(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_godot_fc372a972f111bee(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -245,7 +245,7 @@ void *_wrap_Swig_malloc_godot_5192ef1abe3e06df(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_GDNATIVE_CORE_godot_5192ef1abe3e06df() {
+intgo _wrap_GDNATIVE_CORE_godot_fc372a972f111bee() {
   enum GDNATIVE_API_TYPES result;
   intgo _swig_go_result;
   
@@ -257,7 +257,7 @@ intgo _wrap_GDNATIVE_CORE_godot_5192ef1abe3e06df() {
 }
 
 
-intgo _wrap_GDNATIVE_EXT_NATIVESCRIPT_godot_5192ef1abe3e06df() {
+intgo _wrap_GDNATIVE_EXT_NATIVESCRIPT_godot_fc372a972f111bee() {
   enum GDNATIVE_API_TYPES result;
   intgo _swig_go_result;
   
@@ -269,7 +269,7 @@ intgo _wrap_GDNATIVE_EXT_NATIVESCRIPT_godot_5192ef1abe3e06df() {
 }
 
 
-intgo _wrap_GDNATIVE_EXT_PLUGINSCRIPT_godot_5192ef1abe3e06df() {
+intgo _wrap_GDNATIVE_EXT_PLUGINSCRIPT_godot_fc372a972f111bee() {
   enum GDNATIVE_API_TYPES result;
   intgo _swig_go_result;
   
@@ -281,7 +281,7 @@ intgo _wrap_GDNATIVE_EXT_PLUGINSCRIPT_godot_5192ef1abe3e06df() {
 }
 
 
-intgo _wrap_GDNATIVE_EXT_ARVR_godot_5192ef1abe3e06df() {
+intgo _wrap_GDNATIVE_EXT_ARVR_godot_fc372a972f111bee() {
   enum GDNATIVE_API_TYPES result;
   intgo _swig_go_result;
   
@@ -293,7 +293,7 @@ intgo _wrap_GDNATIVE_EXT_ARVR_godot_5192ef1abe3e06df() {
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_Xtype_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_Xtype_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, intgo _swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   unsigned int arg2 ;
   
@@ -305,7 +305,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_Xtype_set_godot_5192ef1abe
 }
 
 
-intgo _wrap_godot_gdnative_ext_nativescript_api_struct_Xtype_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+intgo _wrap_godot_gdnative_ext_nativescript_api_struct_Xtype_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -318,7 +318,7 @@ intgo _wrap_godot_gdnative_ext_nativescript_api_struct_Xtype_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_version_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, godot_gdnative_api_version *_swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_version_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, godot_gdnative_api_version *_swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   godot_gdnative_api_version arg2 ;
   godot_gdnative_api_version *argp2 ;
@@ -337,7 +337,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_version_set_godot_5192ef1a
 }
 
 
-godot_gdnative_api_version *_wrap_godot_gdnative_ext_nativescript_api_struct_version_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+godot_gdnative_api_version *_wrap_godot_gdnative_ext_nativescript_api_struct_version_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   godot_gdnative_api_version result;
   godot_gdnative_api_version *_swig_go_result;
@@ -354,7 +354,7 @@ godot_gdnative_api_version *_wrap_godot_gdnative_ext_nativescript_api_struct_ver
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_next_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, godot_gdnative_api_struct *_swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_next_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, godot_gdnative_api_struct *_swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   godot_gdnative_api_struct *arg2 = (godot_gdnative_api_struct *) 0 ;
   
@@ -366,7 +366,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_next_set_godot_5192ef1abe3
 }
 
 
-godot_gdnative_api_struct *_wrap_godot_gdnative_ext_nativescript_api_struct_next_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+godot_gdnative_api_struct *_wrap_godot_gdnative_ext_nativescript_api_struct_next_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   godot_gdnative_api_struct *result = 0 ;
   godot_gdnative_api_struct *_swig_go_result;
@@ -379,7 +379,7 @@ godot_gdnative_api_struct *_wrap_godot_gdnative_ext_nativescript_api_struct_next
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_class_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_class_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*arg2)(void *,char const *,char const *,godot_instance_create_func,godot_instance_destroy_func) = (void (*)(void *,char const *,char const *,godot_instance_create_func,godot_instance_destroy_func)) 0 ;
   
@@ -391,7 +391,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_registe
 }
 
 
-void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_class_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_class_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*result)(void *,char const *,char const *,godot_instance_create_func,godot_instance_destroy_func) = 0 ;
   void* _swig_go_result;
@@ -404,7 +404,7 @@ void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_regist
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_tool_class_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_tool_class_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*arg2)(void *,char const *,char const *,godot_instance_create_func,godot_instance_destroy_func) = (void (*)(void *,char const *,char const *,godot_instance_create_func,godot_instance_destroy_func)) 0 ;
   
@@ -416,7 +416,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_registe
 }
 
 
-void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_tool_class_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_tool_class_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*result)(void *,char const *,char const *,godot_instance_create_func,godot_instance_destroy_func) = 0 ;
   void* _swig_go_result;
@@ -429,7 +429,7 @@ void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_regist
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_method_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_method_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*arg2)(void *,char const *,char const *,godot_method_attributes,godot_instance_method) = (void (*)(void *,char const *,char const *,godot_method_attributes,godot_instance_method)) 0 ;
   
@@ -441,7 +441,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_registe
 }
 
 
-void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_method_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_method_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*result)(void *,char const *,char const *,godot_method_attributes,godot_instance_method) = 0 ;
   void* _swig_go_result;
@@ -454,7 +454,7 @@ void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_regist
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_property_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_property_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*arg2)(void *,char const *,char const *,godot_property_attributes *,godot_property_set_func,godot_property_get_func) = (void (*)(void *,char const *,char const *,godot_property_attributes *,godot_property_set_func,godot_property_get_func)) 0 ;
   
@@ -466,7 +466,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_registe
 }
 
 
-void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_property_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_property_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*result)(void *,char const *,char const *,godot_property_attributes *,godot_property_set_func,godot_property_get_func) = 0 ;
   void* _swig_go_result;
@@ -479,7 +479,7 @@ void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_regist
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_signal_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_signal_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*arg2)(void *,char const *,godot_signal const *) = (void (*)(void *,char const *,godot_signal const *)) 0 ;
   
@@ -491,7 +491,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_registe
 }
 
 
-void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_signal_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_register_signal_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void (*result)(void *,char const *,godot_signal const *) = 0 ;
   void* _swig_go_result;
@@ -504,7 +504,7 @@ void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_regist
 }
 
 
-void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_get_userdata_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_get_userdata_set_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void *(*arg2)(godot_object *) = (void *(*)(godot_object *)) 0 ;
   
@@ -516,7 +516,7 @@ void _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_get_use
 }
 
 
-void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_get_userdata_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_get_userdata_get_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   void *(*result)(godot_object *) = 0 ;
   void* _swig_go_result;
@@ -529,7 +529,7 @@ void* _wrap_godot_gdnative_ext_nativescript_api_struct_godot_nativescript_get_us
 }
 
 
-struct godot_gdnative_ext_nativescript_api_struct *_wrap_new_godot_gdnative_ext_nativescript_api_struct_godot_5192ef1abe3e06df() {
+struct godot_gdnative_ext_nativescript_api_struct *_wrap_new_godot_gdnative_ext_nativescript_api_struct_godot_fc372a972f111bee() {
   struct godot_gdnative_ext_nativescript_api_struct *result = 0 ;
   struct godot_gdnative_ext_nativescript_api_struct *_swig_go_result;
   
@@ -540,7 +540,7 @@ struct godot_gdnative_ext_nativescript_api_struct *_wrap_new_godot_gdnative_ext_
 }
 
 
-void _wrap_delete_godot_gdnative_ext_nativescript_api_struct_godot_5192ef1abe3e06df(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
+void _wrap_delete_godot_gdnative_ext_nativescript_api_struct_godot_fc372a972f111bee(struct godot_gdnative_ext_nativescript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_nativescript_api_struct *arg1 = (struct godot_gdnative_ext_nativescript_api_struct *) 0 ;
   
   arg1 = *(struct godot_gdnative_ext_nativescript_api_struct **)&_swig_go_0; 
@@ -550,7 +550,7 @@ void _wrap_delete_godot_gdnative_ext_nativescript_api_struct_godot_5192ef1abe3e0
 }
 
 
-void _wrap_godot_gdnative_ext_pluginscript_api_struct_Xtype_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_godot_gdnative_ext_pluginscript_api_struct_Xtype_set_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0, intgo _swig_go_1) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   unsigned int arg2 ;
   
@@ -562,7 +562,7 @@ void _wrap_godot_gdnative_ext_pluginscript_api_struct_Xtype_set_godot_5192ef1abe
 }
 
 
-intgo _wrap_godot_gdnative_ext_pluginscript_api_struct_Xtype_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
+intgo _wrap_godot_gdnative_ext_pluginscript_api_struct_Xtype_get_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -575,7 +575,7 @@ intgo _wrap_godot_gdnative_ext_pluginscript_api_struct_Xtype_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_ext_pluginscript_api_struct_version_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0, godot_gdnative_api_version *_swig_go_1) {
+void _wrap_godot_gdnative_ext_pluginscript_api_struct_version_set_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0, godot_gdnative_api_version *_swig_go_1) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   godot_gdnative_api_version arg2 ;
   godot_gdnative_api_version *argp2 ;
@@ -594,7 +594,7 @@ void _wrap_godot_gdnative_ext_pluginscript_api_struct_version_set_godot_5192ef1a
 }
 
 
-godot_gdnative_api_version *_wrap_godot_gdnative_ext_pluginscript_api_struct_version_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
+godot_gdnative_api_version *_wrap_godot_gdnative_ext_pluginscript_api_struct_version_get_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   godot_gdnative_api_version result;
   godot_gdnative_api_version *_swig_go_result;
@@ -611,7 +611,7 @@ godot_gdnative_api_version *_wrap_godot_gdnative_ext_pluginscript_api_struct_ver
 }
 
 
-void _wrap_godot_gdnative_ext_pluginscript_api_struct_next_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0, godot_gdnative_api_struct *_swig_go_1) {
+void _wrap_godot_gdnative_ext_pluginscript_api_struct_next_set_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0, godot_gdnative_api_struct *_swig_go_1) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   godot_gdnative_api_struct *arg2 = (godot_gdnative_api_struct *) 0 ;
   
@@ -623,7 +623,7 @@ void _wrap_godot_gdnative_ext_pluginscript_api_struct_next_set_godot_5192ef1abe3
 }
 
 
-godot_gdnative_api_struct *_wrap_godot_gdnative_ext_pluginscript_api_struct_next_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
+godot_gdnative_api_struct *_wrap_godot_gdnative_ext_pluginscript_api_struct_next_get_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   godot_gdnative_api_struct *result = 0 ;
   godot_gdnative_api_struct *_swig_go_result;
@@ -636,7 +636,7 @@ godot_gdnative_api_struct *_wrap_godot_gdnative_ext_pluginscript_api_struct_next
 }
 
 
-void _wrap_godot_gdnative_ext_pluginscript_api_struct_godot_pluginscript_register_language_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_pluginscript_api_struct_godot_pluginscript_register_language_set_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   void (*arg2)(godot_pluginscript_language_desc const *) = (void (*)(godot_pluginscript_language_desc const *)) 0 ;
   
@@ -648,7 +648,7 @@ void _wrap_godot_gdnative_ext_pluginscript_api_struct_godot_pluginscript_registe
 }
 
 
-void* _wrap_godot_gdnative_ext_pluginscript_api_struct_godot_pluginscript_register_language_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_pluginscript_api_struct_godot_pluginscript_register_language_get_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   void (*result)(godot_pluginscript_language_desc const *) = 0 ;
   void* _swig_go_result;
@@ -661,7 +661,7 @@ void* _wrap_godot_gdnative_ext_pluginscript_api_struct_godot_pluginscript_regist
 }
 
 
-struct godot_gdnative_ext_pluginscript_api_struct *_wrap_new_godot_gdnative_ext_pluginscript_api_struct_godot_5192ef1abe3e06df() {
+struct godot_gdnative_ext_pluginscript_api_struct *_wrap_new_godot_gdnative_ext_pluginscript_api_struct_godot_fc372a972f111bee() {
   struct godot_gdnative_ext_pluginscript_api_struct *result = 0 ;
   struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_result;
   
@@ -672,7 +672,7 @@ struct godot_gdnative_ext_pluginscript_api_struct *_wrap_new_godot_gdnative_ext_
 }
 
 
-void _wrap_delete_godot_gdnative_ext_pluginscript_api_struct_godot_5192ef1abe3e06df(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
+void _wrap_delete_godot_gdnative_ext_pluginscript_api_struct_godot_fc372a972f111bee(struct godot_gdnative_ext_pluginscript_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_pluginscript_api_struct *arg1 = (struct godot_gdnative_ext_pluginscript_api_struct *) 0 ;
   
   arg1 = *(struct godot_gdnative_ext_pluginscript_api_struct **)&_swig_go_0; 
@@ -682,7 +682,7 @@ void _wrap_delete_godot_gdnative_ext_pluginscript_api_struct_godot_5192ef1abe3e0
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_Xtype_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_Xtype_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, intgo _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   unsigned int arg2 ;
   
@@ -694,7 +694,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_Xtype_set_godot_5192ef1abe3e06df(s
 }
 
 
-intgo _wrap_godot_gdnative_ext_arvr_api_struct_Xtype_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+intgo _wrap_godot_gdnative_ext_arvr_api_struct_Xtype_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -707,7 +707,7 @@ intgo _wrap_godot_gdnative_ext_arvr_api_struct_Xtype_get_godot_5192ef1abe3e06df(
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_version_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, godot_gdnative_api_version *_swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_version_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, godot_gdnative_api_version *_swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_gdnative_api_version arg2 ;
   godot_gdnative_api_version *argp2 ;
@@ -726,7 +726,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_version_set_godot_5192ef1abe3e06df
 }
 
 
-godot_gdnative_api_version *_wrap_godot_gdnative_ext_arvr_api_struct_version_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+godot_gdnative_api_version *_wrap_godot_gdnative_ext_arvr_api_struct_version_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_gdnative_api_version result;
   godot_gdnative_api_version *_swig_go_result;
@@ -743,7 +743,7 @@ godot_gdnative_api_version *_wrap_godot_gdnative_ext_arvr_api_struct_version_get
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_next_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, godot_gdnative_api_struct *_swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_next_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, godot_gdnative_api_struct *_swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_gdnative_api_struct *arg2 = (godot_gdnative_api_struct *) 0 ;
   
@@ -755,7 +755,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_next_set_godot_5192ef1abe3e06df(st
 }
 
 
-godot_gdnative_api_struct *_wrap_godot_gdnative_ext_arvr_api_struct_next_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+godot_gdnative_api_struct *_wrap_godot_gdnative_ext_arvr_api_struct_next_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_gdnative_api_struct *result = 0 ;
   godot_gdnative_api_struct *_swig_go_result;
@@ -768,7 +768,7 @@ godot_gdnative_api_struct *_wrap_godot_gdnative_ext_arvr_api_struct_next_get_god
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_register_interface_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_register_interface_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*arg2)(godot_arvr_interface_gdnative const *) = (void (*)(godot_arvr_interface_gdnative const *)) 0 ;
   
@@ -780,7 +780,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_register_interface_set_
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_register_interface_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_register_interface_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*result)(godot_arvr_interface_gdnative const *) = 0 ;
   void* _swig_go_result;
@@ -793,7 +793,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_register_interface_get
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_worldscale_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_worldscale_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_real (*arg2)() = (godot_real (*)()) 0 ;
   
@@ -805,7 +805,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_worldscale_set_godo
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_worldscale_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_worldscale_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_real (*result)() = 0 ;
   void* _swig_go_result;
@@ -818,7 +818,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_worldscale_get_god
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_reference_frame_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_reference_frame_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_transform (*arg2)() = (godot_transform (*)()) 0 ;
   
@@ -830,7 +830,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_reference_frame_set
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_reference_frame_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_reference_frame_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_transform (*result)() = 0 ;
   void* _swig_go_result;
@@ -843,7 +843,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_reference_frame_ge
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_blit_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_blit_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*arg2)(int,godot_rid *,godot_rect2 *) = (void (*)(int,godot_rid *,godot_rect2 *)) 0 ;
   
@@ -855,7 +855,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_blit_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_blit_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_blit_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*result)(int,godot_rid *,godot_rect2 *) = 0 ;
   void* _swig_go_result;
@@ -868,7 +868,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_blit_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_texid_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_texid_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_int (*arg2)(godot_rid *) = (godot_int (*)(godot_rid *)) 0 ;
   
@@ -880,7 +880,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_texid_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_texid_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_texid_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_int (*result)(godot_rid *) = 0 ;
   void* _swig_go_result;
@@ -893,7 +893,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_texid_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_add_controller_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_add_controller_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_int (*arg2)(char *,godot_int,godot_bool,godot_bool) = (godot_int (*)(char *,godot_int,godot_bool,godot_bool)) 0 ;
   
@@ -905,7 +905,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_add_controller_set_godo
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_add_controller_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_add_controller_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_int (*result)(char *,godot_int,godot_bool,godot_bool) = 0 ;
   void* _swig_go_result;
@@ -918,7 +918,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_add_controller_get_god
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_remove_controller_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_remove_controller_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*arg2)(godot_int) = (void (*)(godot_int)) 0 ;
   
@@ -930,7 +930,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_remove_controller_set_g
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_remove_controller_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_remove_controller_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*result)(godot_int) = 0 ;
   void* _swig_go_result;
@@ -943,7 +943,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_remove_controller_get_
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_transform_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_transform_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*arg2)(godot_int,godot_transform *,godot_bool,godot_bool) = (void (*)(godot_int,godot_transform *,godot_bool,godot_bool)) 0 ;
   
@@ -955,7 +955,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_transfor
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_transform_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_transform_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*result)(godot_int,godot_transform *,godot_bool,godot_bool) = 0 ;
   void* _swig_go_result;
@@ -968,7 +968,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_transfo
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_button_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_button_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*arg2)(godot_int,godot_int,godot_bool) = (void (*)(godot_int,godot_int,godot_bool)) 0 ;
   
@@ -980,7 +980,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_button_s
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_button_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_button_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*result)(godot_int,godot_int,godot_bool) = 0 ;
   void* _swig_go_result;
@@ -993,7 +993,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_button_
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_axis_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*arg2)(godot_int,godot_int,godot_real,godot_bool) = (void (*)(godot_int,godot_int,godot_real,godot_bool)) 0 ;
   
@@ -1005,7 +1005,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_axis_set
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_axis_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   void (*result)(godot_int,godot_int,godot_real,godot_bool) = 0 ;
   void* _swig_go_result;
@@ -1018,7 +1018,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_set_controller_axis_ge
 }
 
 
-void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_controller_rumble_set_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_controller_rumble_set_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_real (*arg2)(godot_int) = (godot_real (*)(godot_int)) 0 ;
   
@@ -1030,7 +1030,7 @@ void _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_controller_rumble_s
 }
 
 
-void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_controller_rumble_get_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_controller_rumble_get_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   godot_real (*result)(godot_int) = 0 ;
   void* _swig_go_result;
@@ -1043,7 +1043,7 @@ void* _wrap_godot_gdnative_ext_arvr_api_struct_godot_arvr_get_controller_rumble_
 }
 
 
-struct godot_gdnative_ext_arvr_api_struct *_wrap_new_godot_gdnative_ext_arvr_api_struct_godot_5192ef1abe3e06df() {
+struct godot_gdnative_ext_arvr_api_struct *_wrap_new_godot_gdnative_ext_arvr_api_struct_godot_fc372a972f111bee() {
   struct godot_gdnative_ext_arvr_api_struct *result = 0 ;
   struct godot_gdnative_ext_arvr_api_struct *_swig_go_result;
   
@@ -1054,7 +1054,7 @@ struct godot_gdnative_ext_arvr_api_struct *_wrap_new_godot_gdnative_ext_arvr_api
 }
 
 
-void _wrap_delete_godot_gdnative_ext_arvr_api_struct_godot_5192ef1abe3e06df(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
+void _wrap_delete_godot_gdnative_ext_arvr_api_struct_godot_fc372a972f111bee(struct godot_gdnative_ext_arvr_api_struct *_swig_go_0) {
   struct godot_gdnative_ext_arvr_api_struct *arg1 = (struct godot_gdnative_ext_arvr_api_struct *) 0 ;
   
   arg1 = *(struct godot_gdnative_ext_arvr_api_struct **)&_swig_go_0; 
@@ -1064,7 +1064,7 @@ void _wrap_delete_godot_gdnative_ext_arvr_api_struct_godot_5192ef1abe3e06df(stru
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_Xtype_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_Xtype_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, intgo _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   unsigned int arg2 ;
   
@@ -1076,7 +1076,7 @@ void _wrap_godot_gdnative_core_api_struct_Xtype_set_godot_5192ef1abe3e06df(struc
 }
 
 
-intgo _wrap_godot_gdnative_core_api_struct_Xtype_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+intgo _wrap_godot_gdnative_core_api_struct_Xtype_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1089,7 +1089,7 @@ intgo _wrap_godot_gdnative_core_api_struct_Xtype_get_godot_5192ef1abe3e06df(stru
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_version_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, godot_gdnative_api_version *_swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_version_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, godot_gdnative_api_version *_swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_gdnative_api_version arg2 ;
   godot_gdnative_api_version *argp2 ;
@@ -1108,7 +1108,7 @@ void _wrap_godot_gdnative_core_api_struct_version_set_godot_5192ef1abe3e06df(str
 }
 
 
-godot_gdnative_api_version *_wrap_godot_gdnative_core_api_struct_version_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+godot_gdnative_api_version *_wrap_godot_gdnative_core_api_struct_version_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_gdnative_api_version result;
   godot_gdnative_api_version *_swig_go_result;
@@ -1125,7 +1125,7 @@ godot_gdnative_api_version *_wrap_godot_gdnative_core_api_struct_version_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_next_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, godot_gdnative_api_struct *_swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_next_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, godot_gdnative_api_struct *_swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_gdnative_api_struct *arg2 = (godot_gdnative_api_struct *) 0 ;
   
@@ -1137,7 +1137,7 @@ void _wrap_godot_gdnative_core_api_struct_next_set_godot_5192ef1abe3e06df(struct
 }
 
 
-godot_gdnative_api_struct *_wrap_godot_gdnative_core_api_struct_next_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+godot_gdnative_api_struct *_wrap_godot_gdnative_core_api_struct_next_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_gdnative_api_struct *result = 0 ;
   godot_gdnative_api_struct *_swig_go_result;
@@ -1150,7 +1150,7 @@ godot_gdnative_api_struct *_wrap_godot_gdnative_core_api_struct_next_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_num_extensions_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, intgo _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_num_extensions_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, intgo _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   unsigned int arg2 ;
   
@@ -1162,7 +1162,7 @@ void _wrap_godot_gdnative_core_api_struct_num_extensions_set_godot_5192ef1abe3e0
 }
 
 
-intgo _wrap_godot_gdnative_core_api_struct_num_extensions_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+intgo _wrap_godot_gdnative_core_api_struct_num_extensions_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1175,7 +1175,7 @@ intgo _wrap_godot_gdnative_core_api_struct_num_extensions_get_godot_5192ef1abe3e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_extensions_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, godot_gdnative_api_struct **_swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_extensions_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, godot_gdnative_api_struct **_swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_gdnative_api_struct **arg2 = (godot_gdnative_api_struct **) 0 ;
   
@@ -1187,7 +1187,7 @@ void _wrap_godot_gdnative_core_api_struct_extensions_set_godot_5192ef1abe3e06df(
 }
 
 
-godot_gdnative_api_struct **_wrap_godot_gdnative_core_api_struct_extensions_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+godot_gdnative_api_struct **_wrap_godot_gdnative_core_api_struct_extensions_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_gdnative_api_struct **result = 0 ;
   godot_gdnative_api_struct **_swig_go_result;
@@ -1200,7 +1200,7 @@ godot_gdnative_api_struct **_wrap_godot_gdnative_core_api_struct_extensions_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_new_rgba_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_new_rgba_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_color *,godot_real const,godot_real const,godot_real const,godot_real const) = (void (*)(godot_color *,godot_real const,godot_real const,godot_real const,godot_real const)) 0 ;
   
@@ -1212,7 +1212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_new_rgba_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_new_rgba_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_new_rgba_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_color *,godot_real const,godot_real const,godot_real const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -1225,7 +1225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_new_rgba_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_new_rgb_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_new_rgb_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_color *,godot_real const,godot_real const,godot_real const) = (void (*)(godot_color *,godot_real const,godot_real const,godot_real const)) 0 ;
   
@@ -1237,7 +1237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_new_rgb_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_new_rgb_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_new_rgb_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_color *,godot_real const,godot_real const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -1250,7 +1250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_new_rgb_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_get_r_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_get_r_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_color const *) = (godot_real (*)(godot_color const *)) 0 ;
   
@@ -1262,7 +1262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_get_r_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_get_r_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_get_r_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1275,7 +1275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_get_r_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_set_r_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_set_r_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_color *,godot_real const) = (void (*)(godot_color *,godot_real const)) 0 ;
   
@@ -1287,7 +1287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_set_r_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_set_r_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_set_r_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_color *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -1300,7 +1300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_set_r_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_get_g_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_get_g_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_color const *) = (godot_real (*)(godot_color const *)) 0 ;
   
@@ -1312,7 +1312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_get_g_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_get_g_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_get_g_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1325,7 +1325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_get_g_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_set_g_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_set_g_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_color *,godot_real const) = (void (*)(godot_color *,godot_real const)) 0 ;
   
@@ -1337,7 +1337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_set_g_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_set_g_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_set_g_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_color *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -1350,7 +1350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_set_g_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_get_b_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_get_b_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_color const *) = (godot_real (*)(godot_color const *)) 0 ;
   
@@ -1362,7 +1362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_get_b_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_get_b_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_get_b_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1375,7 +1375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_get_b_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_set_b_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_set_b_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_color *,godot_real const) = (void (*)(godot_color *,godot_real const)) 0 ;
   
@@ -1387,7 +1387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_set_b_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_set_b_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_set_b_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_color *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -1400,7 +1400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_set_b_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_get_a_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_get_a_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_color const *) = (godot_real (*)(godot_color const *)) 0 ;
   
@@ -1412,7 +1412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_get_a_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_get_a_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_get_a_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1425,7 +1425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_get_a_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_set_a_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_set_a_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_color *,godot_real const) = (void (*)(godot_color *,godot_real const)) 0 ;
   
@@ -1437,7 +1437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_set_a_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_set_a_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_set_a_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_color *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -1450,7 +1450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_set_a_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_get_h_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_get_h_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_color const *) = (godot_real (*)(godot_color const *)) 0 ;
   
@@ -1462,7 +1462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_get_h_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_get_h_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_get_h_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1475,7 +1475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_get_h_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_get_s_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_get_s_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_color const *) = (godot_real (*)(godot_color const *)) 0 ;
   
@@ -1487,7 +1487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_get_s_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_get_s_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_get_s_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1500,7 +1500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_get_s_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_get_v_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_get_v_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_color const *) = (godot_real (*)(godot_color const *)) 0 ;
   
@@ -1512,7 +1512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_get_v_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_get_v_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_get_v_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1525,7 +1525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_get_v_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_color const *) = (godot_string (*)(godot_color const *)) 0 ;
   
@@ -1537,7 +1537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_as_string_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1550,7 +1550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_as_string_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_to_rgba32_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_to_rgba32_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_color const *) = (godot_int (*)(godot_color const *)) 0 ;
   
@@ -1562,7 +1562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_to_rgba32_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_to_rgba32_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_to_rgba32_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1575,7 +1575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_to_rgba32_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_to_argb32_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_to_argb32_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_color const *) = (godot_int (*)(godot_color const *)) 0 ;
   
@@ -1587,7 +1587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_to_argb32_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_to_argb32_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_to_argb32_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1600,7 +1600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_to_argb32_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_gray_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_gray_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_color const *) = (godot_real (*)(godot_color const *)) 0 ;
   
@@ -1612,7 +1612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_gray_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_gray_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_gray_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1625,7 +1625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_gray_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_inverted_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_inverted_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*arg2)(godot_color const *) = (godot_color (*)(godot_color const *)) 0 ;
   
@@ -1637,7 +1637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_inverted_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_inverted_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_inverted_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1650,7 +1650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_inverted_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_contrasted_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_contrasted_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*arg2)(godot_color const *) = (godot_color (*)(godot_color const *)) 0 ;
   
@@ -1662,7 +1662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_contrasted_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_contrasted_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_contrasted_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*result)(godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1675,7 +1675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_contrasted_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_linear_interpolate_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_linear_interpolate_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*arg2)(godot_color const *,godot_color const *,godot_real const) = (godot_color (*)(godot_color const *,godot_color const *,godot_real const)) 0 ;
   
@@ -1687,7 +1687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_linear_interpolate_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_linear_interpolate_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_linear_interpolate_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*result)(godot_color const *,godot_color const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -1700,7 +1700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_linear_interpolate_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_blend_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_blend_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*arg2)(godot_color const *,godot_color const *) = (godot_color (*)(godot_color const *,godot_color const *)) 0 ;
   
@@ -1712,7 +1712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_blend_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_blend_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_blend_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*result)(godot_color const *,godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1725,7 +1725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_blend_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_to_html_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_to_html_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_color const *,godot_bool const) = (godot_string (*)(godot_color const *,godot_bool const)) 0 ;
   
@@ -1737,7 +1737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_to_html_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_to_html_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_to_html_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_color const *,godot_bool const) = 0 ;
   void* _swig_go_result;
@@ -1750,7 +1750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_to_html_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_color const *,godot_color const *) = (godot_bool (*)(godot_color const *,godot_color const *)) 0 ;
   
@@ -1762,7 +1762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_operator_equal_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_color const *,godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1775,7 +1775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_operator_equal_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_color_operator_less_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_color_operator_less_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_color const *,godot_color const *) = (godot_bool (*)(godot_color const *,godot_color const *)) 0 ;
   
@@ -1787,7 +1787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_color_operator_less_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_color_operator_less_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_color_operator_less_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_color const *,godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -1800,7 +1800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_color_operator_less_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_vector2 *,godot_real const,godot_real const) = (void (*)(godot_vector2 *,godot_real const,godot_real const)) 0 ;
   
@@ -1812,7 +1812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_new_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_vector2 *,godot_real const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -1825,7 +1825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_new_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_vector2 const *) = (godot_string (*)(godot_vector2 const *)) 0 ;
   
@@ -1837,7 +1837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_as_string_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -1850,7 +1850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_as_string_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_normalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_normalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *)) 0 ;
   
@@ -1862,7 +1862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_normalized_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_normalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_normalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -1875,7 +1875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_normalized_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_length_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_length_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *) = (godot_real (*)(godot_vector2 const *)) 0 ;
   
@@ -1887,7 +1887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_length_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_length_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_length_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -1900,7 +1900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_length_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *) = (godot_real (*)(godot_vector2 const *)) 0 ;
   
@@ -1912,7 +1912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -1925,7 +1925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_length_squared_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_length_squared_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *) = (godot_real (*)(godot_vector2 const *)) 0 ;
   
@@ -1937,7 +1937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_length_squared_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_length_squared_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_length_squared_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -1950,7 +1950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_length_squared_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_is_normalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_is_normalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_vector2 const *) = (godot_bool (*)(godot_vector2 const *)) 0 ;
   
@@ -1962,7 +1962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_is_normalized_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_is_normalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_is_normalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -1975,7 +1975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_is_normalized_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_to_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_to_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_real (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -1987,7 +1987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_to_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_to_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_to_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2000,7 +2000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_to_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_squared_to_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_squared_to_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_real (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2012,7 +2012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_squared_to_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_squared_to_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_squared_to_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2025,7 +2025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_distance_squared_to_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_real (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2037,7 +2037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2050,7 +2050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_point_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_point_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_real (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2062,7 +2062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_point_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_point_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_point_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2075,7 +2075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_angle_to_point_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_linear_interpolate_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_linear_interpolate_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *,godot_real const) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *,godot_real const)) 0 ;
   
@@ -2087,7 +2087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_linear_interpolate_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_linear_interpolate_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_linear_interpolate_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2100,7 +2100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_linear_interpolate_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_cubic_interpolate_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_cubic_interpolate_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *,godot_vector2 const *,godot_vector2 const *,godot_real const) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *,godot_vector2 const *,godot_vector2 const *,godot_real const)) 0 ;
   
@@ -2112,7 +2112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_cubic_interpolate_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_cubic_interpolate_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_cubic_interpolate_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *,godot_vector2 const *,godot_vector2 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2125,7 +2125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_cubic_interpolate_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_rotated_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_rotated_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_real const) = (godot_vector2 (*)(godot_vector2 const *,godot_real const)) 0 ;
   
@@ -2137,7 +2137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_rotated_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_rotated_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_rotated_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2150,7 +2150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_rotated_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_tangent_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_tangent_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *)) 0 ;
   
@@ -2162,7 +2162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_tangent_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_tangent_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_tangent_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2175,7 +2175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_tangent_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_floor_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_floor_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *)) 0 ;
   
@@ -2187,7 +2187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_floor_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_floor_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_floor_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2200,7 +2200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_floor_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_snapped_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_snapped_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2212,7 +2212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_snapped_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_snapped_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_snapped_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2225,7 +2225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_snapped_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_aspect_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_aspect_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *) = (godot_real (*)(godot_vector2 const *)) 0 ;
   
@@ -2237,7 +2237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_aspect_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_aspect_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_aspect_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2250,7 +2250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_aspect_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_dot_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_dot_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_real (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2262,7 +2262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_dot_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_dot_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_dot_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2275,7 +2275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_dot_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_slide_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_slide_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2287,7 +2287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_slide_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_slide_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_slide_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2300,7 +2300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_slide_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_bounce_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_bounce_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2312,7 +2312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_bounce_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_bounce_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_bounce_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2325,7 +2325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_bounce_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_reflect_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_reflect_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2337,7 +2337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_reflect_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_reflect_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_reflect_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2350,7 +2350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_reflect_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_abs_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_abs_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *)) 0 ;
   
@@ -2362,7 +2362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_abs_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_abs_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_abs_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2375,7 +2375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_abs_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_clamped_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_clamped_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_real const) = (godot_vector2 (*)(godot_vector2 const *,godot_real const)) 0 ;
   
@@ -2387,7 +2387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_clamped_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_clamped_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_clamped_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2400,7 +2400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_clamped_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_add_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_add_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2412,7 +2412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_add_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_add_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_add_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2425,7 +2425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_add_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_substract_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_substract_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2437,7 +2437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_substract_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_substract_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_substract_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2450,7 +2450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_substract_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_vector_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_vector_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2462,7 +2462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_vector
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_vector_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_vector_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2475,7 +2475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_vecto
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_scalar_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_scalar_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_real const) = (godot_vector2 (*)(godot_vector2 const *,godot_real const)) 0 ;
   
@@ -2487,7 +2487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_scalar
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_scalar_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_scalar_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2500,7 +2500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_multiply_scala
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_vector_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_vector_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2512,7 +2512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_vector_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_vector_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_vector_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2525,7 +2525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_vector_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_scalar_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_scalar_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *,godot_real const) = (godot_vector2 (*)(godot_vector2 const *,godot_real const)) 0 ;
   
@@ -2537,7 +2537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_scalar_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_scalar_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_scalar_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2550,7 +2550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_divide_scalar_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_bool (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2562,7 +2562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_equal_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2575,7 +2575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_equal_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_less_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_less_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_vector2 const *,godot_vector2 const *) = (godot_bool (*)(godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -2587,7 +2587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_less_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_less_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_less_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2600,7 +2600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_less_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_neg_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_neg_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_vector2 const *) = (godot_vector2 (*)(godot_vector2 const *)) 0 ;
   
@@ -2612,7 +2612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_neg_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_neg_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_neg_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2625,7 +2625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_operator_neg_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_set_x_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_set_x_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_vector2 *,godot_real const) = (void (*)(godot_vector2 *,godot_real const)) 0 ;
   
@@ -2637,7 +2637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_set_x_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_set_x_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_set_x_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_vector2 *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2650,7 +2650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_set_x_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_set_y_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_set_y_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_vector2 *,godot_real const) = (void (*)(godot_vector2 *,godot_real const)) 0 ;
   
@@ -2662,7 +2662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_set_y_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_set_y_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_set_y_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_vector2 *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2675,7 +2675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_set_y_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_get_x_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_get_x_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *) = (godot_real (*)(godot_vector2 const *)) 0 ;
   
@@ -2687,7 +2687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_get_x_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_get_x_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_get_x_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2700,7 +2700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_get_x_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector2_get_y_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector2_get_y_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector2 const *) = (godot_real (*)(godot_vector2 const *)) 0 ;
   
@@ -2712,7 +2712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector2_get_y_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector2_get_y_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector2_get_y_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -2725,7 +2725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector2_get_y_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_quat *,godot_real const,godot_real const,godot_real const,godot_real const) = (void (*)(godot_quat *,godot_real const,godot_real const,godot_real const,godot_real const)) 0 ;
   
@@ -2737,7 +2737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_new_set_godot_5192ef1abe3e0
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_quat *,godot_real const,godot_real const,godot_real const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2750,7 +2750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_new_get_godot_5192ef1abe3e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_new_with_axis_angle_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_new_with_axis_angle_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_quat *,godot_vector3 const *,godot_real const) = (void (*)(godot_quat *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -2762,7 +2762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_new_with_axis_angle_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_new_with_axis_angle_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_new_with_axis_angle_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_quat *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2775,7 +2775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_new_with_axis_angle_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_get_x_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_get_x_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_quat const *) = (godot_real (*)(godot_quat const *)) 0 ;
   
@@ -2787,7 +2787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_get_x_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_x_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_x_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -2800,7 +2800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_x_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_set_x_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_set_x_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_quat *,godot_real const) = (void (*)(godot_quat *,godot_real const)) 0 ;
   
@@ -2812,7 +2812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_set_x_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_x_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_x_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_quat *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2825,7 +2825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_x_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_get_y_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_get_y_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_quat const *) = (godot_real (*)(godot_quat const *)) 0 ;
   
@@ -2837,7 +2837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_get_y_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_y_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_y_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -2850,7 +2850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_y_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_set_y_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_set_y_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_quat *,godot_real const) = (void (*)(godot_quat *,godot_real const)) 0 ;
   
@@ -2862,7 +2862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_set_y_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_y_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_y_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_quat *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2875,7 +2875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_y_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_get_z_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_get_z_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_quat const *) = (godot_real (*)(godot_quat const *)) 0 ;
   
@@ -2887,7 +2887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_get_z_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_z_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_z_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -2900,7 +2900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_z_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_set_z_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_set_z_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_quat *,godot_real const) = (void (*)(godot_quat *,godot_real const)) 0 ;
   
@@ -2912,7 +2912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_set_z_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_z_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_z_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_quat *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2925,7 +2925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_z_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_get_w_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_get_w_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_quat const *) = (godot_real (*)(godot_quat const *)) 0 ;
   
@@ -2937,7 +2937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_get_w_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_w_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_w_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -2950,7 +2950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_get_w_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_set_w_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_set_w_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_quat *,godot_real const) = (void (*)(godot_quat *,godot_real const)) 0 ;
   
@@ -2962,7 +2962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_set_w_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_w_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_w_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_quat *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -2975,7 +2975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_set_w_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_quat const *) = (godot_string (*)(godot_quat const *)) 0 ;
   
@@ -2987,7 +2987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_as_string_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3000,7 +3000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_as_string_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_length_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_length_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_quat const *) = (godot_real (*)(godot_quat const *)) 0 ;
   
@@ -3012,7 +3012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_length_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_length_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_length_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3025,7 +3025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_length_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_length_squared_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_length_squared_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_quat const *) = (godot_real (*)(godot_quat const *)) 0 ;
   
@@ -3037,7 +3037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_length_squared_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_length_squared_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_length_squared_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3050,7 +3050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_length_squared_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_normalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_normalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *) = (godot_quat (*)(godot_quat const *)) 0 ;
   
@@ -3062,7 +3062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_normalized_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_normalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_normalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3075,7 +3075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_normalized_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_is_normalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_is_normalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_quat const *) = (godot_bool (*)(godot_quat const *)) 0 ;
   
@@ -3087,7 +3087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_is_normalized_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_is_normalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_is_normalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3100,7 +3100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_is_normalized_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_inverse_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_inverse_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *) = (godot_quat (*)(godot_quat const *)) 0 ;
   
@@ -3112,7 +3112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_inverse_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_inverse_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_inverse_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3125,7 +3125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_inverse_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_dot_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_dot_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_quat const *,godot_quat const *) = (godot_real (*)(godot_quat const *,godot_quat const *)) 0 ;
   
@@ -3137,7 +3137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_dot_set_godot_5192ef1abe3e0
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_dot_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_dot_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_quat const *,godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3150,7 +3150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_dot_get_godot_5192ef1abe3e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_xform_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_xform_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_quat const *,godot_vector3 const *) = (godot_vector3 (*)(godot_quat const *,godot_vector3 const *)) 0 ;
   
@@ -3162,7 +3162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_xform_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_xform_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_xform_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_quat const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3175,7 +3175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_xform_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_slerp_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_slerp_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *,godot_quat const *,godot_real const) = (godot_quat (*)(godot_quat const *,godot_quat const *,godot_real const)) 0 ;
   
@@ -3187,7 +3187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_slerp_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_slerp_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_slerp_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *,godot_quat const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -3200,7 +3200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_slerp_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_slerpni_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_slerpni_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *,godot_quat const *,godot_real const) = (godot_quat (*)(godot_quat const *,godot_quat const *,godot_real const)) 0 ;
   
@@ -3212,7 +3212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_slerpni_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_slerpni_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_slerpni_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *,godot_quat const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -3225,7 +3225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_slerpni_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_cubic_slerp_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_cubic_slerp_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *,godot_quat const *,godot_quat const *,godot_quat const *,godot_real const) = (godot_quat (*)(godot_quat const *,godot_quat const *,godot_quat const *,godot_quat const *,godot_real const)) 0 ;
   
@@ -3237,7 +3237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_cubic_slerp_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_cubic_slerp_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_cubic_slerp_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *,godot_quat const *,godot_quat const *,godot_quat const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -3250,7 +3250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_cubic_slerp_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_multiply_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_multiply_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *,godot_real const) = (godot_quat (*)(godot_quat const *,godot_real const)) 0 ;
   
@@ -3262,7 +3262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_multiply_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_multiply_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_multiply_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -3275,7 +3275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_multiply_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_add_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_add_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *,godot_quat const *) = (godot_quat (*)(godot_quat const *,godot_quat const *)) 0 ;
   
@@ -3287,7 +3287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_add_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_add_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_add_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *,godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3300,7 +3300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_add_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_substract_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_substract_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *,godot_quat const *) = (godot_quat (*)(godot_quat const *,godot_quat const *)) 0 ;
   
@@ -3312,7 +3312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_substract_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_substract_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_substract_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *,godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3325,7 +3325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_substract_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_divide_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_divide_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *,godot_real const) = (godot_quat (*)(godot_quat const *,godot_real const)) 0 ;
   
@@ -3337,7 +3337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_divide_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_divide_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_divide_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -3350,7 +3350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_divide_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_quat const *,godot_quat const *) = (godot_bool (*)(godot_quat const *,godot_quat const *)) 0 ;
   
@@ -3362,7 +3362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_equal_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_quat const *,godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3375,7 +3375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_equal_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_neg_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_neg_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_quat const *) = (godot_quat (*)(godot_quat const *)) 0 ;
   
@@ -3387,7 +3387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_quat_operator_neg_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_neg_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_neg_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3400,7 +3400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_quat_operator_neg_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_rows_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_rows_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_basis *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *) = (void (*)(godot_basis *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -3412,7 +3412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_rows_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_rows_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_rows_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_basis *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3425,7 +3425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_rows_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_axis_and_angle_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_axis_and_angle_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_basis *,godot_vector3 const *,godot_real const) = (void (*)(godot_basis *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -3437,7 +3437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_axis_and_angle_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_axis_and_angle_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_axis_and_angle_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_basis *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -3450,7 +3450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_axis_and_angle_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_basis *,godot_vector3 const *) = (void (*)(godot_basis *,godot_vector3 const *)) 0 ;
   
@@ -3462,7 +3462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_basis *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3475,7 +3475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_basis const *) = (godot_string (*)(godot_basis const *)) 0 ;
   
@@ -3487,7 +3487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_as_string_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -3500,7 +3500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_as_string_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_inverse_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_inverse_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *) = (godot_basis (*)(godot_basis const *)) 0 ;
   
@@ -3512,7 +3512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_inverse_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_inverse_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_inverse_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -3525,7 +3525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_inverse_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_transposed_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_transposed_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *) = (godot_basis (*)(godot_basis const *)) 0 ;
   
@@ -3537,7 +3537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_transposed_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_transposed_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_transposed_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -3550,7 +3550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_transposed_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_orthonormalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_orthonormalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *) = (godot_basis (*)(godot_basis const *)) 0 ;
   
@@ -3562,7 +3562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_orthonormalized_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_orthonormalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_orthonormalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -3575,7 +3575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_orthonormalized_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_determinant_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_determinant_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_basis const *) = (godot_real (*)(godot_basis const *)) 0 ;
   
@@ -3587,7 +3587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_determinant_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_determinant_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_determinant_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -3600,7 +3600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_determinant_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_rotated_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_rotated_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *,godot_vector3 const *,godot_real const) = (godot_basis (*)(godot_basis const *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -3612,7 +3612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_rotated_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_rotated_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_rotated_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -3625,7 +3625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_rotated_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_scaled_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_scaled_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *,godot_vector3 const *) = (godot_basis (*)(godot_basis const *,godot_vector3 const *)) 0 ;
   
@@ -3637,7 +3637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_scaled_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_scaled_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_scaled_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3650,7 +3650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_scaled_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_get_scale_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_get_scale_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_basis const *) = (godot_vector3 (*)(godot_basis const *)) 0 ;
   
@@ -3662,7 +3662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_get_scale_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_scale_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_scale_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -3675,7 +3675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_scale_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_get_euler_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_get_euler_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_basis const *) = (godot_vector3 (*)(godot_basis const *)) 0 ;
   
@@ -3687,7 +3687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_get_euler_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_euler_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_euler_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -3700,7 +3700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_euler_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_tdotx_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_tdotx_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_basis const *,godot_vector3 const *) = (godot_real (*)(godot_basis const *,godot_vector3 const *)) 0 ;
   
@@ -3712,7 +3712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_tdotx_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdotx_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdotx_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_basis const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3725,7 +3725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdotx_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_tdoty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_tdoty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_basis const *,godot_vector3 const *) = (godot_real (*)(godot_basis const *,godot_vector3 const *)) 0 ;
   
@@ -3737,7 +3737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_tdoty_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdoty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdoty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_basis const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3750,7 +3750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdoty_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_tdotz_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_tdotz_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_basis const *,godot_vector3 const *) = (godot_real (*)(godot_basis const *,godot_vector3 const *)) 0 ;
   
@@ -3762,7 +3762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_tdotz_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdotz_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdotz_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_basis const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3775,7 +3775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_tdotz_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_xform_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_xform_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_basis const *,godot_vector3 const *) = (godot_vector3 (*)(godot_basis const *,godot_vector3 const *)) 0 ;
   
@@ -3787,7 +3787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_xform_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_xform_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_xform_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_basis const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3800,7 +3800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_xform_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_xform_inv_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_xform_inv_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_basis const *,godot_vector3 const *) = (godot_vector3 (*)(godot_basis const *,godot_vector3 const *)) 0 ;
   
@@ -3812,7 +3812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_xform_inv_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_xform_inv_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_xform_inv_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_basis const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3825,7 +3825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_xform_inv_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_get_orthogonal_index_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_get_orthogonal_index_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_basis const *) = (godot_int (*)(godot_basis const *)) 0 ;
   
@@ -3837,7 +3837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_get_orthogonal_index_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_orthogonal_index_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_orthogonal_index_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -3850,7 +3850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_orthogonal_index_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_basis *) = (void (*)(godot_basis *)) 0 ;
   
@@ -3862,7 +3862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_new_set_godot_5192ef1abe3e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_basis *) = 0 ;
   void* _swig_go_result;
@@ -3875,7 +3875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_get_godot_5192ef1abe3
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_quat_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_quat_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_basis *,godot_quat const *) = (void (*)(godot_basis *,godot_quat const *)) 0 ;
   
@@ -3887,7 +3887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_quat_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_quat_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_quat_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_basis *,godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -3900,7 +3900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_new_with_euler_quat_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_get_elements_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_get_elements_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_basis const *,godot_vector3 *) = (void (*)(godot_basis const *,godot_vector3 *)) 0 ;
   
@@ -3912,7 +3912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_get_elements_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_elements_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_elements_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_basis const *,godot_vector3 *) = 0 ;
   void* _swig_go_result;
@@ -3925,7 +3925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_elements_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_get_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_get_axis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_basis const *,godot_int const) = (godot_vector3 (*)(godot_basis const *,godot_int const)) 0 ;
   
@@ -3937,7 +3937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_get_axis_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_axis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_basis const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -3950,7 +3950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_axis_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_set_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_set_axis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_basis *,godot_int const,godot_vector3 const *) = (void (*)(godot_basis *,godot_int const,godot_vector3 const *)) 0 ;
   
@@ -3962,7 +3962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_set_axis_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_set_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_set_axis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_basis *,godot_int const,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -3975,7 +3975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_set_axis_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_get_row_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_get_row_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_basis const *,godot_int const) = (godot_vector3 (*)(godot_basis const *,godot_int const)) 0 ;
   
@@ -3987,7 +3987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_get_row_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_row_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_row_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_basis const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -4000,7 +4000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_get_row_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_set_row_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_set_row_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_basis *,godot_int const,godot_vector3 const *) = (void (*)(godot_basis *,godot_int const,godot_vector3 const *)) 0 ;
   
@@ -4012,7 +4012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_set_row_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_set_row_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_set_row_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_basis *,godot_int const,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4025,7 +4025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_set_row_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_basis const *,godot_basis const *) = (godot_bool (*)(godot_basis const *,godot_basis const *)) 0 ;
   
@@ -4037,7 +4037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_equal_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_basis const *,godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -4050,7 +4050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_equal_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_add_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_add_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *,godot_basis const *) = (godot_basis (*)(godot_basis const *,godot_basis const *)) 0 ;
   
@@ -4062,7 +4062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_add_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_add_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_add_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *,godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -4075,7 +4075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_add_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_substract_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_substract_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *,godot_basis const *) = (godot_basis (*)(godot_basis const *,godot_basis const *)) 0 ;
   
@@ -4087,7 +4087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_substract_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_substract_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_substract_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *,godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -4100,7 +4100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_substract_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_vector_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_vector_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *,godot_basis const *) = (godot_basis (*)(godot_basis const *,godot_basis const *)) 0 ;
   
@@ -4112,7 +4112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_vector_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_vector_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_vector_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *,godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -4125,7 +4125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_vector_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_scalar_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_scalar_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_basis const *,godot_real const) = (godot_basis (*)(godot_basis const *,godot_real const)) 0 ;
   
@@ -4137,7 +4137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_scalar_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_scalar_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_scalar_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_basis const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -4150,7 +4150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_basis_operator_multiply_scalar_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_vector3 *,godot_real const,godot_real const,godot_real const) = (void (*)(godot_vector3 *,godot_real const,godot_real const,godot_real const)) 0 ;
   
@@ -4162,7 +4162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_new_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_vector3 *,godot_real const,godot_real const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -4175,7 +4175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_new_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_vector3 const *) = (godot_string (*)(godot_vector3 const *)) 0 ;
   
@@ -4187,7 +4187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_as_string_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4200,7 +4200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_as_string_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_min_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_min_axis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_vector3 const *) = (godot_int (*)(godot_vector3 const *)) 0 ;
   
@@ -4212,7 +4212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_min_axis_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_min_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_min_axis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4225,7 +4225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_min_axis_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_max_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_max_axis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_vector3 const *) = (godot_int (*)(godot_vector3 const *)) 0 ;
   
@@ -4237,7 +4237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_max_axis_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_max_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_max_axis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4250,7 +4250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_max_axis_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_length_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_length_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector3 const *) = (godot_real (*)(godot_vector3 const *)) 0 ;
   
@@ -4262,7 +4262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_length_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_length_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_length_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4275,7 +4275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_length_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_length_squared_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_length_squared_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector3 const *) = (godot_real (*)(godot_vector3 const *)) 0 ;
   
@@ -4287,7 +4287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_length_squared_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_length_squared_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_length_squared_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4300,7 +4300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_length_squared_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_is_normalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_is_normalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_vector3 const *) = (godot_bool (*)(godot_vector3 const *)) 0 ;
   
@@ -4312,7 +4312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_is_normalized_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_is_normalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_is_normalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4325,7 +4325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_is_normalized_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_normalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_normalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *)) 0 ;
   
@@ -4337,7 +4337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_normalized_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_normalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_normalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4350,7 +4350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_normalized_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_inverse_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_inverse_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *)) 0 ;
   
@@ -4362,7 +4362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_inverse_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_inverse_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_inverse_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4375,7 +4375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_inverse_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_snapped_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_snapped_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4387,7 +4387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_snapped_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_snapped_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_snapped_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4400,7 +4400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_snapped_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_rotated_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_rotated_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *,godot_real const) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -4412,7 +4412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_rotated_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_rotated_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_rotated_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -4425,7 +4425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_rotated_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_linear_interpolate_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_linear_interpolate_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *,godot_real const) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -4437,7 +4437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_linear_interpolate_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_linear_interpolate_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_linear_interpolate_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -4450,7 +4450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_linear_interpolate_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_cubic_interpolate_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_cubic_interpolate_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_real const) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -4462,7 +4462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_cubic_interpolate_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_cubic_interpolate_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_cubic_interpolate_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -4475,7 +4475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_cubic_interpolate_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_dot_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_dot_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_real (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4487,7 +4487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_dot_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_dot_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_dot_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4500,7 +4500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_dot_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_cross_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_cross_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4512,7 +4512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_cross_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_cross_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_cross_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4525,7 +4525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_cross_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_outer_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_outer_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_basis (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4537,7 +4537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_outer_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_outer_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_outer_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4550,7 +4550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_outer_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_to_diagonal_matrix_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_to_diagonal_matrix_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_vector3 const *) = (godot_basis (*)(godot_vector3 const *)) 0 ;
   
@@ -4562,7 +4562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_to_diagonal_matrix_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_to_diagonal_matrix_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_to_diagonal_matrix_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4575,7 +4575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_to_diagonal_matrix_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_abs_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_abs_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *)) 0 ;
   
@@ -4587,7 +4587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_abs_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_abs_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_abs_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4600,7 +4600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_abs_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_floor_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_floor_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *)) 0 ;
   
@@ -4612,7 +4612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_floor_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_floor_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_floor_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4625,7 +4625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_floor_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_ceil_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_ceil_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *)) 0 ;
   
@@ -4637,7 +4637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_ceil_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_ceil_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_ceil_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4650,7 +4650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_ceil_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_to_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_to_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_real (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4662,7 +4662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_to_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_to_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_to_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4675,7 +4675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_to_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_squared_to_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_squared_to_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_real (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4687,7 +4687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_squared_to_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_squared_to_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_squared_to_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4700,7 +4700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_distance_squared_to_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_angle_to_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_angle_to_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_real (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4712,7 +4712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_angle_to_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_angle_to_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_angle_to_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4725,7 +4725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_angle_to_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_slide_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_slide_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4737,7 +4737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_slide_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_slide_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_slide_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4750,7 +4750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_slide_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_bounce_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_bounce_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4762,7 +4762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_bounce_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_bounce_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_bounce_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4775,7 +4775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_bounce_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_reflect_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_reflect_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4787,7 +4787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_reflect_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_reflect_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_reflect_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4800,7 +4800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_reflect_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_add_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_add_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4812,7 +4812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_add_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_add_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_add_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4825,7 +4825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_add_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_substract_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_substract_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4837,7 +4837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_substract_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_substract_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_substract_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4850,7 +4850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_substract_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_vector_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_vector_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4862,7 +4862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_vector
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_vector_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_vector_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4875,7 +4875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_vecto
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_scalar_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_scalar_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_real const) = (godot_vector3 (*)(godot_vector3 const *,godot_real const)) 0 ;
   
@@ -4887,7 +4887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_scalar
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_scalar_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_scalar_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -4900,7 +4900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_multiply_scala
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_vector_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_vector_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4912,7 +4912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_vector_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_vector_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_vector_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4925,7 +4925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_vector_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_scalar_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_scalar_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *,godot_real const) = (godot_vector3 (*)(godot_vector3 const *,godot_real const)) 0 ;
   
@@ -4937,7 +4937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_scalar_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_scalar_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_scalar_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -4950,7 +4950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_divide_scalar_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_bool (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4962,7 +4962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_equal_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -4975,7 +4975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_equal_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_less_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_less_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_vector3 const *,godot_vector3 const *) = (godot_bool (*)(godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -4987,7 +4987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_less_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_less_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_less_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -5000,7 +5000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_less_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_neg_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_neg_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_vector3 const *) = (godot_vector3 (*)(godot_vector3 const *)) 0 ;
   
@@ -5012,7 +5012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_neg_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_neg_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_neg_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -5025,7 +5025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_operator_neg_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_set_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_set_axis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_vector3 *,godot_vector3_axis const,godot_real const) = (void (*)(godot_vector3 *,godot_vector3_axis const,godot_real const)) 0 ;
   
@@ -5037,7 +5037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_set_axis_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_set_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_set_axis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_vector3 *,godot_vector3_axis const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -5050,7 +5050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_set_axis_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_vector3_get_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_vector3_get_axis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_vector3 const *,godot_vector3_axis const) = (godot_real (*)(godot_vector3 const *,godot_vector3_axis const)) 0 ;
   
@@ -5062,7 +5062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_vector3_get_axis_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_vector3_get_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_vector3_get_axis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_vector3 const *,godot_vector3_axis const) = 0 ;
   void* _swig_go_result;
@@ -5075,7 +5075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_vector3_get_axis_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *) = (void (*)(godot_pool_byte_array *)) 0 ;
   
@@ -5087,7 +5087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *) = 0 ;
   void* _swig_go_result;
@@ -5100,7 +5100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *,godot_pool_byte_array const *) = (void (*)(godot_pool_byte_array *,godot_pool_byte_array const *)) 0 ;
   
@@ -5112,7 +5112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_copy_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *,godot_pool_byte_array const *) = 0 ;
   void* _swig_go_result;
@@ -5125,7 +5125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_copy_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_with_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_with_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *,godot_array const *) = (void (*)(godot_pool_byte_array *,godot_array const *)) 0 ;
   
@@ -5137,7 +5137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_with_array_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_with_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_with_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -5150,7 +5150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_new_with_array_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *,uint8_t const) = (void (*)(godot_pool_byte_array *,uint8_t const)) 0 ;
   
@@ -5162,7 +5162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *,uint8_t const) = 0 ;
   void* _swig_go_result;
@@ -5175,7 +5175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *,godot_pool_byte_array const *) = (void (*)(godot_pool_byte_array *,godot_pool_byte_array const *)) 0 ;
   
@@ -5187,7 +5187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_array_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *,godot_pool_byte_array const *) = 0 ;
   void* _swig_go_result;
@@ -5200,7 +5200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_append_array_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*arg2)(godot_pool_byte_array *,godot_int const,uint8_t const) = (godot_error (*)(godot_pool_byte_array *,godot_int const,uint8_t const)) 0 ;
   
@@ -5212,7 +5212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_insert_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*result)(godot_pool_byte_array *,godot_int const,uint8_t const) = 0 ;
   void* _swig_go_result;
@@ -5225,7 +5225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_insert_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_invert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_invert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *) = (void (*)(godot_pool_byte_array *)) 0 ;
   
@@ -5237,7 +5237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_invert_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_invert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_invert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *) = 0 ;
   void* _swig_go_result;
@@ -5250,7 +5250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_invert_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_push_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_push_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *,uint8_t const) = (void (*)(godot_pool_byte_array *,uint8_t const)) 0 ;
   
@@ -5262,7 +5262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_push_back_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_push_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_push_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *,uint8_t const) = 0 ;
   void* _swig_go_result;
@@ -5275,7 +5275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_push_back_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_remove_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_remove_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *,godot_int const) = (void (*)(godot_pool_byte_array *,godot_int const)) 0 ;
   
@@ -5287,7 +5287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_remove_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_remove_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_remove_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5300,7 +5300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_remove_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_resize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_resize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *,godot_int const) = (void (*)(godot_pool_byte_array *,godot_int const)) 0 ;
   
@@ -5312,7 +5312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_resize_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_resize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_resize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5325,7 +5325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_resize_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array_read_access *(*arg2)(godot_pool_byte_array const *) = (godot_pool_byte_array_read_access *(*)(godot_pool_byte_array const *)) 0 ;
   
@@ -5337,7 +5337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array_read_access *(*result)(godot_pool_byte_array const *) = 0 ;
   void* _swig_go_result;
@@ -5350,7 +5350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array_write_access *(*arg2)(godot_pool_byte_array *) = (godot_pool_byte_array_write_access *(*)(godot_pool_byte_array *)) 0 ;
   
@@ -5362,7 +5362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array_write_access *(*result)(godot_pool_byte_array *) = 0 ;
   void* _swig_go_result;
@@ -5375,7 +5375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *,godot_int const,uint8_t const) = (void (*)(godot_pool_byte_array *,godot_int const,uint8_t const)) 0 ;
   
@@ -5387,7 +5387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_set_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *,godot_int const,uint8_t const) = 0 ;
   void* _swig_go_result;
@@ -5400,7 +5400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_set_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint8_t (*arg2)(godot_pool_byte_array const *,godot_int const) = (uint8_t (*)(godot_pool_byte_array const *,godot_int const)) 0 ;
   
@@ -5412,7 +5412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_get_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint8_t (*result)(godot_pool_byte_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5425,7 +5425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_get_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_pool_byte_array const *) = (godot_int (*)(godot_pool_byte_array const *)) 0 ;
   
@@ -5437,7 +5437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_size_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_pool_byte_array const *) = 0 ;
   void* _swig_go_result;
@@ -5450,7 +5450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_size_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array *) = (void (*)(godot_pool_byte_array *)) 0 ;
   
@@ -5462,7 +5462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_destroy_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array *) = 0 ;
   void* _swig_go_result;
@@ -5475,7 +5475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_destroy_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *) = (void (*)(godot_pool_int_array *)) 0 ;
   
@@ -5487,7 +5487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *) = 0 ;
   void* _swig_go_result;
@@ -5500,7 +5500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *,godot_pool_int_array const *) = (void (*)(godot_pool_int_array *,godot_pool_int_array const *)) 0 ;
   
@@ -5512,7 +5512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_copy_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *,godot_pool_int_array const *) = 0 ;
   void* _swig_go_result;
@@ -5525,7 +5525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_copy_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_with_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_with_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *,godot_array const *) = (void (*)(godot_pool_int_array *,godot_array const *)) 0 ;
   
@@ -5537,7 +5537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_with_array_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_with_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_with_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -5550,7 +5550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_new_with_array_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *,godot_int const) = (void (*)(godot_pool_int_array *,godot_int const)) 0 ;
   
@@ -5562,7 +5562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5575,7 +5575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *,godot_pool_int_array const *) = (void (*)(godot_pool_int_array *,godot_pool_int_array const *)) 0 ;
   
@@ -5587,7 +5587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_array_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *,godot_pool_int_array const *) = 0 ;
   void* _swig_go_result;
@@ -5600,7 +5600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_append_array_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*arg2)(godot_pool_int_array *,godot_int const,godot_int const) = (godot_error (*)(godot_pool_int_array *,godot_int const,godot_int const)) 0 ;
   
@@ -5612,7 +5612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_insert_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*result)(godot_pool_int_array *,godot_int const,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5625,7 +5625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_insert_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_invert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_invert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *) = (void (*)(godot_pool_int_array *)) 0 ;
   
@@ -5637,7 +5637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_invert_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_invert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_invert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *) = 0 ;
   void* _swig_go_result;
@@ -5650,7 +5650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_invert_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_push_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_push_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *,godot_int const) = (void (*)(godot_pool_int_array *,godot_int const)) 0 ;
   
@@ -5662,7 +5662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_push_back_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_push_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_push_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5675,7 +5675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_push_back_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_remove_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_remove_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *,godot_int const) = (void (*)(godot_pool_int_array *,godot_int const)) 0 ;
   
@@ -5687,7 +5687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_remove_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_remove_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_remove_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5700,7 +5700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_remove_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_resize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_resize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *,godot_int const) = (void (*)(godot_pool_int_array *,godot_int const)) 0 ;
   
@@ -5712,7 +5712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_resize_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_resize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_resize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5725,7 +5725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_resize_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_int_array_read_access *(*arg2)(godot_pool_int_array const *) = (godot_pool_int_array_read_access *(*)(godot_pool_int_array const *)) 0 ;
   
@@ -5737,7 +5737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_int_array_read_access *(*result)(godot_pool_int_array const *) = 0 ;
   void* _swig_go_result;
@@ -5750,7 +5750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_int_array_write_access *(*arg2)(godot_pool_int_array *) = (godot_pool_int_array_write_access *(*)(godot_pool_int_array *)) 0 ;
   
@@ -5762,7 +5762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_int_array_write_access *(*result)(godot_pool_int_array *) = 0 ;
   void* _swig_go_result;
@@ -5775,7 +5775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *,godot_int const,godot_int const) = (void (*)(godot_pool_int_array *,godot_int const,godot_int const)) 0 ;
   
@@ -5787,7 +5787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_set_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *,godot_int const,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5800,7 +5800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_set_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_pool_int_array const *,godot_int const) = (godot_int (*)(godot_pool_int_array const *,godot_int const)) 0 ;
   
@@ -5812,7 +5812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_get_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_pool_int_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -5825,7 +5825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_get_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_pool_int_array const *) = (godot_int (*)(godot_pool_int_array const *)) 0 ;
   
@@ -5837,7 +5837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_size_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_pool_int_array const *) = 0 ;
   void* _swig_go_result;
@@ -5850,7 +5850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_size_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array *) = (void (*)(godot_pool_int_array *)) 0 ;
   
@@ -5862,7 +5862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_destroy_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array *) = 0 ;
   void* _swig_go_result;
@@ -5875,7 +5875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_destroy_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *) = (void (*)(godot_pool_real_array *)) 0 ;
   
@@ -5887,7 +5887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *) = 0 ;
   void* _swig_go_result;
@@ -5900,7 +5900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *,godot_pool_real_array const *) = (void (*)(godot_pool_real_array *,godot_pool_real_array const *)) 0 ;
   
@@ -5912,7 +5912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_copy_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *,godot_pool_real_array const *) = 0 ;
   void* _swig_go_result;
@@ -5925,7 +5925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_copy_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_with_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_with_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *,godot_array const *) = (void (*)(godot_pool_real_array *,godot_array const *)) 0 ;
   
@@ -5937,7 +5937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_with_array_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_with_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_with_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -5950,7 +5950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_new_with_array_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *,godot_real const) = (void (*)(godot_pool_real_array *,godot_real const)) 0 ;
   
@@ -5962,7 +5962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -5975,7 +5975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *,godot_pool_real_array const *) = (void (*)(godot_pool_real_array *,godot_pool_real_array const *)) 0 ;
   
@@ -5987,7 +5987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_array_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *,godot_pool_real_array const *) = 0 ;
   void* _swig_go_result;
@@ -6000,7 +6000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_append_array_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*arg2)(godot_pool_real_array *,godot_int const,godot_real const) = (godot_error (*)(godot_pool_real_array *,godot_int const,godot_real const)) 0 ;
   
@@ -6012,7 +6012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_insert_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*result)(godot_pool_real_array *,godot_int const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -6025,7 +6025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_insert_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_invert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_invert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *) = (void (*)(godot_pool_real_array *)) 0 ;
   
@@ -6037,7 +6037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_invert_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_invert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_invert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *) = 0 ;
   void* _swig_go_result;
@@ -6050,7 +6050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_invert_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_push_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_push_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *,godot_real const) = (void (*)(godot_pool_real_array *,godot_real const)) 0 ;
   
@@ -6062,7 +6062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_push_back_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_push_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_push_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -6075,7 +6075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_push_back_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_remove_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_remove_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *,godot_int const) = (void (*)(godot_pool_real_array *,godot_int const)) 0 ;
   
@@ -6087,7 +6087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_remove_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_remove_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_remove_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -6100,7 +6100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_remove_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_resize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_resize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *,godot_int const) = (void (*)(godot_pool_real_array *,godot_int const)) 0 ;
   
@@ -6112,7 +6112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_resize_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_resize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_resize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -6125,7 +6125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_resize_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_real_array_read_access *(*arg2)(godot_pool_real_array const *) = (godot_pool_real_array_read_access *(*)(godot_pool_real_array const *)) 0 ;
   
@@ -6137,7 +6137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_real_array_read_access *(*result)(godot_pool_real_array const *) = 0 ;
   void* _swig_go_result;
@@ -6150,7 +6150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_real_array_write_access *(*arg2)(godot_pool_real_array *) = (godot_pool_real_array_write_access *(*)(godot_pool_real_array *)) 0 ;
   
@@ -6162,7 +6162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_real_array_write_access *(*result)(godot_pool_real_array *) = 0 ;
   void* _swig_go_result;
@@ -6175,7 +6175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *,godot_int const,godot_real const) = (void (*)(godot_pool_real_array *,godot_int const,godot_real const)) 0 ;
   
@@ -6187,7 +6187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_set_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *,godot_int const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -6200,7 +6200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_set_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_pool_real_array const *,godot_int const) = (godot_real (*)(godot_pool_real_array const *,godot_int const)) 0 ;
   
@@ -6212,7 +6212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_get_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_pool_real_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -6225,7 +6225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_get_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_pool_real_array const *) = (godot_int (*)(godot_pool_real_array const *)) 0 ;
   
@@ -6237,7 +6237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_size_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_pool_real_array const *) = 0 ;
   void* _swig_go_result;
@@ -6250,7 +6250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_size_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array *) = (void (*)(godot_pool_real_array *)) 0 ;
   
@@ -6262,7 +6262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_destroy_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array *) = 0 ;
   void* _swig_go_result;
@@ -6275,7 +6275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_destroy_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *) = (void (*)(godot_pool_string_array *)) 0 ;
   
@@ -6287,7 +6287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *) = 0 ;
   void* _swig_go_result;
@@ -6300,7 +6300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *,godot_pool_string_array const *) = (void (*)(godot_pool_string_array *,godot_pool_string_array const *)) 0 ;
   
@@ -6312,7 +6312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_copy_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *,godot_pool_string_array const *) = 0 ;
   void* _swig_go_result;
@@ -6325,7 +6325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_copy_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_with_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_with_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *,godot_array const *) = (void (*)(godot_pool_string_array *,godot_array const *)) 0 ;
   
@@ -6337,7 +6337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_with_array
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_with_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_with_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -6350,7 +6350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_new_with_arra
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *,godot_string const *) = (void (*)(godot_pool_string_array *,godot_string const *)) 0 ;
   
@@ -6362,7 +6362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -6375,7 +6375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *,godot_pool_string_array const *) = (void (*)(godot_pool_string_array *,godot_pool_string_array const *)) 0 ;
   
@@ -6387,7 +6387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_array_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *,godot_pool_string_array const *) = 0 ;
   void* _swig_go_result;
@@ -6400,7 +6400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_append_array_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*arg2)(godot_pool_string_array *,godot_int const,godot_string const *) = (godot_error (*)(godot_pool_string_array *,godot_int const,godot_string const *)) 0 ;
   
@@ -6412,7 +6412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_insert_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*result)(godot_pool_string_array *,godot_int const,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -6425,7 +6425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_insert_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_invert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_invert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *) = (void (*)(godot_pool_string_array *)) 0 ;
   
@@ -6437,7 +6437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_invert_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_invert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_invert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *) = 0 ;
   void* _swig_go_result;
@@ -6450,7 +6450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_invert_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_push_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_push_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *,godot_string const *) = (void (*)(godot_pool_string_array *,godot_string const *)) 0 ;
   
@@ -6462,7 +6462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_push_back_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_push_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_push_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -6475,7 +6475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_push_back_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_remove_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_remove_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *,godot_int const) = (void (*)(godot_pool_string_array *,godot_int const)) 0 ;
   
@@ -6487,7 +6487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_remove_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_remove_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_remove_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -6500,7 +6500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_remove_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_resize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_resize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *,godot_int const) = (void (*)(godot_pool_string_array *,godot_int const)) 0 ;
   
@@ -6512,7 +6512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_resize_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_resize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_resize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -6525,7 +6525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_resize_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_string_array_read_access *(*arg2)(godot_pool_string_array const *) = (godot_pool_string_array_read_access *(*)(godot_pool_string_array const *)) 0 ;
   
@@ -6537,7 +6537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_string_array_read_access *(*result)(godot_pool_string_array const *) = 0 ;
   void* _swig_go_result;
@@ -6550,7 +6550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_string_array_write_access *(*arg2)(godot_pool_string_array *) = (godot_pool_string_array_write_access *(*)(godot_pool_string_array *)) 0 ;
   
@@ -6562,7 +6562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_string_array_write_access *(*result)(godot_pool_string_array *) = 0 ;
   void* _swig_go_result;
@@ -6575,7 +6575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *,godot_int const,godot_string const *) = (void (*)(godot_pool_string_array *,godot_int const,godot_string const *)) 0 ;
   
@@ -6587,7 +6587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_set_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *,godot_int const,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -6600,7 +6600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_set_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_pool_string_array const *,godot_int const) = (godot_string (*)(godot_pool_string_array const *,godot_int const)) 0 ;
   
@@ -6612,7 +6612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_get_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_pool_string_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -6625,7 +6625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_get_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_pool_string_array const *) = (godot_int (*)(godot_pool_string_array const *)) 0 ;
   
@@ -6637,7 +6637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_size_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_pool_string_array const *) = 0 ;
   void* _swig_go_result;
@@ -6650,7 +6650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_size_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array *) = (void (*)(godot_pool_string_array *)) 0 ;
   
@@ -6662,7 +6662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_destroy_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array *) = 0 ;
   void* _swig_go_result;
@@ -6675,7 +6675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_destroy_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *) = (void (*)(godot_pool_vector2_array *)) 0 ;
   
@@ -6687,7 +6687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *) = 0 ;
   void* _swig_go_result;
@@ -6700,7 +6700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *,godot_pool_vector2_array const *) = (void (*)(godot_pool_vector2_array *,godot_pool_vector2_array const *)) 0 ;
   
@@ -6712,7 +6712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_copy_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *,godot_pool_vector2_array const *) = 0 ;
   void* _swig_go_result;
@@ -6725,7 +6725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_copy_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_with_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_with_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *,godot_array const *) = (void (*)(godot_pool_vector2_array *,godot_array const *)) 0 ;
   
@@ -6737,7 +6737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_with_arra
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_with_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_with_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -6750,7 +6750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_new_with_arr
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *,godot_vector2 const *) = (void (*)(godot_pool_vector2_array *,godot_vector2 const *)) 0 ;
   
@@ -6762,7 +6762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -6775,7 +6775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *,godot_pool_vector2_array const *) = (void (*)(godot_pool_vector2_array *,godot_pool_vector2_array const *)) 0 ;
   
@@ -6787,7 +6787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_array_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *,godot_pool_vector2_array const *) = 0 ;
   void* _swig_go_result;
@@ -6800,7 +6800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_append_array
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*arg2)(godot_pool_vector2_array *,godot_int const,godot_vector2 const *) = (godot_error (*)(godot_pool_vector2_array *,godot_int const,godot_vector2 const *)) 0 ;
   
@@ -6812,7 +6812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_insert_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*result)(godot_pool_vector2_array *,godot_int const,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -6825,7 +6825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_insert_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_invert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_invert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *) = (void (*)(godot_pool_vector2_array *)) 0 ;
   
@@ -6837,7 +6837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_invert_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_invert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_invert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *) = 0 ;
   void* _swig_go_result;
@@ -6850,7 +6850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_invert_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_push_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_push_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *,godot_vector2 const *) = (void (*)(godot_pool_vector2_array *,godot_vector2 const *)) 0 ;
   
@@ -6862,7 +6862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_push_back_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_push_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_push_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -6875,7 +6875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_push_back_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_remove_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_remove_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *,godot_int const) = (void (*)(godot_pool_vector2_array *,godot_int const)) 0 ;
   
@@ -6887,7 +6887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_remove_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_remove_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_remove_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -6900,7 +6900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_remove_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_resize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_resize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *,godot_int const) = (void (*)(godot_pool_vector2_array *,godot_int const)) 0 ;
   
@@ -6912,7 +6912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_resize_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_resize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_resize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -6925,7 +6925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_resize_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector2_array_read_access *(*arg2)(godot_pool_vector2_array const *) = (godot_pool_vector2_array_read_access *(*)(godot_pool_vector2_array const *)) 0 ;
   
@@ -6937,7 +6937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector2_array_read_access *(*result)(godot_pool_vector2_array const *) = 0 ;
   void* _swig_go_result;
@@ -6950,7 +6950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector2_array_write_access *(*arg2)(godot_pool_vector2_array *) = (godot_pool_vector2_array_write_access *(*)(godot_pool_vector2_array *)) 0 ;
   
@@ -6962,7 +6962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector2_array_write_access *(*result)(godot_pool_vector2_array *) = 0 ;
   void* _swig_go_result;
@@ -6975,7 +6975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *,godot_int const,godot_vector2 const *) = (void (*)(godot_pool_vector2_array *,godot_int const,godot_vector2 const *)) 0 ;
   
@@ -6987,7 +6987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_set_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *,godot_int const,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -7000,7 +7000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_set_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_pool_vector2_array const *,godot_int const) = (godot_vector2 (*)(godot_pool_vector2_array const *,godot_int const)) 0 ;
   
@@ -7012,7 +7012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_get_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_pool_vector2_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -7025,7 +7025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_get_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_pool_vector2_array const *) = (godot_int (*)(godot_pool_vector2_array const *)) 0 ;
   
@@ -7037,7 +7037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_size_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_pool_vector2_array const *) = 0 ;
   void* _swig_go_result;
@@ -7050,7 +7050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_size_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array *) = (void (*)(godot_pool_vector2_array *)) 0 ;
   
@@ -7062,7 +7062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_destroy_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array *) = 0 ;
   void* _swig_go_result;
@@ -7075,7 +7075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_destroy_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *) = (void (*)(godot_pool_vector3_array *)) 0 ;
   
@@ -7087,7 +7087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *) = 0 ;
   void* _swig_go_result;
@@ -7100,7 +7100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *,godot_pool_vector3_array const *) = (void (*)(godot_pool_vector3_array *,godot_pool_vector3_array const *)) 0 ;
   
@@ -7112,7 +7112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_copy_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *,godot_pool_vector3_array const *) = 0 ;
   void* _swig_go_result;
@@ -7125,7 +7125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_copy_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_with_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_with_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *,godot_array const *) = (void (*)(godot_pool_vector3_array *,godot_array const *)) 0 ;
   
@@ -7137,7 +7137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_with_arra
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_with_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_with_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -7150,7 +7150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_new_with_arr
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *,godot_vector3 const *) = (void (*)(godot_pool_vector3_array *,godot_vector3 const *)) 0 ;
   
@@ -7162,7 +7162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -7175,7 +7175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *,godot_pool_vector3_array const *) = (void (*)(godot_pool_vector3_array *,godot_pool_vector3_array const *)) 0 ;
   
@@ -7187,7 +7187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_array_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *,godot_pool_vector3_array const *) = 0 ;
   void* _swig_go_result;
@@ -7200,7 +7200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_append_array
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*arg2)(godot_pool_vector3_array *,godot_int const,godot_vector3 const *) = (godot_error (*)(godot_pool_vector3_array *,godot_int const,godot_vector3 const *)) 0 ;
   
@@ -7212,7 +7212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_insert_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*result)(godot_pool_vector3_array *,godot_int const,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -7225,7 +7225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_insert_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_invert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_invert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *) = (void (*)(godot_pool_vector3_array *)) 0 ;
   
@@ -7237,7 +7237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_invert_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_invert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_invert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *) = 0 ;
   void* _swig_go_result;
@@ -7250,7 +7250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_invert_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_push_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_push_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *,godot_vector3 const *) = (void (*)(godot_pool_vector3_array *,godot_vector3 const *)) 0 ;
   
@@ -7262,7 +7262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_push_back_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_push_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_push_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -7275,7 +7275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_push_back_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_remove_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_remove_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *,godot_int const) = (void (*)(godot_pool_vector3_array *,godot_int const)) 0 ;
   
@@ -7287,7 +7287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_remove_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_remove_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_remove_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -7300,7 +7300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_remove_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_resize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_resize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *,godot_int const) = (void (*)(godot_pool_vector3_array *,godot_int const)) 0 ;
   
@@ -7312,7 +7312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_resize_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_resize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_resize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -7325,7 +7325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_resize_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector3_array_read_access *(*arg2)(godot_pool_vector3_array const *) = (godot_pool_vector3_array_read_access *(*)(godot_pool_vector3_array const *)) 0 ;
   
@@ -7337,7 +7337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector3_array_read_access *(*result)(godot_pool_vector3_array const *) = 0 ;
   void* _swig_go_result;
@@ -7350,7 +7350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector3_array_write_access *(*arg2)(godot_pool_vector3_array *) = (godot_pool_vector3_array_write_access *(*)(godot_pool_vector3_array *)) 0 ;
   
@@ -7362,7 +7362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector3_array_write_access *(*result)(godot_pool_vector3_array *) = 0 ;
   void* _swig_go_result;
@@ -7375,7 +7375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *,godot_int const,godot_vector3 const *) = (void (*)(godot_pool_vector3_array *,godot_int const,godot_vector3 const *)) 0 ;
   
@@ -7387,7 +7387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_set_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *,godot_int const,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -7400,7 +7400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_set_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_pool_vector3_array const *,godot_int const) = (godot_vector3 (*)(godot_pool_vector3_array const *,godot_int const)) 0 ;
   
@@ -7412,7 +7412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_get_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_pool_vector3_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -7425,7 +7425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_get_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_pool_vector3_array const *) = (godot_int (*)(godot_pool_vector3_array const *)) 0 ;
   
@@ -7437,7 +7437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_size_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_pool_vector3_array const *) = 0 ;
   void* _swig_go_result;
@@ -7450,7 +7450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_size_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array *) = (void (*)(godot_pool_vector3_array *)) 0 ;
   
@@ -7462,7 +7462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_destroy_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array *) = 0 ;
   void* _swig_go_result;
@@ -7475,7 +7475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_destroy_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *) = (void (*)(godot_pool_color_array *)) 0 ;
   
@@ -7487,7 +7487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *) = 0 ;
   void* _swig_go_result;
@@ -7500,7 +7500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *,godot_pool_color_array const *) = (void (*)(godot_pool_color_array *,godot_pool_color_array const *)) 0 ;
   
@@ -7512,7 +7512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_copy_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *,godot_pool_color_array const *) = 0 ;
   void* _swig_go_result;
@@ -7525,7 +7525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_copy_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_with_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_with_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *,godot_array const *) = (void (*)(godot_pool_color_array *,godot_array const *)) 0 ;
   
@@ -7537,7 +7537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_with_array_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_with_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_with_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -7550,7 +7550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_new_with_array
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *,godot_color const *) = (void (*)(godot_pool_color_array *,godot_color const *)) 0 ;
   
@@ -7562,7 +7562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *,godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -7575,7 +7575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *,godot_pool_color_array const *) = (void (*)(godot_pool_color_array *,godot_pool_color_array const *)) 0 ;
   
@@ -7587,7 +7587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_array_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *,godot_pool_color_array const *) = 0 ;
   void* _swig_go_result;
@@ -7600,7 +7600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_append_array_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*arg2)(godot_pool_color_array *,godot_int const,godot_color const *) = (godot_error (*)(godot_pool_color_array *,godot_int const,godot_color const *)) 0 ;
   
@@ -7612,7 +7612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_insert_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_error (*result)(godot_pool_color_array *,godot_int const,godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -7625,7 +7625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_insert_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_invert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_invert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *) = (void (*)(godot_pool_color_array *)) 0 ;
   
@@ -7637,7 +7637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_invert_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_invert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_invert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *) = 0 ;
   void* _swig_go_result;
@@ -7650,7 +7650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_invert_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_push_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_push_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *,godot_color const *) = (void (*)(godot_pool_color_array *,godot_color const *)) 0 ;
   
@@ -7662,7 +7662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_push_back_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_push_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_push_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *,godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -7675,7 +7675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_push_back_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_remove_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_remove_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *,godot_int const) = (void (*)(godot_pool_color_array *,godot_int const)) 0 ;
   
@@ -7687,7 +7687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_remove_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_remove_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_remove_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -7700,7 +7700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_remove_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_resize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_resize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *,godot_int const) = (void (*)(godot_pool_color_array *,godot_int const)) 0 ;
   
@@ -7712,7 +7712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_resize_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_resize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_resize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -7725,7 +7725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_resize_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_color_array_read_access *(*arg2)(godot_pool_color_array const *) = (godot_pool_color_array_read_access *(*)(godot_pool_color_array const *)) 0 ;
   
@@ -7737,7 +7737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_color_array_read_access *(*result)(godot_pool_color_array const *) = 0 ;
   void* _swig_go_result;
@@ -7750,7 +7750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_color_array_write_access *(*arg2)(godot_pool_color_array *) = (godot_pool_color_array_write_access *(*)(godot_pool_color_array *)) 0 ;
   
@@ -7762,7 +7762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_color_array_write_access *(*result)(godot_pool_color_array *) = 0 ;
   void* _swig_go_result;
@@ -7775,7 +7775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *,godot_int const,godot_color const *) = (void (*)(godot_pool_color_array *,godot_int const,godot_color const *)) 0 ;
   
@@ -7787,7 +7787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_set_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *,godot_int const,godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -7800,7 +7800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_set_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*arg2)(godot_pool_color_array const *,godot_int const) = (godot_color (*)(godot_pool_color_array const *,godot_int const)) 0 ;
   
@@ -7812,7 +7812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_get_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*result)(godot_pool_color_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -7825,7 +7825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_get_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_pool_color_array const *) = (godot_int (*)(godot_pool_color_array const *)) 0 ;
   
@@ -7837,7 +7837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_size_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_pool_color_array const *) = 0 ;
   void* _swig_go_result;
@@ -7850,7 +7850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_size_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array *) = (void (*)(godot_pool_color_array *)) 0 ;
   
@@ -7862,7 +7862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_destroy_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array *) = 0 ;
   void* _swig_go_result;
@@ -7875,7 +7875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_destroy_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint8_t *(*arg2)(godot_pool_byte_array_read_access const *) = (uint8_t *(*)(godot_pool_byte_array_read_access const *)) 0 ;
   
@@ -7887,7 +7887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_ptr_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint8_t *(*result)(godot_pool_byte_array_read_access const *) = 0 ;
   void* _swig_go_result;
@@ -7900,7 +7900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_ptr
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array_read_access *,godot_pool_byte_array_read_access *) = (void (*)(godot_pool_byte_array_read_access *,godot_pool_byte_array_read_access *)) 0 ;
   
@@ -7912,7 +7912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_oper
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array_read_access *,godot_pool_byte_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -7925,7 +7925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_ope
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array_read_access *) = (void (*)(godot_pool_byte_array_read_access *)) 0 ;
   
@@ -7937,7 +7937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_dest
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -7950,7 +7950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_read_access_des
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int *(*arg2)(godot_pool_int_array_read_access const *) = (godot_int *(*)(godot_pool_int_array_read_access const *)) 0 ;
   
@@ -7962,7 +7962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_ptr_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int *(*result)(godot_pool_int_array_read_access const *) = 0 ;
   void* _swig_go_result;
@@ -7975,7 +7975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_ptr_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array_read_access *,godot_pool_int_array_read_access *) = (void (*)(godot_pool_int_array_read_access *,godot_pool_int_array_read_access *)) 0 ;
   
@@ -7987,7 +7987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_opera
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array_read_access *,godot_pool_int_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8000,7 +8000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_oper
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array_read_access *) = (void (*)(godot_pool_int_array_read_access *)) 0 ;
   
@@ -8012,7 +8012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_destr
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8025,7 +8025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_read_access_dest
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real *(*arg2)(godot_pool_real_array_read_access const *) = (godot_real *(*)(godot_pool_real_array_read_access const *)) 0 ;
   
@@ -8037,7 +8037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_ptr_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real *(*result)(godot_pool_real_array_read_access const *) = 0 ;
   void* _swig_go_result;
@@ -8050,7 +8050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_ptr
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array_read_access *,godot_pool_real_array_read_access *) = (void (*)(godot_pool_real_array_read_access *,godot_pool_real_array_read_access *)) 0 ;
   
@@ -8062,7 +8062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_oper
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array_read_access *,godot_pool_real_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8075,7 +8075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_ope
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array_read_access *) = (void (*)(godot_pool_real_array_read_access *)) 0 ;
   
@@ -8087,7 +8087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_dest
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8100,7 +8100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_read_access_des
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string *(*arg2)(godot_pool_string_array_read_access const *) = (godot_string *(*)(godot_pool_string_array_read_access const *)) 0 ;
   
@@ -8112,7 +8112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_pt
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string *(*result)(godot_pool_string_array_read_access const *) = 0 ;
   void* _swig_go_result;
@@ -8125,7 +8125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_p
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array_read_access *,godot_pool_string_array_read_access *) = (void (*)(godot_pool_string_array_read_access *,godot_pool_string_array_read_access *)) 0 ;
   
@@ -8137,7 +8137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_op
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array_read_access *,godot_pool_string_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8150,7 +8150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_o
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array_read_access *) = (void (*)(godot_pool_string_array_read_access *)) 0 ;
   
@@ -8162,7 +8162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_de
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8175,7 +8175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_read_access_d
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 *(*arg2)(godot_pool_vector2_array_read_access const *) = (godot_vector2 *(*)(godot_pool_vector2_array_read_access const *)) 0 ;
   
@@ -8187,7 +8187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_p
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 *(*result)(godot_pool_vector2_array_read_access const *) = 0 ;
   void* _swig_go_result;
@@ -8200,7 +8200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array_read_access *,godot_pool_vector2_array_read_access *) = (void (*)(godot_pool_vector2_array_read_access *,godot_pool_vector2_array_read_access *)) 0 ;
   
@@ -8212,7 +8212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_o
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array_read_access *,godot_pool_vector2_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8225,7 +8225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array_read_access *) = (void (*)(godot_pool_vector2_array_read_access *)) 0 ;
   
@@ -8237,7 +8237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_d
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8250,7 +8250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_read_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 *(*arg2)(godot_pool_vector3_array_read_access const *) = (godot_vector3 *(*)(godot_pool_vector3_array_read_access const *)) 0 ;
   
@@ -8262,7 +8262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_p
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 *(*result)(godot_pool_vector3_array_read_access const *) = 0 ;
   void* _swig_go_result;
@@ -8275,7 +8275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array_read_access *,godot_pool_vector3_array_read_access *) = (void (*)(godot_pool_vector3_array_read_access *,godot_pool_vector3_array_read_access *)) 0 ;
   
@@ -8287,7 +8287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_o
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array_read_access *,godot_pool_vector3_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8300,7 +8300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array_read_access *) = (void (*)(godot_pool_vector3_array_read_access *)) 0 ;
   
@@ -8312,7 +8312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_d
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8325,7 +8325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_read_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color *(*arg2)(godot_pool_color_array_read_access const *) = (godot_color *(*)(godot_pool_color_array_read_access const *)) 0 ;
   
@@ -8337,7 +8337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_ptr
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color *(*result)(godot_pool_color_array_read_access const *) = 0 ;
   void* _swig_go_result;
@@ -8350,7 +8350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_pt
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array_read_access *,godot_pool_color_array_read_access *) = (void (*)(godot_pool_color_array_read_access *,godot_pool_color_array_read_access *)) 0 ;
   
@@ -8362,7 +8362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_ope
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array_read_access *,godot_pool_color_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8375,7 +8375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_op
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array_read_access *) = (void (*)(godot_pool_color_array_read_access *)) 0 ;
   
@@ -8387,7 +8387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_des
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array_read_access *) = 0 ;
   void* _swig_go_result;
@@ -8400,7 +8400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_read_access_de
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint8_t *(*arg2)(godot_pool_byte_array_write_access const *) = (uint8_t *(*)(godot_pool_byte_array_write_access const *)) 0 ;
   
@@ -8412,7 +8412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_ptr
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint8_t *(*result)(godot_pool_byte_array_write_access const *) = 0 ;
   void* _swig_go_result;
@@ -8425,7 +8425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_pt
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array_write_access *,godot_pool_byte_array_write_access *) = (void (*)(godot_pool_byte_array_write_access *,godot_pool_byte_array_write_access *)) 0 ;
   
@@ -8437,7 +8437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_ope
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array_write_access *,godot_pool_byte_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8450,7 +8450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_op
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_byte_array_write_access *) = (void (*)(godot_pool_byte_array_write_access *)) 0 ;
   
@@ -8462,7 +8462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_des
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_byte_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8475,7 +8475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_byte_array_write_access_de
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int *(*arg2)(godot_pool_int_array_write_access const *) = (godot_int *(*)(godot_pool_int_array_write_access const *)) 0 ;
   
@@ -8487,7 +8487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_ptr_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int *(*result)(godot_pool_int_array_write_access const *) = 0 ;
   void* _swig_go_result;
@@ -8500,7 +8500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_ptr
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array_write_access *,godot_pool_int_array_write_access *) = (void (*)(godot_pool_int_array_write_access *,godot_pool_int_array_write_access *)) 0 ;
   
@@ -8512,7 +8512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_oper
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array_write_access *,godot_pool_int_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8525,7 +8525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_ope
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_int_array_write_access *) = (void (*)(godot_pool_int_array_write_access *)) 0 ;
   
@@ -8537,7 +8537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_dest
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_int_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8550,7 +8550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_int_array_write_access_des
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real *(*arg2)(godot_pool_real_array_write_access const *) = (godot_real *(*)(godot_pool_real_array_write_access const *)) 0 ;
   
@@ -8562,7 +8562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_ptr
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real *(*result)(godot_pool_real_array_write_access const *) = 0 ;
   void* _swig_go_result;
@@ -8575,7 +8575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_pt
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array_write_access *,godot_pool_real_array_write_access *) = (void (*)(godot_pool_real_array_write_access *,godot_pool_real_array_write_access *)) 0 ;
   
@@ -8587,7 +8587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_ope
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array_write_access *,godot_pool_real_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8600,7 +8600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_op
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_real_array_write_access *) = (void (*)(godot_pool_real_array_write_access *)) 0 ;
   
@@ -8612,7 +8612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_des
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_real_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8625,7 +8625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_real_array_write_access_de
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string *(*arg2)(godot_pool_string_array_write_access const *) = (godot_string *(*)(godot_pool_string_array_write_access const *)) 0 ;
   
@@ -8637,7 +8637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_p
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string *(*result)(godot_pool_string_array_write_access const *) = 0 ;
   void* _swig_go_result;
@@ -8650,7 +8650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array_write_access *,godot_pool_string_array_write_access *) = (void (*)(godot_pool_string_array_write_access *,godot_pool_string_array_write_access *)) 0 ;
   
@@ -8662,7 +8662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_o
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array_write_access *,godot_pool_string_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8675,7 +8675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_string_array_write_access *) = (void (*)(godot_pool_string_array_write_access *)) 0 ;
   
@@ -8687,7 +8687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_d
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_string_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8700,7 +8700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_string_array_write_access_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 *(*arg2)(godot_pool_vector2_array_write_access const *) = (godot_vector2 *(*)(godot_pool_vector2_array_write_access const *)) 0 ;
   
@@ -8712,7 +8712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 *(*result)(godot_pool_vector2_array_write_access const *) = 0 ;
   void* _swig_go_result;
@@ -8725,7 +8725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array_write_access *,godot_pool_vector2_array_write_access *) = (void (*)(godot_pool_vector2_array_write_access *,godot_pool_vector2_array_write_access *)) 0 ;
   
@@ -8737,7 +8737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array_write_access *,godot_pool_vector2_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8750,7 +8750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector2_array_write_access *) = (void (*)(godot_pool_vector2_array_write_access *)) 0 ;
   
@@ -8762,7 +8762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector2_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8775,7 +8775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector2_array_write_access
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 *(*arg2)(godot_pool_vector3_array_write_access const *) = (godot_vector3 *(*)(godot_pool_vector3_array_write_access const *)) 0 ;
   
@@ -8787,7 +8787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 *(*result)(godot_pool_vector3_array_write_access const *) = 0 ;
   void* _swig_go_result;
@@ -8800,7 +8800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array_write_access *,godot_pool_vector3_array_write_access *) = (void (*)(godot_pool_vector3_array_write_access *,godot_pool_vector3_array_write_access *)) 0 ;
   
@@ -8812,7 +8812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array_write_access *,godot_pool_vector3_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8825,7 +8825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_vector3_array_write_access *) = (void (*)(godot_pool_vector3_array_write_access *)) 0 ;
   
@@ -8837,7 +8837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_vector3_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8850,7 +8850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_vector3_array_write_access
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_ptr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_ptr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color *(*arg2)(godot_pool_color_array_write_access const *) = (godot_color *(*)(godot_pool_color_array_write_access const *)) 0 ;
   
@@ -8862,7 +8862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_pt
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_ptr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_ptr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color *(*result)(godot_pool_color_array_write_access const *) = 0 ;
   void* _swig_go_result;
@@ -8875,7 +8875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_p
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_operator_assign_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_operator_assign_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array_write_access *,godot_pool_color_array_write_access *) = (void (*)(godot_pool_color_array_write_access *,godot_pool_color_array_write_access *)) 0 ;
   
@@ -8887,7 +8887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_op
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_operator_assign_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_operator_assign_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array_write_access *,godot_pool_color_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8900,7 +8900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_o
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_pool_color_array_write_access *) = (void (*)(godot_pool_color_array_write_access *)) 0 ;
   
@@ -8912,7 +8912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_de
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_pool_color_array_write_access *) = 0 ;
   void* _swig_go_result;
@@ -8925,7 +8925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_pool_color_array_write_access_d
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *) = (void (*)(godot_array *)) 0 ;
   
@@ -8937,7 +8937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_set_godot_5192ef1abe3e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *) = 0 ;
   void* _swig_go_result;
@@ -8950,7 +8950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_get_godot_5192ef1abe3
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_array const *) = (void (*)(godot_array *,godot_array const *)) 0 ;
   
@@ -8962,7 +8962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_copy_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -8975,7 +8975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_copy_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_color_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_color_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_pool_color_array const *) = (void (*)(godot_array *,godot_pool_color_array const *)) 0 ;
   
@@ -8987,7 +8987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_color_array_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_color_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_color_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_pool_color_array const *) = 0 ;
   void* _swig_go_result;
@@ -9000,7 +9000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_color_array_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector3_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector3_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_pool_vector3_array const *) = (void (*)(godot_array *,godot_pool_vector3_array const *)) 0 ;
   
@@ -9012,7 +9012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector3_array_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector3_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector3_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_pool_vector3_array const *) = 0 ;
   void* _swig_go_result;
@@ -9025,7 +9025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector3_array_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector2_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector2_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_pool_vector2_array const *) = (void (*)(godot_array *,godot_pool_vector2_array const *)) 0 ;
   
@@ -9037,7 +9037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector2_array_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector2_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector2_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_pool_vector2_array const *) = 0 ;
   void* _swig_go_result;
@@ -9050,7 +9050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_vector2_array_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_string_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_string_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_pool_string_array const *) = (void (*)(godot_array *,godot_pool_string_array const *)) 0 ;
   
@@ -9062,7 +9062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_string_array_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_string_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_string_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_pool_string_array const *) = 0 ;
   void* _swig_go_result;
@@ -9075,7 +9075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_string_array_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_real_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_real_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_pool_real_array const *) = (void (*)(godot_array *,godot_pool_real_array const *)) 0 ;
   
@@ -9087,7 +9087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_real_array_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_real_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_real_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_pool_real_array const *) = 0 ;
   void* _swig_go_result;
@@ -9100,7 +9100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_real_array_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_int_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_int_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_pool_int_array const *) = (void (*)(godot_array *,godot_pool_int_array const *)) 0 ;
   
@@ -9112,7 +9112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_int_array_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_int_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_int_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_pool_int_array const *) = 0 ;
   void* _swig_go_result;
@@ -9125,7 +9125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_int_array_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_byte_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_byte_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_pool_byte_array const *) = (void (*)(godot_array *,godot_pool_byte_array const *)) 0 ;
   
@@ -9137,7 +9137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_byte_array_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_byte_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_byte_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_pool_byte_array const *) = 0 ;
   void* _swig_go_result;
@@ -9150,7 +9150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_new_pool_byte_array_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_int const,godot_variant const *) = (void (*)(godot_array *,godot_int const,godot_variant const *)) 0 ;
   
@@ -9162,7 +9162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_set_set_godot_5192ef1abe3e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_int const,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9175,7 +9175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_set_get_godot_5192ef1abe3
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*arg2)(godot_array const *,godot_int const) = (godot_variant (*)(godot_array const *,godot_int const)) 0 ;
   
@@ -9187,7 +9187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_get_set_godot_5192ef1abe3e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*result)(godot_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -9200,7 +9200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_get_get_godot_5192ef1abe3
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*arg2)(godot_array *,godot_int const) = (godot_variant *(*)(godot_array *,godot_int const)) 0 ;
   
@@ -9212,7 +9212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*result)(godot_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -9225,7 +9225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_const_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_const_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*arg2)(godot_array const *,godot_int const) = (godot_variant *(*)(godot_array const *,godot_int const)) 0 ;
   
@@ -9237,7 +9237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_const_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_const_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_const_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*result)(godot_array const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -9250,7 +9250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_operator_index_const_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_append_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_append_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_variant const *) = (void (*)(godot_array *,godot_variant const *)) 0 ;
   
@@ -9262,7 +9262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_append_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_append_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_append_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9275,7 +9275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_append_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_clear_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_clear_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *) = (void (*)(godot_array *)) 0 ;
   
@@ -9287,7 +9287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_clear_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_clear_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_clear_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *) = 0 ;
   void* _swig_go_result;
@@ -9300,7 +9300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_clear_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_count_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_count_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_array const *,godot_variant const *) = (godot_int (*)(godot_array const *,godot_variant const *)) 0 ;
   
@@ -9312,7 +9312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_count_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_count_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_count_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_array const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9325,7 +9325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_count_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_array const *) = (godot_bool (*)(godot_array const *)) 0 ;
   
@@ -9337,7 +9337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_empty_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -9350,7 +9350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_empty_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_erase_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_erase_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_variant const *) = (void (*)(godot_array *,godot_variant const *)) 0 ;
   
@@ -9362,7 +9362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_erase_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_erase_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_erase_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9375,7 +9375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_erase_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_front_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_front_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*arg2)(godot_array const *) = (godot_variant (*)(godot_array const *)) 0 ;
   
@@ -9387,7 +9387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_front_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_front_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_front_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*result)(godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -9400,7 +9400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_front_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*arg2)(godot_array const *) = (godot_variant (*)(godot_array const *)) 0 ;
   
@@ -9412,7 +9412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_back_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*result)(godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -9425,7 +9425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_back_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_find_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_find_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_array const *,godot_variant const *,godot_int const) = (godot_int (*)(godot_array const *,godot_variant const *,godot_int const)) 0 ;
   
@@ -9437,7 +9437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_find_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_find_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_find_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_array const *,godot_variant const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -9450,7 +9450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_find_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_find_last_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_find_last_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_array const *,godot_variant const *) = (godot_int (*)(godot_array const *,godot_variant const *)) 0 ;
   
@@ -9462,7 +9462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_find_last_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_find_last_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_find_last_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_array const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9475,7 +9475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_find_last_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_has_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_has_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_array const *,godot_variant const *) = (godot_bool (*)(godot_array const *,godot_variant const *)) 0 ;
   
@@ -9487,7 +9487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_has_set_godot_5192ef1abe3e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_has_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_has_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_array const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9500,7 +9500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_has_get_godot_5192ef1abe3
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_hash_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_hash_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_array const *) = (godot_int (*)(godot_array const *)) 0 ;
   
@@ -9512,7 +9512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_hash_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_hash_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_hash_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -9525,7 +9525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_hash_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_int const,godot_variant const *) = (void (*)(godot_array *,godot_int const,godot_variant const *)) 0 ;
   
@@ -9537,7 +9537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_insert_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_int const,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9550,7 +9550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_insert_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_invert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_invert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *) = (void (*)(godot_array *)) 0 ;
   
@@ -9562,7 +9562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_invert_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_invert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_invert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *) = 0 ;
   void* _swig_go_result;
@@ -9575,7 +9575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_invert_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_pop_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_pop_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*arg2)(godot_array *) = (godot_variant (*)(godot_array *)) 0 ;
   
@@ -9587,7 +9587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_pop_back_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_pop_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_pop_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*result)(godot_array *) = 0 ;
   void* _swig_go_result;
@@ -9600,7 +9600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_pop_back_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_pop_front_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_pop_front_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*arg2)(godot_array *) = (godot_variant (*)(godot_array *)) 0 ;
   
@@ -9612,7 +9612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_pop_front_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_pop_front_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_pop_front_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*result)(godot_array *) = 0 ;
   void* _swig_go_result;
@@ -9625,7 +9625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_pop_front_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_push_back_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_push_back_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_variant const *) = (void (*)(godot_array *,godot_variant const *)) 0 ;
   
@@ -9637,7 +9637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_push_back_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_push_back_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_push_back_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9650,7 +9650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_push_back_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_push_front_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_push_front_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_variant const *) = (void (*)(godot_array *,godot_variant const *)) 0 ;
   
@@ -9662,7 +9662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_push_front_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_push_front_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_push_front_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -9675,7 +9675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_push_front_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_remove_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_remove_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_int const) = (void (*)(godot_array *,godot_int const)) 0 ;
   
@@ -9687,7 +9687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_remove_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_remove_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_remove_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -9700,7 +9700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_remove_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_resize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_resize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_int const) = (void (*)(godot_array *,godot_int const)) 0 ;
   
@@ -9712,7 +9712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_resize_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_resize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_resize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -9725,7 +9725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_resize_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_rfind_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_rfind_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_array const *,godot_variant const *,godot_int const) = (godot_int (*)(godot_array const *,godot_variant const *,godot_int const)) 0 ;
   
@@ -9737,7 +9737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_rfind_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_rfind_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_rfind_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_array const *,godot_variant const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -9750,7 +9750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_rfind_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_array const *) = (godot_int (*)(godot_array const *)) 0 ;
   
@@ -9762,7 +9762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_size_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -9775,7 +9775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_size_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_sort_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_sort_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *) = (void (*)(godot_array *)) 0 ;
   
@@ -9787,7 +9787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_sort_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_sort_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_sort_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *) = 0 ;
   void* _swig_go_result;
@@ -9800,7 +9800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_sort_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_sort_custom_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_sort_custom_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *,godot_object *,godot_string const *) = (void (*)(godot_array *,godot_object *,godot_string const *)) 0 ;
   
@@ -9812,7 +9812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_sort_custom_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_sort_custom_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_sort_custom_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *,godot_object *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -9825,7 +9825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_sort_custom_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_array *,godot_variant const *,godot_bool const) = (godot_int (*)(godot_array *,godot_variant const *,godot_bool const)) 0 ;
   
@@ -9837,7 +9837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_array *,godot_variant const *,godot_bool const) = 0 ;
   void* _swig_go_result;
@@ -9850,7 +9850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_custom_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_custom_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_array *,godot_variant const *,godot_object *,godot_string const *,godot_bool const) = (godot_int (*)(godot_array *,godot_variant const *,godot_object *,godot_string const *,godot_bool const)) 0 ;
   
@@ -9862,7 +9862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_custom_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_custom_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_custom_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_array *,godot_variant const *,godot_object *,godot_string const *,godot_bool const) = 0 ;
   void* _swig_go_result;
@@ -9875,7 +9875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_bsearch_custom_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_array_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_array_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_array *) = (void (*)(godot_array *)) 0 ;
   
@@ -9887,7 +9887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_array_destroy_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_array_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_array_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_array *) = 0 ;
   void* _swig_go_result;
@@ -9900,7 +9900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_array_destroy_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_dictionary *) = (void (*)(godot_dictionary *)) 0 ;
   
@@ -9912,7 +9912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_dictionary *) = 0 ;
   void* _swig_go_result;
@@ -9925,7 +9925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_dictionary *,godot_dictionary const *) = (void (*)(godot_dictionary *,godot_dictionary const *)) 0 ;
   
@@ -9937,7 +9937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_copy_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_dictionary *,godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -9950,7 +9950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_new_copy_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_dictionary *) = (void (*)(godot_dictionary *)) 0 ;
   
@@ -9962,7 +9962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_destroy_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_dictionary *) = 0 ;
   void* _swig_go_result;
@@ -9975,7 +9975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_destroy_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_dictionary const *) = (godot_int (*)(godot_dictionary const *)) 0 ;
   
@@ -9987,7 +9987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_size_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -10000,7 +10000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_size_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_dictionary const *) = (godot_bool (*)(godot_dictionary const *)) 0 ;
   
@@ -10012,7 +10012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_empty_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -10025,7 +10025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_empty_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_clear_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_clear_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_dictionary *) = (void (*)(godot_dictionary *)) 0 ;
   
@@ -10037,7 +10037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_clear_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_clear_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_clear_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_dictionary *) = 0 ;
   void* _swig_go_result;
@@ -10050,7 +10050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_clear_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_dictionary const *,godot_variant const *) = (godot_bool (*)(godot_dictionary const *,godot_variant const *)) 0 ;
   
@@ -10062,7 +10062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_dictionary const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -10075,7 +10075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_all_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_all_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_dictionary const *,godot_array const *) = (godot_bool (*)(godot_dictionary const *,godot_array const *)) 0 ;
   
@@ -10087,7 +10087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_all_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_all_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_all_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_dictionary const *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -10100,7 +10100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_has_all_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_erase_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_erase_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_dictionary *,godot_variant const *) = (void (*)(godot_dictionary *,godot_variant const *)) 0 ;
   
@@ -10112,7 +10112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_erase_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_erase_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_erase_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_dictionary *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -10125,7 +10125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_erase_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_hash_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_hash_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_dictionary const *) = (godot_int (*)(godot_dictionary const *)) 0 ;
   
@@ -10137,7 +10137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_hash_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_hash_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_hash_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -10150,7 +10150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_hash_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_keys_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_keys_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_dictionary const *) = (godot_array (*)(godot_dictionary const *)) 0 ;
   
@@ -10162,7 +10162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_keys_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_keys_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_keys_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -10175,7 +10175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_keys_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_values_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_values_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_dictionary const *) = (godot_array (*)(godot_dictionary const *)) 0 ;
   
@@ -10187,7 +10187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_values_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_values_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_values_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -10200,7 +10200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_values_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_get_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_get_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*arg2)(godot_dictionary const *,godot_variant const *) = (godot_variant (*)(godot_dictionary const *,godot_variant const *)) 0 ;
   
@@ -10212,7 +10212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_get_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_get_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_get_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*result)(godot_dictionary const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -10225,7 +10225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_get_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_set_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_set_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_dictionary *,godot_variant const *,godot_variant const *) = (void (*)(godot_dictionary *,godot_variant const *,godot_variant const *)) 0 ;
   
@@ -10237,7 +10237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_set_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_set_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_set_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_dictionary *,godot_variant const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -10250,7 +10250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_set_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*arg2)(godot_dictionary *,godot_variant const *) = (godot_variant *(*)(godot_dictionary *,godot_variant const *)) 0 ;
   
@@ -10262,7 +10262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*result)(godot_dictionary *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -10275,7 +10275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_const_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_const_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*arg2)(godot_dictionary const *,godot_variant const *) = (godot_variant *(*)(godot_dictionary const *,godot_variant const *)) 0 ;
   
@@ -10287,7 +10287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_const_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_const_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_const_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*result)(godot_dictionary const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -10300,7 +10300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_index_const
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_next_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_next_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*arg2)(godot_dictionary const *,godot_variant const *) = (godot_variant *(*)(godot_dictionary const *,godot_variant const *)) 0 ;
   
@@ -10312,7 +10312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_next_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_next_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_next_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant *(*result)(godot_dictionary const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -10325,7 +10325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_next_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_dictionary const *,godot_dictionary const *) = (godot_bool (*)(godot_dictionary const *,godot_dictionary const *)) 0 ;
   
@@ -10337,7 +10337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_equal_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_dictionary const *,godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -10350,7 +10350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_operator_equal_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_dictionary_to_json_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_dictionary_to_json_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_dictionary const *) = (godot_string (*)(godot_dictionary const *)) 0 ;
   
@@ -10362,7 +10362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_dictionary_to_json_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_to_json_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_to_json_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -10375,7 +10375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_dictionary_to_json_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_node_path *,godot_string const *) = (void (*)(godot_node_path *,godot_string const *)) 0 ;
   
@@ -10387,7 +10387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_new_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_node_path *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -10400,7 +10400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_new_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_node_path *,godot_node_path const *) = (void (*)(godot_node_path *,godot_node_path const *)) 0 ;
   
@@ -10412,7 +10412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_new_copy_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_node_path *,godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -10425,7 +10425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_new_copy_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_node_path *) = (void (*)(godot_node_path *)) 0 ;
   
@@ -10437,7 +10437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_destroy_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_node_path *) = 0 ;
   void* _swig_go_result;
@@ -10450,7 +10450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_destroy_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_node_path const *) = (godot_string (*)(godot_node_path const *)) 0 ;
   
@@ -10462,7 +10462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_as_string_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -10475,7 +10475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_as_string_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_is_absolute_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_is_absolute_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_node_path const *) = (godot_bool (*)(godot_node_path const *)) 0 ;
   
@@ -10487,7 +10487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_is_absolute_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_is_absolute_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_is_absolute_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -10500,7 +10500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_is_absolute_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_count_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_count_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_node_path const *) = (godot_int (*)(godot_node_path const *)) 0 ;
   
@@ -10512,7 +10512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_count_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_count_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_count_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -10525,7 +10525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_count_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_node_path const *,godot_int const) = (godot_string (*)(godot_node_path const *,godot_int const)) 0 ;
   
@@ -10537,7 +10537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_node_path const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -10550,7 +10550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_name_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_count_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_count_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_node_path const *) = (godot_int (*)(godot_node_path const *)) 0 ;
   
@@ -10562,7 +10562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_count_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_count_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_count_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -10575,7 +10575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_count_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_node_path const *,godot_int const) = (godot_string (*)(godot_node_path const *,godot_int const)) 0 ;
   
@@ -10587,7 +10587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_node_path const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -10600,7 +10600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_subname_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_concatenated_subnames_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_concatenated_subnames_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_node_path const *) = (godot_string (*)(godot_node_path const *)) 0 ;
   
@@ -10612,7 +10612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_get_concatenated_subna
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_concatenated_subnames_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_concatenated_subnames_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -10625,7 +10625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_get_concatenated_subn
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_is_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_is_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_node_path const *) = (godot_bool (*)(godot_node_path const *)) 0 ;
   
@@ -10637,7 +10637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_is_empty_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_is_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_is_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -10650,7 +10650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_is_empty_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_node_path_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_node_path_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_node_path const *,godot_node_path const *) = (godot_bool (*)(godot_node_path const *,godot_node_path const *)) 0 ;
   
@@ -10662,7 +10662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_node_path_operator_equal_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_node_path_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_node_path_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_node_path const *,godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -10675,7 +10675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_node_path_operator_equal_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_reals_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_reals_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_plane *,godot_real const,godot_real const,godot_real const,godot_real const) = (void (*)(godot_plane *,godot_real const,godot_real const,godot_real const,godot_real const)) 0 ;
   
@@ -10687,7 +10687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_reals_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_reals_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_reals_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_plane *,godot_real const,godot_real const,godot_real const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -10700,7 +10700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_reals_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_vectors_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_vectors_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_plane *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *) = (void (*)(godot_plane *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -10712,7 +10712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_vectors_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_vectors_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_vectors_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_plane *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -10725,7 +10725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_vectors_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_normal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_normal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_plane *,godot_vector3 const *,godot_real const) = (void (*)(godot_plane *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -10737,7 +10737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_normal_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_normal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_normal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_plane *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -10750,7 +10750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_new_with_normal_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_plane const *) = (godot_string (*)(godot_plane const *)) 0 ;
   
@@ -10762,7 +10762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_as_string_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -10775,7 +10775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_as_string_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_normalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_normalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*arg2)(godot_plane const *) = (godot_plane (*)(godot_plane const *)) 0 ;
   
@@ -10787,7 +10787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_normalized_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_normalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_normalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*result)(godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -10800,7 +10800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_normalized_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_center_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_center_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_plane const *) = (godot_vector3 (*)(godot_plane const *)) 0 ;
   
@@ -10812,7 +10812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_center_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_center_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_center_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -10825,7 +10825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_center_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_get_any_point_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_get_any_point_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_plane const *) = (godot_vector3 (*)(godot_plane const *)) 0 ;
   
@@ -10837,7 +10837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_get_any_point_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_any_point_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_any_point_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -10850,7 +10850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_any_point_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_is_point_over_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_is_point_over_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_plane const *,godot_vector3 const *) = (godot_bool (*)(godot_plane const *,godot_vector3 const *)) 0 ;
   
@@ -10862,7 +10862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_is_point_over_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_is_point_over_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_is_point_over_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_plane const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -10875,7 +10875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_is_point_over_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_distance_to_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_distance_to_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_plane const *,godot_vector3 const *) = (godot_real (*)(godot_plane const *,godot_vector3 const *)) 0 ;
   
@@ -10887,7 +10887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_distance_to_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_distance_to_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_distance_to_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_plane const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -10900,7 +10900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_distance_to_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_has_point_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_has_point_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_plane const *,godot_vector3 const *,godot_real const) = (godot_bool (*)(godot_plane const *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -10912,7 +10912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_has_point_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_has_point_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_has_point_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_plane const *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -10925,7 +10925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_has_point_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_project_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_project_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_plane const *,godot_vector3 const *) = (godot_vector3 (*)(godot_plane const *,godot_vector3 const *)) 0 ;
   
@@ -10937,7 +10937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_project_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_project_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_project_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_plane const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -10950,7 +10950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_project_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_intersect_3_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_intersect_3_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_plane const *,godot_vector3 *,godot_plane const *,godot_plane const *) = (godot_bool (*)(godot_plane const *,godot_vector3 *,godot_plane const *,godot_plane const *)) 0 ;
   
@@ -10962,7 +10962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_intersect_3_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersect_3_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersect_3_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_plane const *,godot_vector3 *,godot_plane const *,godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -10975,7 +10975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersect_3_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_ray_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_ray_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_plane const *,godot_vector3 *,godot_vector3 const *,godot_vector3 const *) = (godot_bool (*)(godot_plane const *,godot_vector3 *,godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -10987,7 +10987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_ray_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_ray_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_ray_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_plane const *,godot_vector3 *,godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -11000,7 +11000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_ray_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_segment_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_segment_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_plane const *,godot_vector3 *,godot_vector3 const *,godot_vector3 const *) = (godot_bool (*)(godot_plane const *,godot_vector3 *,godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -11012,7 +11012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_segment_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_segment_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_segment_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_plane const *,godot_vector3 *,godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -11025,7 +11025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_intersects_segment_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_operator_neg_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_operator_neg_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*arg2)(godot_plane const *) = (godot_plane (*)(godot_plane const *)) 0 ;
   
@@ -11037,7 +11037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_operator_neg_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_operator_neg_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_operator_neg_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*result)(godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -11050,7 +11050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_operator_neg_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_plane const *,godot_plane const *) = (godot_bool (*)(godot_plane const *,godot_plane const *)) 0 ;
   
@@ -11062,7 +11062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_operator_equal_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_plane const *,godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -11075,7 +11075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_operator_equal_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_set_normal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_set_normal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_plane *,godot_vector3 const *) = (void (*)(godot_plane *,godot_vector3 const *)) 0 ;
   
@@ -11087,7 +11087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_set_normal_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_set_normal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_set_normal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_plane *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -11100,7 +11100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_set_normal_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_get_normal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_get_normal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_plane const *) = (godot_vector3 (*)(godot_plane const *)) 0 ;
   
@@ -11112,7 +11112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_get_normal_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_normal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_normal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -11125,7 +11125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_normal_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_get_d_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_get_d_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_plane const *) = (godot_real (*)(godot_plane const *)) 0 ;
   
@@ -11137,7 +11137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_get_d_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_d_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_d_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -11150,7 +11150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_get_d_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_plane_set_d_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_plane_set_d_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_plane *,godot_real const) = (void (*)(godot_plane *,godot_real const)) 0 ;
   
@@ -11162,7 +11162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_plane_set_d_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_plane_set_d_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_plane_set_d_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_plane *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -11175,7 +11175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_plane_set_d_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_new_with_position_and_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_new_with_position_and_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_rect2 *,godot_vector2 const *,godot_vector2 const *) = (void (*)(godot_rect2 *,godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -11187,7 +11187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_new_with_position_and_size
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_new_with_position_and_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_new_with_position_and_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_rect2 *,godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -11200,7 +11200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_new_with_position_and_siz
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_rect2 *,godot_real const,godot_real const,godot_real const,godot_real const) = (void (*)(godot_rect2 *,godot_real const,godot_real const,godot_real const,godot_real const)) 0 ;
   
@@ -11212,7 +11212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_new_set_godot_5192ef1abe3e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_rect2 *,godot_real const,godot_real const,godot_real const,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -11225,7 +11225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_new_get_godot_5192ef1abe3
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_rect2 const *) = (godot_string (*)(godot_rect2 const *)) 0 ;
   
@@ -11237,7 +11237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_as_string_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11250,7 +11250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_as_string_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_area_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_area_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_rect2 const *) = (godot_real (*)(godot_rect2 const *)) 0 ;
   
@@ -11262,7 +11262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_area_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_area_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_area_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11275,7 +11275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_area_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_intersects_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_intersects_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_rect2 const *,godot_rect2 const *) = (godot_bool (*)(godot_rect2 const *,godot_rect2 const *)) 0 ;
   
@@ -11287,7 +11287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_intersects_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_intersects_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_intersects_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_rect2 const *,godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11300,7 +11300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_intersects_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_encloses_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_encloses_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_rect2 const *,godot_rect2 const *) = (godot_bool (*)(godot_rect2 const *,godot_rect2 const *)) 0 ;
   
@@ -11312,7 +11312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_encloses_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_encloses_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_encloses_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_rect2 const *,godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11325,7 +11325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_encloses_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_has_no_area_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_has_no_area_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_rect2 const *) = (godot_bool (*)(godot_rect2 const *)) 0 ;
   
@@ -11337,7 +11337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_has_no_area_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_has_no_area_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_has_no_area_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11350,7 +11350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_has_no_area_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_clip_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_clip_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*arg2)(godot_rect2 const *,godot_rect2 const *) = (godot_rect2 (*)(godot_rect2 const *,godot_rect2 const *)) 0 ;
   
@@ -11362,7 +11362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_clip_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_clip_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_clip_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*result)(godot_rect2 const *,godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11375,7 +11375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_clip_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_merge_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_merge_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*arg2)(godot_rect2 const *,godot_rect2 const *) = (godot_rect2 (*)(godot_rect2 const *,godot_rect2 const *)) 0 ;
   
@@ -11387,7 +11387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_merge_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_merge_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_merge_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*result)(godot_rect2 const *,godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11400,7 +11400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_merge_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_has_point_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_has_point_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_rect2 const *,godot_vector2 const *) = (godot_bool (*)(godot_rect2 const *,godot_vector2 const *)) 0 ;
   
@@ -11412,7 +11412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_has_point_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_has_point_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_has_point_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_rect2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -11425,7 +11425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_has_point_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_grow_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_grow_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*arg2)(godot_rect2 const *,godot_real const) = (godot_rect2 (*)(godot_rect2 const *,godot_real const)) 0 ;
   
@@ -11437,7 +11437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_grow_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_grow_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_grow_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*result)(godot_rect2 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -11450,7 +11450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_grow_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_expand_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_expand_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*arg2)(godot_rect2 const *,godot_vector2 const *) = (godot_rect2 (*)(godot_rect2 const *,godot_vector2 const *)) 0 ;
   
@@ -11462,7 +11462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_expand_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_expand_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_expand_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*result)(godot_rect2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -11475,7 +11475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_expand_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_rect2 const *,godot_rect2 const *) = (godot_bool (*)(godot_rect2 const *,godot_rect2 const *)) 0 ;
   
@@ -11487,7 +11487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_operator_equal_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_rect2 const *,godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11500,7 +11500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_operator_equal_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_position_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_position_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_rect2 const *) = (godot_vector2 (*)(godot_rect2 const *)) 0 ;
   
@@ -11512,7 +11512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_position_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_position_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_position_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11525,7 +11525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_position_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_rect2 const *) = (godot_vector2 (*)(godot_rect2 const *)) 0 ;
   
@@ -11537,7 +11537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_get_size_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -11550,7 +11550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_get_size_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_set_position_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_set_position_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_rect2 *,godot_vector2 const *) = (void (*)(godot_rect2 *,godot_vector2 const *)) 0 ;
   
@@ -11562,7 +11562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_set_position_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_set_position_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_set_position_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_rect2 *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -11575,7 +11575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_set_position_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rect2_set_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rect2_set_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_rect2 *,godot_vector2 const *) = (void (*)(godot_rect2 *,godot_vector2 const *)) 0 ;
   
@@ -11587,7 +11587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rect2_set_size_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rect2_set_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rect2_set_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_rect2 *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -11600,7 +11600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rect2_set_size_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_aabb *,godot_vector3 const *,godot_vector3 const *) = (void (*)(godot_aabb *,godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -11612,7 +11612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_new_set_godot_5192ef1abe3e0
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_aabb *,godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -11625,7 +11625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_new_get_godot_5192ef1abe3e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_position_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_position_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_aabb const *) = (godot_vector3 (*)(godot_aabb const *)) 0 ;
   
@@ -11637,7 +11637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_position_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_position_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_position_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11650,7 +11650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_position_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_set_position_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_set_position_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_aabb const *,godot_vector3 const *) = (void (*)(godot_aabb const *,godot_vector3 const *)) 0 ;
   
@@ -11662,7 +11662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_set_position_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_set_position_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_set_position_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_aabb const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -11675,7 +11675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_set_position_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_aabb const *) = (godot_vector3 (*)(godot_aabb const *)) 0 ;
   
@@ -11687,7 +11687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_size_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11700,7 +11700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_size_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_set_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_set_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_aabb const *,godot_vector3 const *) = (void (*)(godot_aabb const *,godot_vector3 const *)) 0 ;
   
@@ -11712,7 +11712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_set_size_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_set_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_set_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_aabb const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -11725,7 +11725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_set_size_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_aabb const *) = (godot_string (*)(godot_aabb const *)) 0 ;
   
@@ -11737,7 +11737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_as_string_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11750,7 +11750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_as_string_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_area_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_area_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_aabb const *) = (godot_real (*)(godot_aabb const *)) 0 ;
   
@@ -11762,7 +11762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_area_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_area_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_area_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11775,7 +11775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_area_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_area_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_area_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_aabb const *) = (godot_bool (*)(godot_aabb const *)) 0 ;
   
@@ -11787,7 +11787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_area_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_area_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_area_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11800,7 +11800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_area_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_surface_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_surface_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_aabb const *) = (godot_bool (*)(godot_aabb const *)) 0 ;
   
@@ -11812,7 +11812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_surface_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_surface_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_surface_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11825,7 +11825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_no_surface_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_aabb const *,godot_aabb const *) = (godot_bool (*)(godot_aabb const *,godot_aabb const *)) 0 ;
   
@@ -11837,7 +11837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_aabb const *,godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11850,7 +11850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_encloses_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_encloses_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_aabb const *,godot_aabb const *) = (godot_bool (*)(godot_aabb const *,godot_aabb const *)) 0 ;
   
@@ -11862,7 +11862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_encloses_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_encloses_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_encloses_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_aabb const *,godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11875,7 +11875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_encloses_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_merge_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_merge_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*arg2)(godot_aabb const *,godot_aabb const *) = (godot_aabb (*)(godot_aabb const *,godot_aabb const *)) 0 ;
   
@@ -11887,7 +11887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_merge_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_merge_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_merge_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*result)(godot_aabb const *,godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11900,7 +11900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_merge_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersection_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersection_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*arg2)(godot_aabb const *,godot_aabb const *) = (godot_aabb (*)(godot_aabb const *,godot_aabb const *)) 0 ;
   
@@ -11912,7 +11912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersection_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersection_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersection_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*result)(godot_aabb const *,godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -11925,7 +11925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersection_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_plane_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_plane_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_aabb const *,godot_plane const *) = (godot_bool (*)(godot_aabb const *,godot_plane const *)) 0 ;
   
@@ -11937,7 +11937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_plane_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_plane_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_plane_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_aabb const *,godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -11950,7 +11950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_plane_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_segment_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_segment_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_aabb const *,godot_vector3 const *,godot_vector3 const *) = (godot_bool (*)(godot_aabb const *,godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -11962,7 +11962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_segment_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_segment_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_segment_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_aabb const *,godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -11975,7 +11975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_intersects_segment_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_point_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_point_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_aabb const *,godot_vector3 const *) = (godot_bool (*)(godot_aabb const *,godot_vector3 const *)) 0 ;
   
@@ -11987,7 +11987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_has_point_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_point_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_point_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_aabb const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12000,7 +12000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_has_point_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_support_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_support_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_aabb const *,godot_vector3 const *) = (godot_vector3 (*)(godot_aabb const *,godot_vector3 const *)) 0 ;
   
@@ -12012,7 +12012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_support_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_support_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_support_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_aabb const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12025,7 +12025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_support_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_aabb const *) = (godot_vector3 (*)(godot_aabb const *)) 0 ;
   
@@ -12037,7 +12037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12050,7 +12050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_index_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_index_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_aabb const *) = (godot_int (*)(godot_aabb const *)) 0 ;
   
@@ -12062,7 +12062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_index_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_index_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_index_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12075,7 +12075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_index_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_aabb const *) = (godot_real (*)(godot_aabb const *)) 0 ;
   
@@ -12087,7 +12087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_size_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12100,7 +12100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_longest_axis_size_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_aabb const *) = (godot_vector3 (*)(godot_aabb const *)) 0 ;
   
@@ -12112,7 +12112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12125,7 +12125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_index_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_index_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_aabb const *) = (godot_int (*)(godot_aabb const *)) 0 ;
   
@@ -12137,7 +12137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_index_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_index_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_index_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12150,7 +12150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_index_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_aabb const *) = (godot_real (*)(godot_aabb const *)) 0 ;
   
@@ -12162,7 +12162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_size_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12175,7 +12175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_shortest_axis_size_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_expand_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_expand_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*arg2)(godot_aabb const *,godot_vector3 const *) = (godot_aabb (*)(godot_aabb const *,godot_vector3 const *)) 0 ;
   
@@ -12187,7 +12187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_expand_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_expand_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_expand_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*result)(godot_aabb const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12200,7 +12200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_expand_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_grow_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_grow_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*arg2)(godot_aabb const *,godot_real const) = (godot_aabb (*)(godot_aabb const *,godot_real const)) 0 ;
   
@@ -12212,7 +12212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_grow_set_godot_5192ef1abe3e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_grow_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_grow_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*result)(godot_aabb const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -12225,7 +12225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_grow_get_godot_5192ef1abe3
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_endpoint_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_endpoint_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_aabb const *,godot_int const) = (godot_vector3 (*)(godot_aabb const *,godot_int const)) 0 ;
   
@@ -12237,7 +12237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_get_endpoint_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_endpoint_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_endpoint_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_aabb const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -12250,7 +12250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_get_endpoint_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_aabb_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_aabb_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_aabb const *,godot_aabb const *) = (godot_bool (*)(godot_aabb const *,godot_aabb const *)) 0 ;
   
@@ -12262,7 +12262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_aabb_operator_equal_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_aabb_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_aabb_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_aabb const *,godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12275,7 +12275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_aabb_operator_equal_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rid_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rid_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_rid *) = (void (*)(godot_rid *)) 0 ;
   
@@ -12287,7 +12287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rid_new_set_godot_5192ef1abe3e06
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rid_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rid_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_rid *) = 0 ;
   void* _swig_go_result;
@@ -12300,7 +12300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rid_new_get_godot_5192ef1abe3e0
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rid_get_id_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rid_get_id_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_rid const *) = (godot_int (*)(godot_rid const *)) 0 ;
   
@@ -12312,7 +12312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rid_get_id_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rid_get_id_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rid_get_id_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_rid const *) = 0 ;
   void* _swig_go_result;
@@ -12325,7 +12325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rid_get_id_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rid_new_with_resource_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rid_new_with_resource_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_rid *,godot_object const *) = (void (*)(godot_rid *,godot_object const *)) 0 ;
   
@@ -12337,7 +12337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rid_new_with_resource_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rid_new_with_resource_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rid_new_with_resource_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_rid *,godot_object const *) = 0 ;
   void* _swig_go_result;
@@ -12350,7 +12350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rid_new_with_resource_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rid_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rid_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_rid const *,godot_rid const *) = (godot_bool (*)(godot_rid const *,godot_rid const *)) 0 ;
   
@@ -12362,7 +12362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rid_operator_equal_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rid_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rid_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_rid const *,godot_rid const *) = 0 ;
   void* _swig_go_result;
@@ -12375,7 +12375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rid_operator_equal_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_rid_operator_less_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_rid_operator_less_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_rid const *,godot_rid const *) = (godot_bool (*)(godot_rid const *,godot_rid const *)) 0 ;
   
@@ -12387,7 +12387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_rid_operator_less_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_rid_operator_less_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_rid_operator_less_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_rid const *,godot_rid const *) = 0 ;
   void* _swig_go_result;
@@ -12400,7 +12400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_rid_operator_less_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_new_with_axis_origin_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_new_with_axis_origin_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_transform *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *) = (void (*)(godot_transform *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -12412,7 +12412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_new_with_axis_origin_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_with_axis_origin_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_with_axis_origin_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_transform *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12425,7 +12425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_with_axis_origin_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_transform *,godot_basis const *,godot_vector3 const *) = (void (*)(godot_transform *,godot_basis const *,godot_vector3 const *)) 0 ;
   
@@ -12437,7 +12437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_new_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_transform *,godot_basis const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12450,7 +12450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_get_basis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_get_basis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_transform const *) = (godot_basis (*)(godot_transform const *)) 0 ;
   
@@ -12462,7 +12462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_get_basis_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_get_basis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_get_basis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -12475,7 +12475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_get_basis_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_set_basis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_set_basis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_transform *,godot_basis *) = (void (*)(godot_transform *,godot_basis *)) 0 ;
   
@@ -12487,7 +12487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_set_basis_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_set_basis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_set_basis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_transform *,godot_basis *) = 0 ;
   void* _swig_go_result;
@@ -12500,7 +12500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_set_basis_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_get_origin_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_get_origin_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_transform const *) = (godot_vector3 (*)(godot_transform const *)) 0 ;
   
@@ -12512,7 +12512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_get_origin_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_get_origin_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_get_origin_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -12525,7 +12525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_get_origin_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_set_origin_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_set_origin_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_transform *,godot_vector3 *) = (void (*)(godot_transform *,godot_vector3 *)) 0 ;
   
@@ -12537,7 +12537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_set_origin_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_set_origin_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_set_origin_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_transform *,godot_vector3 *) = 0 ;
   void* _swig_go_result;
@@ -12550,7 +12550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_set_origin_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_transform const *) = (godot_string (*)(godot_transform const *)) 0 ;
   
@@ -12562,7 +12562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_as_string_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -12575,7 +12575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_as_string_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_inverse_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_inverse_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_transform const *) = (godot_transform (*)(godot_transform const *)) 0 ;
   
@@ -12587,7 +12587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_inverse_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_inverse_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_inverse_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -12600,7 +12600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_inverse_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_affine_inverse_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_affine_inverse_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_transform const *) = (godot_transform (*)(godot_transform const *)) 0 ;
   
@@ -12612,7 +12612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_affine_inverse_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_affine_inverse_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_affine_inverse_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -12625,7 +12625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_affine_inverse_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_orthonormalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_orthonormalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_transform const *) = (godot_transform (*)(godot_transform const *)) 0 ;
   
@@ -12637,7 +12637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_orthonormalized_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_orthonormalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_orthonormalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -12650,7 +12650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_orthonormalized_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_rotated_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_rotated_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_transform const *,godot_vector3 const *,godot_real const) = (godot_transform (*)(godot_transform const *,godot_vector3 const *,godot_real const)) 0 ;
   
@@ -12662,7 +12662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_rotated_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_rotated_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_rotated_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_transform const *,godot_vector3 const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -12675,7 +12675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_rotated_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_scaled_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_scaled_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_transform const *,godot_vector3 const *) = (godot_transform (*)(godot_transform const *,godot_vector3 const *)) 0 ;
   
@@ -12687,7 +12687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_scaled_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_scaled_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_scaled_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_transform const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12700,7 +12700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_scaled_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_translated_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_translated_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_transform const *,godot_vector3 const *) = (godot_transform (*)(godot_transform const *,godot_vector3 const *)) 0 ;
   
@@ -12712,7 +12712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_translated_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_translated_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_translated_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_transform const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12725,7 +12725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_translated_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_looking_at_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_looking_at_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_transform const *,godot_vector3 const *,godot_vector3 const *) = (godot_transform (*)(godot_transform const *,godot_vector3 const *,godot_vector3 const *)) 0 ;
   
@@ -12737,7 +12737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_looking_at_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_looking_at_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_looking_at_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_transform const *,godot_vector3 const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12750,7 +12750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_looking_at_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_plane_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_plane_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*arg2)(godot_transform const *,godot_plane const *) = (godot_plane (*)(godot_transform const *,godot_plane const *)) 0 ;
   
@@ -12762,7 +12762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_plane_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_plane_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_plane_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*result)(godot_transform const *,godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -12775,7 +12775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_plane_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_plane_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_plane_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*arg2)(godot_transform const *,godot_plane const *) = (godot_plane (*)(godot_transform const *,godot_plane const *)) 0 ;
   
@@ -12787,7 +12787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_plane_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_plane_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_plane_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*result)(godot_transform const *,godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -12800,7 +12800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_plane_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_new_identity_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_new_identity_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_transform *) = (void (*)(godot_transform *)) 0 ;
   
@@ -12812,7 +12812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_new_identity_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_identity_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_identity_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_transform *) = 0 ;
   void* _swig_go_result;
@@ -12825,7 +12825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_new_identity_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_transform const *,godot_transform const *) = (godot_bool (*)(godot_transform const *,godot_transform const *)) 0 ;
   
@@ -12837,7 +12837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_operator_equal_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_transform const *,godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -12850,7 +12850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_operator_equal_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_operator_multiply_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_operator_multiply_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_transform const *,godot_transform const *) = (godot_transform (*)(godot_transform const *,godot_transform const *)) 0 ;
   
@@ -12862,7 +12862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_operator_multiply_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_operator_multiply_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_operator_multiply_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_transform const *,godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -12875,7 +12875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_operator_multiply_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_vector3_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_vector3_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_transform const *,godot_vector3 const *) = (godot_vector3 (*)(godot_transform const *,godot_vector3 const *)) 0 ;
   
@@ -12887,7 +12887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_vector3_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_vector3_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_vector3_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_transform const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12900,7 +12900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_vector3_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_vector3_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_vector3_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_transform const *,godot_vector3 const *) = (godot_vector3 (*)(godot_transform const *,godot_vector3 const *)) 0 ;
   
@@ -12912,7 +12912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_vector3_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_vector3_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_vector3_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_transform const *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -12925,7 +12925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_vector3_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_aabb_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_aabb_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*arg2)(godot_transform const *,godot_aabb const *) = (godot_aabb (*)(godot_transform const *,godot_aabb const *)) 0 ;
   
@@ -12937,7 +12937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_aabb_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_aabb_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_aabb_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*result)(godot_transform const *,godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12950,7 +12950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_aabb_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_aabb_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_aabb_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*arg2)(godot_transform const *,godot_aabb const *) = (godot_aabb (*)(godot_transform const *,godot_aabb const *)) 0 ;
   
@@ -12962,7 +12962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_aabb_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_aabb_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_aabb_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*result)(godot_transform const *,godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -12975,7 +12975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform_xform_inv_aabb_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_transform2d *,godot_real const,godot_vector2 const *) = (void (*)(godot_transform2d *,godot_real const,godot_vector2 const *)) 0 ;
   
@@ -12987,7 +12987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_transform2d *,godot_real const,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13000,7 +13000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_axis_origin_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_axis_origin_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_transform2d *,godot_vector2 const *,godot_vector2 const *,godot_vector2 const *) = (void (*)(godot_transform2d *,godot_vector2 const *,godot_vector2 const *,godot_vector2 const *)) 0 ;
   
@@ -13012,7 +13012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_axis_origin_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_axis_origin_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_axis_origin_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_transform2d *,godot_vector2 const *,godot_vector2 const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13025,7 +13025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_axis_origin_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_transform2d const *) = (godot_string (*)(godot_transform2d const *)) 0 ;
   
@@ -13037,7 +13037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_as_string_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13050,7 +13050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_as_string_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_inverse_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_inverse_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_transform2d const *) = (godot_transform2d (*)(godot_transform2d const *)) 0 ;
   
@@ -13062,7 +13062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_inverse_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_inverse_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_inverse_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13075,7 +13075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_inverse_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_affine_inverse_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_affine_inverse_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_transform2d const *) = (godot_transform2d (*)(godot_transform2d const *)) 0 ;
   
@@ -13087,7 +13087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_affine_inverse_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_affine_inverse_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_affine_inverse_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13100,7 +13100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_affine_inverse_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_rotation_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_rotation_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_transform2d const *) = (godot_real (*)(godot_transform2d const *)) 0 ;
   
@@ -13112,7 +13112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_rotation_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_rotation_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_rotation_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13125,7 +13125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_rotation_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_origin_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_origin_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_transform2d const *) = (godot_vector2 (*)(godot_transform2d const *)) 0 ;
   
@@ -13137,7 +13137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_origin_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_origin_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_origin_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13150,7 +13150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_origin_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_scale_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_scale_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_transform2d const *) = (godot_vector2 (*)(godot_transform2d const *)) 0 ;
   
@@ -13162,7 +13162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_scale_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_scale_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_scale_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13175,7 +13175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_get_scale_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_orthonormalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_orthonormalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_transform2d const *) = (godot_transform2d (*)(godot_transform2d const *)) 0 ;
   
@@ -13187,7 +13187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_orthonormalized_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_orthonormalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_orthonormalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13200,7 +13200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_orthonormalized_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_rotated_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_rotated_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_transform2d const *,godot_real const) = (godot_transform2d (*)(godot_transform2d const *,godot_real const)) 0 ;
   
@@ -13212,7 +13212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_rotated_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_rotated_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_rotated_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_transform2d const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -13225,7 +13225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_rotated_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_scaled_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_scaled_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_transform2d const *,godot_vector2 const *) = (godot_transform2d (*)(godot_transform2d const *,godot_vector2 const *)) 0 ;
   
@@ -13237,7 +13237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_scaled_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_scaled_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_scaled_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_transform2d const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13250,7 +13250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_scaled_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_translated_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_translated_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_transform2d const *,godot_vector2 const *) = (godot_transform2d (*)(godot_transform2d const *,godot_vector2 const *)) 0 ;
   
@@ -13262,7 +13262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_translated_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_translated_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_translated_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_transform2d const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13275,7 +13275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_translated_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_vector2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_vector2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_transform2d const *,godot_vector2 const *) = (godot_vector2 (*)(godot_transform2d const *,godot_vector2 const *)) 0 ;
   
@@ -13287,7 +13287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_vector2_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_vector2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_vector2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_transform2d const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13300,7 +13300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_vector2_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_vector2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_vector2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_transform2d const *,godot_vector2 const *) = (godot_vector2 (*)(godot_transform2d const *,godot_vector2 const *)) 0 ;
   
@@ -13312,7 +13312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_vector2_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_vector2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_vector2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_transform2d const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13325,7 +13325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_vector2_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_vector2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_vector2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_transform2d const *,godot_vector2 const *) = (godot_vector2 (*)(godot_transform2d const *,godot_vector2 const *)) 0 ;
   
@@ -13337,7 +13337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_vector2_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_vector2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_vector2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_transform2d const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13350,7 +13350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_vector2
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_inv_vector2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_inv_vector2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_transform2d const *,godot_vector2 const *) = (godot_vector2 (*)(godot_transform2d const *,godot_vector2 const *)) 0 ;
   
@@ -13362,7 +13362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_inv_vect
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_inv_vector2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_inv_vector2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_transform2d const *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13375,7 +13375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_basis_xform_inv_vec
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_interpolate_with_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_interpolate_with_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_transform2d const *,godot_transform2d const *,godot_real const) = (godot_transform2d (*)(godot_transform2d const *,godot_transform2d const *,godot_real const)) 0 ;
   
@@ -13387,7 +13387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_interpolate_with_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_interpolate_with_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_interpolate_with_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_transform2d const *,godot_transform2d const *,godot_real const) = 0 ;
   void* _swig_go_result;
@@ -13400,7 +13400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_interpolate_with_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_transform2d const *,godot_transform2d const *) = (godot_bool (*)(godot_transform2d const *,godot_transform2d const *)) 0 ;
   
@@ -13412,7 +13412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_equal_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_transform2d const *,godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13425,7 +13425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_equal_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_multiply_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_multiply_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_transform2d const *,godot_transform2d const *) = (godot_transform2d (*)(godot_transform2d const *,godot_transform2d const *)) 0 ;
   
@@ -13437,7 +13437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_multiply_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_multiply_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_multiply_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_transform2d const *,godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13450,7 +13450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_operator_multiply_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_identity_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_identity_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_transform2d *) = (void (*)(godot_transform2d *)) 0 ;
   
@@ -13462,7 +13462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_identity_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_identity_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_identity_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_transform2d *) = 0 ;
   void* _swig_go_result;
@@ -13475,7 +13475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_new_identity_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_rect2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_rect2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*arg2)(godot_transform2d const *,godot_rect2 const *) = (godot_rect2 (*)(godot_transform2d const *,godot_rect2 const *)) 0 ;
   
@@ -13487,7 +13487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_rect2_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_rect2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_rect2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*result)(godot_transform2d const *,godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -13500,7 +13500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_rect2_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_rect2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_rect2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*arg2)(godot_transform2d const *,godot_rect2 const *) = (godot_rect2 (*)(godot_transform2d const *,godot_rect2 const *)) 0 ;
   
@@ -13512,7 +13512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_rect2_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_rect2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_rect2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*result)(godot_transform2d const *,godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -13525,7 +13525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_transform2d_xform_inv_rect2_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_get_type_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_get_type_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant_type (*arg2)(godot_variant const *) = (godot_variant_type (*)(godot_variant const *)) 0 ;
   
@@ -13537,7 +13537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_get_type_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_get_type_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_get_type_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant_type (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -13550,7 +13550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_get_type_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_variant const *) = (void (*)(godot_variant *,godot_variant const *)) 0 ;
   
@@ -13562,7 +13562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_copy_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -13575,7 +13575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_copy_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_nil_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_nil_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *) = (void (*)(godot_variant *)) 0 ;
   
@@ -13587,7 +13587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_nil_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_nil_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_nil_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *) = 0 ;
   void* _swig_go_result;
@@ -13600,7 +13600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_nil_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_bool_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_bool_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_bool const) = (void (*)(godot_variant *,godot_bool const)) 0 ;
   
@@ -13612,7 +13612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_bool_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_bool_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_bool_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_bool const) = 0 ;
   void* _swig_go_result;
@@ -13625,7 +13625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_bool_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_uint_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_uint_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,uint64_t const) = (void (*)(godot_variant *,uint64_t const)) 0 ;
   
@@ -13637,7 +13637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_uint_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_uint_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_uint_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,uint64_t const) = 0 ;
   void* _swig_go_result;
@@ -13650,7 +13650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_uint_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_int_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_int_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,int64_t const) = (void (*)(godot_variant *,int64_t const)) 0 ;
   
@@ -13662,7 +13662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_int_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_int_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_int_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,int64_t const) = 0 ;
   void* _swig_go_result;
@@ -13675,7 +13675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_int_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_real_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_real_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,double const) = (void (*)(godot_variant *,double const)) 0 ;
   
@@ -13687,7 +13687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_real_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_real_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_real_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,double const) = 0 ;
   void* _swig_go_result;
@@ -13700,7 +13700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_real_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_string const *) = (void (*)(godot_variant *,godot_string const *)) 0 ;
   
@@ -13712,7 +13712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_string_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -13725,7 +13725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_string_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_vector2 const *) = (void (*)(godot_variant *,godot_vector2 const *)) 0 ;
   
@@ -13737,7 +13737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector2_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_vector2 const *) = 0 ;
   void* _swig_go_result;
@@ -13750,7 +13750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector2_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_rect2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_rect2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_rect2 const *) = (void (*)(godot_variant *,godot_rect2 const *)) 0 ;
   
@@ -13762,7 +13762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_rect2_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_rect2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_rect2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_rect2 const *) = 0 ;
   void* _swig_go_result;
@@ -13775,7 +13775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_rect2_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector3_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector3_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_vector3 const *) = (void (*)(godot_variant *,godot_vector3 const *)) 0 ;
   
@@ -13787,7 +13787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector3_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector3_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector3_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_vector3 const *) = 0 ;
   void* _swig_go_result;
@@ -13800,7 +13800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_vector3_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform2d_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform2d_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_transform2d const *) = (void (*)(godot_variant *,godot_transform2d const *)) 0 ;
   
@@ -13812,7 +13812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform2d_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform2d_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform2d_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_transform2d const *) = 0 ;
   void* _swig_go_result;
@@ -13825,7 +13825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform2d_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_plane_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_plane_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_plane const *) = (void (*)(godot_variant *,godot_plane const *)) 0 ;
   
@@ -13837,7 +13837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_plane_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_plane_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_plane_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_plane const *) = 0 ;
   void* _swig_go_result;
@@ -13850,7 +13850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_plane_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_quat_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_quat_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_quat const *) = (void (*)(godot_variant *,godot_quat const *)) 0 ;
   
@@ -13862,7 +13862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_quat_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_quat_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_quat_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_quat const *) = 0 ;
   void* _swig_go_result;
@@ -13875,7 +13875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_quat_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_aabb_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_aabb_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_aabb const *) = (void (*)(godot_variant *,godot_aabb const *)) 0 ;
   
@@ -13887,7 +13887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_aabb_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_aabb_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_aabb_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_aabb const *) = 0 ;
   void* _swig_go_result;
@@ -13900,7 +13900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_aabb_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_basis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_basis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_basis const *) = (void (*)(godot_variant *,godot_basis const *)) 0 ;
   
@@ -13912,7 +13912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_basis_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_basis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_basis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_basis const *) = 0 ;
   void* _swig_go_result;
@@ -13925,7 +13925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_basis_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_transform const *) = (void (*)(godot_variant *,godot_transform const *)) 0 ;
   
@@ -13937,7 +13937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_transform const *) = 0 ;
   void* _swig_go_result;
@@ -13950,7 +13950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_transform_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_color_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_color_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_color const *) = (void (*)(godot_variant *,godot_color const *)) 0 ;
   
@@ -13962,7 +13962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_color_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_color_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_color_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_color const *) = 0 ;
   void* _swig_go_result;
@@ -13975,7 +13975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_color_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_node_path_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_node_path_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_node_path const *) = (void (*)(godot_variant *,godot_node_path const *)) 0 ;
   
@@ -13987,7 +13987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_node_path_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_node_path_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_node_path_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_node_path const *) = 0 ;
   void* _swig_go_result;
@@ -14000,7 +14000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_node_path_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_rid_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_rid_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_rid const *) = (void (*)(godot_variant *,godot_rid const *)) 0 ;
   
@@ -14012,7 +14012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_rid_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_rid_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_rid_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_rid const *) = 0 ;
   void* _swig_go_result;
@@ -14025,7 +14025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_rid_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_object_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_object_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_object const *) = (void (*)(godot_variant *,godot_object const *)) 0 ;
   
@@ -14037,7 +14037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_object_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_object_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_object_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_object const *) = 0 ;
   void* _swig_go_result;
@@ -14050,7 +14050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_object_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_dictionary_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_dictionary_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_dictionary const *) = (void (*)(godot_variant *,godot_dictionary const *)) 0 ;
   
@@ -14062,7 +14062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_dictionary_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_dictionary_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_dictionary_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_dictionary const *) = 0 ;
   void* _swig_go_result;
@@ -14075,7 +14075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_dictionary_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_array const *) = (void (*)(godot_variant *,godot_array const *)) 0 ;
   
@@ -14087,7 +14087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_array_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -14100,7 +14100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_array_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_byte_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_byte_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_pool_byte_array const *) = (void (*)(godot_variant *,godot_pool_byte_array const *)) 0 ;
   
@@ -14112,7 +14112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_byte_array_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_byte_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_byte_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_pool_byte_array const *) = 0 ;
   void* _swig_go_result;
@@ -14125,7 +14125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_byte_array_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_int_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_int_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_pool_int_array const *) = (void (*)(godot_variant *,godot_pool_int_array const *)) 0 ;
   
@@ -14137,7 +14137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_int_array_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_int_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_int_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_pool_int_array const *) = 0 ;
   void* _swig_go_result;
@@ -14150,7 +14150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_int_array_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_real_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_real_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_pool_real_array const *) = (void (*)(godot_variant *,godot_pool_real_array const *)) 0 ;
   
@@ -14162,7 +14162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_real_array_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_real_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_real_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_pool_real_array const *) = 0 ;
   void* _swig_go_result;
@@ -14175,7 +14175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_real_array_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_string_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_string_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_pool_string_array const *) = (void (*)(godot_variant *,godot_pool_string_array const *)) 0 ;
   
@@ -14187,7 +14187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_string_array_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_string_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_string_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_pool_string_array const *) = 0 ;
   void* _swig_go_result;
@@ -14200,7 +14200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_string_array_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector2_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector2_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_pool_vector2_array const *) = (void (*)(godot_variant *,godot_pool_vector2_array const *)) 0 ;
   
@@ -14212,7 +14212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector2_array_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector2_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector2_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_pool_vector2_array const *) = 0 ;
   void* _swig_go_result;
@@ -14225,7 +14225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector2_array_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector3_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector3_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_pool_vector3_array const *) = (void (*)(godot_variant *,godot_pool_vector3_array const *)) 0 ;
   
@@ -14237,7 +14237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector3_array_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector3_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector3_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_pool_vector3_array const *) = 0 ;
   void* _swig_go_result;
@@ -14250,7 +14250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_vector3_array_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_color_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_color_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *,godot_pool_color_array const *) = (void (*)(godot_variant *,godot_pool_color_array const *)) 0 ;
   
@@ -14262,7 +14262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_color_array_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_color_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_color_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *,godot_pool_color_array const *) = 0 ;
   void* _swig_go_result;
@@ -14275,7 +14275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_new_pool_color_array_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_bool_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_bool_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_variant const *) = (godot_bool (*)(godot_variant const *)) 0 ;
   
@@ -14287,7 +14287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_bool_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_bool_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_bool_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14300,7 +14300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_bool_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_uint_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_uint_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint64_t (*arg2)(godot_variant const *) = (uint64_t (*)(godot_variant const *)) 0 ;
   
@@ -14312,7 +14312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_uint_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_uint_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_uint_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint64_t (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14325,7 +14325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_uint_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_int_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_int_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*arg2)(godot_variant const *) = (int64_t (*)(godot_variant const *)) 0 ;
   
@@ -14337,7 +14337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_int_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_int_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_int_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14350,7 +14350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_int_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_real_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_real_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   double (*arg2)(godot_variant const *) = (double (*)(godot_variant const *)) 0 ;
   
@@ -14362,7 +14362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_real_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_real_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_real_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   double (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14375,7 +14375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_real_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_string_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_string_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_variant const *) = (godot_string (*)(godot_variant const *)) 0 ;
   
@@ -14387,7 +14387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_string_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_string_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_string_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14400,7 +14400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_string_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*arg2)(godot_variant const *) = (godot_vector2 (*)(godot_variant const *)) 0 ;
   
@@ -14412,7 +14412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector2_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector2 (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14425,7 +14425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector2_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_rect2_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_rect2_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*arg2)(godot_variant const *) = (godot_rect2 (*)(godot_variant const *)) 0 ;
   
@@ -14437,7 +14437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_rect2_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_rect2_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_rect2_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rect2 (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14450,7 +14450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_rect2_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector3_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector3_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*arg2)(godot_variant const *) = (godot_vector3 (*)(godot_variant const *)) 0 ;
   
@@ -14462,7 +14462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector3_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector3_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector3_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_vector3 (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14475,7 +14475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_vector3_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform2d_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform2d_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*arg2)(godot_variant const *) = (godot_transform2d (*)(godot_variant const *)) 0 ;
   
@@ -14487,7 +14487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform2d_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform2d_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform2d_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform2d (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14500,7 +14500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform2d_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_plane_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_plane_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*arg2)(godot_variant const *) = (godot_plane (*)(godot_variant const *)) 0 ;
   
@@ -14512,7 +14512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_plane_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_plane_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_plane_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_plane (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14525,7 +14525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_plane_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_quat_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_quat_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*arg2)(godot_variant const *) = (godot_quat (*)(godot_variant const *)) 0 ;
   
@@ -14537,7 +14537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_quat_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_quat_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_quat_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_quat (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14550,7 +14550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_quat_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_aabb_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_aabb_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*arg2)(godot_variant const *) = (godot_aabb (*)(godot_variant const *)) 0 ;
   
@@ -14562,7 +14562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_aabb_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_aabb_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_aabb_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_aabb (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14575,7 +14575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_aabb_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_basis_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_basis_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*arg2)(godot_variant const *) = (godot_basis (*)(godot_variant const *)) 0 ;
   
@@ -14587,7 +14587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_basis_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_basis_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_basis_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_basis (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14600,7 +14600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_basis_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*arg2)(godot_variant const *) = (godot_transform (*)(godot_variant const *)) 0 ;
   
@@ -14612,7 +14612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_transform (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14625,7 +14625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_transform_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_color_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_color_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*arg2)(godot_variant const *) = (godot_color (*)(godot_variant const *)) 0 ;
   
@@ -14637,7 +14637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_color_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_color_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_color_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_color (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14650,7 +14650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_color_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_node_path_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_node_path_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_node_path (*arg2)(godot_variant const *) = (godot_node_path (*)(godot_variant const *)) 0 ;
   
@@ -14662,7 +14662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_node_path_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_node_path_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_node_path_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_node_path (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14675,7 +14675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_node_path_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_rid_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_rid_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rid (*arg2)(godot_variant const *) = (godot_rid (*)(godot_variant const *)) 0 ;
   
@@ -14687,7 +14687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_rid_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_rid_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_rid_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_rid (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14700,7 +14700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_rid_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_object_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_object_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_object *(*arg2)(godot_variant const *) = (godot_object *(*)(godot_variant const *)) 0 ;
   
@@ -14712,7 +14712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_object_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_object_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_object_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_object *(*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14725,7 +14725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_object_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_dictionary_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_dictionary_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_dictionary (*arg2)(godot_variant const *) = (godot_dictionary (*)(godot_variant const *)) 0 ;
   
@@ -14737,7 +14737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_dictionary_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_dictionary_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_dictionary_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_dictionary (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14750,7 +14750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_dictionary_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_variant const *) = (godot_array (*)(godot_variant const *)) 0 ;
   
@@ -14762,7 +14762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_array_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14775,7 +14775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_array_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_byte_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_byte_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array (*arg2)(godot_variant const *) = (godot_pool_byte_array (*)(godot_variant const *)) 0 ;
   
@@ -14787,7 +14787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_byte_array_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_byte_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_byte_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14800,7 +14800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_byte_array_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_int_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_int_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_int_array (*arg2)(godot_variant const *) = (godot_pool_int_array (*)(godot_variant const *)) 0 ;
   
@@ -14812,7 +14812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_int_array_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_int_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_int_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_int_array (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14825,7 +14825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_int_array_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_real_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_real_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_real_array (*arg2)(godot_variant const *) = (godot_pool_real_array (*)(godot_variant const *)) 0 ;
   
@@ -14837,7 +14837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_real_array_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_real_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_real_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_real_array (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14850,7 +14850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_real_array_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_string_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_string_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_string_array (*arg2)(godot_variant const *) = (godot_pool_string_array (*)(godot_variant const *)) 0 ;
   
@@ -14862,7 +14862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_string_array_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_string_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_string_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_string_array (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14875,7 +14875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_string_array_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector2_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector2_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector2_array (*arg2)(godot_variant const *) = (godot_pool_vector2_array (*)(godot_variant const *)) 0 ;
   
@@ -14887,7 +14887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector2_array_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector2_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector2_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector2_array (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14900,7 +14900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector2_array_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector3_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector3_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector3_array (*arg2)(godot_variant const *) = (godot_pool_vector3_array (*)(godot_variant const *)) 0 ;
   
@@ -14912,7 +14912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector3_array_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector3_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector3_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_vector3_array (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14925,7 +14925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_vector3_array_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_color_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_color_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_color_array (*arg2)(godot_variant const *) = (godot_pool_color_array (*)(godot_variant const *)) 0 ;
   
@@ -14937,7 +14937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_color_array_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_color_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_color_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_color_array (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -14950,7 +14950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_as_pool_color_array_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_call_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_call_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*arg2)(godot_variant *,godot_string const *,godot_variant const **,godot_int const,godot_variant_call_error *) = (godot_variant (*)(godot_variant *,godot_string const *,godot_variant const **,godot_int const,godot_variant_call_error *)) 0 ;
   
@@ -14962,7 +14962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_call_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_call_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_call_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*result)(godot_variant *,godot_string const *,godot_variant const **,godot_int const,godot_variant_call_error *) = 0 ;
   void* _swig_go_result;
@@ -14975,7 +14975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_call_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_has_method_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_has_method_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_variant const *,godot_string const *) = (godot_bool (*)(godot_variant const *,godot_string const *)) 0 ;
   
@@ -14987,7 +14987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_has_method_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_has_method_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_has_method_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_variant const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15000,7 +15000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_has_method_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_variant const *,godot_variant const *) = (godot_bool (*)(godot_variant const *,godot_variant const *)) 0 ;
   
@@ -15012,7 +15012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_operator_equal_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_variant const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -15025,7 +15025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_operator_equal_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_operator_less_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_operator_less_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_variant const *,godot_variant const *) = (godot_bool (*)(godot_variant const *,godot_variant const *)) 0 ;
   
@@ -15037,7 +15037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_operator_less_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_operator_less_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_operator_less_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_variant const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -15050,7 +15050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_operator_less_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_hash_compare_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_hash_compare_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_variant const *,godot_variant const *) = (godot_bool (*)(godot_variant const *,godot_variant const *)) 0 ;
   
@@ -15062,7 +15062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_hash_compare_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_hash_compare_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_hash_compare_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_variant const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -15075,7 +15075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_hash_compare_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_booleanize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_booleanize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_variant const *) = (godot_bool (*)(godot_variant const *)) 0 ;
   
@@ -15087,7 +15087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_booleanize_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_booleanize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_booleanize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -15100,7 +15100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_booleanize_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_variant_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_variant_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_variant *) = (void (*)(godot_variant *)) 0 ;
   
@@ -15112,7 +15112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_variant_destroy_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_variant_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_variant_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_variant *) = 0 ;
   void* _swig_go_result;
@@ -15125,7 +15125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_variant_destroy_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *) = (void (*)(godot_string *)) 0 ;
   
@@ -15137,7 +15137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_new_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *) = 0 ;
   void* _swig_go_result;
@@ -15150,7 +15150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_new_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_new_copy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_new_copy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *,godot_string const *) = (void (*)(godot_string *,godot_string const *)) 0 ;
   
@@ -15162,7 +15162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_new_copy_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_new_copy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_new_copy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15175,7 +15175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_new_copy_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_new_data_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_new_data_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *,char const *,int const) = (void (*)(godot_string *,char const *,int const)) 0 ;
   
@@ -15187,7 +15187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_new_data_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_new_data_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_new_data_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *,char const *,int const) = 0 ;
   void* _swig_go_result;
@@ -15200,7 +15200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_new_data_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_new_unicode_data_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_new_unicode_data_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *,wchar_t const *,int const) = (void (*)(godot_string *,wchar_t const *,int const)) 0 ;
   
@@ -15212,7 +15212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_new_unicode_data_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_new_unicode_data_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_new_unicode_data_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *,wchar_t const *,int const) = 0 ;
   void* _swig_go_result;
@@ -15225,7 +15225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_new_unicode_data_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_get_data_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_get_data_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string const *,char *,int *) = (void (*)(godot_string const *,char *,int *)) 0 ;
   
@@ -15237,7 +15237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_get_data_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_get_data_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_get_data_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string const *,char *,int *) = 0 ;
   void* _swig_go_result;
@@ -15250,7 +15250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_get_data_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t *(*arg2)(godot_string *,godot_int const) = (wchar_t *(*)(godot_string *,godot_int const)) 0 ;
   
@@ -15262,7 +15262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t *(*result)(godot_string *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -15275,7 +15275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_const_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_const_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t (*arg2)(godot_string const *,godot_int const) = (wchar_t (*)(godot_string const *,godot_int const)) 0 ;
   
@@ -15287,7 +15287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_const_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_const_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_const_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t (*result)(godot_string const *,godot_int const) = 0 ;
   void* _swig_go_result;
@@ -15300,7 +15300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_index_const_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_unicode_str_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_unicode_str_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t *(*arg2)(godot_string const *) = (wchar_t *(*)(godot_string const *)) 0 ;
   
@@ -15312,7 +15312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_unicode_str_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_unicode_str_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_unicode_str_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t *(*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15325,7 +15325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_unicode_str_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_string const *) = (godot_bool (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -15337,7 +15337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_operator_equal_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15350,7 +15350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_equal_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_operator_less_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_operator_less_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_string const *) = (godot_bool (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -15362,7 +15362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_operator_less_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_less_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_less_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15375,7 +15375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_less_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_operator_plus_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_operator_plus_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_string const *) = (godot_string (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -15387,7 +15387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_operator_plus_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_plus_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_plus_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15400,7 +15400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_operator_plus_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_length_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_length_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *) = (godot_int (*)(godot_string const *)) 0 ;
   
@@ -15412,7 +15412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_length_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_length_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_length_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15425,7 +15425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_length_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_string const *) = (godot_bool (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -15437,7 +15437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15450,7 +15450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_char_array_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_char_array_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,char const *) = (godot_bool (*)(godot_string const *,char const *)) 0 ;
   
@@ -15462,7 +15462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_char_array_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_char_array_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_char_array_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,char const *) = 0 ;
   void* _swig_go_result;
@@ -15475,7 +15475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_begins_with_char_array_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_bigrams_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_bigrams_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *) = (godot_array (*)(godot_string const *)) 0 ;
   
@@ -15487,7 +15487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_bigrams_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_bigrams_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_bigrams_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15500,7 +15500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_bigrams_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_chr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_chr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(wchar_t) = (godot_string (*)(wchar_t)) 0 ;
   
@@ -15512,7 +15512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_chr_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_chr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_chr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(wchar_t) = 0 ;
   void* _swig_go_result;
@@ -15525,7 +15525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_chr_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_ends_with_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_ends_with_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_string const *) = (godot_bool (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -15537,7 +15537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_ends_with_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_ends_with_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_ends_with_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15550,7 +15550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_ends_with_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_find_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_find_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string) = (godot_int (*)(godot_string const *,godot_string)) 0 ;
   
@@ -15562,7 +15562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_find_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_find_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_find_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string) = 0 ;
   void* _swig_go_result;
@@ -15575,7 +15575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_find_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_find_from_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_find_from_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string,godot_int) = (godot_int (*)(godot_string const *,godot_string,godot_int)) 0 ;
   
@@ -15587,7 +15587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_find_from_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_find_from_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_find_from_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string,godot_int) = 0 ;
   void* _swig_go_result;
@@ -15600,7 +15600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_find_from_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_array const *) = (godot_int (*)(godot_string const *,godot_array const *)) 0 ;
   
@@ -15612,7 +15612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -15625,7 +15625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_array const *,godot_int) = (godot_int (*)(godot_string const *,godot_array const *,godot_int)) 0 ;
   
@@ -15637,7 +15637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_array const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -15650,7 +15650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_in_place_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_in_place_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_array const *,godot_int,godot_int *) = (godot_int (*)(godot_string const *,godot_array const *,godot_int,godot_int *)) 0 ;
   
@@ -15662,7 +15662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_in_place_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_in_place_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_in_place_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_array const *,godot_int,godot_int *) = 0 ;
   void* _swig_go_result;
@@ -15675,7 +15675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_findmk_from_in_place_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_findn_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_findn_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string) = (godot_int (*)(godot_string const *,godot_string)) 0 ;
   
@@ -15687,7 +15687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_findn_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_findn_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_findn_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string) = 0 ;
   void* _swig_go_result;
@@ -15700,7 +15700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_findn_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_findn_from_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_findn_from_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string,godot_int) = (godot_int (*)(godot_string const *,godot_string,godot_int)) 0 ;
   
@@ -15712,7 +15712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_findn_from_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_findn_from_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_findn_from_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string,godot_int) = 0 ;
   void* _swig_go_result;
@@ -15725,7 +15725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_findn_from_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_find_last_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_find_last_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string) = (godot_int (*)(godot_string const *,godot_string)) 0 ;
   
@@ -15737,7 +15737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_find_last_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_find_last_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_find_last_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string) = 0 ;
   void* _swig_go_result;
@@ -15750,7 +15750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_find_last_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_format_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_format_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_variant const *) = (godot_string (*)(godot_string const *,godot_variant const *)) 0 ;
   
@@ -15762,7 +15762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_format_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_format_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_format_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_variant const *) = 0 ;
   void* _swig_go_result;
@@ -15775,7 +15775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_format_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_format_with_custom_placeholder_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_format_with_custom_placeholder_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_variant const *,char const *) = (godot_string (*)(godot_string const *,godot_variant const *,char const *)) 0 ;
   
@@ -15787,7 +15787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_format_with_custom_placeh
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_format_with_custom_placeholder_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_format_with_custom_placeholder_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_variant const *,char const *) = 0 ;
   void* _swig_go_result;
@@ -15800,7 +15800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_format_with_custom_place
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hex_encode_buffer_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hex_encode_buffer_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(uint8_t const *,godot_int) = (godot_string (*)(uint8_t const *,godot_int)) 0 ;
   
@@ -15812,7 +15812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hex_encode_buffer_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_encode_buffer_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_encode_buffer_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(uint8_t const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -15825,7 +15825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_encode_buffer_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *) = (godot_int (*)(godot_string const *)) 0 ;
   
@@ -15837,7 +15837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15850,7 +15850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_without_prefix_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_without_prefix_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *) = (godot_int (*)(godot_string const *)) 0 ;
   
@@ -15862,7 +15862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_without_prefix
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_without_prefix_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_without_prefix_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15875,7 +15875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int_without_prefi
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_insert_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_insert_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int,godot_string) = (godot_string (*)(godot_string const *,godot_int,godot_string)) 0 ;
   
@@ -15887,7 +15887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_insert_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_insert_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_insert_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int,godot_string) = 0 ;
   void* _swig_go_result;
@@ -15900,7 +15900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_insert_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_numeric_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_numeric_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -15912,7 +15912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_numeric_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_numeric_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_numeric_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15925,7 +15925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_numeric_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_of_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_of_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_string const *) = (godot_bool (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -15937,7 +15937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_of_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_of_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_of_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15950,7 +15950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_of_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_ofi_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_ofi_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_string const *) = (godot_bool (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -15962,7 +15962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_ofi_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_ofi_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_ofi_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -15975,7 +15975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_subsequence_ofi_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_lpad_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_lpad_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int) = (godot_string (*)(godot_string const *,godot_int)) 0 ;
   
@@ -15987,7 +15987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_lpad_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_lpad_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_lpad_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16000,7 +16000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_lpad_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_lpad_with_custom_character_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_lpad_with_custom_character_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int,godot_string const *) = (godot_string (*)(godot_string const *,godot_int,godot_string const *)) 0 ;
   
@@ -16012,7 +16012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_lpad_with_custom_characte
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_lpad_with_custom_character_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_lpad_with_custom_character_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16025,7 +16025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_lpad_with_custom_charact
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_match_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_match_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_string const *) = (godot_bool (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -16037,7 +16037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_match_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_match_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_match_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16050,7 +16050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_match_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_matchn_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_matchn_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_string const *) = (godot_bool (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -16062,7 +16062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_matchn_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_matchn_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_matchn_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16075,7 +16075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_matchn_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_md5_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_md5_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(uint8_t const *) = (godot_string (*)(uint8_t const *)) 0 ;
   
@@ -16087,7 +16087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_md5_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(uint8_t const *) = 0 ;
   void* _swig_go_result;
@@ -16100,7 +16100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_num_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_num_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(double) = (godot_string (*)(double)) 0 ;
   
@@ -16112,7 +16112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_num_set_godot_5192ef1abe3
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_num_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_num_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(double) = 0 ;
   void* _swig_go_result;
@@ -16125,7 +16125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_num_get_godot_5192ef1abe
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(int64_t,godot_int) = (godot_string (*)(int64_t,godot_int)) 0 ;
   
@@ -16137,7 +16137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(int64_t,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16150,7 +16150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_capitalized_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_capitalized_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(int64_t,godot_int,godot_bool) = (godot_string (*)(int64_t,godot_int,godot_bool)) 0 ;
   
@@ -16162,7 +16162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_capitalized_set
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_capitalized_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_capitalized_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(int64_t,godot_int,godot_bool) = 0 ;
   void* _swig_go_result;
@@ -16175,7 +16175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_num_int64_capitalized_ge
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_num_real_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_num_real_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(double) = (godot_string (*)(double)) 0 ;
   
@@ -16187,7 +16187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_num_real_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_num_real_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_num_real_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(double) = 0 ;
   void* _swig_go_result;
@@ -16200,7 +16200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_num_real_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_num_scientific_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_num_scientific_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(double) = (godot_string (*)(double)) 0 ;
   
@@ -16212,7 +16212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_num_scientific_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_num_scientific_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_num_scientific_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(double) = 0 ;
   void* _swig_go_result;
@@ -16225,7 +16225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_num_scientific_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_num_with_decimals_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_num_with_decimals_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(double,godot_int) = (godot_string (*)(double,godot_int)) 0 ;
   
@@ -16237,7 +16237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_num_with_decimals_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_num_with_decimals_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_num_with_decimals_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(double,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16250,7 +16250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_num_with_decimals_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_pad_decimals_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_pad_decimals_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int) = (godot_string (*)(godot_string const *,godot_int)) 0 ;
   
@@ -16262,7 +16262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_pad_decimals_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_pad_decimals_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_pad_decimals_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16275,7 +16275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_pad_decimals_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_pad_zeros_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_pad_zeros_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int) = (godot_string (*)(godot_string const *,godot_int)) 0 ;
   
@@ -16287,7 +16287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_pad_zeros_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_pad_zeros_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_pad_zeros_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16300,7 +16300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_pad_zeros_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_replace_first_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_replace_first_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_string,godot_string) = (godot_string (*)(godot_string const *,godot_string,godot_string)) 0 ;
   
@@ -16312,7 +16312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_replace_first_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_replace_first_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_replace_first_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_string,godot_string) = 0 ;
   void* _swig_go_result;
@@ -16325,7 +16325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_replace_first_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_replace_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_replace_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_string,godot_string) = (godot_string (*)(godot_string const *,godot_string,godot_string)) 0 ;
   
@@ -16337,7 +16337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_replace_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_replace_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_replace_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_string,godot_string) = 0 ;
   void* _swig_go_result;
@@ -16350,7 +16350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_replace_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_replacen_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_replacen_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_string,godot_string) = (godot_string (*)(godot_string const *,godot_string,godot_string)) 0 ;
   
@@ -16362,7 +16362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_replacen_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_replacen_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_replacen_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_string,godot_string) = 0 ;
   void* _swig_go_result;
@@ -16375,7 +16375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_replacen_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_rfind_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_rfind_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string) = (godot_int (*)(godot_string const *,godot_string)) 0 ;
   
@@ -16387,7 +16387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_rfind_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_rfind_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_rfind_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string) = 0 ;
   void* _swig_go_result;
@@ -16400,7 +16400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_rfind_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string) = (godot_int (*)(godot_string const *,godot_string)) 0 ;
   
@@ -16412,7 +16412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string) = 0 ;
   void* _swig_go_result;
@@ -16425,7 +16425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_rfind_from_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_rfind_from_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string,godot_int) = (godot_int (*)(godot_string const *,godot_string,godot_int)) 0 ;
   
@@ -16437,7 +16437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_rfind_from_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_rfind_from_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_rfind_from_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16450,7 +16450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_rfind_from_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_from_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_from_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string,godot_int) = (godot_int (*)(godot_string const *,godot_string,godot_int)) 0 ;
   
@@ -16462,7 +16462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_from_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_from_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_from_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16475,7 +16475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_rfindn_from_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_rpad_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_rpad_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int) = (godot_string (*)(godot_string const *,godot_int)) 0 ;
   
@@ -16487,7 +16487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_rpad_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_rpad_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_rpad_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16500,7 +16500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_rpad_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_rpad_with_custom_character_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_rpad_with_custom_character_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int,godot_string const *) = (godot_string (*)(godot_string const *,godot_int,godot_string const *)) 0 ;
   
@@ -16512,7 +16512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_rpad_with_custom_characte
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_rpad_with_custom_character_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_rpad_with_custom_character_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16525,7 +16525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_rpad_with_custom_charact
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_similarity_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_similarity_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_string const *,godot_string const *) = (godot_real (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -16537,7 +16537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_similarity_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_similarity_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_similarity_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16550,7 +16550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_similarity_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_sprintf_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_sprintf_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_array const *,godot_bool *) = (godot_string (*)(godot_string const *,godot_array const *,godot_bool *)) 0 ;
   
@@ -16562,7 +16562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_sprintf_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_sprintf_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_sprintf_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_array const *,godot_bool *) = 0 ;
   void* _swig_go_result;
@@ -16575,7 +16575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_sprintf_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_substr_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_substr_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int,godot_int) = (godot_string (*)(godot_string const *,godot_int,godot_int)) 0 ;
   
@@ -16587,7 +16587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_substr_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_substr_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_substr_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16600,7 +16600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_substr_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_to_double_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_to_double_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   double (*arg2)(godot_string const *) = (double (*)(godot_string const *)) 0 ;
   
@@ -16612,7 +16612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_to_double_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_to_double_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_to_double_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   double (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16625,7 +16625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_to_double_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_to_float_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_to_float_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*arg2)(godot_string const *) = (godot_real (*)(godot_string const *)) 0 ;
   
@@ -16637,7 +16637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_to_float_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_to_float_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_to_float_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_real (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16650,7 +16650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_to_float_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_to_int_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_to_int_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *) = (godot_int (*)(godot_string const *)) 0 ;
   
@@ -16662,7 +16662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_to_int_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_to_int_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_to_int_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16675,7 +16675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_to_int_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -16687,7 +16687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16700,7 +16700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_lowercased_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_lowercased_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -16712,7 +16712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_l
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_lowercased_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_lowercased_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16725,7 +16725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_camelcase_to_underscore_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_capitalize_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_capitalize_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -16737,7 +16737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_capitalize_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_capitalize_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_capitalize_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16750,7 +16750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_capitalize_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_double_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_double_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   double (*arg2)(char const *) = (double (*)(char const *)) 0 ;
   
@@ -16762,7 +16762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_double_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_double_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_double_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   double (*result)(char const *) = 0 ;
   void* _swig_go_result;
@@ -16775,7 +16775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_double_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(char const *) = (godot_int (*)(char const *)) 0 ;
   
@@ -16787,7 +16787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(char const *) = 0 ;
   void* _swig_go_result;
@@ -16800,7 +16800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_wchar_to_int_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_wchar_to_int_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*arg2)(wchar_t const *) = (int64_t (*)(wchar_t const *)) 0 ;
   
@@ -16812,7 +16812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_wchar_to_int_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_wchar_to_int_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_wchar_to_int_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*result)(wchar_t const *) = 0 ;
   void* _swig_go_result;
@@ -16825,7 +16825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_wchar_to_int_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_with_len_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_with_len_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(char const *,godot_int) = (godot_int (*)(char const *,godot_int)) 0 ;
   
@@ -16837,7 +16837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_with_len_set_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_with_len_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_with_len_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(char const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -16850,7 +16850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int_with_len_get
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int64_with_len_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int64_with_len_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*arg2)(wchar_t const *,int) = (int64_t (*)(wchar_t const *,int)) 0 ;
   
@@ -16862,7 +16862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int64_with_len_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int64_with_len_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int64_with_len_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*result)(wchar_t const *,int) = 0 ;
   void* _swig_go_result;
@@ -16875,7 +16875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_char_to_int64_with_len_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*arg2)(godot_string const *) = (int64_t (*)(godot_string const *)) 0 ;
   
@@ -16887,7 +16887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16900,7 +16900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_with_prefix_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_with_prefix_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*arg2)(godot_string const *) = (int64_t (*)(godot_string const *)) 0 ;
   
@@ -16912,7 +16912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_with_prefix_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_with_prefix_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_with_prefix_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16925,7 +16925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hex_to_int64_with_prefix
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_to_int64_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_to_int64_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*arg2)(godot_string const *) = (int64_t (*)(godot_string const *)) 0 ;
   
@@ -16937,7 +16937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_to_int64_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_to_int64_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_to_int64_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   int64_t (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -16950,7 +16950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_to_int64_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_unicode_char_to_double_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_unicode_char_to_double_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   double (*arg2)(wchar_t const *,wchar_t const **) = (double (*)(wchar_t const *,wchar_t const **)) 0 ;
   
@@ -16962,7 +16962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_unicode_char_to_double_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_unicode_char_to_double_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_unicode_char_to_double_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   double (*result)(wchar_t const *,wchar_t const **) = 0 ;
   void* _swig_go_result;
@@ -16975,7 +16975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_unicode_char_to_double_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_count_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_count_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*arg2)(godot_string const *,godot_string) = (godot_int (*)(godot_string const *,godot_string)) 0 ;
   
@@ -16987,7 +16987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_count_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_count_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_count_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_int (*result)(godot_string const *,godot_string) = 0 ;
   void* _swig_go_result;
@@ -17000,7 +17000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_count_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_string,godot_int) = (godot_string (*)(godot_string const *,godot_string,godot_int)) 0 ;
   
@@ -17012,7 +17012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_string,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17025,7 +17025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slice_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_get_slicec_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_get_slicec_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,wchar_t,godot_int) = (godot_string (*)(godot_string const *,wchar_t,godot_int)) 0 ;
   
@@ -17037,7 +17037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_get_slicec_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slicec_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slicec_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,wchar_t,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17050,7 +17050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_get_slicec_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_string const *) = (godot_array (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -17062,7 +17062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17075,7 +17075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_allow_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_allow_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_string const *) = (godot_array (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -17087,7 +17087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_allow_empty_set_god
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_allow_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_allow_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17100,7 +17100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_allow_empty_get_go
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_string const *) = (godot_array (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -17112,7 +17112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17125,7 +17125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_allows_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_allows_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_string const *) = (godot_array (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -17137,7 +17137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_allows_empty
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_allows_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_allows_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17150,7 +17150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_allows_empt
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_array const *) = (godot_array (*)(godot_string const *,godot_array const *)) 0 ;
   
@@ -17162,7 +17162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -17175,7 +17175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_allows_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_allows_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_array const *) = (godot_array (*)(godot_string const *,godot_array const *)) 0 ;
   
@@ -17187,7 +17187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_allows_em
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_allows_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_allows_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -17200,7 +17200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_floats_mk_allows_e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_string const *) = (godot_array (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -17212,7 +17212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17225,7 +17225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_allows_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_allows_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_string const *) = (godot_array (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -17237,7 +17237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_allows_empty_s
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_allows_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_allows_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17250,7 +17250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_allows_empty_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_array const *) = (godot_array (*)(godot_string const *,godot_array const *)) 0 ;
   
@@ -17262,7 +17262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -17275,7 +17275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_allows_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_allows_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *,godot_array const *) = (godot_array (*)(godot_string const *,godot_array const *)) 0 ;
   
@@ -17287,7 +17287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_allows_empt
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_allows_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_allows_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *,godot_array const *) = 0 ;
   void* _swig_go_result;
@@ -17300,7 +17300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_ints_mk_allows_emp
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_split_spaces_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_split_spaces_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*arg2)(godot_string const *) = (godot_array (*)(godot_string const *)) 0 ;
   
@@ -17312,7 +17312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_split_spaces_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_split_spaces_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_split_spaces_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_array (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17325,7 +17325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_split_spaces_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_char_lowercase_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_char_lowercase_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t (*arg2)(wchar_t) = (wchar_t (*)(wchar_t)) 0 ;
   
@@ -17337,7 +17337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_char_lowercase_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_char_lowercase_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_char_lowercase_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t (*result)(wchar_t) = 0 ;
   void* _swig_go_result;
@@ -17350,7 +17350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_char_lowercase_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_char_uppercase_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_char_uppercase_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t (*arg2)(wchar_t) = (wchar_t (*)(wchar_t)) 0 ;
   
@@ -17362,7 +17362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_char_uppercase_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_char_uppercase_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_char_uppercase_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t (*result)(wchar_t) = 0 ;
   void* _swig_go_result;
@@ -17375,7 +17375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_char_uppercase_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_to_lower_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_to_lower_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -17387,7 +17387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_to_lower_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_to_lower_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_to_lower_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17400,7 +17400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_to_lower_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_to_upper_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_to_upper_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -17412,7 +17412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_to_upper_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_to_upper_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_to_upper_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17425,7 +17425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_to_upper_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_get_basename_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_get_basename_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -17437,7 +17437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_get_basename_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_get_basename_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_get_basename_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17450,7 +17450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_get_basename_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_get_extension_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_get_extension_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -17462,7 +17462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_get_extension_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_get_extension_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_get_extension_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17475,7 +17475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_get_extension_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_left_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_left_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int) = (godot_string (*)(godot_string const *,godot_int)) 0 ;
   
@@ -17487,7 +17487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_left_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_left_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_left_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17500,7 +17500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_left_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_ord_at_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_ord_at_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t (*arg2)(godot_string const *,godot_int) = (wchar_t (*)(godot_string const *,godot_int)) 0 ;
   
@@ -17512,7 +17512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_ord_at_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_ord_at_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_ord_at_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   wchar_t (*result)(godot_string const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17525,7 +17525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_ord_at_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_plus_file_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_plus_file_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_string const *) = (godot_string (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -17537,7 +17537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_plus_file_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_plus_file_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_plus_file_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17550,7 +17550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_plus_file_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_right_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_right_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int) = (godot_string (*)(godot_string const *,godot_int)) 0 ;
   
@@ -17562,7 +17562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_right_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_right_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_right_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17575,7 +17575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_right_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_strip_edges_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_strip_edges_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_bool,godot_bool) = (godot_string (*)(godot_string const *,godot_bool,godot_bool)) 0 ;
   
@@ -17587,7 +17587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_strip_edges_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_strip_edges_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_strip_edges_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_bool,godot_bool) = 0 ;
   void* _swig_go_result;
@@ -17600,7 +17600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_strip_edges_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_strip_escapes_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_strip_escapes_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -17612,7 +17612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_strip_escapes_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_strip_escapes_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_strip_escapes_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17625,7 +17625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_strip_escapes_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_erase_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_erase_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *,godot_int,godot_int) = (void (*)(godot_string *,godot_int,godot_int)) 0 ;
   
@@ -17637,7 +17637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_erase_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_erase_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_erase_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *,godot_int,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17650,7 +17650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_erase_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_ascii_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_ascii_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *,char *) = (void (*)(godot_string *,char *)) 0 ;
   
@@ -17662,7 +17662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_ascii_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_ascii_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_ascii_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *,char *) = 0 ;
   void* _swig_go_result;
@@ -17675,7 +17675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_ascii_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_ascii_extended_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_ascii_extended_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *,char *) = (void (*)(godot_string *,char *)) 0 ;
   
@@ -17687,7 +17687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_ascii_extended_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_ascii_extended_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_ascii_extended_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *,char *) = 0 ;
   void* _swig_go_result;
@@ -17700,7 +17700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_ascii_extended_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_utf8_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_utf8_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *,char *) = (void (*)(godot_string *,char *)) 0 ;
   
@@ -17712,7 +17712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_utf8_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_utf8_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_utf8_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *,char *) = 0 ;
   void* _swig_go_result;
@@ -17725,7 +17725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_utf8_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string *,char const *) = (godot_bool (*)(godot_string *,char const *)) 0 ;
   
@@ -17737,7 +17737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string *,char const *) = 0 ;
   void* _swig_go_result;
@@ -17750,7 +17750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_with_len_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_with_len_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string *,char const *,godot_int) = (godot_bool (*)(godot_string *,char const *,godot_int)) 0 ;
   
@@ -17762,7 +17762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_with_len_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_with_len_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_with_len_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string *,char const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17775,7 +17775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_parse_utf8_with_len_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(char const *) = (godot_string (*)(char const *)) 0 ;
   
@@ -17787,7 +17787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(char const *) = 0 ;
   void* _swig_go_result;
@@ -17800,7 +17800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_with_len_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_with_len_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(char const *,godot_int) = (godot_string (*)(char const *,godot_int)) 0 ;
   
@@ -17812,7 +17812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_with_len_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_with_len_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_with_len_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(char const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17825,7 +17825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_chars_to_utf8_with_len_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hash_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hash_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*arg2)(godot_string const *) = (uint32_t (*)(godot_string const *)) 0 ;
   
@@ -17837,7 +17837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hash_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17850,7 +17850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hash64_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hash64_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint64_t (*arg2)(godot_string const *) = (uint64_t (*)(godot_string const *)) 0 ;
   
@@ -17862,7 +17862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hash64_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hash64_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hash64_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint64_t (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -17875,7 +17875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hash64_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*arg2)(char const *) = (uint32_t (*)(char const *)) 0 ;
   
@@ -17887,7 +17887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*result)(char const *) = 0 ;
   void* _swig_go_result;
@@ -17900,7 +17900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_with_len_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_with_len_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*arg2)(char const *,godot_int) = (uint32_t (*)(char const *,godot_int)) 0 ;
   
@@ -17912,7 +17912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_with_len_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_with_len_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_with_len_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*result)(char const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17925,7 +17925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_chars_with_len_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*arg2)(wchar_t const *) = (uint32_t (*)(wchar_t const *)) 0 ;
   
@@ -17937,7 +17937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*result)(wchar_t const *) = 0 ;
   void* _swig_go_result;
@@ -17950,7 +17950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_with_len_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_with_len_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*arg2)(wchar_t const *,godot_int) = (uint32_t (*)(wchar_t const *,godot_int)) 0 ;
   
@@ -17962,7 +17962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_with_len_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_with_len_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_with_len_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*result)(wchar_t const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -17975,7 +17975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_hash_utf8_chars_with_len
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_md5_buffer_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_md5_buffer_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array (*arg2)(godot_string const *) = (godot_pool_byte_array (*)(godot_string const *)) 0 ;
   
@@ -17987,7 +17987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_md5_buffer_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_buffer_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_buffer_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18000,7 +18000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_buffer_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_md5_text_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_md5_text_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18012,7 +18012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_md5_text_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_text_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_text_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18025,7 +18025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_md5_text_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_sha256_buffer_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_sha256_buffer_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array (*arg2)(godot_string const *) = (godot_pool_byte_array (*)(godot_string const *)) 0 ;
   
@@ -18037,7 +18037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_sha256_buffer_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_sha256_buffer_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_sha256_buffer_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_pool_byte_array (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18050,7 +18050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_sha256_buffer_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_sha256_text_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_sha256_text_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18062,7 +18062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_sha256_text_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_sha256_text_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_sha256_text_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18075,7 +18075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_sha256_text_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_empty_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_empty_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18087,7 +18087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_empty_set_godot_5192ef1ab
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_empty_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_empty_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18100,7 +18100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_empty_get_godot_5192ef1a
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_get_base_dir_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_get_base_dir_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18112,7 +18112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_get_base_dir_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_get_base_dir_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_get_base_dir_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18125,7 +18125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_get_base_dir_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_get_file_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_get_file_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18137,7 +18137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_get_file_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_get_file_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_get_file_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18150,7 +18150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_get_file_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_humanize_size_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_humanize_size_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(size_t) = (godot_string (*)(size_t)) 0 ;
   
@@ -18162,7 +18162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_humanize_size_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_humanize_size_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_humanize_size_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(size_t) = 0 ;
   void* _swig_go_result;
@@ -18175,7 +18175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_humanize_size_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_abs_path_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_abs_path_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18187,7 +18187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_abs_path_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_abs_path_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_abs_path_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18200,7 +18200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_abs_path_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_rel_path_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_rel_path_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18212,7 +18212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_rel_path_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_rel_path_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_rel_path_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18225,7 +18225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_rel_path_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_resource_file_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_resource_file_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18237,7 +18237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_resource_file_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_resource_file_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_resource_file_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18250,7 +18250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_resource_file_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_path_to_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_path_to_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_string const *) = (godot_string (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -18262,7 +18262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_path_to_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_path_to_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_path_to_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18275,7 +18275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_path_to_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_path_to_file_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_path_to_file_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_string const *) = (godot_string (*)(godot_string const *,godot_string const *)) 0 ;
   
@@ -18287,7 +18287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_path_to_file_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_path_to_file_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_path_to_file_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18300,7 +18300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_path_to_file_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_simplify_path_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_simplify_path_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18312,7 +18312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_simplify_path_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_simplify_path_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_simplify_path_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18325,7 +18325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_simplify_path_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18337,7 +18337,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18350,7 +18350,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_multiline_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_multiline_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18362,7 +18362,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_multiline_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_multiline_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_multiline_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18375,7 +18375,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_c_escape_multiline_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_c_unescape_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_c_unescape_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18387,7 +18387,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_c_unescape_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_c_unescape_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_c_unescape_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18400,7 +18400,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_c_unescape_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_http_escape_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_http_escape_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18412,7 +18412,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_http_escape_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_http_escape_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_http_escape_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18425,7 +18425,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_http_escape_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_http_unescape_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_http_unescape_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18437,7 +18437,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_http_unescape_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_http_unescape_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_http_unescape_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18450,7 +18450,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_http_unescape_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_json_escape_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_json_escape_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18462,7 +18462,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_json_escape_set_godot_519
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_json_escape_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_json_escape_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18475,7 +18475,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_json_escape_get_godot_51
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_word_wrap_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_word_wrap_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *,godot_int) = (godot_string (*)(godot_string const *,godot_int)) 0 ;
   
@@ -18487,7 +18487,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_word_wrap_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_word_wrap_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_word_wrap_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *,godot_int) = 0 ;
   void* _swig_go_result;
@@ -18500,7 +18500,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_word_wrap_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18512,7 +18512,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_set_godot_5192
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18525,7 +18525,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_get_godot_519
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_with_quotes_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_with_quotes_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18537,7 +18537,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_with_quotes_se
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_with_quotes_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_with_quotes_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18550,7 +18550,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_escape_with_quotes_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_xml_unescape_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_xml_unescape_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18562,7 +18562,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_xml_unescape_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_unescape_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_unescape_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18575,7 +18575,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_xml_unescape_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_percent_decode_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_percent_decode_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18587,7 +18587,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_percent_decode_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_percent_decode_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_percent_decode_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18600,7 +18600,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_percent_decode_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_percent_encode_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_percent_encode_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string const *) = (godot_string (*)(godot_string const *)) 0 ;
   
@@ -18612,7 +18612,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_percent_encode_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_percent_encode_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_percent_encode_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18625,7 +18625,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_percent_encode_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_float_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_float_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18637,7 +18637,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_float_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_float_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_float_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18650,7 +18650,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_float_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_hex_number_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_hex_number_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *,godot_bool) = (godot_bool (*)(godot_string const *,godot_bool)) 0 ;
   
@@ -18662,7 +18662,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_hex_number_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_hex_number_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_hex_number_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *,godot_bool) = 0 ;
   void* _swig_go_result;
@@ -18675,7 +18675,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_hex_number_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_html_color_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_html_color_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18687,7 +18687,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_html_color_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_html_color_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_html_color_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18700,7 +18700,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_html_color_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_identifier_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_identifier_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18712,7 +18712,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_identifier_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_identifier_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_identifier_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18725,7 +18725,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_identifier_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_integer_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_integer_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18737,7 +18737,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_integer_set_godo
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_integer_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_integer_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18750,7 +18750,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_integer_get_god
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_ip_address_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_ip_address_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string const *) = (godot_bool (*)(godot_string const *)) 0 ;
   
@@ -18762,7 +18762,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_ip_address_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_ip_address_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_ip_address_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18775,7 +18775,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_is_valid_ip_address_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string *) = (void (*)(godot_string *)) 0 ;
   
@@ -18787,7 +18787,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_destroy_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string *) = 0 ;
   void* _swig_go_result;
@@ -18800,7 +18800,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_destroy_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_name_new_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_name_new_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string_name *,godot_string const *) = (void (*)(godot_string_name *,godot_string const *)) 0 ;
   
@@ -18812,7 +18812,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_name_new_set_godot_5192ef
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_name_new_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_name_new_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string_name *,godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -18825,7 +18825,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_name_new_get_godot_5192e
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_name_new_data_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_name_new_data_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string_name *,char const *) = (void (*)(godot_string_name *,char const *)) 0 ;
   
@@ -18837,7 +18837,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_name_new_data_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_name_new_data_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_name_new_data_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string_name *,char const *) = 0 ;
   void* _swig_go_result;
@@ -18850,7 +18850,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_name_new_data_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_name_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_name_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*arg2)(godot_string_name const *) = (godot_string (*)(godot_string_name const *)) 0 ;
   
@@ -18862,7 +18862,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_name_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_name_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_name_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_string (*result)(godot_string_name const *) = 0 ;
   void* _swig_go_result;
@@ -18875,7 +18875,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_name_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_hash_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_hash_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*arg2)(godot_string_name const *) = (uint32_t (*)(godot_string_name const *)) 0 ;
   
@@ -18887,7 +18887,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_hash_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_hash_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_hash_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   uint32_t (*result)(godot_string_name const *) = 0 ;
   void* _swig_go_result;
@@ -18900,7 +18900,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_hash_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_data_unique_pointer_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_data_unique_pointer_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void *(*arg2)(godot_string_name const *) = (void *(*)(godot_string_name const *)) 0 ;
   
@@ -18912,7 +18912,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_name_get_data_unique_poin
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_data_unique_pointer_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_data_unique_pointer_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void *(*result)(godot_string_name const *) = 0 ;
   void* _swig_go_result;
@@ -18925,7 +18925,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_name_get_data_unique_poi
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_equal_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_equal_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string_name const *,godot_string_name const *) = (godot_bool (*)(godot_string_name const *,godot_string_name const *)) 0 ;
   
@@ -18937,7 +18937,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_equal_set_g
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_equal_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_equal_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string_name const *,godot_string_name const *) = 0 ;
   void* _swig_go_result;
@@ -18950,7 +18950,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_equal_get_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_less_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_less_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*arg2)(godot_string_name const *,godot_string_name const *) = (godot_bool (*)(godot_string_name const *,godot_string_name const *)) 0 ;
   
@@ -18962,7 +18962,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_less_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_less_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_less_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_bool (*result)(godot_string_name const *,godot_string_name const *) = 0 ;
   void* _swig_go_result;
@@ -18975,7 +18975,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_name_operator_less_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_string_name_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_string_name_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string_name *) = (void (*)(godot_string_name *)) 0 ;
   
@@ -18987,7 +18987,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_string_name_destroy_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_string_name_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_string_name_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string_name *) = 0 ;
   void* _swig_go_result;
@@ -19000,7 +19000,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_string_name_destroy_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_object_destroy_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_object_destroy_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_object *) = (void (*)(godot_object *)) 0 ;
   
@@ -19012,7 +19012,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_object_destroy_set_godot_5192ef1
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_object_destroy_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_object_destroy_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_object *) = 0 ;
   void* _swig_go_result;
@@ -19025,7 +19025,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_object_destroy_get_godot_5192ef
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_global_get_singleton_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_global_get_singleton_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_object *(*arg2)(char *) = (godot_object *(*)(char *)) 0 ;
   
@@ -19037,7 +19037,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_global_get_singleton_set_godot_5
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_global_get_singleton_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_global_get_singleton_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_object *(*result)(char *) = 0 ;
   void* _swig_go_result;
@@ -19050,7 +19050,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_global_get_singleton_get_godot_
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_method_bind_get_method_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_method_bind_get_method_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_method_bind *(*arg2)(char const *,char const *) = (godot_method_bind *(*)(char const *,char const *)) 0 ;
   
@@ -19062,7 +19062,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_method_bind_get_method_set_godot
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_get_method_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_get_method_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_method_bind *(*result)(char const *,char const *) = 0 ;
   void* _swig_go_result;
@@ -19075,7 +19075,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_get_method_get_godo
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_method_bind_ptrcall_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_method_bind_ptrcall_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_method_bind *,godot_object *,void const **,void *) = (void (*)(godot_method_bind *,godot_object *,void const **,void *)) 0 ;
   
@@ -19087,7 +19087,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_method_bind_ptrcall_set_godot_51
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_ptrcall_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_ptrcall_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_method_bind *,godot_object *,void const **,void *) = 0 ;
   void* _swig_go_result;
@@ -19100,7 +19100,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_ptrcall_get_godot_5
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_method_bind_call_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_method_bind_call_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*arg2)(godot_method_bind *,godot_object *,godot_variant const **,int const,godot_variant_call_error *) = (godot_variant (*)(godot_method_bind *,godot_object *,godot_variant const **,int const,godot_variant_call_error *)) 0 ;
   
@@ -19112,7 +19112,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_method_bind_call_set_godot_5192e
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_call_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_call_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_variant (*result)(godot_method_bind *,godot_object *,godot_variant const **,int const,godot_variant_call_error *) = 0 ;
   void* _swig_go_result;
@@ -19125,7 +19125,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_method_bind_call_get_godot_5192
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_get_class_constructor_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_get_class_constructor_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_class_constructor (*arg2)(char const *) = (godot_class_constructor (*)(char const *)) 0 ;
   
@@ -19137,7 +19137,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_get_class_constructor_set_godot_
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_get_class_constructor_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_get_class_constructor_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   godot_class_constructor (*result)(char const *) = 0 ;
   void* _swig_go_result;
@@ -19150,7 +19150,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_get_class_constructor_get_godot
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_register_native_call_type_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_register_native_call_type_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(char const *,native_call_cb) = (void (*)(char const *,native_call_cb)) 0 ;
   
@@ -19162,7 +19162,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_register_native_call_type_set_go
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_register_native_call_type_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_register_native_call_type_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(char const *,native_call_cb) = 0 ;
   void* _swig_go_result;
@@ -19175,7 +19175,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_register_native_call_type_get_g
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_alloc_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_alloc_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void *(*arg2)(int) = (void *(*)(int)) 0 ;
   
@@ -19187,7 +19187,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_alloc_set_godot_5192ef1abe3e06df
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_alloc_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_alloc_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void *(*result)(int) = 0 ;
   void* _swig_go_result;
@@ -19200,7 +19200,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_alloc_get_godot_5192ef1abe3e06d
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_realloc_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_realloc_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void *(*arg2)(void *,int) = (void *(*)(void *,int)) 0 ;
   
@@ -19212,7 +19212,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_realloc_set_godot_5192ef1abe3e06
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_realloc_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_realloc_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void *(*result)(void *,int) = 0 ;
   void* _swig_go_result;
@@ -19225,7 +19225,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_realloc_get_godot_5192ef1abe3e0
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_free_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_free_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(void *) = (void (*)(void *)) 0 ;
   
@@ -19237,7 +19237,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_free_set_godot_5192ef1abe3e06df(
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_free_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_free_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(void *) = 0 ;
   void* _swig_go_result;
@@ -19250,7 +19250,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_free_get_godot_5192ef1abe3e06df
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_print_error_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_print_error_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(char const *,char const *,char const *,int) = (void (*)(char const *,char const *,char const *,int)) 0 ;
   
@@ -19262,7 +19262,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_print_error_set_godot_5192ef1abe
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_print_error_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_print_error_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(char const *,char const *,char const *,int) = 0 ;
   void* _swig_go_result;
@@ -19275,7 +19275,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_print_error_get_godot_5192ef1ab
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_print_warning_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_print_warning_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(char const *,char const *,char const *,int) = (void (*)(char const *,char const *,char const *,int)) 0 ;
   
@@ -19287,7 +19287,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_print_warning_set_godot_5192ef1a
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_print_warning_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_print_warning_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(char const *,char const *,char const *,int) = 0 ;
   void* _swig_go_result;
@@ -19300,7 +19300,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_print_warning_get_godot_5192ef1
 }
 
 
-void _wrap_godot_gdnative_core_api_struct_godot_print_set_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
+void _wrap_godot_gdnative_core_api_struct_godot_print_set_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0, void* _swig_go_1) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*arg2)(godot_string const *) = (void (*)(godot_string const *)) 0 ;
   
@@ -19312,7 +19312,7 @@ void _wrap_godot_gdnative_core_api_struct_godot_print_set_godot_5192ef1abe3e06df
 }
 
 
-void* _wrap_godot_gdnative_core_api_struct_godot_print_get_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void* _wrap_godot_gdnative_core_api_struct_godot_print_get_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   void (*result)(godot_string const *) = 0 ;
   void* _swig_go_result;
@@ -19325,7 +19325,7 @@ void* _wrap_godot_gdnative_core_api_struct_godot_print_get_godot_5192ef1abe3e06d
 }
 
 
-struct godot_gdnative_core_api_struct *_wrap_new_godot_gdnative_core_api_struct_godot_5192ef1abe3e06df() {
+struct godot_gdnative_core_api_struct *_wrap_new_godot_gdnative_core_api_struct_godot_fc372a972f111bee() {
   struct godot_gdnative_core_api_struct *result = 0 ;
   struct godot_gdnative_core_api_struct *_swig_go_result;
   
@@ -19336,7 +19336,7 @@ struct godot_gdnative_core_api_struct *_wrap_new_godot_gdnative_core_api_struct_
 }
 
 
-void _wrap_delete_godot_gdnative_core_api_struct_godot_5192ef1abe3e06df(struct godot_gdnative_core_api_struct *_swig_go_0) {
+void _wrap_delete_godot_gdnative_core_api_struct_godot_fc372a972f111bee(struct godot_gdnative_core_api_struct *_swig_go_0) {
   struct godot_gdnative_core_api_struct *arg1 = (struct godot_gdnative_core_api_struct *) 0 ;
   
   arg1 = *(struct godot_gdnative_core_api_struct **)&_swig_go_0; 
