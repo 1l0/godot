@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:50:34 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 08:35:17 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 #include "_cgo_export.h"

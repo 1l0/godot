@@ -15,7 +15,8 @@ PARSER:
   SourcesPaths: ["gdnative_api_struct.gen.h"]
 TRANSLATOR:
   ConstRules:
-    defines: cgo
+    defines: expand
+    enum: expand
   Rules:
     global: 
       - {transform: lower}
@@ -24,6 +25,8 @@ TRANSLATOR:
       - {transform: export}
     private:
       - {transform: unexport}
+    type:
+      - {action: ignore, from: "godot_object"}
     post-global: 
       - {action: replace, from: _$}
       - {load: snakecase}

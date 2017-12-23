@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:50:34 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 08:35:17 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -4097,7 +4097,7 @@ func (x *GdnativeCoreApiStruct) Deref() {
 	x.VariantAsColor = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_color))
 	x.VariantAsNodePath = NewNodePathRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_node_path))
 	x.VariantAsRid = NewRidRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_rid))
-	x.VariantAsObject = NewObjectRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_object))
+	x.VariantAsObject = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_object))
 	x.VariantAsDictionary = NewDictionaryRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_dictionary))
 	x.VariantAsArray = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_array))
 	x.VariantAsPoolByteArray = NewPoolByteArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_byte_array))
@@ -4270,7 +4270,7 @@ func (x *GdnativeCoreApiStruct) Deref() {
 	x.StringNameOperatorLess = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_name_operator_less))
 	x.StringNameDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_destroy))
 	x.ObjectDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_object_destroy))
-	x.GlobalGetSingleton = NewObjectRef(unsafe.Pointer(x.ref57717e51.godot_global_get_singleton))
+	x.GlobalGetSingleton = NewRef(unsafe.Pointer(x.ref57717e51.godot_global_get_singleton))
 	x.MethodBindGetMethod = NewMethodBindRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_get_method))
 	x.MethodBindPtrcall = NewRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_ptrcall))
 	x.MethodBindCall = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_call))
@@ -4747,7 +4747,7 @@ func (x *GdnativeInitOptions) Deref() {
 	x.NoApiHash = (uint64)(x.reff9d34929.no_api_hash)
 	x.ReportVersionMismatch = NewRef(unsafe.Pointer(x.reff9d34929.report_version_mismatch))
 	x.ReportLoadingError = NewRef(unsafe.Pointer(x.reff9d34929.report_loading_error))
-	x.GdNativeLibrary = (*Object)(unsafe.Pointer(x.reff9d34929.gd_native_library))
+	x.GdNativeLibrary = (unsafe.Pointer)(unsafe.Pointer(x.reff9d34929.gd_native_library))
 	packSGdnativeCoreApiStruct(x.ApiStruct, x.reff9d34929.api_struct)
 	packSString(x.ActiveLibraryPath, x.reff9d34929.active_library_path)
 }
@@ -4861,7 +4861,7 @@ func NewClassConstructorRef(ref unsafe.Pointer) *ClassConstructor {
 func classConstructorC099ECDE() C.godot_object {
 	if classConstructorC099ECDEFunc != nil {
 		retc099ecde := classConstructorC099ECDEFunc()
-		ret, _ := (C.godot_object)(unsafe.Pointer(retc099ecde)), cgoAllocsUnknown
+		ret, _ := retc099ecde, cgoAllocsUnknown
 		return ret
 	}
 	panic("callback func has not been set (race?)")
