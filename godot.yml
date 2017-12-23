@@ -4,14 +4,18 @@ GENERATOR:
   Includes:
     - gdnative_api_struct.gen.h
   FlagGroups:
-    - {name: "CFLAGS", flags: ["-Igodot_headers", -std=c11", "-fPIC", "-c"]}
-    - {name: "LDFLAGS", traits: ["darwin"], flags: ["-framework Cocoa", "-Wl,-undefined,dynamic_lookup"]}
+    - {name: "CFLAGS", flags: ["-Igodot_headers -std=c11"]}
+    - {name: "LDFLAGS", traits: ["darwin"], flags: ["-framework Cocoa -Wl,-undefined,dynamic_lookup"]}
 PARSER:
-  IncludePaths: ["godot_headers","/usr/include","./"]
+  IncludePaths: 
+    - godot_headers
+  Defines:
+    __has_include_next(x): 1
+
   SourcesPaths: ["gdnative_api_struct.gen.h"]
 TRANSLATOR:
   ConstRules:
-    defines: eval
+    defines: expand
   Rules:
     global: 
       - {transform: lower}
