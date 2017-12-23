@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 06:36:13 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 06:43:30 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -67,17 +67,17 @@ func (a *cgoAllocMap) Free() {
 	a.mux.Unlock()
 }
 
-// allocGodotGdnativeExtNativescriptApiStructMemory allocates memory for type C.godot_gdnative_ext_nativescript_api_struct in C.
+// allocGdnativeExtNativescriptApiStructMemory allocates memory for type C.godot_gdnative_ext_nativescript_api_struct in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotGdnativeExtNativescriptApiStructMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotGdnativeExtNativescriptApiStructValue))
+func allocGdnativeExtNativescriptApiStructMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGdnativeExtNativescriptApiStructValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotGdnativeExtNativescriptApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_ext_nativescript_api_struct{})
+const sizeOfGdnativeExtNativescriptApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_ext_nativescript_api_struct{})
 
 type sliceHeader struct {
 	Data uintptr
@@ -85,22 +85,22 @@ type sliceHeader struct {
 	Cap  int
 }
 
-// allocGodotGdnativeApiStructMemory allocates memory for type C.godot_gdnative_api_struct in C.
+// allocGdnativeApiStructMemory allocates memory for type C.godot_gdnative_api_struct in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotGdnativeApiStructMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotGdnativeApiStructValue))
+func allocGdnativeApiStructMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGdnativeApiStructValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotGdnativeApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_api_struct{})
+const sizeOfGdnativeApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_api_struct{})
 
 const sizeOfPtr = unsafe.Sizeof(&struct{}{})
 
-// unpackSGodotGdnativeApiStruct transforms a sliced Go data structure into plain C format.
-func unpackSGodotGdnativeApiStruct(x []GodotGdnativeApiStruct) (unpacked *C.godot_gdnative_api_struct, allocs *cgoAllocMap) {
+// unpackSGdnativeApiStruct transforms a sliced Go data structure into plain C format.
+func unpackSGdnativeApiStruct(x []GdnativeApiStruct) (unpacked *C.godot_gdnative_api_struct, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -110,7 +110,7 @@ func unpackSGodotGdnativeApiStruct(x []GodotGdnativeApiStruct) (unpacked *C.godo
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotGdnativeApiStructMemory(len0)
+	mem0 := allocGdnativeApiStructMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -128,17 +128,17 @@ func unpackSGodotGdnativeApiStruct(x []GodotGdnativeApiStruct) (unpacked *C.godo
 	return
 }
 
-// packSGodotGdnativeApiStruct reads sliced Go data structure out from plain C format.
-func packSGodotGdnativeApiStruct(v []GodotGdnativeApiStruct, ptr0 *C.godot_gdnative_api_struct) {
+// packSGdnativeApiStruct reads sliced Go data structure out from plain C format.
+func packSGdnativeApiStruct(v []GdnativeApiStruct, ptr0 *C.godot_gdnative_api_struct) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotGdnativeApiStructValue]C.godot_gdnative_api_struct)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotGdnativeApiStructRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfGdnativeApiStructValue]C.godot_gdnative_api_struct)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewGdnativeApiStructRef(unsafe.Pointer(&ptr1))
 	}
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotGdnativeExtNativescriptApiStruct) Ref() *C.godot_gdnative_ext_nativescript_api_struct {
+func (x *GdnativeExtNativescriptApiStruct) Ref() *C.godot_gdnative_ext_nativescript_api_struct {
 	if x == nil {
 		return nil
 	}
@@ -147,33 +147,33 @@ func (x *GodotGdnativeExtNativescriptApiStruct) Ref() *C.godot_gdnative_ext_nati
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotGdnativeExtNativescriptApiStruct) Free() {
+func (x *GdnativeExtNativescriptApiStruct) Free() {
 	if x != nil && x.allocsf0cd6324 != nil {
 		x.allocsf0cd6324.(*cgoAllocMap).Free()
 		x.reff0cd6324 = nil
 	}
 }
 
-// NewGodotGdnativeExtNativescriptApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewGdnativeExtNativescriptApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotGdnativeExtNativescriptApiStructRef(ref unsafe.Pointer) *GodotGdnativeExtNativescriptApiStruct {
+func NewGdnativeExtNativescriptApiStructRef(ref unsafe.Pointer) *GdnativeExtNativescriptApiStruct {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotGdnativeExtNativescriptApiStruct)
+	obj := new(GdnativeExtNativescriptApiStruct)
 	obj.reff0cd6324 = (*C.godot_gdnative_ext_nativescript_api_struct)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotGdnativeExtNativescriptApiStruct) PassRef() (*C.godot_gdnative_ext_nativescript_api_struct, *cgoAllocMap) {
+func (x *GdnativeExtNativescriptApiStruct) PassRef() (*C.godot_gdnative_ext_nativescript_api_struct, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.reff0cd6324 != nil {
 		return x.reff0cd6324, nil
 	}
-	memf0cd6324 := allocGodotGdnativeExtNativescriptApiStructMemory(1)
+	memf0cd6324 := allocGdnativeExtNativescriptApiStructMemory(1)
 	reff0cd6324 := (*C.godot_gdnative_ext_nativescript_api_struct)(memf0cd6324)
 	allocsf0cd6324 := new(cgoAllocMap)
 	allocsf0cd6324.Add(memf0cd6324)
@@ -187,31 +187,31 @@ func (x *GodotGdnativeExtNativescriptApiStruct) PassRef() (*C.godot_gdnative_ext
 	allocsf0cd6324.Borrow(cversion_allocs)
 
 	var cnext_allocs *cgoAllocMap
-	reff0cd6324.next, cnext_allocs = unpackSGodotGdnativeApiStruct(x.Next)
+	reff0cd6324.next, cnext_allocs = unpackSGdnativeApiStruct(x.Next)
 	allocsf0cd6324.Borrow(cnext_allocs)
 
 	var cgodot_nativescript_register_class_allocs *cgoAllocMap
-	reff0cd6324.godot_nativescript_register_class, cgodot_nativescript_register_class_allocs = x.GodotNativescriptRegisterClass.PassRef()
+	reff0cd6324.godot_nativescript_register_class, cgodot_nativescript_register_class_allocs = x.NativescriptRegisterClass.PassRef()
 	allocsf0cd6324.Borrow(cgodot_nativescript_register_class_allocs)
 
 	var cgodot_nativescript_register_tool_class_allocs *cgoAllocMap
-	reff0cd6324.godot_nativescript_register_tool_class, cgodot_nativescript_register_tool_class_allocs = x.GodotNativescriptRegisterToolClass.PassRef()
+	reff0cd6324.godot_nativescript_register_tool_class, cgodot_nativescript_register_tool_class_allocs = x.NativescriptRegisterToolClass.PassRef()
 	allocsf0cd6324.Borrow(cgodot_nativescript_register_tool_class_allocs)
 
 	var cgodot_nativescript_register_method_allocs *cgoAllocMap
-	reff0cd6324.godot_nativescript_register_method, cgodot_nativescript_register_method_allocs = x.GodotNativescriptRegisterMethod.PassRef()
+	reff0cd6324.godot_nativescript_register_method, cgodot_nativescript_register_method_allocs = x.NativescriptRegisterMethod.PassRef()
 	allocsf0cd6324.Borrow(cgodot_nativescript_register_method_allocs)
 
 	var cgodot_nativescript_register_property_allocs *cgoAllocMap
-	reff0cd6324.godot_nativescript_register_property, cgodot_nativescript_register_property_allocs = x.GodotNativescriptRegisterProperty.PassRef()
+	reff0cd6324.godot_nativescript_register_property, cgodot_nativescript_register_property_allocs = x.NativescriptRegisterProperty.PassRef()
 	allocsf0cd6324.Borrow(cgodot_nativescript_register_property_allocs)
 
 	var cgodot_nativescript_register_signal_allocs *cgoAllocMap
-	reff0cd6324.godot_nativescript_register_signal, cgodot_nativescript_register_signal_allocs = x.GodotNativescriptRegisterSignal.PassRef()
+	reff0cd6324.godot_nativescript_register_signal, cgodot_nativescript_register_signal_allocs = x.NativescriptRegisterSignal.PassRef()
 	allocsf0cd6324.Borrow(cgodot_nativescript_register_signal_allocs)
 
 	var cgodot_nativescript_get_userdata_allocs *cgoAllocMap
-	reff0cd6324.godot_nativescript_get_userdata, cgodot_nativescript_get_userdata_allocs = x.GodotNativescriptGetUserdata.PassRef()
+	reff0cd6324.godot_nativescript_get_userdata, cgodot_nativescript_get_userdata_allocs = x.NativescriptGetUserdata.PassRef()
 	allocsf0cd6324.Borrow(cgodot_nativescript_get_userdata_allocs)
 
 	x.reff0cd6324 = reff0cd6324
@@ -221,7 +221,7 @@ func (x *GodotGdnativeExtNativescriptApiStruct) PassRef() (*C.godot_gdnative_ext
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotGdnativeExtNativescriptApiStruct) PassValue() (C.godot_gdnative_ext_nativescript_api_struct, *cgoAllocMap) {
+func (x GdnativeExtNativescriptApiStruct) PassValue() (C.godot_gdnative_ext_nativescript_api_struct, *cgoAllocMap) {
 	if x.reff0cd6324 != nil {
 		return *x.reff0cd6324, nil
 	}
@@ -231,35 +231,35 @@ func (x GodotGdnativeExtNativescriptApiStruct) PassValue() (C.godot_gdnative_ext
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotGdnativeExtNativescriptApiStruct) Deref() {
+func (x *GdnativeExtNativescriptApiStruct) Deref() {
 	if x.reff0cd6324 == nil {
 		return
 	}
 	x.Type = (uint32)(x.reff0cd6324._type)
-	x.Version = *NewGodotGdnativeApiVersionRef(unsafe.Pointer(&x.reff0cd6324.version))
-	packSGodotGdnativeApiStruct(x.Next, x.reff0cd6324.next)
-	x.GodotNativescriptRegisterClass = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_class))
-	x.GodotNativescriptRegisterToolClass = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_tool_class))
-	x.GodotNativescriptRegisterMethod = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_method))
-	x.GodotNativescriptRegisterProperty = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_property))
-	x.GodotNativescriptRegisterSignal = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_signal))
-	x.GodotNativescriptGetUserdata = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_get_userdata))
+	x.Version = *NewGdnativeApiVersionRef(unsafe.Pointer(&x.reff0cd6324.version))
+	packSGdnativeApiStruct(x.Next, x.reff0cd6324.next)
+	x.NativescriptRegisterClass = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_class))
+	x.NativescriptRegisterToolClass = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_tool_class))
+	x.NativescriptRegisterMethod = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_method))
+	x.NativescriptRegisterProperty = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_property))
+	x.NativescriptRegisterSignal = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_register_signal))
+	x.NativescriptGetUserdata = NewRef(unsafe.Pointer(x.reff0cd6324.godot_nativescript_get_userdata))
 }
 
-// allocGodotGdnativeExtPluginscriptApiStructMemory allocates memory for type C.godot_gdnative_ext_pluginscript_api_struct in C.
+// allocGdnativeExtPluginscriptApiStructMemory allocates memory for type C.godot_gdnative_ext_pluginscript_api_struct in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotGdnativeExtPluginscriptApiStructMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotGdnativeExtPluginscriptApiStructValue))
+func allocGdnativeExtPluginscriptApiStructMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGdnativeExtPluginscriptApiStructValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotGdnativeExtPluginscriptApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_ext_pluginscript_api_struct{})
+const sizeOfGdnativeExtPluginscriptApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_ext_pluginscript_api_struct{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotGdnativeExtPluginscriptApiStruct) Ref() *C.godot_gdnative_ext_pluginscript_api_struct {
+func (x *GdnativeExtPluginscriptApiStruct) Ref() *C.godot_gdnative_ext_pluginscript_api_struct {
 	if x == nil {
 		return nil
 	}
@@ -268,33 +268,33 @@ func (x *GodotGdnativeExtPluginscriptApiStruct) Ref() *C.godot_gdnative_ext_plug
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotGdnativeExtPluginscriptApiStruct) Free() {
+func (x *GdnativeExtPluginscriptApiStruct) Free() {
 	if x != nil && x.allocsc52e13a7 != nil {
 		x.allocsc52e13a7.(*cgoAllocMap).Free()
 		x.refc52e13a7 = nil
 	}
 }
 
-// NewGodotGdnativeExtPluginscriptApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewGdnativeExtPluginscriptApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotGdnativeExtPluginscriptApiStructRef(ref unsafe.Pointer) *GodotGdnativeExtPluginscriptApiStruct {
+func NewGdnativeExtPluginscriptApiStructRef(ref unsafe.Pointer) *GdnativeExtPluginscriptApiStruct {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotGdnativeExtPluginscriptApiStruct)
+	obj := new(GdnativeExtPluginscriptApiStruct)
 	obj.refc52e13a7 = (*C.godot_gdnative_ext_pluginscript_api_struct)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotGdnativeExtPluginscriptApiStruct) PassRef() (*C.godot_gdnative_ext_pluginscript_api_struct, *cgoAllocMap) {
+func (x *GdnativeExtPluginscriptApiStruct) PassRef() (*C.godot_gdnative_ext_pluginscript_api_struct, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refc52e13a7 != nil {
 		return x.refc52e13a7, nil
 	}
-	memc52e13a7 := allocGodotGdnativeExtPluginscriptApiStructMemory(1)
+	memc52e13a7 := allocGdnativeExtPluginscriptApiStructMemory(1)
 	refc52e13a7 := (*C.godot_gdnative_ext_pluginscript_api_struct)(memc52e13a7)
 	allocsc52e13a7 := new(cgoAllocMap)
 	allocsc52e13a7.Add(memc52e13a7)
@@ -308,11 +308,11 @@ func (x *GodotGdnativeExtPluginscriptApiStruct) PassRef() (*C.godot_gdnative_ext
 	allocsc52e13a7.Borrow(cversion_allocs)
 
 	var cnext_allocs *cgoAllocMap
-	refc52e13a7.next, cnext_allocs = unpackSGodotGdnativeApiStruct(x.Next)
+	refc52e13a7.next, cnext_allocs = unpackSGdnativeApiStruct(x.Next)
 	allocsc52e13a7.Borrow(cnext_allocs)
 
 	var cgodot_pluginscript_register_language_allocs *cgoAllocMap
-	refc52e13a7.godot_pluginscript_register_language, cgodot_pluginscript_register_language_allocs = x.GodotPluginscriptRegisterLanguage.PassRef()
+	refc52e13a7.godot_pluginscript_register_language, cgodot_pluginscript_register_language_allocs = x.PluginscriptRegisterLanguage.PassRef()
 	allocsc52e13a7.Borrow(cgodot_pluginscript_register_language_allocs)
 
 	x.refc52e13a7 = refc52e13a7
@@ -322,7 +322,7 @@ func (x *GodotGdnativeExtPluginscriptApiStruct) PassRef() (*C.godot_gdnative_ext
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotGdnativeExtPluginscriptApiStruct) PassValue() (C.godot_gdnative_ext_pluginscript_api_struct, *cgoAllocMap) {
+func (x GdnativeExtPluginscriptApiStruct) PassValue() (C.godot_gdnative_ext_pluginscript_api_struct, *cgoAllocMap) {
 	if x.refc52e13a7 != nil {
 		return *x.refc52e13a7, nil
 	}
@@ -332,30 +332,30 @@ func (x GodotGdnativeExtPluginscriptApiStruct) PassValue() (C.godot_gdnative_ext
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotGdnativeExtPluginscriptApiStruct) Deref() {
+func (x *GdnativeExtPluginscriptApiStruct) Deref() {
 	if x.refc52e13a7 == nil {
 		return
 	}
 	x.Type = (uint32)(x.refc52e13a7._type)
-	x.Version = *NewGodotGdnativeApiVersionRef(unsafe.Pointer(&x.refc52e13a7.version))
-	packSGodotGdnativeApiStruct(x.Next, x.refc52e13a7.next)
-	x.GodotPluginscriptRegisterLanguage = NewRef(unsafe.Pointer(x.refc52e13a7.godot_pluginscript_register_language))
+	x.Version = *NewGdnativeApiVersionRef(unsafe.Pointer(&x.refc52e13a7.version))
+	packSGdnativeApiStruct(x.Next, x.refc52e13a7.next)
+	x.PluginscriptRegisterLanguage = NewRef(unsafe.Pointer(x.refc52e13a7.godot_pluginscript_register_language))
 }
 
-// allocGodotGdnativeExtArvrApiStructMemory allocates memory for type C.godot_gdnative_ext_arvr_api_struct in C.
+// allocGdnativeExtArvrApiStructMemory allocates memory for type C.godot_gdnative_ext_arvr_api_struct in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotGdnativeExtArvrApiStructMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotGdnativeExtArvrApiStructValue))
+func allocGdnativeExtArvrApiStructMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGdnativeExtArvrApiStructValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotGdnativeExtArvrApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_ext_arvr_api_struct{})
+const sizeOfGdnativeExtArvrApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_ext_arvr_api_struct{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotGdnativeExtArvrApiStruct) Ref() *C.godot_gdnative_ext_arvr_api_struct {
+func (x *GdnativeExtArvrApiStruct) Ref() *C.godot_gdnative_ext_arvr_api_struct {
 	if x == nil {
 		return nil
 	}
@@ -364,33 +364,33 @@ func (x *GodotGdnativeExtArvrApiStruct) Ref() *C.godot_gdnative_ext_arvr_api_str
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotGdnativeExtArvrApiStruct) Free() {
+func (x *GdnativeExtArvrApiStruct) Free() {
 	if x != nil && x.allocs64de5bf5 != nil {
 		x.allocs64de5bf5.(*cgoAllocMap).Free()
 		x.ref64de5bf5 = nil
 	}
 }
 
-// NewGodotGdnativeExtArvrApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewGdnativeExtArvrApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotGdnativeExtArvrApiStructRef(ref unsafe.Pointer) *GodotGdnativeExtArvrApiStruct {
+func NewGdnativeExtArvrApiStructRef(ref unsafe.Pointer) *GdnativeExtArvrApiStruct {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotGdnativeExtArvrApiStruct)
+	obj := new(GdnativeExtArvrApiStruct)
 	obj.ref64de5bf5 = (*C.godot_gdnative_ext_arvr_api_struct)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotGdnativeExtArvrApiStruct) PassRef() (*C.godot_gdnative_ext_arvr_api_struct, *cgoAllocMap) {
+func (x *GdnativeExtArvrApiStruct) PassRef() (*C.godot_gdnative_ext_arvr_api_struct, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref64de5bf5 != nil {
 		return x.ref64de5bf5, nil
 	}
-	mem64de5bf5 := allocGodotGdnativeExtArvrApiStructMemory(1)
+	mem64de5bf5 := allocGdnativeExtArvrApiStructMemory(1)
 	ref64de5bf5 := (*C.godot_gdnative_ext_arvr_api_struct)(mem64de5bf5)
 	allocs64de5bf5 := new(cgoAllocMap)
 	allocs64de5bf5.Add(mem64de5bf5)
@@ -404,51 +404,51 @@ func (x *GodotGdnativeExtArvrApiStruct) PassRef() (*C.godot_gdnative_ext_arvr_ap
 	allocs64de5bf5.Borrow(cversion_allocs)
 
 	var cnext_allocs *cgoAllocMap
-	ref64de5bf5.next, cnext_allocs = unpackSGodotGdnativeApiStruct(x.Next)
+	ref64de5bf5.next, cnext_allocs = unpackSGdnativeApiStruct(x.Next)
 	allocs64de5bf5.Borrow(cnext_allocs)
 
 	var cgodot_arvr_register_interface_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_register_interface, cgodot_arvr_register_interface_allocs = x.GodotArvrRegisterInterface.PassRef()
+	ref64de5bf5.godot_arvr_register_interface, cgodot_arvr_register_interface_allocs = x.ArvrRegisterInterface.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_register_interface_allocs)
 
 	var cgodot_arvr_get_worldscale_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_get_worldscale, cgodot_arvr_get_worldscale_allocs = x.GodotArvrGetWorldscale.PassRef()
+	ref64de5bf5.godot_arvr_get_worldscale, cgodot_arvr_get_worldscale_allocs = x.ArvrGetWorldscale.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_get_worldscale_allocs)
 
 	var cgodot_arvr_get_reference_frame_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_get_reference_frame, cgodot_arvr_get_reference_frame_allocs = x.GodotArvrGetReferenceFrame.PassRef()
+	ref64de5bf5.godot_arvr_get_reference_frame, cgodot_arvr_get_reference_frame_allocs = x.ArvrGetReferenceFrame.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_get_reference_frame_allocs)
 
 	var cgodot_arvr_blit_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_blit, cgodot_arvr_blit_allocs = x.GodotArvrBlit.PassRef()
+	ref64de5bf5.godot_arvr_blit, cgodot_arvr_blit_allocs = x.ArvrBlit.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_blit_allocs)
 
 	var cgodot_arvr_get_texid_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_get_texid, cgodot_arvr_get_texid_allocs = x.GodotArvrGetTexid.PassRef()
+	ref64de5bf5.godot_arvr_get_texid, cgodot_arvr_get_texid_allocs = x.ArvrGetTexid.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_get_texid_allocs)
 
 	var cgodot_arvr_add_controller_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_add_controller, cgodot_arvr_add_controller_allocs = x.GodotArvrAddController.PassRef()
+	ref64de5bf5.godot_arvr_add_controller, cgodot_arvr_add_controller_allocs = x.ArvrAddController.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_add_controller_allocs)
 
 	var cgodot_arvr_remove_controller_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_remove_controller, cgodot_arvr_remove_controller_allocs = x.GodotArvrRemoveController.PassRef()
+	ref64de5bf5.godot_arvr_remove_controller, cgodot_arvr_remove_controller_allocs = x.ArvrRemoveController.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_remove_controller_allocs)
 
 	var cgodot_arvr_set_controller_transform_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_set_controller_transform, cgodot_arvr_set_controller_transform_allocs = x.GodotArvrSetControllerTransform.PassRef()
+	ref64de5bf5.godot_arvr_set_controller_transform, cgodot_arvr_set_controller_transform_allocs = x.ArvrSetControllerTransform.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_set_controller_transform_allocs)
 
 	var cgodot_arvr_set_controller_button_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_set_controller_button, cgodot_arvr_set_controller_button_allocs = x.GodotArvrSetControllerButton.PassRef()
+	ref64de5bf5.godot_arvr_set_controller_button, cgodot_arvr_set_controller_button_allocs = x.ArvrSetControllerButton.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_set_controller_button_allocs)
 
 	var cgodot_arvr_set_controller_axis_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_set_controller_axis, cgodot_arvr_set_controller_axis_allocs = x.GodotArvrSetControllerAxis.PassRef()
+	ref64de5bf5.godot_arvr_set_controller_axis, cgodot_arvr_set_controller_axis_allocs = x.ArvrSetControllerAxis.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_set_controller_axis_allocs)
 
 	var cgodot_arvr_get_controller_rumble_allocs *cgoAllocMap
-	ref64de5bf5.godot_arvr_get_controller_rumble, cgodot_arvr_get_controller_rumble_allocs = x.GodotArvrGetControllerRumble.PassRef()
+	ref64de5bf5.godot_arvr_get_controller_rumble, cgodot_arvr_get_controller_rumble_allocs = x.ArvrGetControllerRumble.PassRef()
 	allocs64de5bf5.Borrow(cgodot_arvr_get_controller_rumble_allocs)
 
 	x.ref64de5bf5 = ref64de5bf5
@@ -458,7 +458,7 @@ func (x *GodotGdnativeExtArvrApiStruct) PassRef() (*C.godot_gdnative_ext_arvr_ap
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotGdnativeExtArvrApiStruct) PassValue() (C.godot_gdnative_ext_arvr_api_struct, *cgoAllocMap) {
+func (x GdnativeExtArvrApiStruct) PassValue() (C.godot_gdnative_ext_arvr_api_struct, *cgoAllocMap) {
 	if x.ref64de5bf5 != nil {
 		return *x.ref64de5bf5, nil
 	}
@@ -468,52 +468,52 @@ func (x GodotGdnativeExtArvrApiStruct) PassValue() (C.godot_gdnative_ext_arvr_ap
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotGdnativeExtArvrApiStruct) Deref() {
+func (x *GdnativeExtArvrApiStruct) Deref() {
 	if x.ref64de5bf5 == nil {
 		return
 	}
 	x.Type = (uint32)(x.ref64de5bf5._type)
-	x.Version = *NewGodotGdnativeApiVersionRef(unsafe.Pointer(&x.ref64de5bf5.version))
-	packSGodotGdnativeApiStruct(x.Next, x.ref64de5bf5.next)
-	x.GodotArvrRegisterInterface = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_register_interface))
-	x.GodotArvrGetWorldscale = NewGodotRealRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_get_worldscale))
-	x.GodotArvrGetReferenceFrame = NewGodotTransformRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_get_reference_frame))
-	x.GodotArvrBlit = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_blit))
-	x.GodotArvrGetTexid = NewGodotIntRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_get_texid))
-	x.GodotArvrAddController = NewGodotIntRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_add_controller))
-	x.GodotArvrRemoveController = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_remove_controller))
-	x.GodotArvrSetControllerTransform = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_set_controller_transform))
-	x.GodotArvrSetControllerButton = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_set_controller_button))
-	x.GodotArvrSetControllerAxis = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_set_controller_axis))
-	x.GodotArvrGetControllerRumble = NewGodotRealRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_get_controller_rumble))
+	x.Version = *NewGdnativeApiVersionRef(unsafe.Pointer(&x.ref64de5bf5.version))
+	packSGdnativeApiStruct(x.Next, x.ref64de5bf5.next)
+	x.ArvrRegisterInterface = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_register_interface))
+	x.ArvrGetWorldscale = NewRealRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_get_worldscale))
+	x.ArvrGetReferenceFrame = NewTransformRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_get_reference_frame))
+	x.ArvrBlit = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_blit))
+	x.ArvrGetTexid = NewIntRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_get_texid))
+	x.ArvrAddController = NewIntRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_add_controller))
+	x.ArvrRemoveController = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_remove_controller))
+	x.ArvrSetControllerTransform = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_set_controller_transform))
+	x.ArvrSetControllerButton = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_set_controller_button))
+	x.ArvrSetControllerAxis = NewRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_set_controller_axis))
+	x.ArvrGetControllerRumble = NewRealRef(unsafe.Pointer(x.ref64de5bf5.godot_arvr_get_controller_rumble))
 }
 
-// allocGodotGdnativeCoreApiStructMemory allocates memory for type C.godot_gdnative_core_api_struct in C.
+// allocGdnativeCoreApiStructMemory allocates memory for type C.godot_gdnative_core_api_struct in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotGdnativeCoreApiStructMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotGdnativeCoreApiStructValue))
+func allocGdnativeCoreApiStructMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGdnativeCoreApiStructValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotGdnativeCoreApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_core_api_struct{})
+const sizeOfGdnativeCoreApiStructValue = unsafe.Sizeof([1]C.godot_gdnative_core_api_struct{})
 
-// allocPGodotGdnativeApiStructMemory allocates memory for type *C.godot_gdnative_api_struct in C.
+// allocPGdnativeApiStructMemory allocates memory for type *C.godot_gdnative_api_struct in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocPGodotGdnativeApiStructMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPGodotGdnativeApiStructValue))
+func allocPGdnativeApiStructMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPGdnativeApiStructValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfPGodotGdnativeApiStructValue = unsafe.Sizeof([1]*C.godot_gdnative_api_struct{})
+const sizeOfPGdnativeApiStructValue = unsafe.Sizeof([1]*C.godot_gdnative_api_struct{})
 
-// unpackSSGodotGdnativeApiStruct transforms a sliced Go data structure into plain C format.
-func unpackSSGodotGdnativeApiStruct(x [][]GodotGdnativeApiStruct) (unpacked **C.godot_gdnative_api_struct, allocs *cgoAllocMap) {
+// unpackSSGdnativeApiStruct transforms a sliced Go data structure into plain C format.
+func unpackSSGdnativeApiStruct(x [][]GdnativeApiStruct) (unpacked **C.godot_gdnative_api_struct, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -523,7 +523,7 @@ func unpackSSGodotGdnativeApiStruct(x [][]GodotGdnativeApiStruct) (unpacked **C.
 	})
 
 	len0 := len(x)
-	mem0 := allocPGodotGdnativeApiStructMemory(len0)
+	mem0 := allocPGdnativeApiStructMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -533,7 +533,7 @@ func unpackSSGodotGdnativeApiStruct(x [][]GodotGdnativeApiStruct) (unpacked **C.
 	v0 := *(*[]*C.godot_gdnative_api_struct)(unsafe.Pointer(h0))
 	for i0 := range x {
 		len1 := len(x[i0])
-		mem1 := allocGodotGdnativeApiStructMemory(len1)
+		mem1 := allocGdnativeApiStructMemory(len1)
 		allocs.Add(mem1)
 		h1 := &sliceHeader{
 			Data: uintptr(mem1),
@@ -554,20 +554,20 @@ func unpackSSGodotGdnativeApiStruct(x [][]GodotGdnativeApiStruct) (unpacked **C.
 	return
 }
 
-// packSSGodotGdnativeApiStruct reads sliced Go data structure out from plain C format.
-func packSSGodotGdnativeApiStruct(v [][]GodotGdnativeApiStruct, ptr0 **C.godot_gdnative_api_struct) {
+// packSSGdnativeApiStruct reads sliced Go data structure out from plain C format.
+func packSSGdnativeApiStruct(v [][]GdnativeApiStruct, ptr0 **C.godot_gdnative_api_struct) {
 	const m = 0x7fffffff
 	for i0 := range v {
 		ptr1 := (*(*[m / sizeOfPtr]*C.godot_gdnative_api_struct)(unsafe.Pointer(ptr0)))[i0]
 		for i1 := range v[i0] {
-			ptr2 := (*(*[m / sizeOfGodotGdnativeApiStructValue]C.godot_gdnative_api_struct)(unsafe.Pointer(ptr1)))[i1]
-			v[i0][i1] = *NewGodotGdnativeApiStructRef(unsafe.Pointer(&ptr2))
+			ptr2 := (*(*[m / sizeOfGdnativeApiStructValue]C.godot_gdnative_api_struct)(unsafe.Pointer(ptr1)))[i1]
+			v[i0][i1] = *NewGdnativeApiStructRef(unsafe.Pointer(&ptr2))
 		}
 	}
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotGdnativeCoreApiStruct) Ref() *C.godot_gdnative_core_api_struct {
+func (x *GdnativeCoreApiStruct) Ref() *C.godot_gdnative_core_api_struct {
 	if x == nil {
 		return nil
 	}
@@ -576,33 +576,33 @@ func (x *GodotGdnativeCoreApiStruct) Ref() *C.godot_gdnative_core_api_struct {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotGdnativeCoreApiStruct) Free() {
+func (x *GdnativeCoreApiStruct) Free() {
 	if x != nil && x.allocs57717e51 != nil {
 		x.allocs57717e51.(*cgoAllocMap).Free()
 		x.ref57717e51 = nil
 	}
 }
 
-// NewGodotGdnativeCoreApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewGdnativeCoreApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotGdnativeCoreApiStructRef(ref unsafe.Pointer) *GodotGdnativeCoreApiStruct {
+func NewGdnativeCoreApiStructRef(ref unsafe.Pointer) *GdnativeCoreApiStruct {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotGdnativeCoreApiStruct)
+	obj := new(GdnativeCoreApiStruct)
 	obj.ref57717e51 = (*C.godot_gdnative_core_api_struct)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotGdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struct, *cgoAllocMap) {
+func (x *GdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struct, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref57717e51 != nil {
 		return x.ref57717e51, nil
 	}
-	mem57717e51 := allocGodotGdnativeCoreApiStructMemory(1)
+	mem57717e51 := allocGdnativeCoreApiStructMemory(1)
 	ref57717e51 := (*C.godot_gdnative_core_api_struct)(mem57717e51)
 	allocs57717e51 := new(cgoAllocMap)
 	allocs57717e51.Add(mem57717e51)
@@ -616,7 +616,7 @@ func (x *GodotGdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struc
 	allocs57717e51.Borrow(cversion_allocs)
 
 	var cnext_allocs *cgoAllocMap
-	ref57717e51.next, cnext_allocs = unpackSGodotGdnativeApiStruct(x.Next)
+	ref57717e51.next, cnext_allocs = unpackSGdnativeApiStruct(x.Next)
 	allocs57717e51.Borrow(cnext_allocs)
 
 	var cnum_extensions_allocs *cgoAllocMap
@@ -624,2907 +624,2907 @@ func (x *GodotGdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struc
 	allocs57717e51.Borrow(cnum_extensions_allocs)
 
 	var cextensions_allocs *cgoAllocMap
-	ref57717e51.extensions, cextensions_allocs = unpackSSGodotGdnativeApiStruct(x.Extensions)
+	ref57717e51.extensions, cextensions_allocs = unpackSSGdnativeApiStruct(x.Extensions)
 	allocs57717e51.Borrow(cextensions_allocs)
 
 	var cgodot_color_new_rgba_allocs *cgoAllocMap
-	ref57717e51.godot_color_new_rgba, cgodot_color_new_rgba_allocs = x.GodotColorNewRgba.PassRef()
+	ref57717e51.godot_color_new_rgba, cgodot_color_new_rgba_allocs = x.ColorNewRgba.PassRef()
 	allocs57717e51.Borrow(cgodot_color_new_rgba_allocs)
 
 	var cgodot_color_new_rgb_allocs *cgoAllocMap
-	ref57717e51.godot_color_new_rgb, cgodot_color_new_rgb_allocs = x.GodotColorNewRgb.PassRef()
+	ref57717e51.godot_color_new_rgb, cgodot_color_new_rgb_allocs = x.ColorNewRgb.PassRef()
 	allocs57717e51.Borrow(cgodot_color_new_rgb_allocs)
 
 	var cgodot_color_get_r_allocs *cgoAllocMap
-	ref57717e51.godot_color_get_r, cgodot_color_get_r_allocs = x.GodotColorGetR.PassRef()
+	ref57717e51.godot_color_get_r, cgodot_color_get_r_allocs = x.ColorGetR.PassRef()
 	allocs57717e51.Borrow(cgodot_color_get_r_allocs)
 
 	var cgodot_color_set_r_allocs *cgoAllocMap
-	ref57717e51.godot_color_set_r, cgodot_color_set_r_allocs = x.GodotColorSetR.PassRef()
+	ref57717e51.godot_color_set_r, cgodot_color_set_r_allocs = x.ColorSetR.PassRef()
 	allocs57717e51.Borrow(cgodot_color_set_r_allocs)
 
 	var cgodot_color_get_g_allocs *cgoAllocMap
-	ref57717e51.godot_color_get_g, cgodot_color_get_g_allocs = x.GodotColorGetG.PassRef()
+	ref57717e51.godot_color_get_g, cgodot_color_get_g_allocs = x.ColorGetG.PassRef()
 	allocs57717e51.Borrow(cgodot_color_get_g_allocs)
 
 	var cgodot_color_set_g_allocs *cgoAllocMap
-	ref57717e51.godot_color_set_g, cgodot_color_set_g_allocs = x.GodotColorSetG.PassRef()
+	ref57717e51.godot_color_set_g, cgodot_color_set_g_allocs = x.ColorSetG.PassRef()
 	allocs57717e51.Borrow(cgodot_color_set_g_allocs)
 
 	var cgodot_color_get_b_allocs *cgoAllocMap
-	ref57717e51.godot_color_get_b, cgodot_color_get_b_allocs = x.GodotColorGetB.PassRef()
+	ref57717e51.godot_color_get_b, cgodot_color_get_b_allocs = x.ColorGetB.PassRef()
 	allocs57717e51.Borrow(cgodot_color_get_b_allocs)
 
 	var cgodot_color_set_b_allocs *cgoAllocMap
-	ref57717e51.godot_color_set_b, cgodot_color_set_b_allocs = x.GodotColorSetB.PassRef()
+	ref57717e51.godot_color_set_b, cgodot_color_set_b_allocs = x.ColorSetB.PassRef()
 	allocs57717e51.Borrow(cgodot_color_set_b_allocs)
 
 	var cgodot_color_get_a_allocs *cgoAllocMap
-	ref57717e51.godot_color_get_a, cgodot_color_get_a_allocs = x.GodotColorGetA.PassRef()
+	ref57717e51.godot_color_get_a, cgodot_color_get_a_allocs = x.ColorGetA.PassRef()
 	allocs57717e51.Borrow(cgodot_color_get_a_allocs)
 
 	var cgodot_color_set_a_allocs *cgoAllocMap
-	ref57717e51.godot_color_set_a, cgodot_color_set_a_allocs = x.GodotColorSetA.PassRef()
+	ref57717e51.godot_color_set_a, cgodot_color_set_a_allocs = x.ColorSetA.PassRef()
 	allocs57717e51.Borrow(cgodot_color_set_a_allocs)
 
 	var cgodot_color_get_h_allocs *cgoAllocMap
-	ref57717e51.godot_color_get_h, cgodot_color_get_h_allocs = x.GodotColorGetH.PassRef()
+	ref57717e51.godot_color_get_h, cgodot_color_get_h_allocs = x.ColorGetH.PassRef()
 	allocs57717e51.Borrow(cgodot_color_get_h_allocs)
 
 	var cgodot_color_get_s_allocs *cgoAllocMap
-	ref57717e51.godot_color_get_s, cgodot_color_get_s_allocs = x.GodotColorGetS.PassRef()
+	ref57717e51.godot_color_get_s, cgodot_color_get_s_allocs = x.ColorGetS.PassRef()
 	allocs57717e51.Borrow(cgodot_color_get_s_allocs)
 
 	var cgodot_color_get_v_allocs *cgoAllocMap
-	ref57717e51.godot_color_get_v, cgodot_color_get_v_allocs = x.GodotColorGetV.PassRef()
+	ref57717e51.godot_color_get_v, cgodot_color_get_v_allocs = x.ColorGetV.PassRef()
 	allocs57717e51.Borrow(cgodot_color_get_v_allocs)
 
 	var cgodot_color_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_color_as_string, cgodot_color_as_string_allocs = x.GodotColorAsString.PassRef()
+	ref57717e51.godot_color_as_string, cgodot_color_as_string_allocs = x.ColorAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_color_as_string_allocs)
 
 	var cgodot_color_to_rgba32_allocs *cgoAllocMap
-	ref57717e51.godot_color_to_rgba32, cgodot_color_to_rgba32_allocs = x.GodotColorToRgba32.PassRef()
+	ref57717e51.godot_color_to_rgba32, cgodot_color_to_rgba32_allocs = x.ColorToRgba32.PassRef()
 	allocs57717e51.Borrow(cgodot_color_to_rgba32_allocs)
 
 	var cgodot_color_to_argb32_allocs *cgoAllocMap
-	ref57717e51.godot_color_to_argb32, cgodot_color_to_argb32_allocs = x.GodotColorToArgb32.PassRef()
+	ref57717e51.godot_color_to_argb32, cgodot_color_to_argb32_allocs = x.ColorToArgb32.PassRef()
 	allocs57717e51.Borrow(cgodot_color_to_argb32_allocs)
 
 	var cgodot_color_gray_allocs *cgoAllocMap
-	ref57717e51.godot_color_gray, cgodot_color_gray_allocs = x.GodotColorGray.PassRef()
+	ref57717e51.godot_color_gray, cgodot_color_gray_allocs = x.ColorGray.PassRef()
 	allocs57717e51.Borrow(cgodot_color_gray_allocs)
 
 	var cgodot_color_inverted_allocs *cgoAllocMap
-	ref57717e51.godot_color_inverted, cgodot_color_inverted_allocs = x.GodotColorInverted.PassRef()
+	ref57717e51.godot_color_inverted, cgodot_color_inverted_allocs = x.ColorInverted.PassRef()
 	allocs57717e51.Borrow(cgodot_color_inverted_allocs)
 
 	var cgodot_color_contrasted_allocs *cgoAllocMap
-	ref57717e51.godot_color_contrasted, cgodot_color_contrasted_allocs = x.GodotColorContrasted.PassRef()
+	ref57717e51.godot_color_contrasted, cgodot_color_contrasted_allocs = x.ColorContrasted.PassRef()
 	allocs57717e51.Borrow(cgodot_color_contrasted_allocs)
 
 	var cgodot_color_linear_interpolate_allocs *cgoAllocMap
-	ref57717e51.godot_color_linear_interpolate, cgodot_color_linear_interpolate_allocs = x.GodotColorLinearInterpolate.PassRef()
+	ref57717e51.godot_color_linear_interpolate, cgodot_color_linear_interpolate_allocs = x.ColorLinearInterpolate.PassRef()
 	allocs57717e51.Borrow(cgodot_color_linear_interpolate_allocs)
 
 	var cgodot_color_blend_allocs *cgoAllocMap
-	ref57717e51.godot_color_blend, cgodot_color_blend_allocs = x.GodotColorBlend.PassRef()
+	ref57717e51.godot_color_blend, cgodot_color_blend_allocs = x.ColorBlend.PassRef()
 	allocs57717e51.Borrow(cgodot_color_blend_allocs)
 
 	var cgodot_color_to_html_allocs *cgoAllocMap
-	ref57717e51.godot_color_to_html, cgodot_color_to_html_allocs = x.GodotColorToHtml.PassRef()
+	ref57717e51.godot_color_to_html, cgodot_color_to_html_allocs = x.ColorToHtml.PassRef()
 	allocs57717e51.Borrow(cgodot_color_to_html_allocs)
 
 	var cgodot_color_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_color_operator_equal, cgodot_color_operator_equal_allocs = x.GodotColorOperatorEqual.PassRef()
+	ref57717e51.godot_color_operator_equal, cgodot_color_operator_equal_allocs = x.ColorOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_color_operator_equal_allocs)
 
 	var cgodot_color_operator_less_allocs *cgoAllocMap
-	ref57717e51.godot_color_operator_less, cgodot_color_operator_less_allocs = x.GodotColorOperatorLess.PassRef()
+	ref57717e51.godot_color_operator_less, cgodot_color_operator_less_allocs = x.ColorOperatorLess.PassRef()
 	allocs57717e51.Borrow(cgodot_color_operator_less_allocs)
 
 	var cgodot_vector2_new_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_new, cgodot_vector2_new_allocs = x.GodotVector2New.PassRef()
+	ref57717e51.godot_vector2_new, cgodot_vector2_new_allocs = x.Vector2New.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_new_allocs)
 
 	var cgodot_vector2_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_as_string, cgodot_vector2_as_string_allocs = x.GodotVector2AsString.PassRef()
+	ref57717e51.godot_vector2_as_string, cgodot_vector2_as_string_allocs = x.Vector2AsString.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_as_string_allocs)
 
 	var cgodot_vector2_normalized_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_normalized, cgodot_vector2_normalized_allocs = x.GodotVector2Normalized.PassRef()
+	ref57717e51.godot_vector2_normalized, cgodot_vector2_normalized_allocs = x.Vector2Normalized.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_normalized_allocs)
 
 	var cgodot_vector2_length_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_length, cgodot_vector2_length_allocs = x.GodotVector2Length.PassRef()
+	ref57717e51.godot_vector2_length, cgodot_vector2_length_allocs = x.Vector2Length.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_length_allocs)
 
 	var cgodot_vector2_angle_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_angle, cgodot_vector2_angle_allocs = x.GodotVector2Angle.PassRef()
+	ref57717e51.godot_vector2_angle, cgodot_vector2_angle_allocs = x.Vector2Angle.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_angle_allocs)
 
 	var cgodot_vector2_length_squared_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_length_squared, cgodot_vector2_length_squared_allocs = x.GodotVector2LengthSquared.PassRef()
+	ref57717e51.godot_vector2_length_squared, cgodot_vector2_length_squared_allocs = x.Vector2LengthSquared.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_length_squared_allocs)
 
 	var cgodot_vector2_is_normalized_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_is_normalized, cgodot_vector2_is_normalized_allocs = x.GodotVector2IsNormalized.PassRef()
+	ref57717e51.godot_vector2_is_normalized, cgodot_vector2_is_normalized_allocs = x.Vector2IsNormalized.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_is_normalized_allocs)
 
 	var cgodot_vector2_distance_to_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_distance_to, cgodot_vector2_distance_to_allocs = x.GodotVector2DistanceTo.PassRef()
+	ref57717e51.godot_vector2_distance_to, cgodot_vector2_distance_to_allocs = x.Vector2DistanceTo.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_distance_to_allocs)
 
 	var cgodot_vector2_distance_squared_to_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_distance_squared_to, cgodot_vector2_distance_squared_to_allocs = x.GodotVector2DistanceSquaredTo.PassRef()
+	ref57717e51.godot_vector2_distance_squared_to, cgodot_vector2_distance_squared_to_allocs = x.Vector2DistanceSquaredTo.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_distance_squared_to_allocs)
 
 	var cgodot_vector2_angle_to_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_angle_to, cgodot_vector2_angle_to_allocs = x.GodotVector2AngleTo.PassRef()
+	ref57717e51.godot_vector2_angle_to, cgodot_vector2_angle_to_allocs = x.Vector2AngleTo.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_angle_to_allocs)
 
 	var cgodot_vector2_angle_to_point_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_angle_to_point, cgodot_vector2_angle_to_point_allocs = x.GodotVector2AngleToPoint.PassRef()
+	ref57717e51.godot_vector2_angle_to_point, cgodot_vector2_angle_to_point_allocs = x.Vector2AngleToPoint.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_angle_to_point_allocs)
 
 	var cgodot_vector2_linear_interpolate_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_linear_interpolate, cgodot_vector2_linear_interpolate_allocs = x.GodotVector2LinearInterpolate.PassRef()
+	ref57717e51.godot_vector2_linear_interpolate, cgodot_vector2_linear_interpolate_allocs = x.Vector2LinearInterpolate.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_linear_interpolate_allocs)
 
 	var cgodot_vector2_cubic_interpolate_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_cubic_interpolate, cgodot_vector2_cubic_interpolate_allocs = x.GodotVector2CubicInterpolate.PassRef()
+	ref57717e51.godot_vector2_cubic_interpolate, cgodot_vector2_cubic_interpolate_allocs = x.Vector2CubicInterpolate.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_cubic_interpolate_allocs)
 
 	var cgodot_vector2_rotated_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_rotated, cgodot_vector2_rotated_allocs = x.GodotVector2Rotated.PassRef()
+	ref57717e51.godot_vector2_rotated, cgodot_vector2_rotated_allocs = x.Vector2Rotated.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_rotated_allocs)
 
 	var cgodot_vector2_tangent_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_tangent, cgodot_vector2_tangent_allocs = x.GodotVector2Tangent.PassRef()
+	ref57717e51.godot_vector2_tangent, cgodot_vector2_tangent_allocs = x.Vector2Tangent.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_tangent_allocs)
 
 	var cgodot_vector2_floor_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_floor, cgodot_vector2_floor_allocs = x.GodotVector2Floor.PassRef()
+	ref57717e51.godot_vector2_floor, cgodot_vector2_floor_allocs = x.Vector2Floor.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_floor_allocs)
 
 	var cgodot_vector2_snapped_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_snapped, cgodot_vector2_snapped_allocs = x.GodotVector2Snapped.PassRef()
+	ref57717e51.godot_vector2_snapped, cgodot_vector2_snapped_allocs = x.Vector2Snapped.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_snapped_allocs)
 
 	var cgodot_vector2_aspect_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_aspect, cgodot_vector2_aspect_allocs = x.GodotVector2Aspect.PassRef()
+	ref57717e51.godot_vector2_aspect, cgodot_vector2_aspect_allocs = x.Vector2Aspect.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_aspect_allocs)
 
 	var cgodot_vector2_dot_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_dot, cgodot_vector2_dot_allocs = x.GodotVector2Dot.PassRef()
+	ref57717e51.godot_vector2_dot, cgodot_vector2_dot_allocs = x.Vector2Dot.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_dot_allocs)
 
 	var cgodot_vector2_slide_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_slide, cgodot_vector2_slide_allocs = x.GodotVector2Slide.PassRef()
+	ref57717e51.godot_vector2_slide, cgodot_vector2_slide_allocs = x.Vector2Slide.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_slide_allocs)
 
 	var cgodot_vector2_bounce_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_bounce, cgodot_vector2_bounce_allocs = x.GodotVector2Bounce.PassRef()
+	ref57717e51.godot_vector2_bounce, cgodot_vector2_bounce_allocs = x.Vector2Bounce.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_bounce_allocs)
 
 	var cgodot_vector2_reflect_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_reflect, cgodot_vector2_reflect_allocs = x.GodotVector2Reflect.PassRef()
+	ref57717e51.godot_vector2_reflect, cgodot_vector2_reflect_allocs = x.Vector2Reflect.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_reflect_allocs)
 
 	var cgodot_vector2_abs_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_abs, cgodot_vector2_abs_allocs = x.GodotVector2Abs.PassRef()
+	ref57717e51.godot_vector2_abs, cgodot_vector2_abs_allocs = x.Vector2Abs.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_abs_allocs)
 
 	var cgodot_vector2_clamped_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_clamped, cgodot_vector2_clamped_allocs = x.GodotVector2Clamped.PassRef()
+	ref57717e51.godot_vector2_clamped, cgodot_vector2_clamped_allocs = x.Vector2Clamped.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_clamped_allocs)
 
 	var cgodot_vector2_operator_add_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_add, cgodot_vector2_operator_add_allocs = x.GodotVector2OperatorAdd.PassRef()
+	ref57717e51.godot_vector2_operator_add, cgodot_vector2_operator_add_allocs = x.Vector2OperatorAdd.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_add_allocs)
 
 	var cgodot_vector2_operator_substract_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_substract, cgodot_vector2_operator_substract_allocs = x.GodotVector2OperatorSubstract.PassRef()
+	ref57717e51.godot_vector2_operator_substract, cgodot_vector2_operator_substract_allocs = x.Vector2OperatorSubstract.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_substract_allocs)
 
 	var cgodot_vector2_operator_multiply_vector_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_multiply_vector, cgodot_vector2_operator_multiply_vector_allocs = x.GodotVector2OperatorMultiplyVector.PassRef()
+	ref57717e51.godot_vector2_operator_multiply_vector, cgodot_vector2_operator_multiply_vector_allocs = x.Vector2OperatorMultiplyVector.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_multiply_vector_allocs)
 
 	var cgodot_vector2_operator_multiply_scalar_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_multiply_scalar, cgodot_vector2_operator_multiply_scalar_allocs = x.GodotVector2OperatorMultiplyScalar.PassRef()
+	ref57717e51.godot_vector2_operator_multiply_scalar, cgodot_vector2_operator_multiply_scalar_allocs = x.Vector2OperatorMultiplyScalar.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_multiply_scalar_allocs)
 
 	var cgodot_vector2_operator_divide_vector_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_divide_vector, cgodot_vector2_operator_divide_vector_allocs = x.GodotVector2OperatorDivideVector.PassRef()
+	ref57717e51.godot_vector2_operator_divide_vector, cgodot_vector2_operator_divide_vector_allocs = x.Vector2OperatorDivideVector.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_divide_vector_allocs)
 
 	var cgodot_vector2_operator_divide_scalar_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_divide_scalar, cgodot_vector2_operator_divide_scalar_allocs = x.GodotVector2OperatorDivideScalar.PassRef()
+	ref57717e51.godot_vector2_operator_divide_scalar, cgodot_vector2_operator_divide_scalar_allocs = x.Vector2OperatorDivideScalar.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_divide_scalar_allocs)
 
 	var cgodot_vector2_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_equal, cgodot_vector2_operator_equal_allocs = x.GodotVector2OperatorEqual.PassRef()
+	ref57717e51.godot_vector2_operator_equal, cgodot_vector2_operator_equal_allocs = x.Vector2OperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_equal_allocs)
 
 	var cgodot_vector2_operator_less_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_less, cgodot_vector2_operator_less_allocs = x.GodotVector2OperatorLess.PassRef()
+	ref57717e51.godot_vector2_operator_less, cgodot_vector2_operator_less_allocs = x.Vector2OperatorLess.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_less_allocs)
 
 	var cgodot_vector2_operator_neg_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_neg, cgodot_vector2_operator_neg_allocs = x.GodotVector2OperatorNeg.PassRef()
+	ref57717e51.godot_vector2_operator_neg, cgodot_vector2_operator_neg_allocs = x.Vector2OperatorNeg.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_neg_allocs)
 
 	var cgodot_vector2_set_x_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_set_x, cgodot_vector2_set_x_allocs = x.GodotVector2SetX.PassRef()
+	ref57717e51.godot_vector2_set_x, cgodot_vector2_set_x_allocs = x.Vector2SetX.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_set_x_allocs)
 
 	var cgodot_vector2_set_y_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_set_y, cgodot_vector2_set_y_allocs = x.GodotVector2SetY.PassRef()
+	ref57717e51.godot_vector2_set_y, cgodot_vector2_set_y_allocs = x.Vector2SetY.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_set_y_allocs)
 
 	var cgodot_vector2_get_x_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_get_x, cgodot_vector2_get_x_allocs = x.GodotVector2GetX.PassRef()
+	ref57717e51.godot_vector2_get_x, cgodot_vector2_get_x_allocs = x.Vector2GetX.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_get_x_allocs)
 
 	var cgodot_vector2_get_y_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_get_y, cgodot_vector2_get_y_allocs = x.GodotVector2GetY.PassRef()
+	ref57717e51.godot_vector2_get_y, cgodot_vector2_get_y_allocs = x.Vector2GetY.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_get_y_allocs)
 
 	var cgodot_quat_new_allocs *cgoAllocMap
-	ref57717e51.godot_quat_new, cgodot_quat_new_allocs = x.GodotQuatNew.PassRef()
+	ref57717e51.godot_quat_new, cgodot_quat_new_allocs = x.QuatNew.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_new_allocs)
 
 	var cgodot_quat_new_with_axis_angle_allocs *cgoAllocMap
-	ref57717e51.godot_quat_new_with_axis_angle, cgodot_quat_new_with_axis_angle_allocs = x.GodotQuatNewWithAxisAngle.PassRef()
+	ref57717e51.godot_quat_new_with_axis_angle, cgodot_quat_new_with_axis_angle_allocs = x.QuatNewWithAxisAngle.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_new_with_axis_angle_allocs)
 
 	var cgodot_quat_get_x_allocs *cgoAllocMap
-	ref57717e51.godot_quat_get_x, cgodot_quat_get_x_allocs = x.GodotQuatGetX.PassRef()
+	ref57717e51.godot_quat_get_x, cgodot_quat_get_x_allocs = x.QuatGetX.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_get_x_allocs)
 
 	var cgodot_quat_set_x_allocs *cgoAllocMap
-	ref57717e51.godot_quat_set_x, cgodot_quat_set_x_allocs = x.GodotQuatSetX.PassRef()
+	ref57717e51.godot_quat_set_x, cgodot_quat_set_x_allocs = x.QuatSetX.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_set_x_allocs)
 
 	var cgodot_quat_get_y_allocs *cgoAllocMap
-	ref57717e51.godot_quat_get_y, cgodot_quat_get_y_allocs = x.GodotQuatGetY.PassRef()
+	ref57717e51.godot_quat_get_y, cgodot_quat_get_y_allocs = x.QuatGetY.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_get_y_allocs)
 
 	var cgodot_quat_set_y_allocs *cgoAllocMap
-	ref57717e51.godot_quat_set_y, cgodot_quat_set_y_allocs = x.GodotQuatSetY.PassRef()
+	ref57717e51.godot_quat_set_y, cgodot_quat_set_y_allocs = x.QuatSetY.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_set_y_allocs)
 
 	var cgodot_quat_get_z_allocs *cgoAllocMap
-	ref57717e51.godot_quat_get_z, cgodot_quat_get_z_allocs = x.GodotQuatGetZ.PassRef()
+	ref57717e51.godot_quat_get_z, cgodot_quat_get_z_allocs = x.QuatGetZ.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_get_z_allocs)
 
 	var cgodot_quat_set_z_allocs *cgoAllocMap
-	ref57717e51.godot_quat_set_z, cgodot_quat_set_z_allocs = x.GodotQuatSetZ.PassRef()
+	ref57717e51.godot_quat_set_z, cgodot_quat_set_z_allocs = x.QuatSetZ.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_set_z_allocs)
 
 	var cgodot_quat_get_w_allocs *cgoAllocMap
-	ref57717e51.godot_quat_get_w, cgodot_quat_get_w_allocs = x.GodotQuatGetW.PassRef()
+	ref57717e51.godot_quat_get_w, cgodot_quat_get_w_allocs = x.QuatGetW.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_get_w_allocs)
 
 	var cgodot_quat_set_w_allocs *cgoAllocMap
-	ref57717e51.godot_quat_set_w, cgodot_quat_set_w_allocs = x.GodotQuatSetW.PassRef()
+	ref57717e51.godot_quat_set_w, cgodot_quat_set_w_allocs = x.QuatSetW.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_set_w_allocs)
 
 	var cgodot_quat_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_quat_as_string, cgodot_quat_as_string_allocs = x.GodotQuatAsString.PassRef()
+	ref57717e51.godot_quat_as_string, cgodot_quat_as_string_allocs = x.QuatAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_as_string_allocs)
 
 	var cgodot_quat_length_allocs *cgoAllocMap
-	ref57717e51.godot_quat_length, cgodot_quat_length_allocs = x.GodotQuatLength.PassRef()
+	ref57717e51.godot_quat_length, cgodot_quat_length_allocs = x.QuatLength.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_length_allocs)
 
 	var cgodot_quat_length_squared_allocs *cgoAllocMap
-	ref57717e51.godot_quat_length_squared, cgodot_quat_length_squared_allocs = x.GodotQuatLengthSquared.PassRef()
+	ref57717e51.godot_quat_length_squared, cgodot_quat_length_squared_allocs = x.QuatLengthSquared.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_length_squared_allocs)
 
 	var cgodot_quat_normalized_allocs *cgoAllocMap
-	ref57717e51.godot_quat_normalized, cgodot_quat_normalized_allocs = x.GodotQuatNormalized.PassRef()
+	ref57717e51.godot_quat_normalized, cgodot_quat_normalized_allocs = x.QuatNormalized.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_normalized_allocs)
 
 	var cgodot_quat_is_normalized_allocs *cgoAllocMap
-	ref57717e51.godot_quat_is_normalized, cgodot_quat_is_normalized_allocs = x.GodotQuatIsNormalized.PassRef()
+	ref57717e51.godot_quat_is_normalized, cgodot_quat_is_normalized_allocs = x.QuatIsNormalized.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_is_normalized_allocs)
 
 	var cgodot_quat_inverse_allocs *cgoAllocMap
-	ref57717e51.godot_quat_inverse, cgodot_quat_inverse_allocs = x.GodotQuatInverse.PassRef()
+	ref57717e51.godot_quat_inverse, cgodot_quat_inverse_allocs = x.QuatInverse.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_inverse_allocs)
 
 	var cgodot_quat_dot_allocs *cgoAllocMap
-	ref57717e51.godot_quat_dot, cgodot_quat_dot_allocs = x.GodotQuatDot.PassRef()
+	ref57717e51.godot_quat_dot, cgodot_quat_dot_allocs = x.QuatDot.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_dot_allocs)
 
 	var cgodot_quat_xform_allocs *cgoAllocMap
-	ref57717e51.godot_quat_xform, cgodot_quat_xform_allocs = x.GodotQuatXform.PassRef()
+	ref57717e51.godot_quat_xform, cgodot_quat_xform_allocs = x.QuatXform.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_xform_allocs)
 
 	var cgodot_quat_slerp_allocs *cgoAllocMap
-	ref57717e51.godot_quat_slerp, cgodot_quat_slerp_allocs = x.GodotQuatSlerp.PassRef()
+	ref57717e51.godot_quat_slerp, cgodot_quat_slerp_allocs = x.QuatSlerp.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_slerp_allocs)
 
 	var cgodot_quat_slerpni_allocs *cgoAllocMap
-	ref57717e51.godot_quat_slerpni, cgodot_quat_slerpni_allocs = x.GodotQuatSlerpni.PassRef()
+	ref57717e51.godot_quat_slerpni, cgodot_quat_slerpni_allocs = x.QuatSlerpni.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_slerpni_allocs)
 
 	var cgodot_quat_cubic_slerp_allocs *cgoAllocMap
-	ref57717e51.godot_quat_cubic_slerp, cgodot_quat_cubic_slerp_allocs = x.GodotQuatCubicSlerp.PassRef()
+	ref57717e51.godot_quat_cubic_slerp, cgodot_quat_cubic_slerp_allocs = x.QuatCubicSlerp.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_cubic_slerp_allocs)
 
 	var cgodot_quat_operator_multiply_allocs *cgoAllocMap
-	ref57717e51.godot_quat_operator_multiply, cgodot_quat_operator_multiply_allocs = x.GodotQuatOperatorMultiply.PassRef()
+	ref57717e51.godot_quat_operator_multiply, cgodot_quat_operator_multiply_allocs = x.QuatOperatorMultiply.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_operator_multiply_allocs)
 
 	var cgodot_quat_operator_add_allocs *cgoAllocMap
-	ref57717e51.godot_quat_operator_add, cgodot_quat_operator_add_allocs = x.GodotQuatOperatorAdd.PassRef()
+	ref57717e51.godot_quat_operator_add, cgodot_quat_operator_add_allocs = x.QuatOperatorAdd.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_operator_add_allocs)
 
 	var cgodot_quat_operator_substract_allocs *cgoAllocMap
-	ref57717e51.godot_quat_operator_substract, cgodot_quat_operator_substract_allocs = x.GodotQuatOperatorSubstract.PassRef()
+	ref57717e51.godot_quat_operator_substract, cgodot_quat_operator_substract_allocs = x.QuatOperatorSubstract.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_operator_substract_allocs)
 
 	var cgodot_quat_operator_divide_allocs *cgoAllocMap
-	ref57717e51.godot_quat_operator_divide, cgodot_quat_operator_divide_allocs = x.GodotQuatOperatorDivide.PassRef()
+	ref57717e51.godot_quat_operator_divide, cgodot_quat_operator_divide_allocs = x.QuatOperatorDivide.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_operator_divide_allocs)
 
 	var cgodot_quat_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_quat_operator_equal, cgodot_quat_operator_equal_allocs = x.GodotQuatOperatorEqual.PassRef()
+	ref57717e51.godot_quat_operator_equal, cgodot_quat_operator_equal_allocs = x.QuatOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_operator_equal_allocs)
 
 	var cgodot_quat_operator_neg_allocs *cgoAllocMap
-	ref57717e51.godot_quat_operator_neg, cgodot_quat_operator_neg_allocs = x.GodotQuatOperatorNeg.PassRef()
+	ref57717e51.godot_quat_operator_neg, cgodot_quat_operator_neg_allocs = x.QuatOperatorNeg.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_operator_neg_allocs)
 
 	var cgodot_basis_new_with_rows_allocs *cgoAllocMap
-	ref57717e51.godot_basis_new_with_rows, cgodot_basis_new_with_rows_allocs = x.GodotBasisNewWithRows.PassRef()
+	ref57717e51.godot_basis_new_with_rows, cgodot_basis_new_with_rows_allocs = x.BasisNewWithRows.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_new_with_rows_allocs)
 
 	var cgodot_basis_new_with_axis_and_angle_allocs *cgoAllocMap
-	ref57717e51.godot_basis_new_with_axis_and_angle, cgodot_basis_new_with_axis_and_angle_allocs = x.GodotBasisNewWithAxisAndAngle.PassRef()
+	ref57717e51.godot_basis_new_with_axis_and_angle, cgodot_basis_new_with_axis_and_angle_allocs = x.BasisNewWithAxisAndAngle.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_new_with_axis_and_angle_allocs)
 
 	var cgodot_basis_new_with_euler_allocs *cgoAllocMap
-	ref57717e51.godot_basis_new_with_euler, cgodot_basis_new_with_euler_allocs = x.GodotBasisNewWithEuler.PassRef()
+	ref57717e51.godot_basis_new_with_euler, cgodot_basis_new_with_euler_allocs = x.BasisNewWithEuler.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_new_with_euler_allocs)
 
 	var cgodot_basis_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_basis_as_string, cgodot_basis_as_string_allocs = x.GodotBasisAsString.PassRef()
+	ref57717e51.godot_basis_as_string, cgodot_basis_as_string_allocs = x.BasisAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_as_string_allocs)
 
 	var cgodot_basis_inverse_allocs *cgoAllocMap
-	ref57717e51.godot_basis_inverse, cgodot_basis_inverse_allocs = x.GodotBasisInverse.PassRef()
+	ref57717e51.godot_basis_inverse, cgodot_basis_inverse_allocs = x.BasisInverse.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_inverse_allocs)
 
 	var cgodot_basis_transposed_allocs *cgoAllocMap
-	ref57717e51.godot_basis_transposed, cgodot_basis_transposed_allocs = x.GodotBasisTransposed.PassRef()
+	ref57717e51.godot_basis_transposed, cgodot_basis_transposed_allocs = x.BasisTransposed.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_transposed_allocs)
 
 	var cgodot_basis_orthonormalized_allocs *cgoAllocMap
-	ref57717e51.godot_basis_orthonormalized, cgodot_basis_orthonormalized_allocs = x.GodotBasisOrthonormalized.PassRef()
+	ref57717e51.godot_basis_orthonormalized, cgodot_basis_orthonormalized_allocs = x.BasisOrthonormalized.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_orthonormalized_allocs)
 
 	var cgodot_basis_determinant_allocs *cgoAllocMap
-	ref57717e51.godot_basis_determinant, cgodot_basis_determinant_allocs = x.GodotBasisDeterminant.PassRef()
+	ref57717e51.godot_basis_determinant, cgodot_basis_determinant_allocs = x.BasisDeterminant.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_determinant_allocs)
 
 	var cgodot_basis_rotated_allocs *cgoAllocMap
-	ref57717e51.godot_basis_rotated, cgodot_basis_rotated_allocs = x.GodotBasisRotated.PassRef()
+	ref57717e51.godot_basis_rotated, cgodot_basis_rotated_allocs = x.BasisRotated.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_rotated_allocs)
 
 	var cgodot_basis_scaled_allocs *cgoAllocMap
-	ref57717e51.godot_basis_scaled, cgodot_basis_scaled_allocs = x.GodotBasisScaled.PassRef()
+	ref57717e51.godot_basis_scaled, cgodot_basis_scaled_allocs = x.BasisScaled.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_scaled_allocs)
 
 	var cgodot_basis_get_scale_allocs *cgoAllocMap
-	ref57717e51.godot_basis_get_scale, cgodot_basis_get_scale_allocs = x.GodotBasisGetScale.PassRef()
+	ref57717e51.godot_basis_get_scale, cgodot_basis_get_scale_allocs = x.BasisGetScale.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_get_scale_allocs)
 
 	var cgodot_basis_get_euler_allocs *cgoAllocMap
-	ref57717e51.godot_basis_get_euler, cgodot_basis_get_euler_allocs = x.GodotBasisGetEuler.PassRef()
+	ref57717e51.godot_basis_get_euler, cgodot_basis_get_euler_allocs = x.BasisGetEuler.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_get_euler_allocs)
 
 	var cgodot_basis_tdotx_allocs *cgoAllocMap
-	ref57717e51.godot_basis_tdotx, cgodot_basis_tdotx_allocs = x.GodotBasisTdotx.PassRef()
+	ref57717e51.godot_basis_tdotx, cgodot_basis_tdotx_allocs = x.BasisTdotx.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_tdotx_allocs)
 
 	var cgodot_basis_tdoty_allocs *cgoAllocMap
-	ref57717e51.godot_basis_tdoty, cgodot_basis_tdoty_allocs = x.GodotBasisTdoty.PassRef()
+	ref57717e51.godot_basis_tdoty, cgodot_basis_tdoty_allocs = x.BasisTdoty.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_tdoty_allocs)
 
 	var cgodot_basis_tdotz_allocs *cgoAllocMap
-	ref57717e51.godot_basis_tdotz, cgodot_basis_tdotz_allocs = x.GodotBasisTdotz.PassRef()
+	ref57717e51.godot_basis_tdotz, cgodot_basis_tdotz_allocs = x.BasisTdotz.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_tdotz_allocs)
 
 	var cgodot_basis_xform_allocs *cgoAllocMap
-	ref57717e51.godot_basis_xform, cgodot_basis_xform_allocs = x.GodotBasisXform.PassRef()
+	ref57717e51.godot_basis_xform, cgodot_basis_xform_allocs = x.BasisXform.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_xform_allocs)
 
 	var cgodot_basis_xform_inv_allocs *cgoAllocMap
-	ref57717e51.godot_basis_xform_inv, cgodot_basis_xform_inv_allocs = x.GodotBasisXformInv.PassRef()
+	ref57717e51.godot_basis_xform_inv, cgodot_basis_xform_inv_allocs = x.BasisXformInv.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_xform_inv_allocs)
 
 	var cgodot_basis_get_orthogonal_index_allocs *cgoAllocMap
-	ref57717e51.godot_basis_get_orthogonal_index, cgodot_basis_get_orthogonal_index_allocs = x.GodotBasisGetOrthogonalIndex.PassRef()
+	ref57717e51.godot_basis_get_orthogonal_index, cgodot_basis_get_orthogonal_index_allocs = x.BasisGetOrthogonalIndex.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_get_orthogonal_index_allocs)
 
 	var cgodot_basis_new_allocs *cgoAllocMap
-	ref57717e51.godot_basis_new, cgodot_basis_new_allocs = x.GodotBasisNew.PassRef()
+	ref57717e51.godot_basis_new, cgodot_basis_new_allocs = x.BasisNew.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_new_allocs)
 
 	var cgodot_basis_new_with_euler_quat_allocs *cgoAllocMap
-	ref57717e51.godot_basis_new_with_euler_quat, cgodot_basis_new_with_euler_quat_allocs = x.GodotBasisNewWithEulerQuat.PassRef()
+	ref57717e51.godot_basis_new_with_euler_quat, cgodot_basis_new_with_euler_quat_allocs = x.BasisNewWithEulerQuat.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_new_with_euler_quat_allocs)
 
 	var cgodot_basis_get_elements_allocs *cgoAllocMap
-	ref57717e51.godot_basis_get_elements, cgodot_basis_get_elements_allocs = x.GodotBasisGetElements.PassRef()
+	ref57717e51.godot_basis_get_elements, cgodot_basis_get_elements_allocs = x.BasisGetElements.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_get_elements_allocs)
 
 	var cgodot_basis_get_axis_allocs *cgoAllocMap
-	ref57717e51.godot_basis_get_axis, cgodot_basis_get_axis_allocs = x.GodotBasisGetAxis.PassRef()
+	ref57717e51.godot_basis_get_axis, cgodot_basis_get_axis_allocs = x.BasisGetAxis.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_get_axis_allocs)
 
 	var cgodot_basis_set_axis_allocs *cgoAllocMap
-	ref57717e51.godot_basis_set_axis, cgodot_basis_set_axis_allocs = x.GodotBasisSetAxis.PassRef()
+	ref57717e51.godot_basis_set_axis, cgodot_basis_set_axis_allocs = x.BasisSetAxis.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_set_axis_allocs)
 
 	var cgodot_basis_get_row_allocs *cgoAllocMap
-	ref57717e51.godot_basis_get_row, cgodot_basis_get_row_allocs = x.GodotBasisGetRow.PassRef()
+	ref57717e51.godot_basis_get_row, cgodot_basis_get_row_allocs = x.BasisGetRow.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_get_row_allocs)
 
 	var cgodot_basis_set_row_allocs *cgoAllocMap
-	ref57717e51.godot_basis_set_row, cgodot_basis_set_row_allocs = x.GodotBasisSetRow.PassRef()
+	ref57717e51.godot_basis_set_row, cgodot_basis_set_row_allocs = x.BasisSetRow.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_set_row_allocs)
 
 	var cgodot_basis_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_basis_operator_equal, cgodot_basis_operator_equal_allocs = x.GodotBasisOperatorEqual.PassRef()
+	ref57717e51.godot_basis_operator_equal, cgodot_basis_operator_equal_allocs = x.BasisOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_operator_equal_allocs)
 
 	var cgodot_basis_operator_add_allocs *cgoAllocMap
-	ref57717e51.godot_basis_operator_add, cgodot_basis_operator_add_allocs = x.GodotBasisOperatorAdd.PassRef()
+	ref57717e51.godot_basis_operator_add, cgodot_basis_operator_add_allocs = x.BasisOperatorAdd.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_operator_add_allocs)
 
 	var cgodot_basis_operator_substract_allocs *cgoAllocMap
-	ref57717e51.godot_basis_operator_substract, cgodot_basis_operator_substract_allocs = x.GodotBasisOperatorSubstract.PassRef()
+	ref57717e51.godot_basis_operator_substract, cgodot_basis_operator_substract_allocs = x.BasisOperatorSubstract.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_operator_substract_allocs)
 
 	var cgodot_basis_operator_multiply_vector_allocs *cgoAllocMap
-	ref57717e51.godot_basis_operator_multiply_vector, cgodot_basis_operator_multiply_vector_allocs = x.GodotBasisOperatorMultiplyVector.PassRef()
+	ref57717e51.godot_basis_operator_multiply_vector, cgodot_basis_operator_multiply_vector_allocs = x.BasisOperatorMultiplyVector.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_operator_multiply_vector_allocs)
 
 	var cgodot_basis_operator_multiply_scalar_allocs *cgoAllocMap
-	ref57717e51.godot_basis_operator_multiply_scalar, cgodot_basis_operator_multiply_scalar_allocs = x.GodotBasisOperatorMultiplyScalar.PassRef()
+	ref57717e51.godot_basis_operator_multiply_scalar, cgodot_basis_operator_multiply_scalar_allocs = x.BasisOperatorMultiplyScalar.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_operator_multiply_scalar_allocs)
 
 	var cgodot_vector3_new_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_new, cgodot_vector3_new_allocs = x.GodotVector3New.PassRef()
+	ref57717e51.godot_vector3_new, cgodot_vector3_new_allocs = x.Vector3New.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_new_allocs)
 
 	var cgodot_vector3_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_as_string, cgodot_vector3_as_string_allocs = x.GodotVector3AsString.PassRef()
+	ref57717e51.godot_vector3_as_string, cgodot_vector3_as_string_allocs = x.Vector3AsString.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_as_string_allocs)
 
 	var cgodot_vector3_min_axis_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_min_axis, cgodot_vector3_min_axis_allocs = x.GodotVector3MinAxis.PassRef()
+	ref57717e51.godot_vector3_min_axis, cgodot_vector3_min_axis_allocs = x.Vector3MinAxis.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_min_axis_allocs)
 
 	var cgodot_vector3_max_axis_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_max_axis, cgodot_vector3_max_axis_allocs = x.GodotVector3MaxAxis.PassRef()
+	ref57717e51.godot_vector3_max_axis, cgodot_vector3_max_axis_allocs = x.Vector3MaxAxis.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_max_axis_allocs)
 
 	var cgodot_vector3_length_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_length, cgodot_vector3_length_allocs = x.GodotVector3Length.PassRef()
+	ref57717e51.godot_vector3_length, cgodot_vector3_length_allocs = x.Vector3Length.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_length_allocs)
 
 	var cgodot_vector3_length_squared_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_length_squared, cgodot_vector3_length_squared_allocs = x.GodotVector3LengthSquared.PassRef()
+	ref57717e51.godot_vector3_length_squared, cgodot_vector3_length_squared_allocs = x.Vector3LengthSquared.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_length_squared_allocs)
 
 	var cgodot_vector3_is_normalized_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_is_normalized, cgodot_vector3_is_normalized_allocs = x.GodotVector3IsNormalized.PassRef()
+	ref57717e51.godot_vector3_is_normalized, cgodot_vector3_is_normalized_allocs = x.Vector3IsNormalized.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_is_normalized_allocs)
 
 	var cgodot_vector3_normalized_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_normalized, cgodot_vector3_normalized_allocs = x.GodotVector3Normalized.PassRef()
+	ref57717e51.godot_vector3_normalized, cgodot_vector3_normalized_allocs = x.Vector3Normalized.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_normalized_allocs)
 
 	var cgodot_vector3_inverse_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_inverse, cgodot_vector3_inverse_allocs = x.GodotVector3Inverse.PassRef()
+	ref57717e51.godot_vector3_inverse, cgodot_vector3_inverse_allocs = x.Vector3Inverse.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_inverse_allocs)
 
 	var cgodot_vector3_snapped_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_snapped, cgodot_vector3_snapped_allocs = x.GodotVector3Snapped.PassRef()
+	ref57717e51.godot_vector3_snapped, cgodot_vector3_snapped_allocs = x.Vector3Snapped.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_snapped_allocs)
 
 	var cgodot_vector3_rotated_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_rotated, cgodot_vector3_rotated_allocs = x.GodotVector3Rotated.PassRef()
+	ref57717e51.godot_vector3_rotated, cgodot_vector3_rotated_allocs = x.Vector3Rotated.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_rotated_allocs)
 
 	var cgodot_vector3_linear_interpolate_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_linear_interpolate, cgodot_vector3_linear_interpolate_allocs = x.GodotVector3LinearInterpolate.PassRef()
+	ref57717e51.godot_vector3_linear_interpolate, cgodot_vector3_linear_interpolate_allocs = x.Vector3LinearInterpolate.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_linear_interpolate_allocs)
 
 	var cgodot_vector3_cubic_interpolate_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_cubic_interpolate, cgodot_vector3_cubic_interpolate_allocs = x.GodotVector3CubicInterpolate.PassRef()
+	ref57717e51.godot_vector3_cubic_interpolate, cgodot_vector3_cubic_interpolate_allocs = x.Vector3CubicInterpolate.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_cubic_interpolate_allocs)
 
 	var cgodot_vector3_dot_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_dot, cgodot_vector3_dot_allocs = x.GodotVector3Dot.PassRef()
+	ref57717e51.godot_vector3_dot, cgodot_vector3_dot_allocs = x.Vector3Dot.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_dot_allocs)
 
 	var cgodot_vector3_cross_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_cross, cgodot_vector3_cross_allocs = x.GodotVector3Cross.PassRef()
+	ref57717e51.godot_vector3_cross, cgodot_vector3_cross_allocs = x.Vector3Cross.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_cross_allocs)
 
 	var cgodot_vector3_outer_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_outer, cgodot_vector3_outer_allocs = x.GodotVector3Outer.PassRef()
+	ref57717e51.godot_vector3_outer, cgodot_vector3_outer_allocs = x.Vector3Outer.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_outer_allocs)
 
 	var cgodot_vector3_to_diagonal_matrix_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_to_diagonal_matrix, cgodot_vector3_to_diagonal_matrix_allocs = x.GodotVector3ToDiagonalMatrix.PassRef()
+	ref57717e51.godot_vector3_to_diagonal_matrix, cgodot_vector3_to_diagonal_matrix_allocs = x.Vector3ToDiagonalMatrix.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_to_diagonal_matrix_allocs)
 
 	var cgodot_vector3_abs_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_abs, cgodot_vector3_abs_allocs = x.GodotVector3Abs.PassRef()
+	ref57717e51.godot_vector3_abs, cgodot_vector3_abs_allocs = x.Vector3Abs.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_abs_allocs)
 
 	var cgodot_vector3_floor_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_floor, cgodot_vector3_floor_allocs = x.GodotVector3Floor.PassRef()
+	ref57717e51.godot_vector3_floor, cgodot_vector3_floor_allocs = x.Vector3Floor.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_floor_allocs)
 
 	var cgodot_vector3_ceil_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_ceil, cgodot_vector3_ceil_allocs = x.GodotVector3Ceil.PassRef()
+	ref57717e51.godot_vector3_ceil, cgodot_vector3_ceil_allocs = x.Vector3Ceil.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_ceil_allocs)
 
 	var cgodot_vector3_distance_to_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_distance_to, cgodot_vector3_distance_to_allocs = x.GodotVector3DistanceTo.PassRef()
+	ref57717e51.godot_vector3_distance_to, cgodot_vector3_distance_to_allocs = x.Vector3DistanceTo.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_distance_to_allocs)
 
 	var cgodot_vector3_distance_squared_to_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_distance_squared_to, cgodot_vector3_distance_squared_to_allocs = x.GodotVector3DistanceSquaredTo.PassRef()
+	ref57717e51.godot_vector3_distance_squared_to, cgodot_vector3_distance_squared_to_allocs = x.Vector3DistanceSquaredTo.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_distance_squared_to_allocs)
 
 	var cgodot_vector3_angle_to_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_angle_to, cgodot_vector3_angle_to_allocs = x.GodotVector3AngleTo.PassRef()
+	ref57717e51.godot_vector3_angle_to, cgodot_vector3_angle_to_allocs = x.Vector3AngleTo.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_angle_to_allocs)
 
 	var cgodot_vector3_slide_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_slide, cgodot_vector3_slide_allocs = x.GodotVector3Slide.PassRef()
+	ref57717e51.godot_vector3_slide, cgodot_vector3_slide_allocs = x.Vector3Slide.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_slide_allocs)
 
 	var cgodot_vector3_bounce_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_bounce, cgodot_vector3_bounce_allocs = x.GodotVector3Bounce.PassRef()
+	ref57717e51.godot_vector3_bounce, cgodot_vector3_bounce_allocs = x.Vector3Bounce.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_bounce_allocs)
 
 	var cgodot_vector3_reflect_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_reflect, cgodot_vector3_reflect_allocs = x.GodotVector3Reflect.PassRef()
+	ref57717e51.godot_vector3_reflect, cgodot_vector3_reflect_allocs = x.Vector3Reflect.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_reflect_allocs)
 
 	var cgodot_vector3_operator_add_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_add, cgodot_vector3_operator_add_allocs = x.GodotVector3OperatorAdd.PassRef()
+	ref57717e51.godot_vector3_operator_add, cgodot_vector3_operator_add_allocs = x.Vector3OperatorAdd.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_add_allocs)
 
 	var cgodot_vector3_operator_substract_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_substract, cgodot_vector3_operator_substract_allocs = x.GodotVector3OperatorSubstract.PassRef()
+	ref57717e51.godot_vector3_operator_substract, cgodot_vector3_operator_substract_allocs = x.Vector3OperatorSubstract.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_substract_allocs)
 
 	var cgodot_vector3_operator_multiply_vector_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_multiply_vector, cgodot_vector3_operator_multiply_vector_allocs = x.GodotVector3OperatorMultiplyVector.PassRef()
+	ref57717e51.godot_vector3_operator_multiply_vector, cgodot_vector3_operator_multiply_vector_allocs = x.Vector3OperatorMultiplyVector.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_multiply_vector_allocs)
 
 	var cgodot_vector3_operator_multiply_scalar_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_multiply_scalar, cgodot_vector3_operator_multiply_scalar_allocs = x.GodotVector3OperatorMultiplyScalar.PassRef()
+	ref57717e51.godot_vector3_operator_multiply_scalar, cgodot_vector3_operator_multiply_scalar_allocs = x.Vector3OperatorMultiplyScalar.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_multiply_scalar_allocs)
 
 	var cgodot_vector3_operator_divide_vector_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_divide_vector, cgodot_vector3_operator_divide_vector_allocs = x.GodotVector3OperatorDivideVector.PassRef()
+	ref57717e51.godot_vector3_operator_divide_vector, cgodot_vector3_operator_divide_vector_allocs = x.Vector3OperatorDivideVector.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_divide_vector_allocs)
 
 	var cgodot_vector3_operator_divide_scalar_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_divide_scalar, cgodot_vector3_operator_divide_scalar_allocs = x.GodotVector3OperatorDivideScalar.PassRef()
+	ref57717e51.godot_vector3_operator_divide_scalar, cgodot_vector3_operator_divide_scalar_allocs = x.Vector3OperatorDivideScalar.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_divide_scalar_allocs)
 
 	var cgodot_vector3_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_equal, cgodot_vector3_operator_equal_allocs = x.GodotVector3OperatorEqual.PassRef()
+	ref57717e51.godot_vector3_operator_equal, cgodot_vector3_operator_equal_allocs = x.Vector3OperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_equal_allocs)
 
 	var cgodot_vector3_operator_less_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_less, cgodot_vector3_operator_less_allocs = x.GodotVector3OperatorLess.PassRef()
+	ref57717e51.godot_vector3_operator_less, cgodot_vector3_operator_less_allocs = x.Vector3OperatorLess.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_less_allocs)
 
 	var cgodot_vector3_operator_neg_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_neg, cgodot_vector3_operator_neg_allocs = x.GodotVector3OperatorNeg.PassRef()
+	ref57717e51.godot_vector3_operator_neg, cgodot_vector3_operator_neg_allocs = x.Vector3OperatorNeg.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_neg_allocs)
 
 	var cgodot_vector3_set_axis_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_set_axis, cgodot_vector3_set_axis_allocs = x.GodotVector3SetAxis.PassRef()
+	ref57717e51.godot_vector3_set_axis, cgodot_vector3_set_axis_allocs = x.Vector3SetAxis.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_set_axis_allocs)
 
 	var cgodot_vector3_get_axis_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_get_axis, cgodot_vector3_get_axis_allocs = x.GodotVector3GetAxis.PassRef()
+	ref57717e51.godot_vector3_get_axis, cgodot_vector3_get_axis_allocs = x.Vector3GetAxis.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_get_axis_allocs)
 
 	var cgodot_pool_byte_array_new_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_new, cgodot_pool_byte_array_new_allocs = x.GodotPoolByteArrayNew.PassRef()
+	ref57717e51.godot_pool_byte_array_new, cgodot_pool_byte_array_new_allocs = x.PoolByteArrayNew.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_new_allocs)
 
 	var cgodot_pool_byte_array_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_new_copy, cgodot_pool_byte_array_new_copy_allocs = x.GodotPoolByteArrayNewCopy.PassRef()
+	ref57717e51.godot_pool_byte_array_new_copy, cgodot_pool_byte_array_new_copy_allocs = x.PoolByteArrayNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_new_copy_allocs)
 
 	var cgodot_pool_byte_array_new_with_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_new_with_array, cgodot_pool_byte_array_new_with_array_allocs = x.GodotPoolByteArrayNewWithArray.PassRef()
+	ref57717e51.godot_pool_byte_array_new_with_array, cgodot_pool_byte_array_new_with_array_allocs = x.PoolByteArrayNewWithArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_new_with_array_allocs)
 
 	var cgodot_pool_byte_array_append_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_append, cgodot_pool_byte_array_append_allocs = x.GodotPoolByteArrayAppend.PassRef()
+	ref57717e51.godot_pool_byte_array_append, cgodot_pool_byte_array_append_allocs = x.PoolByteArrayAppend.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_append_allocs)
 
 	var cgodot_pool_byte_array_append_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_append_array, cgodot_pool_byte_array_append_array_allocs = x.GodotPoolByteArrayAppendArray.PassRef()
+	ref57717e51.godot_pool_byte_array_append_array, cgodot_pool_byte_array_append_array_allocs = x.PoolByteArrayAppendArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_append_array_allocs)
 
 	var cgodot_pool_byte_array_insert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_insert, cgodot_pool_byte_array_insert_allocs = x.GodotPoolByteArrayInsert.PassRef()
+	ref57717e51.godot_pool_byte_array_insert, cgodot_pool_byte_array_insert_allocs = x.PoolByteArrayInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_insert_allocs)
 
 	var cgodot_pool_byte_array_invert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_invert, cgodot_pool_byte_array_invert_allocs = x.GodotPoolByteArrayInvert.PassRef()
+	ref57717e51.godot_pool_byte_array_invert, cgodot_pool_byte_array_invert_allocs = x.PoolByteArrayInvert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_invert_allocs)
 
 	var cgodot_pool_byte_array_push_back_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_push_back, cgodot_pool_byte_array_push_back_allocs = x.GodotPoolByteArrayPushBack.PassRef()
+	ref57717e51.godot_pool_byte_array_push_back, cgodot_pool_byte_array_push_back_allocs = x.PoolByteArrayPushBack.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_push_back_allocs)
 
 	var cgodot_pool_byte_array_remove_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_remove, cgodot_pool_byte_array_remove_allocs = x.GodotPoolByteArrayRemove.PassRef()
+	ref57717e51.godot_pool_byte_array_remove, cgodot_pool_byte_array_remove_allocs = x.PoolByteArrayRemove.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_remove_allocs)
 
 	var cgodot_pool_byte_array_resize_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_resize, cgodot_pool_byte_array_resize_allocs = x.GodotPoolByteArrayResize.PassRef()
+	ref57717e51.godot_pool_byte_array_resize, cgodot_pool_byte_array_resize_allocs = x.PoolByteArrayResize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_resize_allocs)
 
 	var cgodot_pool_byte_array_read_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_read, cgodot_pool_byte_array_read_allocs = x.GodotPoolByteArrayRead.PassRef()
+	ref57717e51.godot_pool_byte_array_read, cgodot_pool_byte_array_read_allocs = x.PoolByteArrayRead.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_read_allocs)
 
 	var cgodot_pool_byte_array_write_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_write, cgodot_pool_byte_array_write_allocs = x.GodotPoolByteArrayWrite.PassRef()
+	ref57717e51.godot_pool_byte_array_write, cgodot_pool_byte_array_write_allocs = x.PoolByteArrayWrite.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_write_allocs)
 
 	var cgodot_pool_byte_array_set_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_set, cgodot_pool_byte_array_set_allocs = x.GodotPoolByteArraySet.PassRef()
+	ref57717e51.godot_pool_byte_array_set, cgodot_pool_byte_array_set_allocs = x.PoolByteArraySet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_set_allocs)
 
 	var cgodot_pool_byte_array_get_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_get, cgodot_pool_byte_array_get_allocs = x.GodotPoolByteArrayGet.PassRef()
+	ref57717e51.godot_pool_byte_array_get, cgodot_pool_byte_array_get_allocs = x.PoolByteArrayGet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_get_allocs)
 
 	var cgodot_pool_byte_array_size_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_size, cgodot_pool_byte_array_size_allocs = x.GodotPoolByteArraySize.PassRef()
+	ref57717e51.godot_pool_byte_array_size, cgodot_pool_byte_array_size_allocs = x.PoolByteArraySize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_size_allocs)
 
 	var cgodot_pool_byte_array_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_destroy, cgodot_pool_byte_array_destroy_allocs = x.GodotPoolByteArrayDestroy.PassRef()
+	ref57717e51.godot_pool_byte_array_destroy, cgodot_pool_byte_array_destroy_allocs = x.PoolByteArrayDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_destroy_allocs)
 
 	var cgodot_pool_int_array_new_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_new, cgodot_pool_int_array_new_allocs = x.GodotPoolIntArrayNew.PassRef()
+	ref57717e51.godot_pool_int_array_new, cgodot_pool_int_array_new_allocs = x.PoolIntArrayNew.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_new_allocs)
 
 	var cgodot_pool_int_array_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_new_copy, cgodot_pool_int_array_new_copy_allocs = x.GodotPoolIntArrayNewCopy.PassRef()
+	ref57717e51.godot_pool_int_array_new_copy, cgodot_pool_int_array_new_copy_allocs = x.PoolIntArrayNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_new_copy_allocs)
 
 	var cgodot_pool_int_array_new_with_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_new_with_array, cgodot_pool_int_array_new_with_array_allocs = x.GodotPoolIntArrayNewWithArray.PassRef()
+	ref57717e51.godot_pool_int_array_new_with_array, cgodot_pool_int_array_new_with_array_allocs = x.PoolIntArrayNewWithArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_new_with_array_allocs)
 
 	var cgodot_pool_int_array_append_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_append, cgodot_pool_int_array_append_allocs = x.GodotPoolIntArrayAppend.PassRef()
+	ref57717e51.godot_pool_int_array_append, cgodot_pool_int_array_append_allocs = x.PoolIntArrayAppend.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_append_allocs)
 
 	var cgodot_pool_int_array_append_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_append_array, cgodot_pool_int_array_append_array_allocs = x.GodotPoolIntArrayAppendArray.PassRef()
+	ref57717e51.godot_pool_int_array_append_array, cgodot_pool_int_array_append_array_allocs = x.PoolIntArrayAppendArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_append_array_allocs)
 
 	var cgodot_pool_int_array_insert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_insert, cgodot_pool_int_array_insert_allocs = x.GodotPoolIntArrayInsert.PassRef()
+	ref57717e51.godot_pool_int_array_insert, cgodot_pool_int_array_insert_allocs = x.PoolIntArrayInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_insert_allocs)
 
 	var cgodot_pool_int_array_invert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_invert, cgodot_pool_int_array_invert_allocs = x.GodotPoolIntArrayInvert.PassRef()
+	ref57717e51.godot_pool_int_array_invert, cgodot_pool_int_array_invert_allocs = x.PoolIntArrayInvert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_invert_allocs)
 
 	var cgodot_pool_int_array_push_back_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_push_back, cgodot_pool_int_array_push_back_allocs = x.GodotPoolIntArrayPushBack.PassRef()
+	ref57717e51.godot_pool_int_array_push_back, cgodot_pool_int_array_push_back_allocs = x.PoolIntArrayPushBack.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_push_back_allocs)
 
 	var cgodot_pool_int_array_remove_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_remove, cgodot_pool_int_array_remove_allocs = x.GodotPoolIntArrayRemove.PassRef()
+	ref57717e51.godot_pool_int_array_remove, cgodot_pool_int_array_remove_allocs = x.PoolIntArrayRemove.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_remove_allocs)
 
 	var cgodot_pool_int_array_resize_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_resize, cgodot_pool_int_array_resize_allocs = x.GodotPoolIntArrayResize.PassRef()
+	ref57717e51.godot_pool_int_array_resize, cgodot_pool_int_array_resize_allocs = x.PoolIntArrayResize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_resize_allocs)
 
 	var cgodot_pool_int_array_read_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_read, cgodot_pool_int_array_read_allocs = x.GodotPoolIntArrayRead.PassRef()
+	ref57717e51.godot_pool_int_array_read, cgodot_pool_int_array_read_allocs = x.PoolIntArrayRead.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_read_allocs)
 
 	var cgodot_pool_int_array_write_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_write, cgodot_pool_int_array_write_allocs = x.GodotPoolIntArrayWrite.PassRef()
+	ref57717e51.godot_pool_int_array_write, cgodot_pool_int_array_write_allocs = x.PoolIntArrayWrite.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_write_allocs)
 
 	var cgodot_pool_int_array_set_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_set, cgodot_pool_int_array_set_allocs = x.GodotPoolIntArraySet.PassRef()
+	ref57717e51.godot_pool_int_array_set, cgodot_pool_int_array_set_allocs = x.PoolIntArraySet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_set_allocs)
 
 	var cgodot_pool_int_array_get_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_get, cgodot_pool_int_array_get_allocs = x.GodotPoolIntArrayGet.PassRef()
+	ref57717e51.godot_pool_int_array_get, cgodot_pool_int_array_get_allocs = x.PoolIntArrayGet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_get_allocs)
 
 	var cgodot_pool_int_array_size_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_size, cgodot_pool_int_array_size_allocs = x.GodotPoolIntArraySize.PassRef()
+	ref57717e51.godot_pool_int_array_size, cgodot_pool_int_array_size_allocs = x.PoolIntArraySize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_size_allocs)
 
 	var cgodot_pool_int_array_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_destroy, cgodot_pool_int_array_destroy_allocs = x.GodotPoolIntArrayDestroy.PassRef()
+	ref57717e51.godot_pool_int_array_destroy, cgodot_pool_int_array_destroy_allocs = x.PoolIntArrayDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_destroy_allocs)
 
 	var cgodot_pool_real_array_new_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_new, cgodot_pool_real_array_new_allocs = x.GodotPoolRealArrayNew.PassRef()
+	ref57717e51.godot_pool_real_array_new, cgodot_pool_real_array_new_allocs = x.PoolRealArrayNew.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_new_allocs)
 
 	var cgodot_pool_real_array_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_new_copy, cgodot_pool_real_array_new_copy_allocs = x.GodotPoolRealArrayNewCopy.PassRef()
+	ref57717e51.godot_pool_real_array_new_copy, cgodot_pool_real_array_new_copy_allocs = x.PoolRealArrayNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_new_copy_allocs)
 
 	var cgodot_pool_real_array_new_with_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_new_with_array, cgodot_pool_real_array_new_with_array_allocs = x.GodotPoolRealArrayNewWithArray.PassRef()
+	ref57717e51.godot_pool_real_array_new_with_array, cgodot_pool_real_array_new_with_array_allocs = x.PoolRealArrayNewWithArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_new_with_array_allocs)
 
 	var cgodot_pool_real_array_append_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_append, cgodot_pool_real_array_append_allocs = x.GodotPoolRealArrayAppend.PassRef()
+	ref57717e51.godot_pool_real_array_append, cgodot_pool_real_array_append_allocs = x.PoolRealArrayAppend.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_append_allocs)
 
 	var cgodot_pool_real_array_append_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_append_array, cgodot_pool_real_array_append_array_allocs = x.GodotPoolRealArrayAppendArray.PassRef()
+	ref57717e51.godot_pool_real_array_append_array, cgodot_pool_real_array_append_array_allocs = x.PoolRealArrayAppendArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_append_array_allocs)
 
 	var cgodot_pool_real_array_insert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_insert, cgodot_pool_real_array_insert_allocs = x.GodotPoolRealArrayInsert.PassRef()
+	ref57717e51.godot_pool_real_array_insert, cgodot_pool_real_array_insert_allocs = x.PoolRealArrayInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_insert_allocs)
 
 	var cgodot_pool_real_array_invert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_invert, cgodot_pool_real_array_invert_allocs = x.GodotPoolRealArrayInvert.PassRef()
+	ref57717e51.godot_pool_real_array_invert, cgodot_pool_real_array_invert_allocs = x.PoolRealArrayInvert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_invert_allocs)
 
 	var cgodot_pool_real_array_push_back_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_push_back, cgodot_pool_real_array_push_back_allocs = x.GodotPoolRealArrayPushBack.PassRef()
+	ref57717e51.godot_pool_real_array_push_back, cgodot_pool_real_array_push_back_allocs = x.PoolRealArrayPushBack.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_push_back_allocs)
 
 	var cgodot_pool_real_array_remove_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_remove, cgodot_pool_real_array_remove_allocs = x.GodotPoolRealArrayRemove.PassRef()
+	ref57717e51.godot_pool_real_array_remove, cgodot_pool_real_array_remove_allocs = x.PoolRealArrayRemove.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_remove_allocs)
 
 	var cgodot_pool_real_array_resize_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_resize, cgodot_pool_real_array_resize_allocs = x.GodotPoolRealArrayResize.PassRef()
+	ref57717e51.godot_pool_real_array_resize, cgodot_pool_real_array_resize_allocs = x.PoolRealArrayResize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_resize_allocs)
 
 	var cgodot_pool_real_array_read_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_read, cgodot_pool_real_array_read_allocs = x.GodotPoolRealArrayRead.PassRef()
+	ref57717e51.godot_pool_real_array_read, cgodot_pool_real_array_read_allocs = x.PoolRealArrayRead.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_read_allocs)
 
 	var cgodot_pool_real_array_write_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_write, cgodot_pool_real_array_write_allocs = x.GodotPoolRealArrayWrite.PassRef()
+	ref57717e51.godot_pool_real_array_write, cgodot_pool_real_array_write_allocs = x.PoolRealArrayWrite.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_write_allocs)
 
 	var cgodot_pool_real_array_set_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_set, cgodot_pool_real_array_set_allocs = x.GodotPoolRealArraySet.PassRef()
+	ref57717e51.godot_pool_real_array_set, cgodot_pool_real_array_set_allocs = x.PoolRealArraySet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_set_allocs)
 
 	var cgodot_pool_real_array_get_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_get, cgodot_pool_real_array_get_allocs = x.GodotPoolRealArrayGet.PassRef()
+	ref57717e51.godot_pool_real_array_get, cgodot_pool_real_array_get_allocs = x.PoolRealArrayGet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_get_allocs)
 
 	var cgodot_pool_real_array_size_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_size, cgodot_pool_real_array_size_allocs = x.GodotPoolRealArraySize.PassRef()
+	ref57717e51.godot_pool_real_array_size, cgodot_pool_real_array_size_allocs = x.PoolRealArraySize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_size_allocs)
 
 	var cgodot_pool_real_array_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_destroy, cgodot_pool_real_array_destroy_allocs = x.GodotPoolRealArrayDestroy.PassRef()
+	ref57717e51.godot_pool_real_array_destroy, cgodot_pool_real_array_destroy_allocs = x.PoolRealArrayDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_destroy_allocs)
 
 	var cgodot_pool_string_array_new_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_new, cgodot_pool_string_array_new_allocs = x.GodotPoolStringArrayNew.PassRef()
+	ref57717e51.godot_pool_string_array_new, cgodot_pool_string_array_new_allocs = x.PoolStringArrayNew.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_new_allocs)
 
 	var cgodot_pool_string_array_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_new_copy, cgodot_pool_string_array_new_copy_allocs = x.GodotPoolStringArrayNewCopy.PassRef()
+	ref57717e51.godot_pool_string_array_new_copy, cgodot_pool_string_array_new_copy_allocs = x.PoolStringArrayNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_new_copy_allocs)
 
 	var cgodot_pool_string_array_new_with_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_new_with_array, cgodot_pool_string_array_new_with_array_allocs = x.GodotPoolStringArrayNewWithArray.PassRef()
+	ref57717e51.godot_pool_string_array_new_with_array, cgodot_pool_string_array_new_with_array_allocs = x.PoolStringArrayNewWithArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_new_with_array_allocs)
 
 	var cgodot_pool_string_array_append_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_append, cgodot_pool_string_array_append_allocs = x.GodotPoolStringArrayAppend.PassRef()
+	ref57717e51.godot_pool_string_array_append, cgodot_pool_string_array_append_allocs = x.PoolStringArrayAppend.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_append_allocs)
 
 	var cgodot_pool_string_array_append_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_append_array, cgodot_pool_string_array_append_array_allocs = x.GodotPoolStringArrayAppendArray.PassRef()
+	ref57717e51.godot_pool_string_array_append_array, cgodot_pool_string_array_append_array_allocs = x.PoolStringArrayAppendArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_append_array_allocs)
 
 	var cgodot_pool_string_array_insert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_insert, cgodot_pool_string_array_insert_allocs = x.GodotPoolStringArrayInsert.PassRef()
+	ref57717e51.godot_pool_string_array_insert, cgodot_pool_string_array_insert_allocs = x.PoolStringArrayInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_insert_allocs)
 
 	var cgodot_pool_string_array_invert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_invert, cgodot_pool_string_array_invert_allocs = x.GodotPoolStringArrayInvert.PassRef()
+	ref57717e51.godot_pool_string_array_invert, cgodot_pool_string_array_invert_allocs = x.PoolStringArrayInvert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_invert_allocs)
 
 	var cgodot_pool_string_array_push_back_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_push_back, cgodot_pool_string_array_push_back_allocs = x.GodotPoolStringArrayPushBack.PassRef()
+	ref57717e51.godot_pool_string_array_push_back, cgodot_pool_string_array_push_back_allocs = x.PoolStringArrayPushBack.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_push_back_allocs)
 
 	var cgodot_pool_string_array_remove_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_remove, cgodot_pool_string_array_remove_allocs = x.GodotPoolStringArrayRemove.PassRef()
+	ref57717e51.godot_pool_string_array_remove, cgodot_pool_string_array_remove_allocs = x.PoolStringArrayRemove.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_remove_allocs)
 
 	var cgodot_pool_string_array_resize_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_resize, cgodot_pool_string_array_resize_allocs = x.GodotPoolStringArrayResize.PassRef()
+	ref57717e51.godot_pool_string_array_resize, cgodot_pool_string_array_resize_allocs = x.PoolStringArrayResize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_resize_allocs)
 
 	var cgodot_pool_string_array_read_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_read, cgodot_pool_string_array_read_allocs = x.GodotPoolStringArrayRead.PassRef()
+	ref57717e51.godot_pool_string_array_read, cgodot_pool_string_array_read_allocs = x.PoolStringArrayRead.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_read_allocs)
 
 	var cgodot_pool_string_array_write_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_write, cgodot_pool_string_array_write_allocs = x.GodotPoolStringArrayWrite.PassRef()
+	ref57717e51.godot_pool_string_array_write, cgodot_pool_string_array_write_allocs = x.PoolStringArrayWrite.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_write_allocs)
 
 	var cgodot_pool_string_array_set_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_set, cgodot_pool_string_array_set_allocs = x.GodotPoolStringArraySet.PassRef()
+	ref57717e51.godot_pool_string_array_set, cgodot_pool_string_array_set_allocs = x.PoolStringArraySet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_set_allocs)
 
 	var cgodot_pool_string_array_get_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_get, cgodot_pool_string_array_get_allocs = x.GodotPoolStringArrayGet.PassRef()
+	ref57717e51.godot_pool_string_array_get, cgodot_pool_string_array_get_allocs = x.PoolStringArrayGet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_get_allocs)
 
 	var cgodot_pool_string_array_size_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_size, cgodot_pool_string_array_size_allocs = x.GodotPoolStringArraySize.PassRef()
+	ref57717e51.godot_pool_string_array_size, cgodot_pool_string_array_size_allocs = x.PoolStringArraySize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_size_allocs)
 
 	var cgodot_pool_string_array_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_destroy, cgodot_pool_string_array_destroy_allocs = x.GodotPoolStringArrayDestroy.PassRef()
+	ref57717e51.godot_pool_string_array_destroy, cgodot_pool_string_array_destroy_allocs = x.PoolStringArrayDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_destroy_allocs)
 
 	var cgodot_pool_vector2_array_new_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_new, cgodot_pool_vector2_array_new_allocs = x.GodotPoolVector2ArrayNew.PassRef()
+	ref57717e51.godot_pool_vector2_array_new, cgodot_pool_vector2_array_new_allocs = x.PoolVector2ArrayNew.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_new_allocs)
 
 	var cgodot_pool_vector2_array_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_new_copy, cgodot_pool_vector2_array_new_copy_allocs = x.GodotPoolVector2ArrayNewCopy.PassRef()
+	ref57717e51.godot_pool_vector2_array_new_copy, cgodot_pool_vector2_array_new_copy_allocs = x.PoolVector2ArrayNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_new_copy_allocs)
 
 	var cgodot_pool_vector2_array_new_with_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_new_with_array, cgodot_pool_vector2_array_new_with_array_allocs = x.GodotPoolVector2ArrayNewWithArray.PassRef()
+	ref57717e51.godot_pool_vector2_array_new_with_array, cgodot_pool_vector2_array_new_with_array_allocs = x.PoolVector2ArrayNewWithArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_new_with_array_allocs)
 
 	var cgodot_pool_vector2_array_append_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_append, cgodot_pool_vector2_array_append_allocs = x.GodotPoolVector2ArrayAppend.PassRef()
+	ref57717e51.godot_pool_vector2_array_append, cgodot_pool_vector2_array_append_allocs = x.PoolVector2ArrayAppend.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_append_allocs)
 
 	var cgodot_pool_vector2_array_append_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_append_array, cgodot_pool_vector2_array_append_array_allocs = x.GodotPoolVector2ArrayAppendArray.PassRef()
+	ref57717e51.godot_pool_vector2_array_append_array, cgodot_pool_vector2_array_append_array_allocs = x.PoolVector2ArrayAppendArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_append_array_allocs)
 
 	var cgodot_pool_vector2_array_insert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_insert, cgodot_pool_vector2_array_insert_allocs = x.GodotPoolVector2ArrayInsert.PassRef()
+	ref57717e51.godot_pool_vector2_array_insert, cgodot_pool_vector2_array_insert_allocs = x.PoolVector2ArrayInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_insert_allocs)
 
 	var cgodot_pool_vector2_array_invert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_invert, cgodot_pool_vector2_array_invert_allocs = x.GodotPoolVector2ArrayInvert.PassRef()
+	ref57717e51.godot_pool_vector2_array_invert, cgodot_pool_vector2_array_invert_allocs = x.PoolVector2ArrayInvert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_invert_allocs)
 
 	var cgodot_pool_vector2_array_push_back_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_push_back, cgodot_pool_vector2_array_push_back_allocs = x.GodotPoolVector2ArrayPushBack.PassRef()
+	ref57717e51.godot_pool_vector2_array_push_back, cgodot_pool_vector2_array_push_back_allocs = x.PoolVector2ArrayPushBack.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_push_back_allocs)
 
 	var cgodot_pool_vector2_array_remove_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_remove, cgodot_pool_vector2_array_remove_allocs = x.GodotPoolVector2ArrayRemove.PassRef()
+	ref57717e51.godot_pool_vector2_array_remove, cgodot_pool_vector2_array_remove_allocs = x.PoolVector2ArrayRemove.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_remove_allocs)
 
 	var cgodot_pool_vector2_array_resize_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_resize, cgodot_pool_vector2_array_resize_allocs = x.GodotPoolVector2ArrayResize.PassRef()
+	ref57717e51.godot_pool_vector2_array_resize, cgodot_pool_vector2_array_resize_allocs = x.PoolVector2ArrayResize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_resize_allocs)
 
 	var cgodot_pool_vector2_array_read_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_read, cgodot_pool_vector2_array_read_allocs = x.GodotPoolVector2ArrayRead.PassRef()
+	ref57717e51.godot_pool_vector2_array_read, cgodot_pool_vector2_array_read_allocs = x.PoolVector2ArrayRead.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_read_allocs)
 
 	var cgodot_pool_vector2_array_write_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_write, cgodot_pool_vector2_array_write_allocs = x.GodotPoolVector2ArrayWrite.PassRef()
+	ref57717e51.godot_pool_vector2_array_write, cgodot_pool_vector2_array_write_allocs = x.PoolVector2ArrayWrite.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_write_allocs)
 
 	var cgodot_pool_vector2_array_set_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_set, cgodot_pool_vector2_array_set_allocs = x.GodotPoolVector2ArraySet.PassRef()
+	ref57717e51.godot_pool_vector2_array_set, cgodot_pool_vector2_array_set_allocs = x.PoolVector2ArraySet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_set_allocs)
 
 	var cgodot_pool_vector2_array_get_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_get, cgodot_pool_vector2_array_get_allocs = x.GodotPoolVector2ArrayGet.PassRef()
+	ref57717e51.godot_pool_vector2_array_get, cgodot_pool_vector2_array_get_allocs = x.PoolVector2ArrayGet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_get_allocs)
 
 	var cgodot_pool_vector2_array_size_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_size, cgodot_pool_vector2_array_size_allocs = x.GodotPoolVector2ArraySize.PassRef()
+	ref57717e51.godot_pool_vector2_array_size, cgodot_pool_vector2_array_size_allocs = x.PoolVector2ArraySize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_size_allocs)
 
 	var cgodot_pool_vector2_array_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_destroy, cgodot_pool_vector2_array_destroy_allocs = x.GodotPoolVector2ArrayDestroy.PassRef()
+	ref57717e51.godot_pool_vector2_array_destroy, cgodot_pool_vector2_array_destroy_allocs = x.PoolVector2ArrayDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_destroy_allocs)
 
 	var cgodot_pool_vector3_array_new_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_new, cgodot_pool_vector3_array_new_allocs = x.GodotPoolVector3ArrayNew.PassRef()
+	ref57717e51.godot_pool_vector3_array_new, cgodot_pool_vector3_array_new_allocs = x.PoolVector3ArrayNew.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_new_allocs)
 
 	var cgodot_pool_vector3_array_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_new_copy, cgodot_pool_vector3_array_new_copy_allocs = x.GodotPoolVector3ArrayNewCopy.PassRef()
+	ref57717e51.godot_pool_vector3_array_new_copy, cgodot_pool_vector3_array_new_copy_allocs = x.PoolVector3ArrayNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_new_copy_allocs)
 
 	var cgodot_pool_vector3_array_new_with_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_new_with_array, cgodot_pool_vector3_array_new_with_array_allocs = x.GodotPoolVector3ArrayNewWithArray.PassRef()
+	ref57717e51.godot_pool_vector3_array_new_with_array, cgodot_pool_vector3_array_new_with_array_allocs = x.PoolVector3ArrayNewWithArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_new_with_array_allocs)
 
 	var cgodot_pool_vector3_array_append_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_append, cgodot_pool_vector3_array_append_allocs = x.GodotPoolVector3ArrayAppend.PassRef()
+	ref57717e51.godot_pool_vector3_array_append, cgodot_pool_vector3_array_append_allocs = x.PoolVector3ArrayAppend.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_append_allocs)
 
 	var cgodot_pool_vector3_array_append_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_append_array, cgodot_pool_vector3_array_append_array_allocs = x.GodotPoolVector3ArrayAppendArray.PassRef()
+	ref57717e51.godot_pool_vector3_array_append_array, cgodot_pool_vector3_array_append_array_allocs = x.PoolVector3ArrayAppendArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_append_array_allocs)
 
 	var cgodot_pool_vector3_array_insert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_insert, cgodot_pool_vector3_array_insert_allocs = x.GodotPoolVector3ArrayInsert.PassRef()
+	ref57717e51.godot_pool_vector3_array_insert, cgodot_pool_vector3_array_insert_allocs = x.PoolVector3ArrayInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_insert_allocs)
 
 	var cgodot_pool_vector3_array_invert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_invert, cgodot_pool_vector3_array_invert_allocs = x.GodotPoolVector3ArrayInvert.PassRef()
+	ref57717e51.godot_pool_vector3_array_invert, cgodot_pool_vector3_array_invert_allocs = x.PoolVector3ArrayInvert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_invert_allocs)
 
 	var cgodot_pool_vector3_array_push_back_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_push_back, cgodot_pool_vector3_array_push_back_allocs = x.GodotPoolVector3ArrayPushBack.PassRef()
+	ref57717e51.godot_pool_vector3_array_push_back, cgodot_pool_vector3_array_push_back_allocs = x.PoolVector3ArrayPushBack.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_push_back_allocs)
 
 	var cgodot_pool_vector3_array_remove_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_remove, cgodot_pool_vector3_array_remove_allocs = x.GodotPoolVector3ArrayRemove.PassRef()
+	ref57717e51.godot_pool_vector3_array_remove, cgodot_pool_vector3_array_remove_allocs = x.PoolVector3ArrayRemove.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_remove_allocs)
 
 	var cgodot_pool_vector3_array_resize_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_resize, cgodot_pool_vector3_array_resize_allocs = x.GodotPoolVector3ArrayResize.PassRef()
+	ref57717e51.godot_pool_vector3_array_resize, cgodot_pool_vector3_array_resize_allocs = x.PoolVector3ArrayResize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_resize_allocs)
 
 	var cgodot_pool_vector3_array_read_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_read, cgodot_pool_vector3_array_read_allocs = x.GodotPoolVector3ArrayRead.PassRef()
+	ref57717e51.godot_pool_vector3_array_read, cgodot_pool_vector3_array_read_allocs = x.PoolVector3ArrayRead.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_read_allocs)
 
 	var cgodot_pool_vector3_array_write_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_write, cgodot_pool_vector3_array_write_allocs = x.GodotPoolVector3ArrayWrite.PassRef()
+	ref57717e51.godot_pool_vector3_array_write, cgodot_pool_vector3_array_write_allocs = x.PoolVector3ArrayWrite.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_write_allocs)
 
 	var cgodot_pool_vector3_array_set_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_set, cgodot_pool_vector3_array_set_allocs = x.GodotPoolVector3ArraySet.PassRef()
+	ref57717e51.godot_pool_vector3_array_set, cgodot_pool_vector3_array_set_allocs = x.PoolVector3ArraySet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_set_allocs)
 
 	var cgodot_pool_vector3_array_get_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_get, cgodot_pool_vector3_array_get_allocs = x.GodotPoolVector3ArrayGet.PassRef()
+	ref57717e51.godot_pool_vector3_array_get, cgodot_pool_vector3_array_get_allocs = x.PoolVector3ArrayGet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_get_allocs)
 
 	var cgodot_pool_vector3_array_size_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_size, cgodot_pool_vector3_array_size_allocs = x.GodotPoolVector3ArraySize.PassRef()
+	ref57717e51.godot_pool_vector3_array_size, cgodot_pool_vector3_array_size_allocs = x.PoolVector3ArraySize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_size_allocs)
 
 	var cgodot_pool_vector3_array_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_destroy, cgodot_pool_vector3_array_destroy_allocs = x.GodotPoolVector3ArrayDestroy.PassRef()
+	ref57717e51.godot_pool_vector3_array_destroy, cgodot_pool_vector3_array_destroy_allocs = x.PoolVector3ArrayDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_destroy_allocs)
 
 	var cgodot_pool_color_array_new_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_new, cgodot_pool_color_array_new_allocs = x.GodotPoolColorArrayNew.PassRef()
+	ref57717e51.godot_pool_color_array_new, cgodot_pool_color_array_new_allocs = x.PoolColorArrayNew.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_new_allocs)
 
 	var cgodot_pool_color_array_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_new_copy, cgodot_pool_color_array_new_copy_allocs = x.GodotPoolColorArrayNewCopy.PassRef()
+	ref57717e51.godot_pool_color_array_new_copy, cgodot_pool_color_array_new_copy_allocs = x.PoolColorArrayNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_new_copy_allocs)
 
 	var cgodot_pool_color_array_new_with_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_new_with_array, cgodot_pool_color_array_new_with_array_allocs = x.GodotPoolColorArrayNewWithArray.PassRef()
+	ref57717e51.godot_pool_color_array_new_with_array, cgodot_pool_color_array_new_with_array_allocs = x.PoolColorArrayNewWithArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_new_with_array_allocs)
 
 	var cgodot_pool_color_array_append_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_append, cgodot_pool_color_array_append_allocs = x.GodotPoolColorArrayAppend.PassRef()
+	ref57717e51.godot_pool_color_array_append, cgodot_pool_color_array_append_allocs = x.PoolColorArrayAppend.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_append_allocs)
 
 	var cgodot_pool_color_array_append_array_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_append_array, cgodot_pool_color_array_append_array_allocs = x.GodotPoolColorArrayAppendArray.PassRef()
+	ref57717e51.godot_pool_color_array_append_array, cgodot_pool_color_array_append_array_allocs = x.PoolColorArrayAppendArray.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_append_array_allocs)
 
 	var cgodot_pool_color_array_insert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_insert, cgodot_pool_color_array_insert_allocs = x.GodotPoolColorArrayInsert.PassRef()
+	ref57717e51.godot_pool_color_array_insert, cgodot_pool_color_array_insert_allocs = x.PoolColorArrayInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_insert_allocs)
 
 	var cgodot_pool_color_array_invert_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_invert, cgodot_pool_color_array_invert_allocs = x.GodotPoolColorArrayInvert.PassRef()
+	ref57717e51.godot_pool_color_array_invert, cgodot_pool_color_array_invert_allocs = x.PoolColorArrayInvert.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_invert_allocs)
 
 	var cgodot_pool_color_array_push_back_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_push_back, cgodot_pool_color_array_push_back_allocs = x.GodotPoolColorArrayPushBack.PassRef()
+	ref57717e51.godot_pool_color_array_push_back, cgodot_pool_color_array_push_back_allocs = x.PoolColorArrayPushBack.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_push_back_allocs)
 
 	var cgodot_pool_color_array_remove_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_remove, cgodot_pool_color_array_remove_allocs = x.GodotPoolColorArrayRemove.PassRef()
+	ref57717e51.godot_pool_color_array_remove, cgodot_pool_color_array_remove_allocs = x.PoolColorArrayRemove.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_remove_allocs)
 
 	var cgodot_pool_color_array_resize_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_resize, cgodot_pool_color_array_resize_allocs = x.GodotPoolColorArrayResize.PassRef()
+	ref57717e51.godot_pool_color_array_resize, cgodot_pool_color_array_resize_allocs = x.PoolColorArrayResize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_resize_allocs)
 
 	var cgodot_pool_color_array_read_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_read, cgodot_pool_color_array_read_allocs = x.GodotPoolColorArrayRead.PassRef()
+	ref57717e51.godot_pool_color_array_read, cgodot_pool_color_array_read_allocs = x.PoolColorArrayRead.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_read_allocs)
 
 	var cgodot_pool_color_array_write_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_write, cgodot_pool_color_array_write_allocs = x.GodotPoolColorArrayWrite.PassRef()
+	ref57717e51.godot_pool_color_array_write, cgodot_pool_color_array_write_allocs = x.PoolColorArrayWrite.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_write_allocs)
 
 	var cgodot_pool_color_array_set_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_set, cgodot_pool_color_array_set_allocs = x.GodotPoolColorArraySet.PassRef()
+	ref57717e51.godot_pool_color_array_set, cgodot_pool_color_array_set_allocs = x.PoolColorArraySet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_set_allocs)
 
 	var cgodot_pool_color_array_get_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_get, cgodot_pool_color_array_get_allocs = x.GodotPoolColorArrayGet.PassRef()
+	ref57717e51.godot_pool_color_array_get, cgodot_pool_color_array_get_allocs = x.PoolColorArrayGet.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_get_allocs)
 
 	var cgodot_pool_color_array_size_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_size, cgodot_pool_color_array_size_allocs = x.GodotPoolColorArraySize.PassRef()
+	ref57717e51.godot_pool_color_array_size, cgodot_pool_color_array_size_allocs = x.PoolColorArraySize.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_size_allocs)
 
 	var cgodot_pool_color_array_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_destroy, cgodot_pool_color_array_destroy_allocs = x.GodotPoolColorArrayDestroy.PassRef()
+	ref57717e51.godot_pool_color_array_destroy, cgodot_pool_color_array_destroy_allocs = x.PoolColorArrayDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_destroy_allocs)
 
 	var cgodot_pool_byte_array_read_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_read_access_ptr, cgodot_pool_byte_array_read_access_ptr_allocs = x.GodotPoolByteArrayReadAccessPtr.PassRef()
+	ref57717e51.godot_pool_byte_array_read_access_ptr, cgodot_pool_byte_array_read_access_ptr_allocs = x.PoolByteArrayReadAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_read_access_ptr_allocs)
 
 	var cgodot_pool_byte_array_read_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_read_access_operator_assign, cgodot_pool_byte_array_read_access_operator_assign_allocs = x.GodotPoolByteArrayReadAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_byte_array_read_access_operator_assign, cgodot_pool_byte_array_read_access_operator_assign_allocs = x.PoolByteArrayReadAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_read_access_operator_assign_allocs)
 
 	var cgodot_pool_byte_array_read_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_read_access_destroy, cgodot_pool_byte_array_read_access_destroy_allocs = x.GodotPoolByteArrayReadAccessDestroy.PassRef()
+	ref57717e51.godot_pool_byte_array_read_access_destroy, cgodot_pool_byte_array_read_access_destroy_allocs = x.PoolByteArrayReadAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_read_access_destroy_allocs)
 
 	var cgodot_pool_int_array_read_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_read_access_ptr, cgodot_pool_int_array_read_access_ptr_allocs = x.GodotPoolIntArrayReadAccessPtr.PassRef()
+	ref57717e51.godot_pool_int_array_read_access_ptr, cgodot_pool_int_array_read_access_ptr_allocs = x.PoolIntArrayReadAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_read_access_ptr_allocs)
 
 	var cgodot_pool_int_array_read_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_read_access_operator_assign, cgodot_pool_int_array_read_access_operator_assign_allocs = x.GodotPoolIntArrayReadAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_int_array_read_access_operator_assign, cgodot_pool_int_array_read_access_operator_assign_allocs = x.PoolIntArrayReadAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_read_access_operator_assign_allocs)
 
 	var cgodot_pool_int_array_read_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_read_access_destroy, cgodot_pool_int_array_read_access_destroy_allocs = x.GodotPoolIntArrayReadAccessDestroy.PassRef()
+	ref57717e51.godot_pool_int_array_read_access_destroy, cgodot_pool_int_array_read_access_destroy_allocs = x.PoolIntArrayReadAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_read_access_destroy_allocs)
 
 	var cgodot_pool_real_array_read_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_read_access_ptr, cgodot_pool_real_array_read_access_ptr_allocs = x.GodotPoolRealArrayReadAccessPtr.PassRef()
+	ref57717e51.godot_pool_real_array_read_access_ptr, cgodot_pool_real_array_read_access_ptr_allocs = x.PoolRealArrayReadAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_read_access_ptr_allocs)
 
 	var cgodot_pool_real_array_read_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_read_access_operator_assign, cgodot_pool_real_array_read_access_operator_assign_allocs = x.GodotPoolRealArrayReadAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_real_array_read_access_operator_assign, cgodot_pool_real_array_read_access_operator_assign_allocs = x.PoolRealArrayReadAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_read_access_operator_assign_allocs)
 
 	var cgodot_pool_real_array_read_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_read_access_destroy, cgodot_pool_real_array_read_access_destroy_allocs = x.GodotPoolRealArrayReadAccessDestroy.PassRef()
+	ref57717e51.godot_pool_real_array_read_access_destroy, cgodot_pool_real_array_read_access_destroy_allocs = x.PoolRealArrayReadAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_read_access_destroy_allocs)
 
 	var cgodot_pool_string_array_read_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_read_access_ptr, cgodot_pool_string_array_read_access_ptr_allocs = x.GodotPoolStringArrayReadAccessPtr.PassRef()
+	ref57717e51.godot_pool_string_array_read_access_ptr, cgodot_pool_string_array_read_access_ptr_allocs = x.PoolStringArrayReadAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_read_access_ptr_allocs)
 
 	var cgodot_pool_string_array_read_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_read_access_operator_assign, cgodot_pool_string_array_read_access_operator_assign_allocs = x.GodotPoolStringArrayReadAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_string_array_read_access_operator_assign, cgodot_pool_string_array_read_access_operator_assign_allocs = x.PoolStringArrayReadAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_read_access_operator_assign_allocs)
 
 	var cgodot_pool_string_array_read_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_read_access_destroy, cgodot_pool_string_array_read_access_destroy_allocs = x.GodotPoolStringArrayReadAccessDestroy.PassRef()
+	ref57717e51.godot_pool_string_array_read_access_destroy, cgodot_pool_string_array_read_access_destroy_allocs = x.PoolStringArrayReadAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_read_access_destroy_allocs)
 
 	var cgodot_pool_vector2_array_read_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_read_access_ptr, cgodot_pool_vector2_array_read_access_ptr_allocs = x.GodotPoolVector2ArrayReadAccessPtr.PassRef()
+	ref57717e51.godot_pool_vector2_array_read_access_ptr, cgodot_pool_vector2_array_read_access_ptr_allocs = x.PoolVector2ArrayReadAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_read_access_ptr_allocs)
 
 	var cgodot_pool_vector2_array_read_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_read_access_operator_assign, cgodot_pool_vector2_array_read_access_operator_assign_allocs = x.GodotPoolVector2ArrayReadAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_vector2_array_read_access_operator_assign, cgodot_pool_vector2_array_read_access_operator_assign_allocs = x.PoolVector2ArrayReadAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_read_access_operator_assign_allocs)
 
 	var cgodot_pool_vector2_array_read_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_read_access_destroy, cgodot_pool_vector2_array_read_access_destroy_allocs = x.GodotPoolVector2ArrayReadAccessDestroy.PassRef()
+	ref57717e51.godot_pool_vector2_array_read_access_destroy, cgodot_pool_vector2_array_read_access_destroy_allocs = x.PoolVector2ArrayReadAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_read_access_destroy_allocs)
 
 	var cgodot_pool_vector3_array_read_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_read_access_ptr, cgodot_pool_vector3_array_read_access_ptr_allocs = x.GodotPoolVector3ArrayReadAccessPtr.PassRef()
+	ref57717e51.godot_pool_vector3_array_read_access_ptr, cgodot_pool_vector3_array_read_access_ptr_allocs = x.PoolVector3ArrayReadAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_read_access_ptr_allocs)
 
 	var cgodot_pool_vector3_array_read_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_read_access_operator_assign, cgodot_pool_vector3_array_read_access_operator_assign_allocs = x.GodotPoolVector3ArrayReadAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_vector3_array_read_access_operator_assign, cgodot_pool_vector3_array_read_access_operator_assign_allocs = x.PoolVector3ArrayReadAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_read_access_operator_assign_allocs)
 
 	var cgodot_pool_vector3_array_read_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_read_access_destroy, cgodot_pool_vector3_array_read_access_destroy_allocs = x.GodotPoolVector3ArrayReadAccessDestroy.PassRef()
+	ref57717e51.godot_pool_vector3_array_read_access_destroy, cgodot_pool_vector3_array_read_access_destroy_allocs = x.PoolVector3ArrayReadAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_read_access_destroy_allocs)
 
 	var cgodot_pool_color_array_read_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_read_access_ptr, cgodot_pool_color_array_read_access_ptr_allocs = x.GodotPoolColorArrayReadAccessPtr.PassRef()
+	ref57717e51.godot_pool_color_array_read_access_ptr, cgodot_pool_color_array_read_access_ptr_allocs = x.PoolColorArrayReadAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_read_access_ptr_allocs)
 
 	var cgodot_pool_color_array_read_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_read_access_operator_assign, cgodot_pool_color_array_read_access_operator_assign_allocs = x.GodotPoolColorArrayReadAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_color_array_read_access_operator_assign, cgodot_pool_color_array_read_access_operator_assign_allocs = x.PoolColorArrayReadAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_read_access_operator_assign_allocs)
 
 	var cgodot_pool_color_array_read_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_read_access_destroy, cgodot_pool_color_array_read_access_destroy_allocs = x.GodotPoolColorArrayReadAccessDestroy.PassRef()
+	ref57717e51.godot_pool_color_array_read_access_destroy, cgodot_pool_color_array_read_access_destroy_allocs = x.PoolColorArrayReadAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_read_access_destroy_allocs)
 
 	var cgodot_pool_byte_array_write_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_write_access_ptr, cgodot_pool_byte_array_write_access_ptr_allocs = x.GodotPoolByteArrayWriteAccessPtr.PassRef()
+	ref57717e51.godot_pool_byte_array_write_access_ptr, cgodot_pool_byte_array_write_access_ptr_allocs = x.PoolByteArrayWriteAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_write_access_ptr_allocs)
 
 	var cgodot_pool_byte_array_write_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_write_access_operator_assign, cgodot_pool_byte_array_write_access_operator_assign_allocs = x.GodotPoolByteArrayWriteAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_byte_array_write_access_operator_assign, cgodot_pool_byte_array_write_access_operator_assign_allocs = x.PoolByteArrayWriteAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_write_access_operator_assign_allocs)
 
 	var cgodot_pool_byte_array_write_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_byte_array_write_access_destroy, cgodot_pool_byte_array_write_access_destroy_allocs = x.GodotPoolByteArrayWriteAccessDestroy.PassRef()
+	ref57717e51.godot_pool_byte_array_write_access_destroy, cgodot_pool_byte_array_write_access_destroy_allocs = x.PoolByteArrayWriteAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_byte_array_write_access_destroy_allocs)
 
 	var cgodot_pool_int_array_write_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_write_access_ptr, cgodot_pool_int_array_write_access_ptr_allocs = x.GodotPoolIntArrayWriteAccessPtr.PassRef()
+	ref57717e51.godot_pool_int_array_write_access_ptr, cgodot_pool_int_array_write_access_ptr_allocs = x.PoolIntArrayWriteAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_write_access_ptr_allocs)
 
 	var cgodot_pool_int_array_write_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_write_access_operator_assign, cgodot_pool_int_array_write_access_operator_assign_allocs = x.GodotPoolIntArrayWriteAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_int_array_write_access_operator_assign, cgodot_pool_int_array_write_access_operator_assign_allocs = x.PoolIntArrayWriteAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_write_access_operator_assign_allocs)
 
 	var cgodot_pool_int_array_write_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_int_array_write_access_destroy, cgodot_pool_int_array_write_access_destroy_allocs = x.GodotPoolIntArrayWriteAccessDestroy.PassRef()
+	ref57717e51.godot_pool_int_array_write_access_destroy, cgodot_pool_int_array_write_access_destroy_allocs = x.PoolIntArrayWriteAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_int_array_write_access_destroy_allocs)
 
 	var cgodot_pool_real_array_write_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_write_access_ptr, cgodot_pool_real_array_write_access_ptr_allocs = x.GodotPoolRealArrayWriteAccessPtr.PassRef()
+	ref57717e51.godot_pool_real_array_write_access_ptr, cgodot_pool_real_array_write_access_ptr_allocs = x.PoolRealArrayWriteAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_write_access_ptr_allocs)
 
 	var cgodot_pool_real_array_write_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_write_access_operator_assign, cgodot_pool_real_array_write_access_operator_assign_allocs = x.GodotPoolRealArrayWriteAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_real_array_write_access_operator_assign, cgodot_pool_real_array_write_access_operator_assign_allocs = x.PoolRealArrayWriteAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_write_access_operator_assign_allocs)
 
 	var cgodot_pool_real_array_write_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_real_array_write_access_destroy, cgodot_pool_real_array_write_access_destroy_allocs = x.GodotPoolRealArrayWriteAccessDestroy.PassRef()
+	ref57717e51.godot_pool_real_array_write_access_destroy, cgodot_pool_real_array_write_access_destroy_allocs = x.PoolRealArrayWriteAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_real_array_write_access_destroy_allocs)
 
 	var cgodot_pool_string_array_write_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_write_access_ptr, cgodot_pool_string_array_write_access_ptr_allocs = x.GodotPoolStringArrayWriteAccessPtr.PassRef()
+	ref57717e51.godot_pool_string_array_write_access_ptr, cgodot_pool_string_array_write_access_ptr_allocs = x.PoolStringArrayWriteAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_write_access_ptr_allocs)
 
 	var cgodot_pool_string_array_write_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_write_access_operator_assign, cgodot_pool_string_array_write_access_operator_assign_allocs = x.GodotPoolStringArrayWriteAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_string_array_write_access_operator_assign, cgodot_pool_string_array_write_access_operator_assign_allocs = x.PoolStringArrayWriteAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_write_access_operator_assign_allocs)
 
 	var cgodot_pool_string_array_write_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_string_array_write_access_destroy, cgodot_pool_string_array_write_access_destroy_allocs = x.GodotPoolStringArrayWriteAccessDestroy.PassRef()
+	ref57717e51.godot_pool_string_array_write_access_destroy, cgodot_pool_string_array_write_access_destroy_allocs = x.PoolStringArrayWriteAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_string_array_write_access_destroy_allocs)
 
 	var cgodot_pool_vector2_array_write_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_write_access_ptr, cgodot_pool_vector2_array_write_access_ptr_allocs = x.GodotPoolVector2ArrayWriteAccessPtr.PassRef()
+	ref57717e51.godot_pool_vector2_array_write_access_ptr, cgodot_pool_vector2_array_write_access_ptr_allocs = x.PoolVector2ArrayWriteAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_write_access_ptr_allocs)
 
 	var cgodot_pool_vector2_array_write_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_write_access_operator_assign, cgodot_pool_vector2_array_write_access_operator_assign_allocs = x.GodotPoolVector2ArrayWriteAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_vector2_array_write_access_operator_assign, cgodot_pool_vector2_array_write_access_operator_assign_allocs = x.PoolVector2ArrayWriteAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_write_access_operator_assign_allocs)
 
 	var cgodot_pool_vector2_array_write_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector2_array_write_access_destroy, cgodot_pool_vector2_array_write_access_destroy_allocs = x.GodotPoolVector2ArrayWriteAccessDestroy.PassRef()
+	ref57717e51.godot_pool_vector2_array_write_access_destroy, cgodot_pool_vector2_array_write_access_destroy_allocs = x.PoolVector2ArrayWriteAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector2_array_write_access_destroy_allocs)
 
 	var cgodot_pool_vector3_array_write_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_write_access_ptr, cgodot_pool_vector3_array_write_access_ptr_allocs = x.GodotPoolVector3ArrayWriteAccessPtr.PassRef()
+	ref57717e51.godot_pool_vector3_array_write_access_ptr, cgodot_pool_vector3_array_write_access_ptr_allocs = x.PoolVector3ArrayWriteAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_write_access_ptr_allocs)
 
 	var cgodot_pool_vector3_array_write_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_write_access_operator_assign, cgodot_pool_vector3_array_write_access_operator_assign_allocs = x.GodotPoolVector3ArrayWriteAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_vector3_array_write_access_operator_assign, cgodot_pool_vector3_array_write_access_operator_assign_allocs = x.PoolVector3ArrayWriteAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_write_access_operator_assign_allocs)
 
 	var cgodot_pool_vector3_array_write_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_vector3_array_write_access_destroy, cgodot_pool_vector3_array_write_access_destroy_allocs = x.GodotPoolVector3ArrayWriteAccessDestroy.PassRef()
+	ref57717e51.godot_pool_vector3_array_write_access_destroy, cgodot_pool_vector3_array_write_access_destroy_allocs = x.PoolVector3ArrayWriteAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_vector3_array_write_access_destroy_allocs)
 
 	var cgodot_pool_color_array_write_access_ptr_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_write_access_ptr, cgodot_pool_color_array_write_access_ptr_allocs = x.GodotPoolColorArrayWriteAccessPtr.PassRef()
+	ref57717e51.godot_pool_color_array_write_access_ptr, cgodot_pool_color_array_write_access_ptr_allocs = x.PoolColorArrayWriteAccessPtr.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_write_access_ptr_allocs)
 
 	var cgodot_pool_color_array_write_access_operator_assign_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_write_access_operator_assign, cgodot_pool_color_array_write_access_operator_assign_allocs = x.GodotPoolColorArrayWriteAccessOperatorAssign.PassRef()
+	ref57717e51.godot_pool_color_array_write_access_operator_assign, cgodot_pool_color_array_write_access_operator_assign_allocs = x.PoolColorArrayWriteAccessOperatorAssign.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_write_access_operator_assign_allocs)
 
 	var cgodot_pool_color_array_write_access_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_pool_color_array_write_access_destroy, cgodot_pool_color_array_write_access_destroy_allocs = x.GodotPoolColorArrayWriteAccessDestroy.PassRef()
+	ref57717e51.godot_pool_color_array_write_access_destroy, cgodot_pool_color_array_write_access_destroy_allocs = x.PoolColorArrayWriteAccessDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_pool_color_array_write_access_destroy_allocs)
 
 	var cgodot_array_new_allocs *cgoAllocMap
-	ref57717e51.godot_array_new, cgodot_array_new_allocs = x.GodotArrayNew.PassRef()
+	ref57717e51.godot_array_new, cgodot_array_new_allocs = x.ArrayNew.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_allocs)
 
 	var cgodot_array_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_array_new_copy, cgodot_array_new_copy_allocs = x.GodotArrayNewCopy.PassRef()
+	ref57717e51.godot_array_new_copy, cgodot_array_new_copy_allocs = x.ArrayNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_copy_allocs)
 
 	var cgodot_array_new_pool_color_array_allocs *cgoAllocMap
-	ref57717e51.godot_array_new_pool_color_array, cgodot_array_new_pool_color_array_allocs = x.GodotArrayNewPoolColorArray.PassRef()
+	ref57717e51.godot_array_new_pool_color_array, cgodot_array_new_pool_color_array_allocs = x.ArrayNewPoolColorArray.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_pool_color_array_allocs)
 
 	var cgodot_array_new_pool_vector3_array_allocs *cgoAllocMap
-	ref57717e51.godot_array_new_pool_vector3_array, cgodot_array_new_pool_vector3_array_allocs = x.GodotArrayNewPoolVector3Array.PassRef()
+	ref57717e51.godot_array_new_pool_vector3_array, cgodot_array_new_pool_vector3_array_allocs = x.ArrayNewPoolVector3Array.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_pool_vector3_array_allocs)
 
 	var cgodot_array_new_pool_vector2_array_allocs *cgoAllocMap
-	ref57717e51.godot_array_new_pool_vector2_array, cgodot_array_new_pool_vector2_array_allocs = x.GodotArrayNewPoolVector2Array.PassRef()
+	ref57717e51.godot_array_new_pool_vector2_array, cgodot_array_new_pool_vector2_array_allocs = x.ArrayNewPoolVector2Array.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_pool_vector2_array_allocs)
 
 	var cgodot_array_new_pool_string_array_allocs *cgoAllocMap
-	ref57717e51.godot_array_new_pool_string_array, cgodot_array_new_pool_string_array_allocs = x.GodotArrayNewPoolStringArray.PassRef()
+	ref57717e51.godot_array_new_pool_string_array, cgodot_array_new_pool_string_array_allocs = x.ArrayNewPoolStringArray.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_pool_string_array_allocs)
 
 	var cgodot_array_new_pool_real_array_allocs *cgoAllocMap
-	ref57717e51.godot_array_new_pool_real_array, cgodot_array_new_pool_real_array_allocs = x.GodotArrayNewPoolRealArray.PassRef()
+	ref57717e51.godot_array_new_pool_real_array, cgodot_array_new_pool_real_array_allocs = x.ArrayNewPoolRealArray.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_pool_real_array_allocs)
 
 	var cgodot_array_new_pool_int_array_allocs *cgoAllocMap
-	ref57717e51.godot_array_new_pool_int_array, cgodot_array_new_pool_int_array_allocs = x.GodotArrayNewPoolIntArray.PassRef()
+	ref57717e51.godot_array_new_pool_int_array, cgodot_array_new_pool_int_array_allocs = x.ArrayNewPoolIntArray.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_pool_int_array_allocs)
 
 	var cgodot_array_new_pool_byte_array_allocs *cgoAllocMap
-	ref57717e51.godot_array_new_pool_byte_array, cgodot_array_new_pool_byte_array_allocs = x.GodotArrayNewPoolByteArray.PassRef()
+	ref57717e51.godot_array_new_pool_byte_array, cgodot_array_new_pool_byte_array_allocs = x.ArrayNewPoolByteArray.PassRef()
 	allocs57717e51.Borrow(cgodot_array_new_pool_byte_array_allocs)
 
 	var cgodot_array_set_allocs *cgoAllocMap
-	ref57717e51.godot_array_set, cgodot_array_set_allocs = x.GodotArraySet.PassRef()
+	ref57717e51.godot_array_set, cgodot_array_set_allocs = x.ArraySet.PassRef()
 	allocs57717e51.Borrow(cgodot_array_set_allocs)
 
 	var cgodot_array_get_allocs *cgoAllocMap
-	ref57717e51.godot_array_get, cgodot_array_get_allocs = x.GodotArrayGet.PassRef()
+	ref57717e51.godot_array_get, cgodot_array_get_allocs = x.ArrayGet.PassRef()
 	allocs57717e51.Borrow(cgodot_array_get_allocs)
 
 	var cgodot_array_operator_index_allocs *cgoAllocMap
-	ref57717e51.godot_array_operator_index, cgodot_array_operator_index_allocs = x.GodotArrayOperatorIndex.PassRef()
+	ref57717e51.godot_array_operator_index, cgodot_array_operator_index_allocs = x.ArrayOperatorIndex.PassRef()
 	allocs57717e51.Borrow(cgodot_array_operator_index_allocs)
 
 	var cgodot_array_operator_index_const_allocs *cgoAllocMap
-	ref57717e51.godot_array_operator_index_const, cgodot_array_operator_index_const_allocs = x.GodotArrayOperatorIndexConst.PassRef()
+	ref57717e51.godot_array_operator_index_const, cgodot_array_operator_index_const_allocs = x.ArrayOperatorIndexConst.PassRef()
 	allocs57717e51.Borrow(cgodot_array_operator_index_const_allocs)
 
 	var cgodot_array_append_allocs *cgoAllocMap
-	ref57717e51.godot_array_append, cgodot_array_append_allocs = x.GodotArrayAppend.PassRef()
+	ref57717e51.godot_array_append, cgodot_array_append_allocs = x.ArrayAppend.PassRef()
 	allocs57717e51.Borrow(cgodot_array_append_allocs)
 
 	var cgodot_array_clear_allocs *cgoAllocMap
-	ref57717e51.godot_array_clear, cgodot_array_clear_allocs = x.GodotArrayClear.PassRef()
+	ref57717e51.godot_array_clear, cgodot_array_clear_allocs = x.ArrayClear.PassRef()
 	allocs57717e51.Borrow(cgodot_array_clear_allocs)
 
 	var cgodot_array_count_allocs *cgoAllocMap
-	ref57717e51.godot_array_count, cgodot_array_count_allocs = x.GodotArrayCount.PassRef()
+	ref57717e51.godot_array_count, cgodot_array_count_allocs = x.ArrayCount.PassRef()
 	allocs57717e51.Borrow(cgodot_array_count_allocs)
 
 	var cgodot_array_empty_allocs *cgoAllocMap
-	ref57717e51.godot_array_empty, cgodot_array_empty_allocs = x.GodotArrayEmpty.PassRef()
+	ref57717e51.godot_array_empty, cgodot_array_empty_allocs = x.ArrayEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_array_empty_allocs)
 
 	var cgodot_array_erase_allocs *cgoAllocMap
-	ref57717e51.godot_array_erase, cgodot_array_erase_allocs = x.GodotArrayErase.PassRef()
+	ref57717e51.godot_array_erase, cgodot_array_erase_allocs = x.ArrayErase.PassRef()
 	allocs57717e51.Borrow(cgodot_array_erase_allocs)
 
 	var cgodot_array_front_allocs *cgoAllocMap
-	ref57717e51.godot_array_front, cgodot_array_front_allocs = x.GodotArrayFront.PassRef()
+	ref57717e51.godot_array_front, cgodot_array_front_allocs = x.ArrayFront.PassRef()
 	allocs57717e51.Borrow(cgodot_array_front_allocs)
 
 	var cgodot_array_back_allocs *cgoAllocMap
-	ref57717e51.godot_array_back, cgodot_array_back_allocs = x.GodotArrayBack.PassRef()
+	ref57717e51.godot_array_back, cgodot_array_back_allocs = x.ArrayBack.PassRef()
 	allocs57717e51.Borrow(cgodot_array_back_allocs)
 
 	var cgodot_array_find_allocs *cgoAllocMap
-	ref57717e51.godot_array_find, cgodot_array_find_allocs = x.GodotArrayFind.PassRef()
+	ref57717e51.godot_array_find, cgodot_array_find_allocs = x.ArrayFind.PassRef()
 	allocs57717e51.Borrow(cgodot_array_find_allocs)
 
 	var cgodot_array_find_last_allocs *cgoAllocMap
-	ref57717e51.godot_array_find_last, cgodot_array_find_last_allocs = x.GodotArrayFindLast.PassRef()
+	ref57717e51.godot_array_find_last, cgodot_array_find_last_allocs = x.ArrayFindLast.PassRef()
 	allocs57717e51.Borrow(cgodot_array_find_last_allocs)
 
 	var cgodot_array_has_allocs *cgoAllocMap
-	ref57717e51.godot_array_has, cgodot_array_has_allocs = x.GodotArrayHas.PassRef()
+	ref57717e51.godot_array_has, cgodot_array_has_allocs = x.ArrayHas.PassRef()
 	allocs57717e51.Borrow(cgodot_array_has_allocs)
 
 	var cgodot_array_hash_allocs *cgoAllocMap
-	ref57717e51.godot_array_hash, cgodot_array_hash_allocs = x.GodotArrayHash.PassRef()
+	ref57717e51.godot_array_hash, cgodot_array_hash_allocs = x.ArrayHash.PassRef()
 	allocs57717e51.Borrow(cgodot_array_hash_allocs)
 
 	var cgodot_array_insert_allocs *cgoAllocMap
-	ref57717e51.godot_array_insert, cgodot_array_insert_allocs = x.GodotArrayInsert.PassRef()
+	ref57717e51.godot_array_insert, cgodot_array_insert_allocs = x.ArrayInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_array_insert_allocs)
 
 	var cgodot_array_invert_allocs *cgoAllocMap
-	ref57717e51.godot_array_invert, cgodot_array_invert_allocs = x.GodotArrayInvert.PassRef()
+	ref57717e51.godot_array_invert, cgodot_array_invert_allocs = x.ArrayInvert.PassRef()
 	allocs57717e51.Borrow(cgodot_array_invert_allocs)
 
 	var cgodot_array_pop_back_allocs *cgoAllocMap
-	ref57717e51.godot_array_pop_back, cgodot_array_pop_back_allocs = x.GodotArrayPopBack.PassRef()
+	ref57717e51.godot_array_pop_back, cgodot_array_pop_back_allocs = x.ArrayPopBack.PassRef()
 	allocs57717e51.Borrow(cgodot_array_pop_back_allocs)
 
 	var cgodot_array_pop_front_allocs *cgoAllocMap
-	ref57717e51.godot_array_pop_front, cgodot_array_pop_front_allocs = x.GodotArrayPopFront.PassRef()
+	ref57717e51.godot_array_pop_front, cgodot_array_pop_front_allocs = x.ArrayPopFront.PassRef()
 	allocs57717e51.Borrow(cgodot_array_pop_front_allocs)
 
 	var cgodot_array_push_back_allocs *cgoAllocMap
-	ref57717e51.godot_array_push_back, cgodot_array_push_back_allocs = x.GodotArrayPushBack.PassRef()
+	ref57717e51.godot_array_push_back, cgodot_array_push_back_allocs = x.ArrayPushBack.PassRef()
 	allocs57717e51.Borrow(cgodot_array_push_back_allocs)
 
 	var cgodot_array_push_front_allocs *cgoAllocMap
-	ref57717e51.godot_array_push_front, cgodot_array_push_front_allocs = x.GodotArrayPushFront.PassRef()
+	ref57717e51.godot_array_push_front, cgodot_array_push_front_allocs = x.ArrayPushFront.PassRef()
 	allocs57717e51.Borrow(cgodot_array_push_front_allocs)
 
 	var cgodot_array_remove_allocs *cgoAllocMap
-	ref57717e51.godot_array_remove, cgodot_array_remove_allocs = x.GodotArrayRemove.PassRef()
+	ref57717e51.godot_array_remove, cgodot_array_remove_allocs = x.ArrayRemove.PassRef()
 	allocs57717e51.Borrow(cgodot_array_remove_allocs)
 
 	var cgodot_array_resize_allocs *cgoAllocMap
-	ref57717e51.godot_array_resize, cgodot_array_resize_allocs = x.GodotArrayResize.PassRef()
+	ref57717e51.godot_array_resize, cgodot_array_resize_allocs = x.ArrayResize.PassRef()
 	allocs57717e51.Borrow(cgodot_array_resize_allocs)
 
 	var cgodot_array_rfind_allocs *cgoAllocMap
-	ref57717e51.godot_array_rfind, cgodot_array_rfind_allocs = x.GodotArrayRfind.PassRef()
+	ref57717e51.godot_array_rfind, cgodot_array_rfind_allocs = x.ArrayRfind.PassRef()
 	allocs57717e51.Borrow(cgodot_array_rfind_allocs)
 
 	var cgodot_array_size_allocs *cgoAllocMap
-	ref57717e51.godot_array_size, cgodot_array_size_allocs = x.GodotArraySize.PassRef()
+	ref57717e51.godot_array_size, cgodot_array_size_allocs = x.ArraySize.PassRef()
 	allocs57717e51.Borrow(cgodot_array_size_allocs)
 
 	var cgodot_array_sort_allocs *cgoAllocMap
-	ref57717e51.godot_array_sort, cgodot_array_sort_allocs = x.GodotArraySort.PassRef()
+	ref57717e51.godot_array_sort, cgodot_array_sort_allocs = x.ArraySort.PassRef()
 	allocs57717e51.Borrow(cgodot_array_sort_allocs)
 
 	var cgodot_array_sort_custom_allocs *cgoAllocMap
-	ref57717e51.godot_array_sort_custom, cgodot_array_sort_custom_allocs = x.GodotArraySortCustom.PassRef()
+	ref57717e51.godot_array_sort_custom, cgodot_array_sort_custom_allocs = x.ArraySortCustom.PassRef()
 	allocs57717e51.Borrow(cgodot_array_sort_custom_allocs)
 
 	var cgodot_array_bsearch_allocs *cgoAllocMap
-	ref57717e51.godot_array_bsearch, cgodot_array_bsearch_allocs = x.GodotArrayBsearch.PassRef()
+	ref57717e51.godot_array_bsearch, cgodot_array_bsearch_allocs = x.ArrayBsearch.PassRef()
 	allocs57717e51.Borrow(cgodot_array_bsearch_allocs)
 
 	var cgodot_array_bsearch_custom_allocs *cgoAllocMap
-	ref57717e51.godot_array_bsearch_custom, cgodot_array_bsearch_custom_allocs = x.GodotArrayBsearchCustom.PassRef()
+	ref57717e51.godot_array_bsearch_custom, cgodot_array_bsearch_custom_allocs = x.ArrayBsearchCustom.PassRef()
 	allocs57717e51.Borrow(cgodot_array_bsearch_custom_allocs)
 
 	var cgodot_array_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_array_destroy, cgodot_array_destroy_allocs = x.GodotArrayDestroy.PassRef()
+	ref57717e51.godot_array_destroy, cgodot_array_destroy_allocs = x.ArrayDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_array_destroy_allocs)
 
 	var cgodot_dictionary_new_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_new, cgodot_dictionary_new_allocs = x.GodotDictionaryNew.PassRef()
+	ref57717e51.godot_dictionary_new, cgodot_dictionary_new_allocs = x.DictionaryNew.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_new_allocs)
 
 	var cgodot_dictionary_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_new_copy, cgodot_dictionary_new_copy_allocs = x.GodotDictionaryNewCopy.PassRef()
+	ref57717e51.godot_dictionary_new_copy, cgodot_dictionary_new_copy_allocs = x.DictionaryNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_new_copy_allocs)
 
 	var cgodot_dictionary_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_destroy, cgodot_dictionary_destroy_allocs = x.GodotDictionaryDestroy.PassRef()
+	ref57717e51.godot_dictionary_destroy, cgodot_dictionary_destroy_allocs = x.DictionaryDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_destroy_allocs)
 
 	var cgodot_dictionary_size_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_size, cgodot_dictionary_size_allocs = x.GodotDictionarySize.PassRef()
+	ref57717e51.godot_dictionary_size, cgodot_dictionary_size_allocs = x.DictionarySize.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_size_allocs)
 
 	var cgodot_dictionary_empty_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_empty, cgodot_dictionary_empty_allocs = x.GodotDictionaryEmpty.PassRef()
+	ref57717e51.godot_dictionary_empty, cgodot_dictionary_empty_allocs = x.DictionaryEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_empty_allocs)
 
 	var cgodot_dictionary_clear_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_clear, cgodot_dictionary_clear_allocs = x.GodotDictionaryClear.PassRef()
+	ref57717e51.godot_dictionary_clear, cgodot_dictionary_clear_allocs = x.DictionaryClear.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_clear_allocs)
 
 	var cgodot_dictionary_has_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_has, cgodot_dictionary_has_allocs = x.GodotDictionaryHas.PassRef()
+	ref57717e51.godot_dictionary_has, cgodot_dictionary_has_allocs = x.DictionaryHas.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_has_allocs)
 
 	var cgodot_dictionary_has_all_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_has_all, cgodot_dictionary_has_all_allocs = x.GodotDictionaryHasAll.PassRef()
+	ref57717e51.godot_dictionary_has_all, cgodot_dictionary_has_all_allocs = x.DictionaryHasAll.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_has_all_allocs)
 
 	var cgodot_dictionary_erase_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_erase, cgodot_dictionary_erase_allocs = x.GodotDictionaryErase.PassRef()
+	ref57717e51.godot_dictionary_erase, cgodot_dictionary_erase_allocs = x.DictionaryErase.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_erase_allocs)
 
 	var cgodot_dictionary_hash_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_hash, cgodot_dictionary_hash_allocs = x.GodotDictionaryHash.PassRef()
+	ref57717e51.godot_dictionary_hash, cgodot_dictionary_hash_allocs = x.DictionaryHash.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_hash_allocs)
 
 	var cgodot_dictionary_keys_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_keys, cgodot_dictionary_keys_allocs = x.GodotDictionaryKeys.PassRef()
+	ref57717e51.godot_dictionary_keys, cgodot_dictionary_keys_allocs = x.DictionaryKeys.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_keys_allocs)
 
 	var cgodot_dictionary_values_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_values, cgodot_dictionary_values_allocs = x.GodotDictionaryValues.PassRef()
+	ref57717e51.godot_dictionary_values, cgodot_dictionary_values_allocs = x.DictionaryValues.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_values_allocs)
 
 	var cgodot_dictionary_get_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_get, cgodot_dictionary_get_allocs = x.GodotDictionaryGet.PassRef()
+	ref57717e51.godot_dictionary_get, cgodot_dictionary_get_allocs = x.DictionaryGet.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_get_allocs)
 
 	var cgodot_dictionary_set_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_set, cgodot_dictionary_set_allocs = x.GodotDictionarySet.PassRef()
+	ref57717e51.godot_dictionary_set, cgodot_dictionary_set_allocs = x.DictionarySet.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_set_allocs)
 
 	var cgodot_dictionary_operator_index_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_operator_index, cgodot_dictionary_operator_index_allocs = x.GodotDictionaryOperatorIndex.PassRef()
+	ref57717e51.godot_dictionary_operator_index, cgodot_dictionary_operator_index_allocs = x.DictionaryOperatorIndex.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_operator_index_allocs)
 
 	var cgodot_dictionary_operator_index_const_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_operator_index_const, cgodot_dictionary_operator_index_const_allocs = x.GodotDictionaryOperatorIndexConst.PassRef()
+	ref57717e51.godot_dictionary_operator_index_const, cgodot_dictionary_operator_index_const_allocs = x.DictionaryOperatorIndexConst.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_operator_index_const_allocs)
 
 	var cgodot_dictionary_next_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_next, cgodot_dictionary_next_allocs = x.GodotDictionaryNext.PassRef()
+	ref57717e51.godot_dictionary_next, cgodot_dictionary_next_allocs = x.DictionaryNext.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_next_allocs)
 
 	var cgodot_dictionary_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_operator_equal, cgodot_dictionary_operator_equal_allocs = x.GodotDictionaryOperatorEqual.PassRef()
+	ref57717e51.godot_dictionary_operator_equal, cgodot_dictionary_operator_equal_allocs = x.DictionaryOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_operator_equal_allocs)
 
 	var cgodot_dictionary_to_json_allocs *cgoAllocMap
-	ref57717e51.godot_dictionary_to_json, cgodot_dictionary_to_json_allocs = x.GodotDictionaryToJson.PassRef()
+	ref57717e51.godot_dictionary_to_json, cgodot_dictionary_to_json_allocs = x.DictionaryToJson.PassRef()
 	allocs57717e51.Borrow(cgodot_dictionary_to_json_allocs)
 
 	var cgodot_node_path_new_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_new, cgodot_node_path_new_allocs = x.GodotNodePathNew.PassRef()
+	ref57717e51.godot_node_path_new, cgodot_node_path_new_allocs = x.NodePathNew.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_new_allocs)
 
 	var cgodot_node_path_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_new_copy, cgodot_node_path_new_copy_allocs = x.GodotNodePathNewCopy.PassRef()
+	ref57717e51.godot_node_path_new_copy, cgodot_node_path_new_copy_allocs = x.NodePathNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_new_copy_allocs)
 
 	var cgodot_node_path_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_destroy, cgodot_node_path_destroy_allocs = x.GodotNodePathDestroy.PassRef()
+	ref57717e51.godot_node_path_destroy, cgodot_node_path_destroy_allocs = x.NodePathDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_destroy_allocs)
 
 	var cgodot_node_path_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_as_string, cgodot_node_path_as_string_allocs = x.GodotNodePathAsString.PassRef()
+	ref57717e51.godot_node_path_as_string, cgodot_node_path_as_string_allocs = x.NodePathAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_as_string_allocs)
 
 	var cgodot_node_path_is_absolute_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_is_absolute, cgodot_node_path_is_absolute_allocs = x.GodotNodePathIsAbsolute.PassRef()
+	ref57717e51.godot_node_path_is_absolute, cgodot_node_path_is_absolute_allocs = x.NodePathIsAbsolute.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_is_absolute_allocs)
 
 	var cgodot_node_path_get_name_count_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_get_name_count, cgodot_node_path_get_name_count_allocs = x.GodotNodePathGetNameCount.PassRef()
+	ref57717e51.godot_node_path_get_name_count, cgodot_node_path_get_name_count_allocs = x.NodePathGetNameCount.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_get_name_count_allocs)
 
 	var cgodot_node_path_get_name_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_get_name, cgodot_node_path_get_name_allocs = x.GodotNodePathGetName.PassRef()
+	ref57717e51.godot_node_path_get_name, cgodot_node_path_get_name_allocs = x.NodePathGetName.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_get_name_allocs)
 
 	var cgodot_node_path_get_subname_count_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_get_subname_count, cgodot_node_path_get_subname_count_allocs = x.GodotNodePathGetSubnameCount.PassRef()
+	ref57717e51.godot_node_path_get_subname_count, cgodot_node_path_get_subname_count_allocs = x.NodePathGetSubnameCount.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_get_subname_count_allocs)
 
 	var cgodot_node_path_get_subname_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_get_subname, cgodot_node_path_get_subname_allocs = x.GodotNodePathGetSubname.PassRef()
+	ref57717e51.godot_node_path_get_subname, cgodot_node_path_get_subname_allocs = x.NodePathGetSubname.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_get_subname_allocs)
 
 	var cgodot_node_path_get_concatenated_subnames_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_get_concatenated_subnames, cgodot_node_path_get_concatenated_subnames_allocs = x.GodotNodePathGetConcatenatedSubnames.PassRef()
+	ref57717e51.godot_node_path_get_concatenated_subnames, cgodot_node_path_get_concatenated_subnames_allocs = x.NodePathGetConcatenatedSubnames.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_get_concatenated_subnames_allocs)
 
 	var cgodot_node_path_is_empty_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_is_empty, cgodot_node_path_is_empty_allocs = x.GodotNodePathIsEmpty.PassRef()
+	ref57717e51.godot_node_path_is_empty, cgodot_node_path_is_empty_allocs = x.NodePathIsEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_is_empty_allocs)
 
 	var cgodot_node_path_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_node_path_operator_equal, cgodot_node_path_operator_equal_allocs = x.GodotNodePathOperatorEqual.PassRef()
+	ref57717e51.godot_node_path_operator_equal, cgodot_node_path_operator_equal_allocs = x.NodePathOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_node_path_operator_equal_allocs)
 
 	var cgodot_plane_new_with_reals_allocs *cgoAllocMap
-	ref57717e51.godot_plane_new_with_reals, cgodot_plane_new_with_reals_allocs = x.GodotPlaneNewWithReals.PassRef()
+	ref57717e51.godot_plane_new_with_reals, cgodot_plane_new_with_reals_allocs = x.PlaneNewWithReals.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_new_with_reals_allocs)
 
 	var cgodot_plane_new_with_vectors_allocs *cgoAllocMap
-	ref57717e51.godot_plane_new_with_vectors, cgodot_plane_new_with_vectors_allocs = x.GodotPlaneNewWithVectors.PassRef()
+	ref57717e51.godot_plane_new_with_vectors, cgodot_plane_new_with_vectors_allocs = x.PlaneNewWithVectors.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_new_with_vectors_allocs)
 
 	var cgodot_plane_new_with_normal_allocs *cgoAllocMap
-	ref57717e51.godot_plane_new_with_normal, cgodot_plane_new_with_normal_allocs = x.GodotPlaneNewWithNormal.PassRef()
+	ref57717e51.godot_plane_new_with_normal, cgodot_plane_new_with_normal_allocs = x.PlaneNewWithNormal.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_new_with_normal_allocs)
 
 	var cgodot_plane_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_plane_as_string, cgodot_plane_as_string_allocs = x.GodotPlaneAsString.PassRef()
+	ref57717e51.godot_plane_as_string, cgodot_plane_as_string_allocs = x.PlaneAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_as_string_allocs)
 
 	var cgodot_plane_normalized_allocs *cgoAllocMap
-	ref57717e51.godot_plane_normalized, cgodot_plane_normalized_allocs = x.GodotPlaneNormalized.PassRef()
+	ref57717e51.godot_plane_normalized, cgodot_plane_normalized_allocs = x.PlaneNormalized.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_normalized_allocs)
 
 	var cgodot_plane_center_allocs *cgoAllocMap
-	ref57717e51.godot_plane_center, cgodot_plane_center_allocs = x.GodotPlaneCenter.PassRef()
+	ref57717e51.godot_plane_center, cgodot_plane_center_allocs = x.PlaneCenter.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_center_allocs)
 
 	var cgodot_plane_get_any_point_allocs *cgoAllocMap
-	ref57717e51.godot_plane_get_any_point, cgodot_plane_get_any_point_allocs = x.GodotPlaneGetAnyPoint.PassRef()
+	ref57717e51.godot_plane_get_any_point, cgodot_plane_get_any_point_allocs = x.PlaneGetAnyPoint.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_get_any_point_allocs)
 
 	var cgodot_plane_is_point_over_allocs *cgoAllocMap
-	ref57717e51.godot_plane_is_point_over, cgodot_plane_is_point_over_allocs = x.GodotPlaneIsPointOver.PassRef()
+	ref57717e51.godot_plane_is_point_over, cgodot_plane_is_point_over_allocs = x.PlaneIsPointOver.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_is_point_over_allocs)
 
 	var cgodot_plane_distance_to_allocs *cgoAllocMap
-	ref57717e51.godot_plane_distance_to, cgodot_plane_distance_to_allocs = x.GodotPlaneDistanceTo.PassRef()
+	ref57717e51.godot_plane_distance_to, cgodot_plane_distance_to_allocs = x.PlaneDistanceTo.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_distance_to_allocs)
 
 	var cgodot_plane_has_point_allocs *cgoAllocMap
-	ref57717e51.godot_plane_has_point, cgodot_plane_has_point_allocs = x.GodotPlaneHasPoint.PassRef()
+	ref57717e51.godot_plane_has_point, cgodot_plane_has_point_allocs = x.PlaneHasPoint.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_has_point_allocs)
 
 	var cgodot_plane_project_allocs *cgoAllocMap
-	ref57717e51.godot_plane_project, cgodot_plane_project_allocs = x.GodotPlaneProject.PassRef()
+	ref57717e51.godot_plane_project, cgodot_plane_project_allocs = x.PlaneProject.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_project_allocs)
 
 	var cgodot_plane_intersect_3_allocs *cgoAllocMap
-	ref57717e51.godot_plane_intersect_3, cgodot_plane_intersect_3_allocs = x.GodotPlaneIntersect3.PassRef()
+	ref57717e51.godot_plane_intersect_3, cgodot_plane_intersect_3_allocs = x.PlaneIntersect3.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_intersect_3_allocs)
 
 	var cgodot_plane_intersects_ray_allocs *cgoAllocMap
-	ref57717e51.godot_plane_intersects_ray, cgodot_plane_intersects_ray_allocs = x.GodotPlaneIntersectsRay.PassRef()
+	ref57717e51.godot_plane_intersects_ray, cgodot_plane_intersects_ray_allocs = x.PlaneIntersectsRay.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_intersects_ray_allocs)
 
 	var cgodot_plane_intersects_segment_allocs *cgoAllocMap
-	ref57717e51.godot_plane_intersects_segment, cgodot_plane_intersects_segment_allocs = x.GodotPlaneIntersectsSegment.PassRef()
+	ref57717e51.godot_plane_intersects_segment, cgodot_plane_intersects_segment_allocs = x.PlaneIntersectsSegment.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_intersects_segment_allocs)
 
 	var cgodot_plane_operator_neg_allocs *cgoAllocMap
-	ref57717e51.godot_plane_operator_neg, cgodot_plane_operator_neg_allocs = x.GodotPlaneOperatorNeg.PassRef()
+	ref57717e51.godot_plane_operator_neg, cgodot_plane_operator_neg_allocs = x.PlaneOperatorNeg.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_operator_neg_allocs)
 
 	var cgodot_plane_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_plane_operator_equal, cgodot_plane_operator_equal_allocs = x.GodotPlaneOperatorEqual.PassRef()
+	ref57717e51.godot_plane_operator_equal, cgodot_plane_operator_equal_allocs = x.PlaneOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_operator_equal_allocs)
 
 	var cgodot_plane_set_normal_allocs *cgoAllocMap
-	ref57717e51.godot_plane_set_normal, cgodot_plane_set_normal_allocs = x.GodotPlaneSetNormal.PassRef()
+	ref57717e51.godot_plane_set_normal, cgodot_plane_set_normal_allocs = x.PlaneSetNormal.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_set_normal_allocs)
 
 	var cgodot_plane_get_normal_allocs *cgoAllocMap
-	ref57717e51.godot_plane_get_normal, cgodot_plane_get_normal_allocs = x.GodotPlaneGetNormal.PassRef()
+	ref57717e51.godot_plane_get_normal, cgodot_plane_get_normal_allocs = x.PlaneGetNormal.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_get_normal_allocs)
 
 	var cgodot_plane_get_d_allocs *cgoAllocMap
-	ref57717e51.godot_plane_get_d, cgodot_plane_get_d_allocs = x.GodotPlaneGetD.PassRef()
+	ref57717e51.godot_plane_get_d, cgodot_plane_get_d_allocs = x.PlaneGetD.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_get_d_allocs)
 
 	var cgodot_plane_set_d_allocs *cgoAllocMap
-	ref57717e51.godot_plane_set_d, cgodot_plane_set_d_allocs = x.GodotPlaneSetD.PassRef()
+	ref57717e51.godot_plane_set_d, cgodot_plane_set_d_allocs = x.PlaneSetD.PassRef()
 	allocs57717e51.Borrow(cgodot_plane_set_d_allocs)
 
 	var cgodot_rect2_new_with_position_and_size_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_new_with_position_and_size, cgodot_rect2_new_with_position_and_size_allocs = x.GodotRect2NewWithPositionAndSize.PassRef()
+	ref57717e51.godot_rect2_new_with_position_and_size, cgodot_rect2_new_with_position_and_size_allocs = x.Rect2NewWithPositionAndSize.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_new_with_position_and_size_allocs)
 
 	var cgodot_rect2_new_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_new, cgodot_rect2_new_allocs = x.GodotRect2New.PassRef()
+	ref57717e51.godot_rect2_new, cgodot_rect2_new_allocs = x.Rect2New.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_new_allocs)
 
 	var cgodot_rect2_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_as_string, cgodot_rect2_as_string_allocs = x.GodotRect2AsString.PassRef()
+	ref57717e51.godot_rect2_as_string, cgodot_rect2_as_string_allocs = x.Rect2AsString.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_as_string_allocs)
 
 	var cgodot_rect2_get_area_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_get_area, cgodot_rect2_get_area_allocs = x.GodotRect2GetArea.PassRef()
+	ref57717e51.godot_rect2_get_area, cgodot_rect2_get_area_allocs = x.Rect2GetArea.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_get_area_allocs)
 
 	var cgodot_rect2_intersects_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_intersects, cgodot_rect2_intersects_allocs = x.GodotRect2Intersects.PassRef()
+	ref57717e51.godot_rect2_intersects, cgodot_rect2_intersects_allocs = x.Rect2Intersects.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_intersects_allocs)
 
 	var cgodot_rect2_encloses_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_encloses, cgodot_rect2_encloses_allocs = x.GodotRect2Encloses.PassRef()
+	ref57717e51.godot_rect2_encloses, cgodot_rect2_encloses_allocs = x.Rect2Encloses.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_encloses_allocs)
 
 	var cgodot_rect2_has_no_area_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_has_no_area, cgodot_rect2_has_no_area_allocs = x.GodotRect2HasNoArea.PassRef()
+	ref57717e51.godot_rect2_has_no_area, cgodot_rect2_has_no_area_allocs = x.Rect2HasNoArea.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_has_no_area_allocs)
 
 	var cgodot_rect2_clip_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_clip, cgodot_rect2_clip_allocs = x.GodotRect2Clip.PassRef()
+	ref57717e51.godot_rect2_clip, cgodot_rect2_clip_allocs = x.Rect2Clip.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_clip_allocs)
 
 	var cgodot_rect2_merge_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_merge, cgodot_rect2_merge_allocs = x.GodotRect2Merge.PassRef()
+	ref57717e51.godot_rect2_merge, cgodot_rect2_merge_allocs = x.Rect2Merge.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_merge_allocs)
 
 	var cgodot_rect2_has_point_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_has_point, cgodot_rect2_has_point_allocs = x.GodotRect2HasPoint.PassRef()
+	ref57717e51.godot_rect2_has_point, cgodot_rect2_has_point_allocs = x.Rect2HasPoint.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_has_point_allocs)
 
 	var cgodot_rect2_grow_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_grow, cgodot_rect2_grow_allocs = x.GodotRect2Grow.PassRef()
+	ref57717e51.godot_rect2_grow, cgodot_rect2_grow_allocs = x.Rect2Grow.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_grow_allocs)
 
 	var cgodot_rect2_expand_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_expand, cgodot_rect2_expand_allocs = x.GodotRect2Expand.PassRef()
+	ref57717e51.godot_rect2_expand, cgodot_rect2_expand_allocs = x.Rect2Expand.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_expand_allocs)
 
 	var cgodot_rect2_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_operator_equal, cgodot_rect2_operator_equal_allocs = x.GodotRect2OperatorEqual.PassRef()
+	ref57717e51.godot_rect2_operator_equal, cgodot_rect2_operator_equal_allocs = x.Rect2OperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_operator_equal_allocs)
 
 	var cgodot_rect2_get_position_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_get_position, cgodot_rect2_get_position_allocs = x.GodotRect2GetPosition.PassRef()
+	ref57717e51.godot_rect2_get_position, cgodot_rect2_get_position_allocs = x.Rect2GetPosition.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_get_position_allocs)
 
 	var cgodot_rect2_get_size_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_get_size, cgodot_rect2_get_size_allocs = x.GodotRect2GetSize.PassRef()
+	ref57717e51.godot_rect2_get_size, cgodot_rect2_get_size_allocs = x.Rect2GetSize.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_get_size_allocs)
 
 	var cgodot_rect2_set_position_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_set_position, cgodot_rect2_set_position_allocs = x.GodotRect2SetPosition.PassRef()
+	ref57717e51.godot_rect2_set_position, cgodot_rect2_set_position_allocs = x.Rect2SetPosition.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_set_position_allocs)
 
 	var cgodot_rect2_set_size_allocs *cgoAllocMap
-	ref57717e51.godot_rect2_set_size, cgodot_rect2_set_size_allocs = x.GodotRect2SetSize.PassRef()
+	ref57717e51.godot_rect2_set_size, cgodot_rect2_set_size_allocs = x.Rect2SetSize.PassRef()
 	allocs57717e51.Borrow(cgodot_rect2_set_size_allocs)
 
 	var cgodot_aabb_new_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_new, cgodot_aabb_new_allocs = x.GodotAabbNew.PassRef()
+	ref57717e51.godot_aabb_new, cgodot_aabb_new_allocs = x.AabbNew.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_new_allocs)
 
 	var cgodot_aabb_get_position_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_position, cgodot_aabb_get_position_allocs = x.GodotAabbGetPosition.PassRef()
+	ref57717e51.godot_aabb_get_position, cgodot_aabb_get_position_allocs = x.AabbGetPosition.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_position_allocs)
 
 	var cgodot_aabb_set_position_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_set_position, cgodot_aabb_set_position_allocs = x.GodotAabbSetPosition.PassRef()
+	ref57717e51.godot_aabb_set_position, cgodot_aabb_set_position_allocs = x.AabbSetPosition.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_set_position_allocs)
 
 	var cgodot_aabb_get_size_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_size, cgodot_aabb_get_size_allocs = x.GodotAabbGetSize.PassRef()
+	ref57717e51.godot_aabb_get_size, cgodot_aabb_get_size_allocs = x.AabbGetSize.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_size_allocs)
 
 	var cgodot_aabb_set_size_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_set_size, cgodot_aabb_set_size_allocs = x.GodotAabbSetSize.PassRef()
+	ref57717e51.godot_aabb_set_size, cgodot_aabb_set_size_allocs = x.AabbSetSize.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_set_size_allocs)
 
 	var cgodot_aabb_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_as_string, cgodot_aabb_as_string_allocs = x.GodotAabbAsString.PassRef()
+	ref57717e51.godot_aabb_as_string, cgodot_aabb_as_string_allocs = x.AabbAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_as_string_allocs)
 
 	var cgodot_aabb_get_area_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_area, cgodot_aabb_get_area_allocs = x.GodotAabbGetArea.PassRef()
+	ref57717e51.godot_aabb_get_area, cgodot_aabb_get_area_allocs = x.AabbGetArea.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_area_allocs)
 
 	var cgodot_aabb_has_no_area_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_has_no_area, cgodot_aabb_has_no_area_allocs = x.GodotAabbHasNoArea.PassRef()
+	ref57717e51.godot_aabb_has_no_area, cgodot_aabb_has_no_area_allocs = x.AabbHasNoArea.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_has_no_area_allocs)
 
 	var cgodot_aabb_has_no_surface_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_has_no_surface, cgodot_aabb_has_no_surface_allocs = x.GodotAabbHasNoSurface.PassRef()
+	ref57717e51.godot_aabb_has_no_surface, cgodot_aabb_has_no_surface_allocs = x.AabbHasNoSurface.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_has_no_surface_allocs)
 
 	var cgodot_aabb_intersects_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_intersects, cgodot_aabb_intersects_allocs = x.GodotAabbIntersects.PassRef()
+	ref57717e51.godot_aabb_intersects, cgodot_aabb_intersects_allocs = x.AabbIntersects.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_intersects_allocs)
 
 	var cgodot_aabb_encloses_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_encloses, cgodot_aabb_encloses_allocs = x.GodotAabbEncloses.PassRef()
+	ref57717e51.godot_aabb_encloses, cgodot_aabb_encloses_allocs = x.AabbEncloses.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_encloses_allocs)
 
 	var cgodot_aabb_merge_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_merge, cgodot_aabb_merge_allocs = x.GodotAabbMerge.PassRef()
+	ref57717e51.godot_aabb_merge, cgodot_aabb_merge_allocs = x.AabbMerge.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_merge_allocs)
 
 	var cgodot_aabb_intersection_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_intersection, cgodot_aabb_intersection_allocs = x.GodotAabbIntersection.PassRef()
+	ref57717e51.godot_aabb_intersection, cgodot_aabb_intersection_allocs = x.AabbIntersection.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_intersection_allocs)
 
 	var cgodot_aabb_intersects_plane_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_intersects_plane, cgodot_aabb_intersects_plane_allocs = x.GodotAabbIntersectsPlane.PassRef()
+	ref57717e51.godot_aabb_intersects_plane, cgodot_aabb_intersects_plane_allocs = x.AabbIntersectsPlane.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_intersects_plane_allocs)
 
 	var cgodot_aabb_intersects_segment_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_intersects_segment, cgodot_aabb_intersects_segment_allocs = x.GodotAabbIntersectsSegment.PassRef()
+	ref57717e51.godot_aabb_intersects_segment, cgodot_aabb_intersects_segment_allocs = x.AabbIntersectsSegment.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_intersects_segment_allocs)
 
 	var cgodot_aabb_has_point_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_has_point, cgodot_aabb_has_point_allocs = x.GodotAabbHasPoint.PassRef()
+	ref57717e51.godot_aabb_has_point, cgodot_aabb_has_point_allocs = x.AabbHasPoint.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_has_point_allocs)
 
 	var cgodot_aabb_get_support_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_support, cgodot_aabb_get_support_allocs = x.GodotAabbGetSupport.PassRef()
+	ref57717e51.godot_aabb_get_support, cgodot_aabb_get_support_allocs = x.AabbGetSupport.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_support_allocs)
 
 	var cgodot_aabb_get_longest_axis_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_longest_axis, cgodot_aabb_get_longest_axis_allocs = x.GodotAabbGetLongestAxis.PassRef()
+	ref57717e51.godot_aabb_get_longest_axis, cgodot_aabb_get_longest_axis_allocs = x.AabbGetLongestAxis.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_longest_axis_allocs)
 
 	var cgodot_aabb_get_longest_axis_index_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_longest_axis_index, cgodot_aabb_get_longest_axis_index_allocs = x.GodotAabbGetLongestAxisIndex.PassRef()
+	ref57717e51.godot_aabb_get_longest_axis_index, cgodot_aabb_get_longest_axis_index_allocs = x.AabbGetLongestAxisIndex.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_longest_axis_index_allocs)
 
 	var cgodot_aabb_get_longest_axis_size_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_longest_axis_size, cgodot_aabb_get_longest_axis_size_allocs = x.GodotAabbGetLongestAxisSize.PassRef()
+	ref57717e51.godot_aabb_get_longest_axis_size, cgodot_aabb_get_longest_axis_size_allocs = x.AabbGetLongestAxisSize.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_longest_axis_size_allocs)
 
 	var cgodot_aabb_get_shortest_axis_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_shortest_axis, cgodot_aabb_get_shortest_axis_allocs = x.GodotAabbGetShortestAxis.PassRef()
+	ref57717e51.godot_aabb_get_shortest_axis, cgodot_aabb_get_shortest_axis_allocs = x.AabbGetShortestAxis.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_shortest_axis_allocs)
 
 	var cgodot_aabb_get_shortest_axis_index_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_shortest_axis_index, cgodot_aabb_get_shortest_axis_index_allocs = x.GodotAabbGetShortestAxisIndex.PassRef()
+	ref57717e51.godot_aabb_get_shortest_axis_index, cgodot_aabb_get_shortest_axis_index_allocs = x.AabbGetShortestAxisIndex.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_shortest_axis_index_allocs)
 
 	var cgodot_aabb_get_shortest_axis_size_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_shortest_axis_size, cgodot_aabb_get_shortest_axis_size_allocs = x.GodotAabbGetShortestAxisSize.PassRef()
+	ref57717e51.godot_aabb_get_shortest_axis_size, cgodot_aabb_get_shortest_axis_size_allocs = x.AabbGetShortestAxisSize.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_shortest_axis_size_allocs)
 
 	var cgodot_aabb_expand_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_expand, cgodot_aabb_expand_allocs = x.GodotAabbExpand.PassRef()
+	ref57717e51.godot_aabb_expand, cgodot_aabb_expand_allocs = x.AabbExpand.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_expand_allocs)
 
 	var cgodot_aabb_grow_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_grow, cgodot_aabb_grow_allocs = x.GodotAabbGrow.PassRef()
+	ref57717e51.godot_aabb_grow, cgodot_aabb_grow_allocs = x.AabbGrow.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_grow_allocs)
 
 	var cgodot_aabb_get_endpoint_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_get_endpoint, cgodot_aabb_get_endpoint_allocs = x.GodotAabbGetEndpoint.PassRef()
+	ref57717e51.godot_aabb_get_endpoint, cgodot_aabb_get_endpoint_allocs = x.AabbGetEndpoint.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_get_endpoint_allocs)
 
 	var cgodot_aabb_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_aabb_operator_equal, cgodot_aabb_operator_equal_allocs = x.GodotAabbOperatorEqual.PassRef()
+	ref57717e51.godot_aabb_operator_equal, cgodot_aabb_operator_equal_allocs = x.AabbOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_aabb_operator_equal_allocs)
 
 	var cgodot_rid_new_allocs *cgoAllocMap
-	ref57717e51.godot_rid_new, cgodot_rid_new_allocs = x.GodotRidNew.PassRef()
+	ref57717e51.godot_rid_new, cgodot_rid_new_allocs = x.RidNew.PassRef()
 	allocs57717e51.Borrow(cgodot_rid_new_allocs)
 
 	var cgodot_rid_get_id_allocs *cgoAllocMap
-	ref57717e51.godot_rid_get_id, cgodot_rid_get_id_allocs = x.GodotRidGetId.PassRef()
+	ref57717e51.godot_rid_get_id, cgodot_rid_get_id_allocs = x.RidGetId.PassRef()
 	allocs57717e51.Borrow(cgodot_rid_get_id_allocs)
 
 	var cgodot_rid_new_with_resource_allocs *cgoAllocMap
-	ref57717e51.godot_rid_new_with_resource, cgodot_rid_new_with_resource_allocs = x.GodotRidNewWithResource.PassRef()
+	ref57717e51.godot_rid_new_with_resource, cgodot_rid_new_with_resource_allocs = x.RidNewWithResource.PassRef()
 	allocs57717e51.Borrow(cgodot_rid_new_with_resource_allocs)
 
 	var cgodot_rid_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_rid_operator_equal, cgodot_rid_operator_equal_allocs = x.GodotRidOperatorEqual.PassRef()
+	ref57717e51.godot_rid_operator_equal, cgodot_rid_operator_equal_allocs = x.RidOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_rid_operator_equal_allocs)
 
 	var cgodot_rid_operator_less_allocs *cgoAllocMap
-	ref57717e51.godot_rid_operator_less, cgodot_rid_operator_less_allocs = x.GodotRidOperatorLess.PassRef()
+	ref57717e51.godot_rid_operator_less, cgodot_rid_operator_less_allocs = x.RidOperatorLess.PassRef()
 	allocs57717e51.Borrow(cgodot_rid_operator_less_allocs)
 
 	var cgodot_transform_new_with_axis_origin_allocs *cgoAllocMap
-	ref57717e51.godot_transform_new_with_axis_origin, cgodot_transform_new_with_axis_origin_allocs = x.GodotTransformNewWithAxisOrigin.PassRef()
+	ref57717e51.godot_transform_new_with_axis_origin, cgodot_transform_new_with_axis_origin_allocs = x.TransformNewWithAxisOrigin.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_new_with_axis_origin_allocs)
 
 	var cgodot_transform_new_allocs *cgoAllocMap
-	ref57717e51.godot_transform_new, cgodot_transform_new_allocs = x.GodotTransformNew.PassRef()
+	ref57717e51.godot_transform_new, cgodot_transform_new_allocs = x.TransformNew.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_new_allocs)
 
 	var cgodot_transform_get_basis_allocs *cgoAllocMap
-	ref57717e51.godot_transform_get_basis, cgodot_transform_get_basis_allocs = x.GodotTransformGetBasis.PassRef()
+	ref57717e51.godot_transform_get_basis, cgodot_transform_get_basis_allocs = x.TransformGetBasis.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_get_basis_allocs)
 
 	var cgodot_transform_set_basis_allocs *cgoAllocMap
-	ref57717e51.godot_transform_set_basis, cgodot_transform_set_basis_allocs = x.GodotTransformSetBasis.PassRef()
+	ref57717e51.godot_transform_set_basis, cgodot_transform_set_basis_allocs = x.TransformSetBasis.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_set_basis_allocs)
 
 	var cgodot_transform_get_origin_allocs *cgoAllocMap
-	ref57717e51.godot_transform_get_origin, cgodot_transform_get_origin_allocs = x.GodotTransformGetOrigin.PassRef()
+	ref57717e51.godot_transform_get_origin, cgodot_transform_get_origin_allocs = x.TransformGetOrigin.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_get_origin_allocs)
 
 	var cgodot_transform_set_origin_allocs *cgoAllocMap
-	ref57717e51.godot_transform_set_origin, cgodot_transform_set_origin_allocs = x.GodotTransformSetOrigin.PassRef()
+	ref57717e51.godot_transform_set_origin, cgodot_transform_set_origin_allocs = x.TransformSetOrigin.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_set_origin_allocs)
 
 	var cgodot_transform_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_transform_as_string, cgodot_transform_as_string_allocs = x.GodotTransformAsString.PassRef()
+	ref57717e51.godot_transform_as_string, cgodot_transform_as_string_allocs = x.TransformAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_as_string_allocs)
 
 	var cgodot_transform_inverse_allocs *cgoAllocMap
-	ref57717e51.godot_transform_inverse, cgodot_transform_inverse_allocs = x.GodotTransformInverse.PassRef()
+	ref57717e51.godot_transform_inverse, cgodot_transform_inverse_allocs = x.TransformInverse.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_inverse_allocs)
 
 	var cgodot_transform_affine_inverse_allocs *cgoAllocMap
-	ref57717e51.godot_transform_affine_inverse, cgodot_transform_affine_inverse_allocs = x.GodotTransformAffineInverse.PassRef()
+	ref57717e51.godot_transform_affine_inverse, cgodot_transform_affine_inverse_allocs = x.TransformAffineInverse.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_affine_inverse_allocs)
 
 	var cgodot_transform_orthonormalized_allocs *cgoAllocMap
-	ref57717e51.godot_transform_orthonormalized, cgodot_transform_orthonormalized_allocs = x.GodotTransformOrthonormalized.PassRef()
+	ref57717e51.godot_transform_orthonormalized, cgodot_transform_orthonormalized_allocs = x.TransformOrthonormalized.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_orthonormalized_allocs)
 
 	var cgodot_transform_rotated_allocs *cgoAllocMap
-	ref57717e51.godot_transform_rotated, cgodot_transform_rotated_allocs = x.GodotTransformRotated.PassRef()
+	ref57717e51.godot_transform_rotated, cgodot_transform_rotated_allocs = x.TransformRotated.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_rotated_allocs)
 
 	var cgodot_transform_scaled_allocs *cgoAllocMap
-	ref57717e51.godot_transform_scaled, cgodot_transform_scaled_allocs = x.GodotTransformScaled.PassRef()
+	ref57717e51.godot_transform_scaled, cgodot_transform_scaled_allocs = x.TransformScaled.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_scaled_allocs)
 
 	var cgodot_transform_translated_allocs *cgoAllocMap
-	ref57717e51.godot_transform_translated, cgodot_transform_translated_allocs = x.GodotTransformTranslated.PassRef()
+	ref57717e51.godot_transform_translated, cgodot_transform_translated_allocs = x.TransformTranslated.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_translated_allocs)
 
 	var cgodot_transform_looking_at_allocs *cgoAllocMap
-	ref57717e51.godot_transform_looking_at, cgodot_transform_looking_at_allocs = x.GodotTransformLookingAt.PassRef()
+	ref57717e51.godot_transform_looking_at, cgodot_transform_looking_at_allocs = x.TransformLookingAt.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_looking_at_allocs)
 
 	var cgodot_transform_xform_plane_allocs *cgoAllocMap
-	ref57717e51.godot_transform_xform_plane, cgodot_transform_xform_plane_allocs = x.GodotTransformXformPlane.PassRef()
+	ref57717e51.godot_transform_xform_plane, cgodot_transform_xform_plane_allocs = x.TransformXformPlane.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_xform_plane_allocs)
 
 	var cgodot_transform_xform_inv_plane_allocs *cgoAllocMap
-	ref57717e51.godot_transform_xform_inv_plane, cgodot_transform_xform_inv_plane_allocs = x.GodotTransformXformInvPlane.PassRef()
+	ref57717e51.godot_transform_xform_inv_plane, cgodot_transform_xform_inv_plane_allocs = x.TransformXformInvPlane.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_xform_inv_plane_allocs)
 
 	var cgodot_transform_new_identity_allocs *cgoAllocMap
-	ref57717e51.godot_transform_new_identity, cgodot_transform_new_identity_allocs = x.GodotTransformNewIdentity.PassRef()
+	ref57717e51.godot_transform_new_identity, cgodot_transform_new_identity_allocs = x.TransformNewIdentity.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_new_identity_allocs)
 
 	var cgodot_transform_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_transform_operator_equal, cgodot_transform_operator_equal_allocs = x.GodotTransformOperatorEqual.PassRef()
+	ref57717e51.godot_transform_operator_equal, cgodot_transform_operator_equal_allocs = x.TransformOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_operator_equal_allocs)
 
 	var cgodot_transform_operator_multiply_allocs *cgoAllocMap
-	ref57717e51.godot_transform_operator_multiply, cgodot_transform_operator_multiply_allocs = x.GodotTransformOperatorMultiply.PassRef()
+	ref57717e51.godot_transform_operator_multiply, cgodot_transform_operator_multiply_allocs = x.TransformOperatorMultiply.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_operator_multiply_allocs)
 
 	var cgodot_transform_xform_vector3_allocs *cgoAllocMap
-	ref57717e51.godot_transform_xform_vector3, cgodot_transform_xform_vector3_allocs = x.GodotTransformXformVector3.PassRef()
+	ref57717e51.godot_transform_xform_vector3, cgodot_transform_xform_vector3_allocs = x.TransformXformVector3.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_xform_vector3_allocs)
 
 	var cgodot_transform_xform_inv_vector3_allocs *cgoAllocMap
-	ref57717e51.godot_transform_xform_inv_vector3, cgodot_transform_xform_inv_vector3_allocs = x.GodotTransformXformInvVector3.PassRef()
+	ref57717e51.godot_transform_xform_inv_vector3, cgodot_transform_xform_inv_vector3_allocs = x.TransformXformInvVector3.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_xform_inv_vector3_allocs)
 
 	var cgodot_transform_xform_aabb_allocs *cgoAllocMap
-	ref57717e51.godot_transform_xform_aabb, cgodot_transform_xform_aabb_allocs = x.GodotTransformXformAabb.PassRef()
+	ref57717e51.godot_transform_xform_aabb, cgodot_transform_xform_aabb_allocs = x.TransformXformAabb.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_xform_aabb_allocs)
 
 	var cgodot_transform_xform_inv_aabb_allocs *cgoAllocMap
-	ref57717e51.godot_transform_xform_inv_aabb, cgodot_transform_xform_inv_aabb_allocs = x.GodotTransformXformInvAabb.PassRef()
+	ref57717e51.godot_transform_xform_inv_aabb, cgodot_transform_xform_inv_aabb_allocs = x.TransformXformInvAabb.PassRef()
 	allocs57717e51.Borrow(cgodot_transform_xform_inv_aabb_allocs)
 
 	var cgodot_transform2d_new_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_new, cgodot_transform2d_new_allocs = x.GodotTransform2dNew.PassRef()
+	ref57717e51.godot_transform2d_new, cgodot_transform2d_new_allocs = x.Transform2dNew.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_new_allocs)
 
 	var cgodot_transform2d_new_axis_origin_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_new_axis_origin, cgodot_transform2d_new_axis_origin_allocs = x.GodotTransform2dNewAxisOrigin.PassRef()
+	ref57717e51.godot_transform2d_new_axis_origin, cgodot_transform2d_new_axis_origin_allocs = x.Transform2dNewAxisOrigin.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_new_axis_origin_allocs)
 
 	var cgodot_transform2d_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_as_string, cgodot_transform2d_as_string_allocs = x.GodotTransform2dAsString.PassRef()
+	ref57717e51.godot_transform2d_as_string, cgodot_transform2d_as_string_allocs = x.Transform2dAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_as_string_allocs)
 
 	var cgodot_transform2d_inverse_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_inverse, cgodot_transform2d_inverse_allocs = x.GodotTransform2dInverse.PassRef()
+	ref57717e51.godot_transform2d_inverse, cgodot_transform2d_inverse_allocs = x.Transform2dInverse.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_inverse_allocs)
 
 	var cgodot_transform2d_affine_inverse_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_affine_inverse, cgodot_transform2d_affine_inverse_allocs = x.GodotTransform2dAffineInverse.PassRef()
+	ref57717e51.godot_transform2d_affine_inverse, cgodot_transform2d_affine_inverse_allocs = x.Transform2dAffineInverse.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_affine_inverse_allocs)
 
 	var cgodot_transform2d_get_rotation_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_get_rotation, cgodot_transform2d_get_rotation_allocs = x.GodotTransform2dGetRotation.PassRef()
+	ref57717e51.godot_transform2d_get_rotation, cgodot_transform2d_get_rotation_allocs = x.Transform2dGetRotation.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_get_rotation_allocs)
 
 	var cgodot_transform2d_get_origin_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_get_origin, cgodot_transform2d_get_origin_allocs = x.GodotTransform2dGetOrigin.PassRef()
+	ref57717e51.godot_transform2d_get_origin, cgodot_transform2d_get_origin_allocs = x.Transform2dGetOrigin.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_get_origin_allocs)
 
 	var cgodot_transform2d_get_scale_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_get_scale, cgodot_transform2d_get_scale_allocs = x.GodotTransform2dGetScale.PassRef()
+	ref57717e51.godot_transform2d_get_scale, cgodot_transform2d_get_scale_allocs = x.Transform2dGetScale.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_get_scale_allocs)
 
 	var cgodot_transform2d_orthonormalized_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_orthonormalized, cgodot_transform2d_orthonormalized_allocs = x.GodotTransform2dOrthonormalized.PassRef()
+	ref57717e51.godot_transform2d_orthonormalized, cgodot_transform2d_orthonormalized_allocs = x.Transform2dOrthonormalized.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_orthonormalized_allocs)
 
 	var cgodot_transform2d_rotated_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_rotated, cgodot_transform2d_rotated_allocs = x.GodotTransform2dRotated.PassRef()
+	ref57717e51.godot_transform2d_rotated, cgodot_transform2d_rotated_allocs = x.Transform2dRotated.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_rotated_allocs)
 
 	var cgodot_transform2d_scaled_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_scaled, cgodot_transform2d_scaled_allocs = x.GodotTransform2dScaled.PassRef()
+	ref57717e51.godot_transform2d_scaled, cgodot_transform2d_scaled_allocs = x.Transform2dScaled.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_scaled_allocs)
 
 	var cgodot_transform2d_translated_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_translated, cgodot_transform2d_translated_allocs = x.GodotTransform2dTranslated.PassRef()
+	ref57717e51.godot_transform2d_translated, cgodot_transform2d_translated_allocs = x.Transform2dTranslated.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_translated_allocs)
 
 	var cgodot_transform2d_xform_vector2_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_xform_vector2, cgodot_transform2d_xform_vector2_allocs = x.GodotTransform2dXformVector2.PassRef()
+	ref57717e51.godot_transform2d_xform_vector2, cgodot_transform2d_xform_vector2_allocs = x.Transform2dXformVector2.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_xform_vector2_allocs)
 
 	var cgodot_transform2d_xform_inv_vector2_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_xform_inv_vector2, cgodot_transform2d_xform_inv_vector2_allocs = x.GodotTransform2dXformInvVector2.PassRef()
+	ref57717e51.godot_transform2d_xform_inv_vector2, cgodot_transform2d_xform_inv_vector2_allocs = x.Transform2dXformInvVector2.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_xform_inv_vector2_allocs)
 
 	var cgodot_transform2d_basis_xform_vector2_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_basis_xform_vector2, cgodot_transform2d_basis_xform_vector2_allocs = x.GodotTransform2dBasisXformVector2.PassRef()
+	ref57717e51.godot_transform2d_basis_xform_vector2, cgodot_transform2d_basis_xform_vector2_allocs = x.Transform2dBasisXformVector2.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_basis_xform_vector2_allocs)
 
 	var cgodot_transform2d_basis_xform_inv_vector2_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_basis_xform_inv_vector2, cgodot_transform2d_basis_xform_inv_vector2_allocs = x.GodotTransform2dBasisXformInvVector2.PassRef()
+	ref57717e51.godot_transform2d_basis_xform_inv_vector2, cgodot_transform2d_basis_xform_inv_vector2_allocs = x.Transform2dBasisXformInvVector2.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_basis_xform_inv_vector2_allocs)
 
 	var cgodot_transform2d_interpolate_with_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_interpolate_with, cgodot_transform2d_interpolate_with_allocs = x.GodotTransform2dInterpolateWith.PassRef()
+	ref57717e51.godot_transform2d_interpolate_with, cgodot_transform2d_interpolate_with_allocs = x.Transform2dInterpolateWith.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_interpolate_with_allocs)
 
 	var cgodot_transform2d_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_operator_equal, cgodot_transform2d_operator_equal_allocs = x.GodotTransform2dOperatorEqual.PassRef()
+	ref57717e51.godot_transform2d_operator_equal, cgodot_transform2d_operator_equal_allocs = x.Transform2dOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_operator_equal_allocs)
 
 	var cgodot_transform2d_operator_multiply_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_operator_multiply, cgodot_transform2d_operator_multiply_allocs = x.GodotTransform2dOperatorMultiply.PassRef()
+	ref57717e51.godot_transform2d_operator_multiply, cgodot_transform2d_operator_multiply_allocs = x.Transform2dOperatorMultiply.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_operator_multiply_allocs)
 
 	var cgodot_transform2d_new_identity_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_new_identity, cgodot_transform2d_new_identity_allocs = x.GodotTransform2dNewIdentity.PassRef()
+	ref57717e51.godot_transform2d_new_identity, cgodot_transform2d_new_identity_allocs = x.Transform2dNewIdentity.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_new_identity_allocs)
 
 	var cgodot_transform2d_xform_rect2_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_xform_rect2, cgodot_transform2d_xform_rect2_allocs = x.GodotTransform2dXformRect2.PassRef()
+	ref57717e51.godot_transform2d_xform_rect2, cgodot_transform2d_xform_rect2_allocs = x.Transform2dXformRect2.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_xform_rect2_allocs)
 
 	var cgodot_transform2d_xform_inv_rect2_allocs *cgoAllocMap
-	ref57717e51.godot_transform2d_xform_inv_rect2, cgodot_transform2d_xform_inv_rect2_allocs = x.GodotTransform2dXformInvRect2.PassRef()
+	ref57717e51.godot_transform2d_xform_inv_rect2, cgodot_transform2d_xform_inv_rect2_allocs = x.Transform2dXformInvRect2.PassRef()
 	allocs57717e51.Borrow(cgodot_transform2d_xform_inv_rect2_allocs)
 
 	var cgodot_variant_get_type_allocs *cgoAllocMap
-	ref57717e51.godot_variant_get_type, cgodot_variant_get_type_allocs = x.GodotVariantGetType.PassRef()
+	ref57717e51.godot_variant_get_type, cgodot_variant_get_type_allocs = x.VariantGetType.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_get_type_allocs)
 
 	var cgodot_variant_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_copy, cgodot_variant_new_copy_allocs = x.GodotVariantNewCopy.PassRef()
+	ref57717e51.godot_variant_new_copy, cgodot_variant_new_copy_allocs = x.VariantNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_copy_allocs)
 
 	var cgodot_variant_new_nil_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_nil, cgodot_variant_new_nil_allocs = x.GodotVariantNewNil.PassRef()
+	ref57717e51.godot_variant_new_nil, cgodot_variant_new_nil_allocs = x.VariantNewNil.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_nil_allocs)
 
 	var cgodot_variant_new_bool_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_bool, cgodot_variant_new_bool_allocs = x.GodotVariantNewBool.PassRef()
+	ref57717e51.godot_variant_new_bool, cgodot_variant_new_bool_allocs = x.VariantNewBool.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_bool_allocs)
 
 	var cgodot_variant_new_uint_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_uint, cgodot_variant_new_uint_allocs = x.GodotVariantNewUint.PassRef()
+	ref57717e51.godot_variant_new_uint, cgodot_variant_new_uint_allocs = x.VariantNewUint.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_uint_allocs)
 
 	var cgodot_variant_new_int_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_int, cgodot_variant_new_int_allocs = x.GodotVariantNewInt.PassRef()
+	ref57717e51.godot_variant_new_int, cgodot_variant_new_int_allocs = x.VariantNewInt.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_int_allocs)
 
 	var cgodot_variant_new_real_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_real, cgodot_variant_new_real_allocs = x.GodotVariantNewReal.PassRef()
+	ref57717e51.godot_variant_new_real, cgodot_variant_new_real_allocs = x.VariantNewReal.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_real_allocs)
 
 	var cgodot_variant_new_string_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_string, cgodot_variant_new_string_allocs = x.GodotVariantNewString.PassRef()
+	ref57717e51.godot_variant_new_string, cgodot_variant_new_string_allocs = x.VariantNewString.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_string_allocs)
 
 	var cgodot_variant_new_vector2_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_vector2, cgodot_variant_new_vector2_allocs = x.GodotVariantNewVector2.PassRef()
+	ref57717e51.godot_variant_new_vector2, cgodot_variant_new_vector2_allocs = x.VariantNewVector2.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_vector2_allocs)
 
 	var cgodot_variant_new_rect2_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_rect2, cgodot_variant_new_rect2_allocs = x.GodotVariantNewRect2.PassRef()
+	ref57717e51.godot_variant_new_rect2, cgodot_variant_new_rect2_allocs = x.VariantNewRect2.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_rect2_allocs)
 
 	var cgodot_variant_new_vector3_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_vector3, cgodot_variant_new_vector3_allocs = x.GodotVariantNewVector3.PassRef()
+	ref57717e51.godot_variant_new_vector3, cgodot_variant_new_vector3_allocs = x.VariantNewVector3.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_vector3_allocs)
 
 	var cgodot_variant_new_transform2d_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_transform2d, cgodot_variant_new_transform2d_allocs = x.GodotVariantNewTransform2d.PassRef()
+	ref57717e51.godot_variant_new_transform2d, cgodot_variant_new_transform2d_allocs = x.VariantNewTransform2d.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_transform2d_allocs)
 
 	var cgodot_variant_new_plane_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_plane, cgodot_variant_new_plane_allocs = x.GodotVariantNewPlane.PassRef()
+	ref57717e51.godot_variant_new_plane, cgodot_variant_new_plane_allocs = x.VariantNewPlane.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_plane_allocs)
 
 	var cgodot_variant_new_quat_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_quat, cgodot_variant_new_quat_allocs = x.GodotVariantNewQuat.PassRef()
+	ref57717e51.godot_variant_new_quat, cgodot_variant_new_quat_allocs = x.VariantNewQuat.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_quat_allocs)
 
 	var cgodot_variant_new_aabb_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_aabb, cgodot_variant_new_aabb_allocs = x.GodotVariantNewAabb.PassRef()
+	ref57717e51.godot_variant_new_aabb, cgodot_variant_new_aabb_allocs = x.VariantNewAabb.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_aabb_allocs)
 
 	var cgodot_variant_new_basis_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_basis, cgodot_variant_new_basis_allocs = x.GodotVariantNewBasis.PassRef()
+	ref57717e51.godot_variant_new_basis, cgodot_variant_new_basis_allocs = x.VariantNewBasis.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_basis_allocs)
 
 	var cgodot_variant_new_transform_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_transform, cgodot_variant_new_transform_allocs = x.GodotVariantNewTransform.PassRef()
+	ref57717e51.godot_variant_new_transform, cgodot_variant_new_transform_allocs = x.VariantNewTransform.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_transform_allocs)
 
 	var cgodot_variant_new_color_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_color, cgodot_variant_new_color_allocs = x.GodotVariantNewColor.PassRef()
+	ref57717e51.godot_variant_new_color, cgodot_variant_new_color_allocs = x.VariantNewColor.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_color_allocs)
 
 	var cgodot_variant_new_node_path_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_node_path, cgodot_variant_new_node_path_allocs = x.GodotVariantNewNodePath.PassRef()
+	ref57717e51.godot_variant_new_node_path, cgodot_variant_new_node_path_allocs = x.VariantNewNodePath.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_node_path_allocs)
 
 	var cgodot_variant_new_rid_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_rid, cgodot_variant_new_rid_allocs = x.GodotVariantNewRid.PassRef()
+	ref57717e51.godot_variant_new_rid, cgodot_variant_new_rid_allocs = x.VariantNewRid.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_rid_allocs)
 
 	var cgodot_variant_new_object_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_object, cgodot_variant_new_object_allocs = x.GodotVariantNewObject.PassRef()
+	ref57717e51.godot_variant_new_object, cgodot_variant_new_object_allocs = x.VariantNewObject.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_object_allocs)
 
 	var cgodot_variant_new_dictionary_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_dictionary, cgodot_variant_new_dictionary_allocs = x.GodotVariantNewDictionary.PassRef()
+	ref57717e51.godot_variant_new_dictionary, cgodot_variant_new_dictionary_allocs = x.VariantNewDictionary.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_dictionary_allocs)
 
 	var cgodot_variant_new_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_array, cgodot_variant_new_array_allocs = x.GodotVariantNewArray.PassRef()
+	ref57717e51.godot_variant_new_array, cgodot_variant_new_array_allocs = x.VariantNewArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_array_allocs)
 
 	var cgodot_variant_new_pool_byte_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_pool_byte_array, cgodot_variant_new_pool_byte_array_allocs = x.GodotVariantNewPoolByteArray.PassRef()
+	ref57717e51.godot_variant_new_pool_byte_array, cgodot_variant_new_pool_byte_array_allocs = x.VariantNewPoolByteArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_pool_byte_array_allocs)
 
 	var cgodot_variant_new_pool_int_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_pool_int_array, cgodot_variant_new_pool_int_array_allocs = x.GodotVariantNewPoolIntArray.PassRef()
+	ref57717e51.godot_variant_new_pool_int_array, cgodot_variant_new_pool_int_array_allocs = x.VariantNewPoolIntArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_pool_int_array_allocs)
 
 	var cgodot_variant_new_pool_real_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_pool_real_array, cgodot_variant_new_pool_real_array_allocs = x.GodotVariantNewPoolRealArray.PassRef()
+	ref57717e51.godot_variant_new_pool_real_array, cgodot_variant_new_pool_real_array_allocs = x.VariantNewPoolRealArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_pool_real_array_allocs)
 
 	var cgodot_variant_new_pool_string_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_pool_string_array, cgodot_variant_new_pool_string_array_allocs = x.GodotVariantNewPoolStringArray.PassRef()
+	ref57717e51.godot_variant_new_pool_string_array, cgodot_variant_new_pool_string_array_allocs = x.VariantNewPoolStringArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_pool_string_array_allocs)
 
 	var cgodot_variant_new_pool_vector2_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_pool_vector2_array, cgodot_variant_new_pool_vector2_array_allocs = x.GodotVariantNewPoolVector2Array.PassRef()
+	ref57717e51.godot_variant_new_pool_vector2_array, cgodot_variant_new_pool_vector2_array_allocs = x.VariantNewPoolVector2Array.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_pool_vector2_array_allocs)
 
 	var cgodot_variant_new_pool_vector3_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_pool_vector3_array, cgodot_variant_new_pool_vector3_array_allocs = x.GodotVariantNewPoolVector3Array.PassRef()
+	ref57717e51.godot_variant_new_pool_vector3_array, cgodot_variant_new_pool_vector3_array_allocs = x.VariantNewPoolVector3Array.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_pool_vector3_array_allocs)
 
 	var cgodot_variant_new_pool_color_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_new_pool_color_array, cgodot_variant_new_pool_color_array_allocs = x.GodotVariantNewPoolColorArray.PassRef()
+	ref57717e51.godot_variant_new_pool_color_array, cgodot_variant_new_pool_color_array_allocs = x.VariantNewPoolColorArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_new_pool_color_array_allocs)
 
 	var cgodot_variant_as_bool_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_bool, cgodot_variant_as_bool_allocs = x.GodotVariantAsBool.PassRef()
+	ref57717e51.godot_variant_as_bool, cgodot_variant_as_bool_allocs = x.VariantAsBool.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_bool_allocs)
 
 	var cgodot_variant_as_uint_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_uint, cgodot_variant_as_uint_allocs = x.GodotVariantAsUint.PassRef()
+	ref57717e51.godot_variant_as_uint, cgodot_variant_as_uint_allocs = x.VariantAsUint.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_uint_allocs)
 
 	var cgodot_variant_as_int_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_int, cgodot_variant_as_int_allocs = x.GodotVariantAsInt.PassRef()
+	ref57717e51.godot_variant_as_int, cgodot_variant_as_int_allocs = x.VariantAsInt.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_int_allocs)
 
 	var cgodot_variant_as_real_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_real, cgodot_variant_as_real_allocs = x.GodotVariantAsReal.PassRef()
+	ref57717e51.godot_variant_as_real, cgodot_variant_as_real_allocs = x.VariantAsReal.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_real_allocs)
 
 	var cgodot_variant_as_string_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_string, cgodot_variant_as_string_allocs = x.GodotVariantAsString.PassRef()
+	ref57717e51.godot_variant_as_string, cgodot_variant_as_string_allocs = x.VariantAsString.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_string_allocs)
 
 	var cgodot_variant_as_vector2_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_vector2, cgodot_variant_as_vector2_allocs = x.GodotVariantAsVector2.PassRef()
+	ref57717e51.godot_variant_as_vector2, cgodot_variant_as_vector2_allocs = x.VariantAsVector2.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_vector2_allocs)
 
 	var cgodot_variant_as_rect2_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_rect2, cgodot_variant_as_rect2_allocs = x.GodotVariantAsRect2.PassRef()
+	ref57717e51.godot_variant_as_rect2, cgodot_variant_as_rect2_allocs = x.VariantAsRect2.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_rect2_allocs)
 
 	var cgodot_variant_as_vector3_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_vector3, cgodot_variant_as_vector3_allocs = x.GodotVariantAsVector3.PassRef()
+	ref57717e51.godot_variant_as_vector3, cgodot_variant_as_vector3_allocs = x.VariantAsVector3.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_vector3_allocs)
 
 	var cgodot_variant_as_transform2d_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_transform2d, cgodot_variant_as_transform2d_allocs = x.GodotVariantAsTransform2d.PassRef()
+	ref57717e51.godot_variant_as_transform2d, cgodot_variant_as_transform2d_allocs = x.VariantAsTransform2d.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_transform2d_allocs)
 
 	var cgodot_variant_as_plane_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_plane, cgodot_variant_as_plane_allocs = x.GodotVariantAsPlane.PassRef()
+	ref57717e51.godot_variant_as_plane, cgodot_variant_as_plane_allocs = x.VariantAsPlane.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_plane_allocs)
 
 	var cgodot_variant_as_quat_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_quat, cgodot_variant_as_quat_allocs = x.GodotVariantAsQuat.PassRef()
+	ref57717e51.godot_variant_as_quat, cgodot_variant_as_quat_allocs = x.VariantAsQuat.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_quat_allocs)
 
 	var cgodot_variant_as_aabb_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_aabb, cgodot_variant_as_aabb_allocs = x.GodotVariantAsAabb.PassRef()
+	ref57717e51.godot_variant_as_aabb, cgodot_variant_as_aabb_allocs = x.VariantAsAabb.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_aabb_allocs)
 
 	var cgodot_variant_as_basis_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_basis, cgodot_variant_as_basis_allocs = x.GodotVariantAsBasis.PassRef()
+	ref57717e51.godot_variant_as_basis, cgodot_variant_as_basis_allocs = x.VariantAsBasis.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_basis_allocs)
 
 	var cgodot_variant_as_transform_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_transform, cgodot_variant_as_transform_allocs = x.GodotVariantAsTransform.PassRef()
+	ref57717e51.godot_variant_as_transform, cgodot_variant_as_transform_allocs = x.VariantAsTransform.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_transform_allocs)
 
 	var cgodot_variant_as_color_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_color, cgodot_variant_as_color_allocs = x.GodotVariantAsColor.PassRef()
+	ref57717e51.godot_variant_as_color, cgodot_variant_as_color_allocs = x.VariantAsColor.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_color_allocs)
 
 	var cgodot_variant_as_node_path_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_node_path, cgodot_variant_as_node_path_allocs = x.GodotVariantAsNodePath.PassRef()
+	ref57717e51.godot_variant_as_node_path, cgodot_variant_as_node_path_allocs = x.VariantAsNodePath.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_node_path_allocs)
 
 	var cgodot_variant_as_rid_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_rid, cgodot_variant_as_rid_allocs = x.GodotVariantAsRid.PassRef()
+	ref57717e51.godot_variant_as_rid, cgodot_variant_as_rid_allocs = x.VariantAsRid.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_rid_allocs)
 
 	var cgodot_variant_as_object_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_object, cgodot_variant_as_object_allocs = x.GodotVariantAsObject.PassRef()
+	ref57717e51.godot_variant_as_object, cgodot_variant_as_object_allocs = x.VariantAsObject.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_object_allocs)
 
 	var cgodot_variant_as_dictionary_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_dictionary, cgodot_variant_as_dictionary_allocs = x.GodotVariantAsDictionary.PassRef()
+	ref57717e51.godot_variant_as_dictionary, cgodot_variant_as_dictionary_allocs = x.VariantAsDictionary.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_dictionary_allocs)
 
 	var cgodot_variant_as_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_array, cgodot_variant_as_array_allocs = x.GodotVariantAsArray.PassRef()
+	ref57717e51.godot_variant_as_array, cgodot_variant_as_array_allocs = x.VariantAsArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_array_allocs)
 
 	var cgodot_variant_as_pool_byte_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_pool_byte_array, cgodot_variant_as_pool_byte_array_allocs = x.GodotVariantAsPoolByteArray.PassRef()
+	ref57717e51.godot_variant_as_pool_byte_array, cgodot_variant_as_pool_byte_array_allocs = x.VariantAsPoolByteArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_pool_byte_array_allocs)
 
 	var cgodot_variant_as_pool_int_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_pool_int_array, cgodot_variant_as_pool_int_array_allocs = x.GodotVariantAsPoolIntArray.PassRef()
+	ref57717e51.godot_variant_as_pool_int_array, cgodot_variant_as_pool_int_array_allocs = x.VariantAsPoolIntArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_pool_int_array_allocs)
 
 	var cgodot_variant_as_pool_real_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_pool_real_array, cgodot_variant_as_pool_real_array_allocs = x.GodotVariantAsPoolRealArray.PassRef()
+	ref57717e51.godot_variant_as_pool_real_array, cgodot_variant_as_pool_real_array_allocs = x.VariantAsPoolRealArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_pool_real_array_allocs)
 
 	var cgodot_variant_as_pool_string_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_pool_string_array, cgodot_variant_as_pool_string_array_allocs = x.GodotVariantAsPoolStringArray.PassRef()
+	ref57717e51.godot_variant_as_pool_string_array, cgodot_variant_as_pool_string_array_allocs = x.VariantAsPoolStringArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_pool_string_array_allocs)
 
 	var cgodot_variant_as_pool_vector2_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_pool_vector2_array, cgodot_variant_as_pool_vector2_array_allocs = x.GodotVariantAsPoolVector2Array.PassRef()
+	ref57717e51.godot_variant_as_pool_vector2_array, cgodot_variant_as_pool_vector2_array_allocs = x.VariantAsPoolVector2Array.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_pool_vector2_array_allocs)
 
 	var cgodot_variant_as_pool_vector3_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_pool_vector3_array, cgodot_variant_as_pool_vector3_array_allocs = x.GodotVariantAsPoolVector3Array.PassRef()
+	ref57717e51.godot_variant_as_pool_vector3_array, cgodot_variant_as_pool_vector3_array_allocs = x.VariantAsPoolVector3Array.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_pool_vector3_array_allocs)
 
 	var cgodot_variant_as_pool_color_array_allocs *cgoAllocMap
-	ref57717e51.godot_variant_as_pool_color_array, cgodot_variant_as_pool_color_array_allocs = x.GodotVariantAsPoolColorArray.PassRef()
+	ref57717e51.godot_variant_as_pool_color_array, cgodot_variant_as_pool_color_array_allocs = x.VariantAsPoolColorArray.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_as_pool_color_array_allocs)
 
 	var cgodot_variant_call_allocs *cgoAllocMap
-	ref57717e51.godot_variant_call, cgodot_variant_call_allocs = x.GodotVariantCall.PassRef()
+	ref57717e51.godot_variant_call, cgodot_variant_call_allocs = x.VariantCall.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_call_allocs)
 
 	var cgodot_variant_has_method_allocs *cgoAllocMap
-	ref57717e51.godot_variant_has_method, cgodot_variant_has_method_allocs = x.GodotVariantHasMethod.PassRef()
+	ref57717e51.godot_variant_has_method, cgodot_variant_has_method_allocs = x.VariantHasMethod.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_has_method_allocs)
 
 	var cgodot_variant_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_variant_operator_equal, cgodot_variant_operator_equal_allocs = x.GodotVariantOperatorEqual.PassRef()
+	ref57717e51.godot_variant_operator_equal, cgodot_variant_operator_equal_allocs = x.VariantOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_operator_equal_allocs)
 
 	var cgodot_variant_operator_less_allocs *cgoAllocMap
-	ref57717e51.godot_variant_operator_less, cgodot_variant_operator_less_allocs = x.GodotVariantOperatorLess.PassRef()
+	ref57717e51.godot_variant_operator_less, cgodot_variant_operator_less_allocs = x.VariantOperatorLess.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_operator_less_allocs)
 
 	var cgodot_variant_hash_compare_allocs *cgoAllocMap
-	ref57717e51.godot_variant_hash_compare, cgodot_variant_hash_compare_allocs = x.GodotVariantHashCompare.PassRef()
+	ref57717e51.godot_variant_hash_compare, cgodot_variant_hash_compare_allocs = x.VariantHashCompare.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_hash_compare_allocs)
 
 	var cgodot_variant_booleanize_allocs *cgoAllocMap
-	ref57717e51.godot_variant_booleanize, cgodot_variant_booleanize_allocs = x.GodotVariantBooleanize.PassRef()
+	ref57717e51.godot_variant_booleanize, cgodot_variant_booleanize_allocs = x.VariantBooleanize.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_booleanize_allocs)
 
 	var cgodot_variant_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_variant_destroy, cgodot_variant_destroy_allocs = x.GodotVariantDestroy.PassRef()
+	ref57717e51.godot_variant_destroy, cgodot_variant_destroy_allocs = x.VariantDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_variant_destroy_allocs)
 
 	var cgodot_string_new_allocs *cgoAllocMap
-	ref57717e51.godot_string_new, cgodot_string_new_allocs = x.GodotStringNew.PassRef()
+	ref57717e51.godot_string_new, cgodot_string_new_allocs = x.StringNew.PassRef()
 	allocs57717e51.Borrow(cgodot_string_new_allocs)
 
 	var cgodot_string_new_copy_allocs *cgoAllocMap
-	ref57717e51.godot_string_new_copy, cgodot_string_new_copy_allocs = x.GodotStringNewCopy.PassRef()
+	ref57717e51.godot_string_new_copy, cgodot_string_new_copy_allocs = x.StringNewCopy.PassRef()
 	allocs57717e51.Borrow(cgodot_string_new_copy_allocs)
 
 	var cgodot_string_new_data_allocs *cgoAllocMap
-	ref57717e51.godot_string_new_data, cgodot_string_new_data_allocs = x.GodotStringNewData.PassRef()
+	ref57717e51.godot_string_new_data, cgodot_string_new_data_allocs = x.StringNewData.PassRef()
 	allocs57717e51.Borrow(cgodot_string_new_data_allocs)
 
 	var cgodot_string_new_unicode_data_allocs *cgoAllocMap
-	ref57717e51.godot_string_new_unicode_data, cgodot_string_new_unicode_data_allocs = x.GodotStringNewUnicodeData.PassRef()
+	ref57717e51.godot_string_new_unicode_data, cgodot_string_new_unicode_data_allocs = x.StringNewUnicodeData.PassRef()
 	allocs57717e51.Borrow(cgodot_string_new_unicode_data_allocs)
 
 	var cgodot_string_get_data_allocs *cgoAllocMap
-	ref57717e51.godot_string_get_data, cgodot_string_get_data_allocs = x.GodotStringGetData.PassRef()
+	ref57717e51.godot_string_get_data, cgodot_string_get_data_allocs = x.StringGetData.PassRef()
 	allocs57717e51.Borrow(cgodot_string_get_data_allocs)
 
 	var cgodot_string_operator_index_allocs *cgoAllocMap
-	ref57717e51.godot_string_operator_index, cgodot_string_operator_index_allocs = x.GodotStringOperatorIndex.PassRef()
+	ref57717e51.godot_string_operator_index, cgodot_string_operator_index_allocs = x.StringOperatorIndex.PassRef()
 	allocs57717e51.Borrow(cgodot_string_operator_index_allocs)
 
 	var cgodot_string_operator_index_const_allocs *cgoAllocMap
-	ref57717e51.godot_string_operator_index_const, cgodot_string_operator_index_const_allocs = x.GodotStringOperatorIndexConst.PassRef()
+	ref57717e51.godot_string_operator_index_const, cgodot_string_operator_index_const_allocs = x.StringOperatorIndexConst.PassRef()
 	allocs57717e51.Borrow(cgodot_string_operator_index_const_allocs)
 
 	var cgodot_string_unicode_str_allocs *cgoAllocMap
-	ref57717e51.godot_string_unicode_str, cgodot_string_unicode_str_allocs = x.GodotStringUnicodeStr.PassRef()
+	ref57717e51.godot_string_unicode_str, cgodot_string_unicode_str_allocs = x.StringUnicodeStr.PassRef()
 	allocs57717e51.Borrow(cgodot_string_unicode_str_allocs)
 
 	var cgodot_string_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_string_operator_equal, cgodot_string_operator_equal_allocs = x.GodotStringOperatorEqual.PassRef()
+	ref57717e51.godot_string_operator_equal, cgodot_string_operator_equal_allocs = x.StringOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_string_operator_equal_allocs)
 
 	var cgodot_string_operator_less_allocs *cgoAllocMap
-	ref57717e51.godot_string_operator_less, cgodot_string_operator_less_allocs = x.GodotStringOperatorLess.PassRef()
+	ref57717e51.godot_string_operator_less, cgodot_string_operator_less_allocs = x.StringOperatorLess.PassRef()
 	allocs57717e51.Borrow(cgodot_string_operator_less_allocs)
 
 	var cgodot_string_operator_plus_allocs *cgoAllocMap
-	ref57717e51.godot_string_operator_plus, cgodot_string_operator_plus_allocs = x.GodotStringOperatorPlus.PassRef()
+	ref57717e51.godot_string_operator_plus, cgodot_string_operator_plus_allocs = x.StringOperatorPlus.PassRef()
 	allocs57717e51.Borrow(cgodot_string_operator_plus_allocs)
 
 	var cgodot_string_length_allocs *cgoAllocMap
-	ref57717e51.godot_string_length, cgodot_string_length_allocs = x.GodotStringLength.PassRef()
+	ref57717e51.godot_string_length, cgodot_string_length_allocs = x.StringLength.PassRef()
 	allocs57717e51.Borrow(cgodot_string_length_allocs)
 
 	var cgodot_string_begins_with_allocs *cgoAllocMap
-	ref57717e51.godot_string_begins_with, cgodot_string_begins_with_allocs = x.GodotStringBeginsWith.PassRef()
+	ref57717e51.godot_string_begins_with, cgodot_string_begins_with_allocs = x.StringBeginsWith.PassRef()
 	allocs57717e51.Borrow(cgodot_string_begins_with_allocs)
 
 	var cgodot_string_begins_with_char_array_allocs *cgoAllocMap
-	ref57717e51.godot_string_begins_with_char_array, cgodot_string_begins_with_char_array_allocs = x.GodotStringBeginsWithCharArray.PassRef()
+	ref57717e51.godot_string_begins_with_char_array, cgodot_string_begins_with_char_array_allocs = x.StringBeginsWithCharArray.PassRef()
 	allocs57717e51.Borrow(cgodot_string_begins_with_char_array_allocs)
 
 	var cgodot_string_bigrams_allocs *cgoAllocMap
-	ref57717e51.godot_string_bigrams, cgodot_string_bigrams_allocs = x.GodotStringBigrams.PassRef()
+	ref57717e51.godot_string_bigrams, cgodot_string_bigrams_allocs = x.StringBigrams.PassRef()
 	allocs57717e51.Borrow(cgodot_string_bigrams_allocs)
 
 	var cgodot_string_chr_allocs *cgoAllocMap
-	ref57717e51.godot_string_chr, cgodot_string_chr_allocs = x.GodotStringChr.PassRef()
+	ref57717e51.godot_string_chr, cgodot_string_chr_allocs = x.StringChr.PassRef()
 	allocs57717e51.Borrow(cgodot_string_chr_allocs)
 
 	var cgodot_string_ends_with_allocs *cgoAllocMap
-	ref57717e51.godot_string_ends_with, cgodot_string_ends_with_allocs = x.GodotStringEndsWith.PassRef()
+	ref57717e51.godot_string_ends_with, cgodot_string_ends_with_allocs = x.StringEndsWith.PassRef()
 	allocs57717e51.Borrow(cgodot_string_ends_with_allocs)
 
 	var cgodot_string_find_allocs *cgoAllocMap
-	ref57717e51.godot_string_find, cgodot_string_find_allocs = x.GodotStringFind.PassRef()
+	ref57717e51.godot_string_find, cgodot_string_find_allocs = x.StringFind.PassRef()
 	allocs57717e51.Borrow(cgodot_string_find_allocs)
 
 	var cgodot_string_find_from_allocs *cgoAllocMap
-	ref57717e51.godot_string_find_from, cgodot_string_find_from_allocs = x.GodotStringFindFrom.PassRef()
+	ref57717e51.godot_string_find_from, cgodot_string_find_from_allocs = x.StringFindFrom.PassRef()
 	allocs57717e51.Borrow(cgodot_string_find_from_allocs)
 
 	var cgodot_string_findmk_allocs *cgoAllocMap
-	ref57717e51.godot_string_findmk, cgodot_string_findmk_allocs = x.GodotStringFindmk.PassRef()
+	ref57717e51.godot_string_findmk, cgodot_string_findmk_allocs = x.StringFindmk.PassRef()
 	allocs57717e51.Borrow(cgodot_string_findmk_allocs)
 
 	var cgodot_string_findmk_from_allocs *cgoAllocMap
-	ref57717e51.godot_string_findmk_from, cgodot_string_findmk_from_allocs = x.GodotStringFindmkFrom.PassRef()
+	ref57717e51.godot_string_findmk_from, cgodot_string_findmk_from_allocs = x.StringFindmkFrom.PassRef()
 	allocs57717e51.Borrow(cgodot_string_findmk_from_allocs)
 
 	var cgodot_string_findmk_from_in_place_allocs *cgoAllocMap
-	ref57717e51.godot_string_findmk_from_in_place, cgodot_string_findmk_from_in_place_allocs = x.GodotStringFindmkFromInPlace.PassRef()
+	ref57717e51.godot_string_findmk_from_in_place, cgodot_string_findmk_from_in_place_allocs = x.StringFindmkFromInPlace.PassRef()
 	allocs57717e51.Borrow(cgodot_string_findmk_from_in_place_allocs)
 
 	var cgodot_string_findn_allocs *cgoAllocMap
-	ref57717e51.godot_string_findn, cgodot_string_findn_allocs = x.GodotStringFindn.PassRef()
+	ref57717e51.godot_string_findn, cgodot_string_findn_allocs = x.StringFindn.PassRef()
 	allocs57717e51.Borrow(cgodot_string_findn_allocs)
 
 	var cgodot_string_findn_from_allocs *cgoAllocMap
-	ref57717e51.godot_string_findn_from, cgodot_string_findn_from_allocs = x.GodotStringFindnFrom.PassRef()
+	ref57717e51.godot_string_findn_from, cgodot_string_findn_from_allocs = x.StringFindnFrom.PassRef()
 	allocs57717e51.Borrow(cgodot_string_findn_from_allocs)
 
 	var cgodot_string_find_last_allocs *cgoAllocMap
-	ref57717e51.godot_string_find_last, cgodot_string_find_last_allocs = x.GodotStringFindLast.PassRef()
+	ref57717e51.godot_string_find_last, cgodot_string_find_last_allocs = x.StringFindLast.PassRef()
 	allocs57717e51.Borrow(cgodot_string_find_last_allocs)
 
 	var cgodot_string_format_allocs *cgoAllocMap
-	ref57717e51.godot_string_format, cgodot_string_format_allocs = x.GodotStringFormat.PassRef()
+	ref57717e51.godot_string_format, cgodot_string_format_allocs = x.StringFormat.PassRef()
 	allocs57717e51.Borrow(cgodot_string_format_allocs)
 
 	var cgodot_string_format_with_custom_placeholder_allocs *cgoAllocMap
-	ref57717e51.godot_string_format_with_custom_placeholder, cgodot_string_format_with_custom_placeholder_allocs = x.GodotStringFormatWithCustomPlaceholder.PassRef()
+	ref57717e51.godot_string_format_with_custom_placeholder, cgodot_string_format_with_custom_placeholder_allocs = x.StringFormatWithCustomPlaceholder.PassRef()
 	allocs57717e51.Borrow(cgodot_string_format_with_custom_placeholder_allocs)
 
 	var cgodot_string_hex_encode_buffer_allocs *cgoAllocMap
-	ref57717e51.godot_string_hex_encode_buffer, cgodot_string_hex_encode_buffer_allocs = x.GodotStringHexEncodeBuffer.PassRef()
+	ref57717e51.godot_string_hex_encode_buffer, cgodot_string_hex_encode_buffer_allocs = x.StringHexEncodeBuffer.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hex_encode_buffer_allocs)
 
 	var cgodot_string_hex_to_int_allocs *cgoAllocMap
-	ref57717e51.godot_string_hex_to_int, cgodot_string_hex_to_int_allocs = x.GodotStringHexToInt.PassRef()
+	ref57717e51.godot_string_hex_to_int, cgodot_string_hex_to_int_allocs = x.StringHexToInt.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hex_to_int_allocs)
 
 	var cgodot_string_hex_to_int_without_prefix_allocs *cgoAllocMap
-	ref57717e51.godot_string_hex_to_int_without_prefix, cgodot_string_hex_to_int_without_prefix_allocs = x.GodotStringHexToIntWithoutPrefix.PassRef()
+	ref57717e51.godot_string_hex_to_int_without_prefix, cgodot_string_hex_to_int_without_prefix_allocs = x.StringHexToIntWithoutPrefix.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hex_to_int_without_prefix_allocs)
 
 	var cgodot_string_insert_allocs *cgoAllocMap
-	ref57717e51.godot_string_insert, cgodot_string_insert_allocs = x.GodotStringInsert.PassRef()
+	ref57717e51.godot_string_insert, cgodot_string_insert_allocs = x.StringInsert.PassRef()
 	allocs57717e51.Borrow(cgodot_string_insert_allocs)
 
 	var cgodot_string_is_numeric_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_numeric, cgodot_string_is_numeric_allocs = x.GodotStringIsNumeric.PassRef()
+	ref57717e51.godot_string_is_numeric, cgodot_string_is_numeric_allocs = x.StringIsNumeric.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_numeric_allocs)
 
 	var cgodot_string_is_subsequence_of_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_subsequence_of, cgodot_string_is_subsequence_of_allocs = x.GodotStringIsSubsequenceOf.PassRef()
+	ref57717e51.godot_string_is_subsequence_of, cgodot_string_is_subsequence_of_allocs = x.StringIsSubsequenceOf.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_subsequence_of_allocs)
 
 	var cgodot_string_is_subsequence_ofi_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_subsequence_ofi, cgodot_string_is_subsequence_ofi_allocs = x.GodotStringIsSubsequenceOfi.PassRef()
+	ref57717e51.godot_string_is_subsequence_ofi, cgodot_string_is_subsequence_ofi_allocs = x.StringIsSubsequenceOfi.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_subsequence_ofi_allocs)
 
 	var cgodot_string_lpad_allocs *cgoAllocMap
-	ref57717e51.godot_string_lpad, cgodot_string_lpad_allocs = x.GodotStringLpad.PassRef()
+	ref57717e51.godot_string_lpad, cgodot_string_lpad_allocs = x.StringLpad.PassRef()
 	allocs57717e51.Borrow(cgodot_string_lpad_allocs)
 
 	var cgodot_string_lpad_with_custom_character_allocs *cgoAllocMap
-	ref57717e51.godot_string_lpad_with_custom_character, cgodot_string_lpad_with_custom_character_allocs = x.GodotStringLpadWithCustomCharacter.PassRef()
+	ref57717e51.godot_string_lpad_with_custom_character, cgodot_string_lpad_with_custom_character_allocs = x.StringLpadWithCustomCharacter.PassRef()
 	allocs57717e51.Borrow(cgodot_string_lpad_with_custom_character_allocs)
 
 	var cgodot_string_match_allocs *cgoAllocMap
-	ref57717e51.godot_string_match, cgodot_string_match_allocs = x.GodotStringMatch.PassRef()
+	ref57717e51.godot_string_match, cgodot_string_match_allocs = x.StringMatch.PassRef()
 	allocs57717e51.Borrow(cgodot_string_match_allocs)
 
 	var cgodot_string_matchn_allocs *cgoAllocMap
-	ref57717e51.godot_string_matchn, cgodot_string_matchn_allocs = x.GodotStringMatchn.PassRef()
+	ref57717e51.godot_string_matchn, cgodot_string_matchn_allocs = x.StringMatchn.PassRef()
 	allocs57717e51.Borrow(cgodot_string_matchn_allocs)
 
 	var cgodot_string_md5_allocs *cgoAllocMap
-	ref57717e51.godot_string_md5, cgodot_string_md5_allocs = x.GodotStringMd5.PassRef()
+	ref57717e51.godot_string_md5, cgodot_string_md5_allocs = x.StringMd5.PassRef()
 	allocs57717e51.Borrow(cgodot_string_md5_allocs)
 
 	var cgodot_string_num_allocs *cgoAllocMap
-	ref57717e51.godot_string_num, cgodot_string_num_allocs = x.GodotStringNum.PassRef()
+	ref57717e51.godot_string_num, cgodot_string_num_allocs = x.StringNum.PassRef()
 	allocs57717e51.Borrow(cgodot_string_num_allocs)
 
 	var cgodot_string_num_int64_allocs *cgoAllocMap
-	ref57717e51.godot_string_num_int64, cgodot_string_num_int64_allocs = x.GodotStringNumInt64.PassRef()
+	ref57717e51.godot_string_num_int64, cgodot_string_num_int64_allocs = x.StringNumInt64.PassRef()
 	allocs57717e51.Borrow(cgodot_string_num_int64_allocs)
 
 	var cgodot_string_num_int64_capitalized_allocs *cgoAllocMap
-	ref57717e51.godot_string_num_int64_capitalized, cgodot_string_num_int64_capitalized_allocs = x.GodotStringNumInt64Capitalized.PassRef()
+	ref57717e51.godot_string_num_int64_capitalized, cgodot_string_num_int64_capitalized_allocs = x.StringNumInt64Capitalized.PassRef()
 	allocs57717e51.Borrow(cgodot_string_num_int64_capitalized_allocs)
 
 	var cgodot_string_num_real_allocs *cgoAllocMap
-	ref57717e51.godot_string_num_real, cgodot_string_num_real_allocs = x.GodotStringNumReal.PassRef()
+	ref57717e51.godot_string_num_real, cgodot_string_num_real_allocs = x.StringNumReal.PassRef()
 	allocs57717e51.Borrow(cgodot_string_num_real_allocs)
 
 	var cgodot_string_num_scientific_allocs *cgoAllocMap
-	ref57717e51.godot_string_num_scientific, cgodot_string_num_scientific_allocs = x.GodotStringNumScientific.PassRef()
+	ref57717e51.godot_string_num_scientific, cgodot_string_num_scientific_allocs = x.StringNumScientific.PassRef()
 	allocs57717e51.Borrow(cgodot_string_num_scientific_allocs)
 
 	var cgodot_string_num_with_decimals_allocs *cgoAllocMap
-	ref57717e51.godot_string_num_with_decimals, cgodot_string_num_with_decimals_allocs = x.GodotStringNumWithDecimals.PassRef()
+	ref57717e51.godot_string_num_with_decimals, cgodot_string_num_with_decimals_allocs = x.StringNumWithDecimals.PassRef()
 	allocs57717e51.Borrow(cgodot_string_num_with_decimals_allocs)
 
 	var cgodot_string_pad_decimals_allocs *cgoAllocMap
-	ref57717e51.godot_string_pad_decimals, cgodot_string_pad_decimals_allocs = x.GodotStringPadDecimals.PassRef()
+	ref57717e51.godot_string_pad_decimals, cgodot_string_pad_decimals_allocs = x.StringPadDecimals.PassRef()
 	allocs57717e51.Borrow(cgodot_string_pad_decimals_allocs)
 
 	var cgodot_string_pad_zeros_allocs *cgoAllocMap
-	ref57717e51.godot_string_pad_zeros, cgodot_string_pad_zeros_allocs = x.GodotStringPadZeros.PassRef()
+	ref57717e51.godot_string_pad_zeros, cgodot_string_pad_zeros_allocs = x.StringPadZeros.PassRef()
 	allocs57717e51.Borrow(cgodot_string_pad_zeros_allocs)
 
 	var cgodot_string_replace_first_allocs *cgoAllocMap
-	ref57717e51.godot_string_replace_first, cgodot_string_replace_first_allocs = x.GodotStringReplaceFirst.PassRef()
+	ref57717e51.godot_string_replace_first, cgodot_string_replace_first_allocs = x.StringReplaceFirst.PassRef()
 	allocs57717e51.Borrow(cgodot_string_replace_first_allocs)
 
 	var cgodot_string_replace_allocs *cgoAllocMap
-	ref57717e51.godot_string_replace, cgodot_string_replace_allocs = x.GodotStringReplace.PassRef()
+	ref57717e51.godot_string_replace, cgodot_string_replace_allocs = x.StringReplace.PassRef()
 	allocs57717e51.Borrow(cgodot_string_replace_allocs)
 
 	var cgodot_string_replacen_allocs *cgoAllocMap
-	ref57717e51.godot_string_replacen, cgodot_string_replacen_allocs = x.GodotStringReplacen.PassRef()
+	ref57717e51.godot_string_replacen, cgodot_string_replacen_allocs = x.StringReplacen.PassRef()
 	allocs57717e51.Borrow(cgodot_string_replacen_allocs)
 
 	var cgodot_string_rfind_allocs *cgoAllocMap
-	ref57717e51.godot_string_rfind, cgodot_string_rfind_allocs = x.GodotStringRfind.PassRef()
+	ref57717e51.godot_string_rfind, cgodot_string_rfind_allocs = x.StringRfind.PassRef()
 	allocs57717e51.Borrow(cgodot_string_rfind_allocs)
 
 	var cgodot_string_rfindn_allocs *cgoAllocMap
-	ref57717e51.godot_string_rfindn, cgodot_string_rfindn_allocs = x.GodotStringRfindn.PassRef()
+	ref57717e51.godot_string_rfindn, cgodot_string_rfindn_allocs = x.StringRfindn.PassRef()
 	allocs57717e51.Borrow(cgodot_string_rfindn_allocs)
 
 	var cgodot_string_rfind_from_allocs *cgoAllocMap
-	ref57717e51.godot_string_rfind_from, cgodot_string_rfind_from_allocs = x.GodotStringRfindFrom.PassRef()
+	ref57717e51.godot_string_rfind_from, cgodot_string_rfind_from_allocs = x.StringRfindFrom.PassRef()
 	allocs57717e51.Borrow(cgodot_string_rfind_from_allocs)
 
 	var cgodot_string_rfindn_from_allocs *cgoAllocMap
-	ref57717e51.godot_string_rfindn_from, cgodot_string_rfindn_from_allocs = x.GodotStringRfindnFrom.PassRef()
+	ref57717e51.godot_string_rfindn_from, cgodot_string_rfindn_from_allocs = x.StringRfindnFrom.PassRef()
 	allocs57717e51.Borrow(cgodot_string_rfindn_from_allocs)
 
 	var cgodot_string_rpad_allocs *cgoAllocMap
-	ref57717e51.godot_string_rpad, cgodot_string_rpad_allocs = x.GodotStringRpad.PassRef()
+	ref57717e51.godot_string_rpad, cgodot_string_rpad_allocs = x.StringRpad.PassRef()
 	allocs57717e51.Borrow(cgodot_string_rpad_allocs)
 
 	var cgodot_string_rpad_with_custom_character_allocs *cgoAllocMap
-	ref57717e51.godot_string_rpad_with_custom_character, cgodot_string_rpad_with_custom_character_allocs = x.GodotStringRpadWithCustomCharacter.PassRef()
+	ref57717e51.godot_string_rpad_with_custom_character, cgodot_string_rpad_with_custom_character_allocs = x.StringRpadWithCustomCharacter.PassRef()
 	allocs57717e51.Borrow(cgodot_string_rpad_with_custom_character_allocs)
 
 	var cgodot_string_similarity_allocs *cgoAllocMap
-	ref57717e51.godot_string_similarity, cgodot_string_similarity_allocs = x.GodotStringSimilarity.PassRef()
+	ref57717e51.godot_string_similarity, cgodot_string_similarity_allocs = x.StringSimilarity.PassRef()
 	allocs57717e51.Borrow(cgodot_string_similarity_allocs)
 
 	var cgodot_string_sprintf_allocs *cgoAllocMap
-	ref57717e51.godot_string_sprintf, cgodot_string_sprintf_allocs = x.GodotStringSprintf.PassRef()
+	ref57717e51.godot_string_sprintf, cgodot_string_sprintf_allocs = x.StringSprintf.PassRef()
 	allocs57717e51.Borrow(cgodot_string_sprintf_allocs)
 
 	var cgodot_string_substr_allocs *cgoAllocMap
-	ref57717e51.godot_string_substr, cgodot_string_substr_allocs = x.GodotStringSubstr.PassRef()
+	ref57717e51.godot_string_substr, cgodot_string_substr_allocs = x.StringSubstr.PassRef()
 	allocs57717e51.Borrow(cgodot_string_substr_allocs)
 
 	var cgodot_string_to_double_allocs *cgoAllocMap
-	ref57717e51.godot_string_to_double, cgodot_string_to_double_allocs = x.GodotStringToDouble.PassRef()
+	ref57717e51.godot_string_to_double, cgodot_string_to_double_allocs = x.StringToDouble.PassRef()
 	allocs57717e51.Borrow(cgodot_string_to_double_allocs)
 
 	var cgodot_string_to_float_allocs *cgoAllocMap
-	ref57717e51.godot_string_to_float, cgodot_string_to_float_allocs = x.GodotStringToFloat.PassRef()
+	ref57717e51.godot_string_to_float, cgodot_string_to_float_allocs = x.StringToFloat.PassRef()
 	allocs57717e51.Borrow(cgodot_string_to_float_allocs)
 
 	var cgodot_string_to_int_allocs *cgoAllocMap
-	ref57717e51.godot_string_to_int, cgodot_string_to_int_allocs = x.GodotStringToInt.PassRef()
+	ref57717e51.godot_string_to_int, cgodot_string_to_int_allocs = x.StringToInt.PassRef()
 	allocs57717e51.Borrow(cgodot_string_to_int_allocs)
 
 	var cgodot_string_camelcase_to_underscore_allocs *cgoAllocMap
-	ref57717e51.godot_string_camelcase_to_underscore, cgodot_string_camelcase_to_underscore_allocs = x.GodotStringCamelcaseToUnderscore.PassRef()
+	ref57717e51.godot_string_camelcase_to_underscore, cgodot_string_camelcase_to_underscore_allocs = x.StringCamelcaseToUnderscore.PassRef()
 	allocs57717e51.Borrow(cgodot_string_camelcase_to_underscore_allocs)
 
 	var cgodot_string_camelcase_to_underscore_lowercased_allocs *cgoAllocMap
-	ref57717e51.godot_string_camelcase_to_underscore_lowercased, cgodot_string_camelcase_to_underscore_lowercased_allocs = x.GodotStringCamelcaseToUnderscoreLowercased.PassRef()
+	ref57717e51.godot_string_camelcase_to_underscore_lowercased, cgodot_string_camelcase_to_underscore_lowercased_allocs = x.StringCamelcaseToUnderscoreLowercased.PassRef()
 	allocs57717e51.Borrow(cgodot_string_camelcase_to_underscore_lowercased_allocs)
 
 	var cgodot_string_capitalize_allocs *cgoAllocMap
-	ref57717e51.godot_string_capitalize, cgodot_string_capitalize_allocs = x.GodotStringCapitalize.PassRef()
+	ref57717e51.godot_string_capitalize, cgodot_string_capitalize_allocs = x.StringCapitalize.PassRef()
 	allocs57717e51.Borrow(cgodot_string_capitalize_allocs)
 
 	var cgodot_string_char_to_double_allocs *cgoAllocMap
-	ref57717e51.godot_string_char_to_double, cgodot_string_char_to_double_allocs = x.GodotStringCharToDouble.PassRef()
+	ref57717e51.godot_string_char_to_double, cgodot_string_char_to_double_allocs = x.StringCharToDouble.PassRef()
 	allocs57717e51.Borrow(cgodot_string_char_to_double_allocs)
 
 	var cgodot_string_char_to_int_allocs *cgoAllocMap
-	ref57717e51.godot_string_char_to_int, cgodot_string_char_to_int_allocs = x.GodotStringCharToInt.PassRef()
+	ref57717e51.godot_string_char_to_int, cgodot_string_char_to_int_allocs = x.StringCharToInt.PassRef()
 	allocs57717e51.Borrow(cgodot_string_char_to_int_allocs)
 
 	var cgodot_string_wchar_to_int_allocs *cgoAllocMap
-	ref57717e51.godot_string_wchar_to_int, cgodot_string_wchar_to_int_allocs = x.GodotStringWcharToInt.PassRef()
+	ref57717e51.godot_string_wchar_to_int, cgodot_string_wchar_to_int_allocs = x.StringWcharToInt.PassRef()
 	allocs57717e51.Borrow(cgodot_string_wchar_to_int_allocs)
 
 	var cgodot_string_char_to_int_with_len_allocs *cgoAllocMap
-	ref57717e51.godot_string_char_to_int_with_len, cgodot_string_char_to_int_with_len_allocs = x.GodotStringCharToIntWithLen.PassRef()
+	ref57717e51.godot_string_char_to_int_with_len, cgodot_string_char_to_int_with_len_allocs = x.StringCharToIntWithLen.PassRef()
 	allocs57717e51.Borrow(cgodot_string_char_to_int_with_len_allocs)
 
 	var cgodot_string_char_to_int64_with_len_allocs *cgoAllocMap
-	ref57717e51.godot_string_char_to_int64_with_len, cgodot_string_char_to_int64_with_len_allocs = x.GodotStringCharToInt64WithLen.PassRef()
+	ref57717e51.godot_string_char_to_int64_with_len, cgodot_string_char_to_int64_with_len_allocs = x.StringCharToInt64WithLen.PassRef()
 	allocs57717e51.Borrow(cgodot_string_char_to_int64_with_len_allocs)
 
 	var cgodot_string_hex_to_int64_allocs *cgoAllocMap
-	ref57717e51.godot_string_hex_to_int64, cgodot_string_hex_to_int64_allocs = x.GodotStringHexToInt64.PassRef()
+	ref57717e51.godot_string_hex_to_int64, cgodot_string_hex_to_int64_allocs = x.StringHexToInt64.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hex_to_int64_allocs)
 
 	var cgodot_string_hex_to_int64_with_prefix_allocs *cgoAllocMap
-	ref57717e51.godot_string_hex_to_int64_with_prefix, cgodot_string_hex_to_int64_with_prefix_allocs = x.GodotStringHexToInt64WithPrefix.PassRef()
+	ref57717e51.godot_string_hex_to_int64_with_prefix, cgodot_string_hex_to_int64_with_prefix_allocs = x.StringHexToInt64WithPrefix.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hex_to_int64_with_prefix_allocs)
 
 	var cgodot_string_to_int64_allocs *cgoAllocMap
-	ref57717e51.godot_string_to_int64, cgodot_string_to_int64_allocs = x.GodotStringToInt64.PassRef()
+	ref57717e51.godot_string_to_int64, cgodot_string_to_int64_allocs = x.StringToInt64.PassRef()
 	allocs57717e51.Borrow(cgodot_string_to_int64_allocs)
 
 	var cgodot_string_unicode_char_to_double_allocs *cgoAllocMap
-	ref57717e51.godot_string_unicode_char_to_double, cgodot_string_unicode_char_to_double_allocs = x.GodotStringUnicodeCharToDouble.PassRef()
+	ref57717e51.godot_string_unicode_char_to_double, cgodot_string_unicode_char_to_double_allocs = x.StringUnicodeCharToDouble.PassRef()
 	allocs57717e51.Borrow(cgodot_string_unicode_char_to_double_allocs)
 
 	var cgodot_string_get_slice_count_allocs *cgoAllocMap
-	ref57717e51.godot_string_get_slice_count, cgodot_string_get_slice_count_allocs = x.GodotStringGetSliceCount.PassRef()
+	ref57717e51.godot_string_get_slice_count, cgodot_string_get_slice_count_allocs = x.StringGetSliceCount.PassRef()
 	allocs57717e51.Borrow(cgodot_string_get_slice_count_allocs)
 
 	var cgodot_string_get_slice_allocs *cgoAllocMap
-	ref57717e51.godot_string_get_slice, cgodot_string_get_slice_allocs = x.GodotStringGetSlice.PassRef()
+	ref57717e51.godot_string_get_slice, cgodot_string_get_slice_allocs = x.StringGetSlice.PassRef()
 	allocs57717e51.Borrow(cgodot_string_get_slice_allocs)
 
 	var cgodot_string_get_slicec_allocs *cgoAllocMap
-	ref57717e51.godot_string_get_slicec, cgodot_string_get_slicec_allocs = x.GodotStringGetSlicec.PassRef()
+	ref57717e51.godot_string_get_slicec, cgodot_string_get_slicec_allocs = x.StringGetSlicec.PassRef()
 	allocs57717e51.Borrow(cgodot_string_get_slicec_allocs)
 
 	var cgodot_string_split_allocs *cgoAllocMap
-	ref57717e51.godot_string_split, cgodot_string_split_allocs = x.GodotStringSplit.PassRef()
+	ref57717e51.godot_string_split, cgodot_string_split_allocs = x.StringSplit.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_allocs)
 
 	var cgodot_string_split_allow_empty_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_allow_empty, cgodot_string_split_allow_empty_allocs = x.GodotStringSplitAllowEmpty.PassRef()
+	ref57717e51.godot_string_split_allow_empty, cgodot_string_split_allow_empty_allocs = x.StringSplitAllowEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_allow_empty_allocs)
 
 	var cgodot_string_split_floats_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_floats, cgodot_string_split_floats_allocs = x.GodotStringSplitFloats.PassRef()
+	ref57717e51.godot_string_split_floats, cgodot_string_split_floats_allocs = x.StringSplitFloats.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_floats_allocs)
 
 	var cgodot_string_split_floats_allows_empty_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_floats_allows_empty, cgodot_string_split_floats_allows_empty_allocs = x.GodotStringSplitFloatsAllowsEmpty.PassRef()
+	ref57717e51.godot_string_split_floats_allows_empty, cgodot_string_split_floats_allows_empty_allocs = x.StringSplitFloatsAllowsEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_floats_allows_empty_allocs)
 
 	var cgodot_string_split_floats_mk_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_floats_mk, cgodot_string_split_floats_mk_allocs = x.GodotStringSplitFloatsMk.PassRef()
+	ref57717e51.godot_string_split_floats_mk, cgodot_string_split_floats_mk_allocs = x.StringSplitFloatsMk.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_floats_mk_allocs)
 
 	var cgodot_string_split_floats_mk_allows_empty_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_floats_mk_allows_empty, cgodot_string_split_floats_mk_allows_empty_allocs = x.GodotStringSplitFloatsMkAllowsEmpty.PassRef()
+	ref57717e51.godot_string_split_floats_mk_allows_empty, cgodot_string_split_floats_mk_allows_empty_allocs = x.StringSplitFloatsMkAllowsEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_floats_mk_allows_empty_allocs)
 
 	var cgodot_string_split_ints_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_ints, cgodot_string_split_ints_allocs = x.GodotStringSplitInts.PassRef()
+	ref57717e51.godot_string_split_ints, cgodot_string_split_ints_allocs = x.StringSplitInts.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_ints_allocs)
 
 	var cgodot_string_split_ints_allows_empty_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_ints_allows_empty, cgodot_string_split_ints_allows_empty_allocs = x.GodotStringSplitIntsAllowsEmpty.PassRef()
+	ref57717e51.godot_string_split_ints_allows_empty, cgodot_string_split_ints_allows_empty_allocs = x.StringSplitIntsAllowsEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_ints_allows_empty_allocs)
 
 	var cgodot_string_split_ints_mk_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_ints_mk, cgodot_string_split_ints_mk_allocs = x.GodotStringSplitIntsMk.PassRef()
+	ref57717e51.godot_string_split_ints_mk, cgodot_string_split_ints_mk_allocs = x.StringSplitIntsMk.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_ints_mk_allocs)
 
 	var cgodot_string_split_ints_mk_allows_empty_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_ints_mk_allows_empty, cgodot_string_split_ints_mk_allows_empty_allocs = x.GodotStringSplitIntsMkAllowsEmpty.PassRef()
+	ref57717e51.godot_string_split_ints_mk_allows_empty, cgodot_string_split_ints_mk_allows_empty_allocs = x.StringSplitIntsMkAllowsEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_ints_mk_allows_empty_allocs)
 
 	var cgodot_string_split_spaces_allocs *cgoAllocMap
-	ref57717e51.godot_string_split_spaces, cgodot_string_split_spaces_allocs = x.GodotStringSplitSpaces.PassRef()
+	ref57717e51.godot_string_split_spaces, cgodot_string_split_spaces_allocs = x.StringSplitSpaces.PassRef()
 	allocs57717e51.Borrow(cgodot_string_split_spaces_allocs)
 
 	var cgodot_string_char_lowercase_allocs *cgoAllocMap
-	ref57717e51.godot_string_char_lowercase, cgodot_string_char_lowercase_allocs = x.GodotStringCharLowercase.PassRef()
+	ref57717e51.godot_string_char_lowercase, cgodot_string_char_lowercase_allocs = x.StringCharLowercase.PassRef()
 	allocs57717e51.Borrow(cgodot_string_char_lowercase_allocs)
 
 	var cgodot_string_char_uppercase_allocs *cgoAllocMap
-	ref57717e51.godot_string_char_uppercase, cgodot_string_char_uppercase_allocs = x.GodotStringCharUppercase.PassRef()
+	ref57717e51.godot_string_char_uppercase, cgodot_string_char_uppercase_allocs = x.StringCharUppercase.PassRef()
 	allocs57717e51.Borrow(cgodot_string_char_uppercase_allocs)
 
 	var cgodot_string_to_lower_allocs *cgoAllocMap
-	ref57717e51.godot_string_to_lower, cgodot_string_to_lower_allocs = x.GodotStringToLower.PassRef()
+	ref57717e51.godot_string_to_lower, cgodot_string_to_lower_allocs = x.StringToLower.PassRef()
 	allocs57717e51.Borrow(cgodot_string_to_lower_allocs)
 
 	var cgodot_string_to_upper_allocs *cgoAllocMap
-	ref57717e51.godot_string_to_upper, cgodot_string_to_upper_allocs = x.GodotStringToUpper.PassRef()
+	ref57717e51.godot_string_to_upper, cgodot_string_to_upper_allocs = x.StringToUpper.PassRef()
 	allocs57717e51.Borrow(cgodot_string_to_upper_allocs)
 
 	var cgodot_string_get_basename_allocs *cgoAllocMap
-	ref57717e51.godot_string_get_basename, cgodot_string_get_basename_allocs = x.GodotStringGetBasename.PassRef()
+	ref57717e51.godot_string_get_basename, cgodot_string_get_basename_allocs = x.StringGetBasename.PassRef()
 	allocs57717e51.Borrow(cgodot_string_get_basename_allocs)
 
 	var cgodot_string_get_extension_allocs *cgoAllocMap
-	ref57717e51.godot_string_get_extension, cgodot_string_get_extension_allocs = x.GodotStringGetExtension.PassRef()
+	ref57717e51.godot_string_get_extension, cgodot_string_get_extension_allocs = x.StringGetExtension.PassRef()
 	allocs57717e51.Borrow(cgodot_string_get_extension_allocs)
 
 	var cgodot_string_left_allocs *cgoAllocMap
-	ref57717e51.godot_string_left, cgodot_string_left_allocs = x.GodotStringLeft.PassRef()
+	ref57717e51.godot_string_left, cgodot_string_left_allocs = x.StringLeft.PassRef()
 	allocs57717e51.Borrow(cgodot_string_left_allocs)
 
 	var cgodot_string_ord_at_allocs *cgoAllocMap
-	ref57717e51.godot_string_ord_at, cgodot_string_ord_at_allocs = x.GodotStringOrdAt.PassRef()
+	ref57717e51.godot_string_ord_at, cgodot_string_ord_at_allocs = x.StringOrdAt.PassRef()
 	allocs57717e51.Borrow(cgodot_string_ord_at_allocs)
 
 	var cgodot_string_plus_file_allocs *cgoAllocMap
-	ref57717e51.godot_string_plus_file, cgodot_string_plus_file_allocs = x.GodotStringPlusFile.PassRef()
+	ref57717e51.godot_string_plus_file, cgodot_string_plus_file_allocs = x.StringPlusFile.PassRef()
 	allocs57717e51.Borrow(cgodot_string_plus_file_allocs)
 
 	var cgodot_string_right_allocs *cgoAllocMap
-	ref57717e51.godot_string_right, cgodot_string_right_allocs = x.GodotStringRight.PassRef()
+	ref57717e51.godot_string_right, cgodot_string_right_allocs = x.StringRight.PassRef()
 	allocs57717e51.Borrow(cgodot_string_right_allocs)
 
 	var cgodot_string_strip_edges_allocs *cgoAllocMap
-	ref57717e51.godot_string_strip_edges, cgodot_string_strip_edges_allocs = x.GodotStringStripEdges.PassRef()
+	ref57717e51.godot_string_strip_edges, cgodot_string_strip_edges_allocs = x.StringStripEdges.PassRef()
 	allocs57717e51.Borrow(cgodot_string_strip_edges_allocs)
 
 	var cgodot_string_strip_escapes_allocs *cgoAllocMap
-	ref57717e51.godot_string_strip_escapes, cgodot_string_strip_escapes_allocs = x.GodotStringStripEscapes.PassRef()
+	ref57717e51.godot_string_strip_escapes, cgodot_string_strip_escapes_allocs = x.StringStripEscapes.PassRef()
 	allocs57717e51.Borrow(cgodot_string_strip_escapes_allocs)
 
 	var cgodot_string_erase_allocs *cgoAllocMap
-	ref57717e51.godot_string_erase, cgodot_string_erase_allocs = x.GodotStringErase.PassRef()
+	ref57717e51.godot_string_erase, cgodot_string_erase_allocs = x.StringErase.PassRef()
 	allocs57717e51.Borrow(cgodot_string_erase_allocs)
 
 	var cgodot_string_ascii_allocs *cgoAllocMap
-	ref57717e51.godot_string_ascii, cgodot_string_ascii_allocs = x.GodotStringAscii.PassRef()
+	ref57717e51.godot_string_ascii, cgodot_string_ascii_allocs = x.StringAscii.PassRef()
 	allocs57717e51.Borrow(cgodot_string_ascii_allocs)
 
 	var cgodot_string_ascii_extended_allocs *cgoAllocMap
-	ref57717e51.godot_string_ascii_extended, cgodot_string_ascii_extended_allocs = x.GodotStringAsciiExtended.PassRef()
+	ref57717e51.godot_string_ascii_extended, cgodot_string_ascii_extended_allocs = x.StringAsciiExtended.PassRef()
 	allocs57717e51.Borrow(cgodot_string_ascii_extended_allocs)
 
 	var cgodot_string_utf8_allocs *cgoAllocMap
-	ref57717e51.godot_string_utf8, cgodot_string_utf8_allocs = x.GodotStringUtf8.PassRef()
+	ref57717e51.godot_string_utf8, cgodot_string_utf8_allocs = x.StringUtf8.PassRef()
 	allocs57717e51.Borrow(cgodot_string_utf8_allocs)
 
 	var cgodot_string_parse_utf8_allocs *cgoAllocMap
-	ref57717e51.godot_string_parse_utf8, cgodot_string_parse_utf8_allocs = x.GodotStringParseUtf8.PassRef()
+	ref57717e51.godot_string_parse_utf8, cgodot_string_parse_utf8_allocs = x.StringParseUtf8.PassRef()
 	allocs57717e51.Borrow(cgodot_string_parse_utf8_allocs)
 
 	var cgodot_string_parse_utf8_with_len_allocs *cgoAllocMap
-	ref57717e51.godot_string_parse_utf8_with_len, cgodot_string_parse_utf8_with_len_allocs = x.GodotStringParseUtf8WithLen.PassRef()
+	ref57717e51.godot_string_parse_utf8_with_len, cgodot_string_parse_utf8_with_len_allocs = x.StringParseUtf8WithLen.PassRef()
 	allocs57717e51.Borrow(cgodot_string_parse_utf8_with_len_allocs)
 
 	var cgodot_string_chars_to_utf8_allocs *cgoAllocMap
-	ref57717e51.godot_string_chars_to_utf8, cgodot_string_chars_to_utf8_allocs = x.GodotStringCharsToUtf8.PassRef()
+	ref57717e51.godot_string_chars_to_utf8, cgodot_string_chars_to_utf8_allocs = x.StringCharsToUtf8.PassRef()
 	allocs57717e51.Borrow(cgodot_string_chars_to_utf8_allocs)
 
 	var cgodot_string_chars_to_utf8_with_len_allocs *cgoAllocMap
-	ref57717e51.godot_string_chars_to_utf8_with_len, cgodot_string_chars_to_utf8_with_len_allocs = x.GodotStringCharsToUtf8WithLen.PassRef()
+	ref57717e51.godot_string_chars_to_utf8_with_len, cgodot_string_chars_to_utf8_with_len_allocs = x.StringCharsToUtf8WithLen.PassRef()
 	allocs57717e51.Borrow(cgodot_string_chars_to_utf8_with_len_allocs)
 
 	var cgodot_string_hash_allocs *cgoAllocMap
-	ref57717e51.godot_string_hash, cgodot_string_hash_allocs = x.GodotStringHash.PassRef()
+	ref57717e51.godot_string_hash, cgodot_string_hash_allocs = x.StringHash.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hash_allocs)
 
 	var cgodot_string_hash64_allocs *cgoAllocMap
-	ref57717e51.godot_string_hash64, cgodot_string_hash64_allocs = x.GodotStringHash64.PassRef()
+	ref57717e51.godot_string_hash64, cgodot_string_hash64_allocs = x.StringHash64.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hash64_allocs)
 
 	var cgodot_string_hash_chars_allocs *cgoAllocMap
-	ref57717e51.godot_string_hash_chars, cgodot_string_hash_chars_allocs = x.GodotStringHashChars.PassRef()
+	ref57717e51.godot_string_hash_chars, cgodot_string_hash_chars_allocs = x.StringHashChars.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hash_chars_allocs)
 
 	var cgodot_string_hash_chars_with_len_allocs *cgoAllocMap
-	ref57717e51.godot_string_hash_chars_with_len, cgodot_string_hash_chars_with_len_allocs = x.GodotStringHashCharsWithLen.PassRef()
+	ref57717e51.godot_string_hash_chars_with_len, cgodot_string_hash_chars_with_len_allocs = x.StringHashCharsWithLen.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hash_chars_with_len_allocs)
 
 	var cgodot_string_hash_utf8_chars_allocs *cgoAllocMap
-	ref57717e51.godot_string_hash_utf8_chars, cgodot_string_hash_utf8_chars_allocs = x.GodotStringHashUtf8Chars.PassRef()
+	ref57717e51.godot_string_hash_utf8_chars, cgodot_string_hash_utf8_chars_allocs = x.StringHashUtf8Chars.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hash_utf8_chars_allocs)
 
 	var cgodot_string_hash_utf8_chars_with_len_allocs *cgoAllocMap
-	ref57717e51.godot_string_hash_utf8_chars_with_len, cgodot_string_hash_utf8_chars_with_len_allocs = x.GodotStringHashUtf8CharsWithLen.PassRef()
+	ref57717e51.godot_string_hash_utf8_chars_with_len, cgodot_string_hash_utf8_chars_with_len_allocs = x.StringHashUtf8CharsWithLen.PassRef()
 	allocs57717e51.Borrow(cgodot_string_hash_utf8_chars_with_len_allocs)
 
 	var cgodot_string_md5_buffer_allocs *cgoAllocMap
-	ref57717e51.godot_string_md5_buffer, cgodot_string_md5_buffer_allocs = x.GodotStringMd5Buffer.PassRef()
+	ref57717e51.godot_string_md5_buffer, cgodot_string_md5_buffer_allocs = x.StringMd5Buffer.PassRef()
 	allocs57717e51.Borrow(cgodot_string_md5_buffer_allocs)
 
 	var cgodot_string_md5_text_allocs *cgoAllocMap
-	ref57717e51.godot_string_md5_text, cgodot_string_md5_text_allocs = x.GodotStringMd5Text.PassRef()
+	ref57717e51.godot_string_md5_text, cgodot_string_md5_text_allocs = x.StringMd5Text.PassRef()
 	allocs57717e51.Borrow(cgodot_string_md5_text_allocs)
 
 	var cgodot_string_sha256_buffer_allocs *cgoAllocMap
-	ref57717e51.godot_string_sha256_buffer, cgodot_string_sha256_buffer_allocs = x.GodotStringSha256Buffer.PassRef()
+	ref57717e51.godot_string_sha256_buffer, cgodot_string_sha256_buffer_allocs = x.StringSha256Buffer.PassRef()
 	allocs57717e51.Borrow(cgodot_string_sha256_buffer_allocs)
 
 	var cgodot_string_sha256_text_allocs *cgoAllocMap
-	ref57717e51.godot_string_sha256_text, cgodot_string_sha256_text_allocs = x.GodotStringSha256Text.PassRef()
+	ref57717e51.godot_string_sha256_text, cgodot_string_sha256_text_allocs = x.StringSha256Text.PassRef()
 	allocs57717e51.Borrow(cgodot_string_sha256_text_allocs)
 
 	var cgodot_string_empty_allocs *cgoAllocMap
-	ref57717e51.godot_string_empty, cgodot_string_empty_allocs = x.GodotStringEmpty.PassRef()
+	ref57717e51.godot_string_empty, cgodot_string_empty_allocs = x.StringEmpty.PassRef()
 	allocs57717e51.Borrow(cgodot_string_empty_allocs)
 
 	var cgodot_string_get_base_dir_allocs *cgoAllocMap
-	ref57717e51.godot_string_get_base_dir, cgodot_string_get_base_dir_allocs = x.GodotStringGetBaseDir.PassRef()
+	ref57717e51.godot_string_get_base_dir, cgodot_string_get_base_dir_allocs = x.StringGetBaseDir.PassRef()
 	allocs57717e51.Borrow(cgodot_string_get_base_dir_allocs)
 
 	var cgodot_string_get_file_allocs *cgoAllocMap
-	ref57717e51.godot_string_get_file, cgodot_string_get_file_allocs = x.GodotStringGetFile.PassRef()
+	ref57717e51.godot_string_get_file, cgodot_string_get_file_allocs = x.StringGetFile.PassRef()
 	allocs57717e51.Borrow(cgodot_string_get_file_allocs)
 
 	var cgodot_string_humanize_size_allocs *cgoAllocMap
-	ref57717e51.godot_string_humanize_size, cgodot_string_humanize_size_allocs = x.GodotStringHumanizeSize.PassRef()
+	ref57717e51.godot_string_humanize_size, cgodot_string_humanize_size_allocs = x.StringHumanizeSize.PassRef()
 	allocs57717e51.Borrow(cgodot_string_humanize_size_allocs)
 
 	var cgodot_string_is_abs_path_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_abs_path, cgodot_string_is_abs_path_allocs = x.GodotStringIsAbsPath.PassRef()
+	ref57717e51.godot_string_is_abs_path, cgodot_string_is_abs_path_allocs = x.StringIsAbsPath.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_abs_path_allocs)
 
 	var cgodot_string_is_rel_path_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_rel_path, cgodot_string_is_rel_path_allocs = x.GodotStringIsRelPath.PassRef()
+	ref57717e51.godot_string_is_rel_path, cgodot_string_is_rel_path_allocs = x.StringIsRelPath.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_rel_path_allocs)
 
 	var cgodot_string_is_resource_file_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_resource_file, cgodot_string_is_resource_file_allocs = x.GodotStringIsResourceFile.PassRef()
+	ref57717e51.godot_string_is_resource_file, cgodot_string_is_resource_file_allocs = x.StringIsResourceFile.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_resource_file_allocs)
 
 	var cgodot_string_path_to_allocs *cgoAllocMap
-	ref57717e51.godot_string_path_to, cgodot_string_path_to_allocs = x.GodotStringPathTo.PassRef()
+	ref57717e51.godot_string_path_to, cgodot_string_path_to_allocs = x.StringPathTo.PassRef()
 	allocs57717e51.Borrow(cgodot_string_path_to_allocs)
 
 	var cgodot_string_path_to_file_allocs *cgoAllocMap
-	ref57717e51.godot_string_path_to_file, cgodot_string_path_to_file_allocs = x.GodotStringPathToFile.PassRef()
+	ref57717e51.godot_string_path_to_file, cgodot_string_path_to_file_allocs = x.StringPathToFile.PassRef()
 	allocs57717e51.Borrow(cgodot_string_path_to_file_allocs)
 
 	var cgodot_string_simplify_path_allocs *cgoAllocMap
-	ref57717e51.godot_string_simplify_path, cgodot_string_simplify_path_allocs = x.GodotStringSimplifyPath.PassRef()
+	ref57717e51.godot_string_simplify_path, cgodot_string_simplify_path_allocs = x.StringSimplifyPath.PassRef()
 	allocs57717e51.Borrow(cgodot_string_simplify_path_allocs)
 
 	var cgodot_string_c_escape_allocs *cgoAllocMap
-	ref57717e51.godot_string_c_escape, cgodot_string_c_escape_allocs = x.GodotStringCEscape.PassRef()
+	ref57717e51.godot_string_c_escape, cgodot_string_c_escape_allocs = x.StringCEscape.PassRef()
 	allocs57717e51.Borrow(cgodot_string_c_escape_allocs)
 
 	var cgodot_string_c_escape_multiline_allocs *cgoAllocMap
-	ref57717e51.godot_string_c_escape_multiline, cgodot_string_c_escape_multiline_allocs = x.GodotStringCEscapeMultiline.PassRef()
+	ref57717e51.godot_string_c_escape_multiline, cgodot_string_c_escape_multiline_allocs = x.StringCEscapeMultiline.PassRef()
 	allocs57717e51.Borrow(cgodot_string_c_escape_multiline_allocs)
 
 	var cgodot_string_c_unescape_allocs *cgoAllocMap
-	ref57717e51.godot_string_c_unescape, cgodot_string_c_unescape_allocs = x.GodotStringCUnescape.PassRef()
+	ref57717e51.godot_string_c_unescape, cgodot_string_c_unescape_allocs = x.StringCUnescape.PassRef()
 	allocs57717e51.Borrow(cgodot_string_c_unescape_allocs)
 
 	var cgodot_string_http_escape_allocs *cgoAllocMap
-	ref57717e51.godot_string_http_escape, cgodot_string_http_escape_allocs = x.GodotStringHttpEscape.PassRef()
+	ref57717e51.godot_string_http_escape, cgodot_string_http_escape_allocs = x.StringHttpEscape.PassRef()
 	allocs57717e51.Borrow(cgodot_string_http_escape_allocs)
 
 	var cgodot_string_http_unescape_allocs *cgoAllocMap
-	ref57717e51.godot_string_http_unescape, cgodot_string_http_unescape_allocs = x.GodotStringHttpUnescape.PassRef()
+	ref57717e51.godot_string_http_unescape, cgodot_string_http_unescape_allocs = x.StringHttpUnescape.PassRef()
 	allocs57717e51.Borrow(cgodot_string_http_unescape_allocs)
 
 	var cgodot_string_json_escape_allocs *cgoAllocMap
-	ref57717e51.godot_string_json_escape, cgodot_string_json_escape_allocs = x.GodotStringJsonEscape.PassRef()
+	ref57717e51.godot_string_json_escape, cgodot_string_json_escape_allocs = x.StringJsonEscape.PassRef()
 	allocs57717e51.Borrow(cgodot_string_json_escape_allocs)
 
 	var cgodot_string_word_wrap_allocs *cgoAllocMap
-	ref57717e51.godot_string_word_wrap, cgodot_string_word_wrap_allocs = x.GodotStringWordWrap.PassRef()
+	ref57717e51.godot_string_word_wrap, cgodot_string_word_wrap_allocs = x.StringWordWrap.PassRef()
 	allocs57717e51.Borrow(cgodot_string_word_wrap_allocs)
 
 	var cgodot_string_xml_escape_allocs *cgoAllocMap
-	ref57717e51.godot_string_xml_escape, cgodot_string_xml_escape_allocs = x.GodotStringXmlEscape.PassRef()
+	ref57717e51.godot_string_xml_escape, cgodot_string_xml_escape_allocs = x.StringXmlEscape.PassRef()
 	allocs57717e51.Borrow(cgodot_string_xml_escape_allocs)
 
 	var cgodot_string_xml_escape_with_quotes_allocs *cgoAllocMap
-	ref57717e51.godot_string_xml_escape_with_quotes, cgodot_string_xml_escape_with_quotes_allocs = x.GodotStringXmlEscapeWithQuotes.PassRef()
+	ref57717e51.godot_string_xml_escape_with_quotes, cgodot_string_xml_escape_with_quotes_allocs = x.StringXmlEscapeWithQuotes.PassRef()
 	allocs57717e51.Borrow(cgodot_string_xml_escape_with_quotes_allocs)
 
 	var cgodot_string_xml_unescape_allocs *cgoAllocMap
-	ref57717e51.godot_string_xml_unescape, cgodot_string_xml_unescape_allocs = x.GodotStringXmlUnescape.PassRef()
+	ref57717e51.godot_string_xml_unescape, cgodot_string_xml_unescape_allocs = x.StringXmlUnescape.PassRef()
 	allocs57717e51.Borrow(cgodot_string_xml_unescape_allocs)
 
 	var cgodot_string_percent_decode_allocs *cgoAllocMap
-	ref57717e51.godot_string_percent_decode, cgodot_string_percent_decode_allocs = x.GodotStringPercentDecode.PassRef()
+	ref57717e51.godot_string_percent_decode, cgodot_string_percent_decode_allocs = x.StringPercentDecode.PassRef()
 	allocs57717e51.Borrow(cgodot_string_percent_decode_allocs)
 
 	var cgodot_string_percent_encode_allocs *cgoAllocMap
-	ref57717e51.godot_string_percent_encode, cgodot_string_percent_encode_allocs = x.GodotStringPercentEncode.PassRef()
+	ref57717e51.godot_string_percent_encode, cgodot_string_percent_encode_allocs = x.StringPercentEncode.PassRef()
 	allocs57717e51.Borrow(cgodot_string_percent_encode_allocs)
 
 	var cgodot_string_is_valid_float_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_valid_float, cgodot_string_is_valid_float_allocs = x.GodotStringIsValidFloat.PassRef()
+	ref57717e51.godot_string_is_valid_float, cgodot_string_is_valid_float_allocs = x.StringIsValidFloat.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_valid_float_allocs)
 
 	var cgodot_string_is_valid_hex_number_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_valid_hex_number, cgodot_string_is_valid_hex_number_allocs = x.GodotStringIsValidHexNumber.PassRef()
+	ref57717e51.godot_string_is_valid_hex_number, cgodot_string_is_valid_hex_number_allocs = x.StringIsValidHexNumber.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_valid_hex_number_allocs)
 
 	var cgodot_string_is_valid_html_color_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_valid_html_color, cgodot_string_is_valid_html_color_allocs = x.GodotStringIsValidHtmlColor.PassRef()
+	ref57717e51.godot_string_is_valid_html_color, cgodot_string_is_valid_html_color_allocs = x.StringIsValidHtmlColor.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_valid_html_color_allocs)
 
 	var cgodot_string_is_valid_identifier_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_valid_identifier, cgodot_string_is_valid_identifier_allocs = x.GodotStringIsValidIdentifier.PassRef()
+	ref57717e51.godot_string_is_valid_identifier, cgodot_string_is_valid_identifier_allocs = x.StringIsValidIdentifier.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_valid_identifier_allocs)
 
 	var cgodot_string_is_valid_integer_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_valid_integer, cgodot_string_is_valid_integer_allocs = x.GodotStringIsValidInteger.PassRef()
+	ref57717e51.godot_string_is_valid_integer, cgodot_string_is_valid_integer_allocs = x.StringIsValidInteger.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_valid_integer_allocs)
 
 	var cgodot_string_is_valid_ip_address_allocs *cgoAllocMap
-	ref57717e51.godot_string_is_valid_ip_address, cgodot_string_is_valid_ip_address_allocs = x.GodotStringIsValidIpAddress.PassRef()
+	ref57717e51.godot_string_is_valid_ip_address, cgodot_string_is_valid_ip_address_allocs = x.StringIsValidIpAddress.PassRef()
 	allocs57717e51.Borrow(cgodot_string_is_valid_ip_address_allocs)
 
 	var cgodot_string_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_string_destroy, cgodot_string_destroy_allocs = x.GodotStringDestroy.PassRef()
+	ref57717e51.godot_string_destroy, cgodot_string_destroy_allocs = x.StringDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_string_destroy_allocs)
 
 	var cgodot_string_name_new_allocs *cgoAllocMap
-	ref57717e51.godot_string_name_new, cgodot_string_name_new_allocs = x.GodotStringNameNew.PassRef()
+	ref57717e51.godot_string_name_new, cgodot_string_name_new_allocs = x.StringNameNew.PassRef()
 	allocs57717e51.Borrow(cgodot_string_name_new_allocs)
 
 	var cgodot_string_name_new_data_allocs *cgoAllocMap
-	ref57717e51.godot_string_name_new_data, cgodot_string_name_new_data_allocs = x.GodotStringNameNewData.PassRef()
+	ref57717e51.godot_string_name_new_data, cgodot_string_name_new_data_allocs = x.StringNameNewData.PassRef()
 	allocs57717e51.Borrow(cgodot_string_name_new_data_allocs)
 
 	var cgodot_string_name_get_name_allocs *cgoAllocMap
-	ref57717e51.godot_string_name_get_name, cgodot_string_name_get_name_allocs = x.GodotStringNameGetName.PassRef()
+	ref57717e51.godot_string_name_get_name, cgodot_string_name_get_name_allocs = x.StringNameGetName.PassRef()
 	allocs57717e51.Borrow(cgodot_string_name_get_name_allocs)
 
 	var cgodot_string_name_get_hash_allocs *cgoAllocMap
-	ref57717e51.godot_string_name_get_hash, cgodot_string_name_get_hash_allocs = x.GodotStringNameGetHash.PassRef()
+	ref57717e51.godot_string_name_get_hash, cgodot_string_name_get_hash_allocs = x.StringNameGetHash.PassRef()
 	allocs57717e51.Borrow(cgodot_string_name_get_hash_allocs)
 
 	var cgodot_string_name_get_data_unique_pointer_allocs *cgoAllocMap
-	ref57717e51.godot_string_name_get_data_unique_pointer, cgodot_string_name_get_data_unique_pointer_allocs = x.GodotStringNameGetDataUniquePointer.PassRef()
+	ref57717e51.godot_string_name_get_data_unique_pointer, cgodot_string_name_get_data_unique_pointer_allocs = x.StringNameGetDataUniquePointer.PassRef()
 	allocs57717e51.Borrow(cgodot_string_name_get_data_unique_pointer_allocs)
 
 	var cgodot_string_name_operator_equal_allocs *cgoAllocMap
-	ref57717e51.godot_string_name_operator_equal, cgodot_string_name_operator_equal_allocs = x.GodotStringNameOperatorEqual.PassRef()
+	ref57717e51.godot_string_name_operator_equal, cgodot_string_name_operator_equal_allocs = x.StringNameOperatorEqual.PassRef()
 	allocs57717e51.Borrow(cgodot_string_name_operator_equal_allocs)
 
 	var cgodot_string_name_operator_less_allocs *cgoAllocMap
-	ref57717e51.godot_string_name_operator_less, cgodot_string_name_operator_less_allocs = x.GodotStringNameOperatorLess.PassRef()
+	ref57717e51.godot_string_name_operator_less, cgodot_string_name_operator_less_allocs = x.StringNameOperatorLess.PassRef()
 	allocs57717e51.Borrow(cgodot_string_name_operator_less_allocs)
 
 	var cgodot_string_name_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_string_name_destroy, cgodot_string_name_destroy_allocs = x.GodotStringNameDestroy.PassRef()
+	ref57717e51.godot_string_name_destroy, cgodot_string_name_destroy_allocs = x.StringNameDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_string_name_destroy_allocs)
 
 	var cgodot_object_destroy_allocs *cgoAllocMap
-	ref57717e51.godot_object_destroy, cgodot_object_destroy_allocs = x.GodotObjectDestroy.PassRef()
+	ref57717e51.godot_object_destroy, cgodot_object_destroy_allocs = x.ObjectDestroy.PassRef()
 	allocs57717e51.Borrow(cgodot_object_destroy_allocs)
 
 	var cgodot_global_get_singleton_allocs *cgoAllocMap
-	ref57717e51.godot_global_get_singleton, cgodot_global_get_singleton_allocs = x.GodotGlobalGetSingleton.PassRef()
+	ref57717e51.godot_global_get_singleton, cgodot_global_get_singleton_allocs = x.GlobalGetSingleton.PassRef()
 	allocs57717e51.Borrow(cgodot_global_get_singleton_allocs)
 
 	var cgodot_method_bind_get_method_allocs *cgoAllocMap
-	ref57717e51.godot_method_bind_get_method, cgodot_method_bind_get_method_allocs = x.GodotMethodBindGetMethod.PassRef()
+	ref57717e51.godot_method_bind_get_method, cgodot_method_bind_get_method_allocs = x.MethodBindGetMethod.PassRef()
 	allocs57717e51.Borrow(cgodot_method_bind_get_method_allocs)
 
 	var cgodot_method_bind_ptrcall_allocs *cgoAllocMap
-	ref57717e51.godot_method_bind_ptrcall, cgodot_method_bind_ptrcall_allocs = x.GodotMethodBindPtrcall.PassRef()
+	ref57717e51.godot_method_bind_ptrcall, cgodot_method_bind_ptrcall_allocs = x.MethodBindPtrcall.PassRef()
 	allocs57717e51.Borrow(cgodot_method_bind_ptrcall_allocs)
 
 	var cgodot_method_bind_call_allocs *cgoAllocMap
-	ref57717e51.godot_method_bind_call, cgodot_method_bind_call_allocs = x.GodotMethodBindCall.PassRef()
+	ref57717e51.godot_method_bind_call, cgodot_method_bind_call_allocs = x.MethodBindCall.PassRef()
 	allocs57717e51.Borrow(cgodot_method_bind_call_allocs)
 
 	var cgodot_get_class_constructor_allocs *cgoAllocMap
-	ref57717e51.godot_get_class_constructor, cgodot_get_class_constructor_allocs = x.GodotGetClassConstructor.PassValue()
+	ref57717e51.godot_get_class_constructor, cgodot_get_class_constructor_allocs = x.GetClassConstructor.PassValue()
 	allocs57717e51.Borrow(cgodot_get_class_constructor_allocs)
 
 	var cgodot_register_native_call_type_allocs *cgoAllocMap
-	ref57717e51.godot_register_native_call_type, cgodot_register_native_call_type_allocs = x.GodotRegisterNativeCallType.PassRef()
+	ref57717e51.godot_register_native_call_type, cgodot_register_native_call_type_allocs = x.RegisterNativeCallType.PassRef()
 	allocs57717e51.Borrow(cgodot_register_native_call_type_allocs)
 
 	var cgodot_alloc_allocs *cgoAllocMap
-	ref57717e51.godot_alloc, cgodot_alloc_allocs = x.GodotAlloc.PassRef()
+	ref57717e51.godot_alloc, cgodot_alloc_allocs = x.Alloc.PassRef()
 	allocs57717e51.Borrow(cgodot_alloc_allocs)
 
 	var cgodot_realloc_allocs *cgoAllocMap
-	ref57717e51.godot_realloc, cgodot_realloc_allocs = x.GodotRealloc.PassRef()
+	ref57717e51.godot_realloc, cgodot_realloc_allocs = x.Realloc.PassRef()
 	allocs57717e51.Borrow(cgodot_realloc_allocs)
 
 	var cgodot_free_allocs *cgoAllocMap
-	ref57717e51.godot_free, cgodot_free_allocs = x.GodotFree.PassRef()
+	ref57717e51.godot_free, cgodot_free_allocs = x.Free.PassRef()
 	allocs57717e51.Borrow(cgodot_free_allocs)
 
 	var cgodot_print_error_allocs *cgoAllocMap
-	ref57717e51.godot_print_error, cgodot_print_error_allocs = x.GodotPrintError.PassRef()
+	ref57717e51.godot_print_error, cgodot_print_error_allocs = x.PrintError.PassRef()
 	allocs57717e51.Borrow(cgodot_print_error_allocs)
 
 	var cgodot_print_warning_allocs *cgoAllocMap
-	ref57717e51.godot_print_warning, cgodot_print_warning_allocs = x.GodotPrintWarning.PassRef()
+	ref57717e51.godot_print_warning, cgodot_print_warning_allocs = x.PrintWarning.PassRef()
 	allocs57717e51.Borrow(cgodot_print_warning_allocs)
 
 	var cgodot_print_allocs *cgoAllocMap
-	ref57717e51.godot_print, cgodot_print_allocs = x.GodotPrint.PassRef()
+	ref57717e51.godot_print, cgodot_print_allocs = x.Print.PassRef()
 	allocs57717e51.Borrow(cgodot_print_allocs)
 
 	x.ref57717e51 = ref57717e51
@@ -3534,7 +3534,7 @@ func (x *GodotGdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struc
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotGdnativeCoreApiStruct) PassValue() (C.godot_gdnative_core_api_struct, *cgoAllocMap) {
+func (x GdnativeCoreApiStruct) PassValue() (C.godot_gdnative_core_api_struct, *cgoAllocMap) {
 	if x.ref57717e51 != nil {
 		return *x.ref57717e51, nil
 	}
@@ -3544,756 +3544,756 @@ func (x GodotGdnativeCoreApiStruct) PassValue() (C.godot_gdnative_core_api_struc
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotGdnativeCoreApiStruct) Deref() {
+func (x *GdnativeCoreApiStruct) Deref() {
 	if x.ref57717e51 == nil {
 		return
 	}
 	x.Type = (uint32)(x.ref57717e51._type)
-	x.Version = *NewGodotGdnativeApiVersionRef(unsafe.Pointer(&x.ref57717e51.version))
-	packSGodotGdnativeApiStruct(x.Next, x.ref57717e51.next)
+	x.Version = *NewGdnativeApiVersionRef(unsafe.Pointer(&x.ref57717e51.version))
+	packSGdnativeApiStruct(x.Next, x.ref57717e51.next)
 	x.NumExtensions = (uint32)(x.ref57717e51.num_extensions)
-	packSSGodotGdnativeApiStruct(x.Extensions, x.ref57717e51.extensions)
-	x.GodotColorNewRgba = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_new_rgba))
-	x.GodotColorNewRgb = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_new_rgb))
-	x.GodotColorGetR = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_r))
-	x.GodotColorSetR = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_set_r))
-	x.GodotColorGetG = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_g))
-	x.GodotColorSetG = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_set_g))
-	x.GodotColorGetB = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_b))
-	x.GodotColorSetB = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_set_b))
-	x.GodotColorGetA = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_a))
-	x.GodotColorSetA = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_set_a))
-	x.GodotColorGetH = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_h))
-	x.GodotColorGetS = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_s))
-	x.GodotColorGetV = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_v))
-	x.GodotColorAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_color_as_string))
-	x.GodotColorToRgba32 = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_color_to_rgba32))
-	x.GodotColorToArgb32 = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_color_to_argb32))
-	x.GodotColorGray = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_color_gray))
-	x.GodotColorInverted = NewGodotColorRef(unsafe.Pointer(x.ref57717e51.godot_color_inverted))
-	x.GodotColorContrasted = NewGodotColorRef(unsafe.Pointer(x.ref57717e51.godot_color_contrasted))
-	x.GodotColorLinearInterpolate = NewGodotColorRef(unsafe.Pointer(x.ref57717e51.godot_color_linear_interpolate))
-	x.GodotColorBlend = NewGodotColorRef(unsafe.Pointer(x.ref57717e51.godot_color_blend))
-	x.GodotColorToHtml = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_color_to_html))
-	x.GodotColorOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_color_operator_equal))
-	x.GodotColorOperatorLess = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_color_operator_less))
-	x.GodotVector2New = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector2_new))
-	x.GodotVector2AsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_vector2_as_string))
-	x.GodotVector2Normalized = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_normalized))
-	x.GodotVector2Length = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_length))
-	x.GodotVector2Angle = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_angle))
-	x.GodotVector2LengthSquared = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_length_squared))
-	x.GodotVector2IsNormalized = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector2_is_normalized))
-	x.GodotVector2DistanceTo = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_distance_to))
-	x.GodotVector2DistanceSquaredTo = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_distance_squared_to))
-	x.GodotVector2AngleTo = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_angle_to))
-	x.GodotVector2AngleToPoint = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_angle_to_point))
-	x.GodotVector2LinearInterpolate = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_linear_interpolate))
-	x.GodotVector2CubicInterpolate = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_cubic_interpolate))
-	x.GodotVector2Rotated = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_rotated))
-	x.GodotVector2Tangent = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_tangent))
-	x.GodotVector2Floor = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_floor))
-	x.GodotVector2Snapped = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_snapped))
-	x.GodotVector2Aspect = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_aspect))
-	x.GodotVector2Dot = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_dot))
-	x.GodotVector2Slide = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_slide))
-	x.GodotVector2Bounce = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_bounce))
-	x.GodotVector2Reflect = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_reflect))
-	x.GodotVector2Abs = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_abs))
-	x.GodotVector2Clamped = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_clamped))
-	x.GodotVector2OperatorAdd = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_add))
-	x.GodotVector2OperatorSubstract = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_substract))
-	x.GodotVector2OperatorMultiplyVector = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_multiply_vector))
-	x.GodotVector2OperatorMultiplyScalar = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_multiply_scalar))
-	x.GodotVector2OperatorDivideVector = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_divide_vector))
-	x.GodotVector2OperatorDivideScalar = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_divide_scalar))
-	x.GodotVector2OperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_equal))
-	x.GodotVector2OperatorLess = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_less))
-	x.GodotVector2OperatorNeg = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_neg))
-	x.GodotVector2SetX = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector2_set_x))
-	x.GodotVector2SetY = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector2_set_y))
-	x.GodotVector2GetX = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_get_x))
-	x.GodotVector2GetY = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_get_y))
-	x.GodotQuatNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_new))
-	x.GodotQuatNewWithAxisAngle = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_new_with_axis_angle))
-	x.GodotQuatGetX = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_get_x))
-	x.GodotQuatSetX = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_set_x))
-	x.GodotQuatGetY = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_get_y))
-	x.GodotQuatSetY = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_set_y))
-	x.GodotQuatGetZ = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_get_z))
-	x.GodotQuatSetZ = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_set_z))
-	x.GodotQuatGetW = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_get_w))
-	x.GodotQuatSetW = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_set_w))
-	x.GodotQuatAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_quat_as_string))
-	x.GodotQuatLength = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_length))
-	x.GodotQuatLengthSquared = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_length_squared))
-	x.GodotQuatNormalized = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_normalized))
-	x.GodotQuatIsNormalized = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_quat_is_normalized))
-	x.GodotQuatInverse = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_inverse))
-	x.GodotQuatDot = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_dot))
-	x.GodotQuatXform = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_quat_xform))
-	x.GodotQuatSlerp = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_slerp))
-	x.GodotQuatSlerpni = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_slerpni))
-	x.GodotQuatCubicSlerp = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_cubic_slerp))
-	x.GodotQuatOperatorMultiply = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_multiply))
-	x.GodotQuatOperatorAdd = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_add))
-	x.GodotQuatOperatorSubstract = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_substract))
-	x.GodotQuatOperatorDivide = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_divide))
-	x.GodotQuatOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_equal))
-	x.GodotQuatOperatorNeg = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_neg))
-	x.GodotBasisNewWithRows = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new_with_rows))
-	x.GodotBasisNewWithAxisAndAngle = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new_with_axis_and_angle))
-	x.GodotBasisNewWithEuler = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new_with_euler))
-	x.GodotBasisAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_basis_as_string))
-	x.GodotBasisInverse = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_inverse))
-	x.GodotBasisTransposed = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_transposed))
-	x.GodotBasisOrthonormalized = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_orthonormalized))
-	x.GodotBasisDeterminant = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_basis_determinant))
-	x.GodotBasisRotated = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_rotated))
-	x.GodotBasisScaled = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_scaled))
-	x.GodotBasisGetScale = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_get_scale))
-	x.GodotBasisGetEuler = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_get_euler))
-	x.GodotBasisTdotx = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_basis_tdotx))
-	x.GodotBasisTdoty = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_basis_tdoty))
-	x.GodotBasisTdotz = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_basis_tdotz))
-	x.GodotBasisXform = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_xform))
-	x.GodotBasisXformInv = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_xform_inv))
-	x.GodotBasisGetOrthogonalIndex = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_basis_get_orthogonal_index))
-	x.GodotBasisNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new))
-	x.GodotBasisNewWithEulerQuat = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new_with_euler_quat))
-	x.GodotBasisGetElements = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_get_elements))
-	x.GodotBasisGetAxis = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_get_axis))
-	x.GodotBasisSetAxis = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_set_axis))
-	x.GodotBasisGetRow = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_get_row))
-	x.GodotBasisSetRow = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_set_row))
-	x.GodotBasisOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_equal))
-	x.GodotBasisOperatorAdd = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_add))
-	x.GodotBasisOperatorSubstract = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_substract))
-	x.GodotBasisOperatorMultiplyVector = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_multiply_vector))
-	x.GodotBasisOperatorMultiplyScalar = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_multiply_scalar))
-	x.GodotVector3New = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector3_new))
-	x.GodotVector3AsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_vector3_as_string))
-	x.GodotVector3MinAxis = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_vector3_min_axis))
-	x.GodotVector3MaxAxis = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_vector3_max_axis))
-	x.GodotVector3Length = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_length))
-	x.GodotVector3LengthSquared = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_length_squared))
-	x.GodotVector3IsNormalized = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector3_is_normalized))
-	x.GodotVector3Normalized = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_normalized))
-	x.GodotVector3Inverse = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_inverse))
-	x.GodotVector3Snapped = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_snapped))
-	x.GodotVector3Rotated = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_rotated))
-	x.GodotVector3LinearInterpolate = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_linear_interpolate))
-	x.GodotVector3CubicInterpolate = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_cubic_interpolate))
-	x.GodotVector3Dot = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_dot))
-	x.GodotVector3Cross = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_cross))
-	x.GodotVector3Outer = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_vector3_outer))
-	x.GodotVector3ToDiagonalMatrix = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_vector3_to_diagonal_matrix))
-	x.GodotVector3Abs = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_abs))
-	x.GodotVector3Floor = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_floor))
-	x.GodotVector3Ceil = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_ceil))
-	x.GodotVector3DistanceTo = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_distance_to))
-	x.GodotVector3DistanceSquaredTo = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_distance_squared_to))
-	x.GodotVector3AngleTo = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_angle_to))
-	x.GodotVector3Slide = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_slide))
-	x.GodotVector3Bounce = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_bounce))
-	x.GodotVector3Reflect = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_reflect))
-	x.GodotVector3OperatorAdd = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_add))
-	x.GodotVector3OperatorSubstract = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_substract))
-	x.GodotVector3OperatorMultiplyVector = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_multiply_vector))
-	x.GodotVector3OperatorMultiplyScalar = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_multiply_scalar))
-	x.GodotVector3OperatorDivideVector = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_divide_vector))
-	x.GodotVector3OperatorDivideScalar = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_divide_scalar))
-	x.GodotVector3OperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_equal))
-	x.GodotVector3OperatorLess = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_less))
-	x.GodotVector3OperatorNeg = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_neg))
-	x.GodotVector3SetAxis = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector3_set_axis))
-	x.GodotVector3GetAxis = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_get_axis))
-	x.GodotPoolByteArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_new))
-	x.GodotPoolByteArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_new_copy))
-	x.GodotPoolByteArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_new_with_array))
-	x.GodotPoolByteArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_append))
-	x.GodotPoolByteArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_append_array))
-	x.GodotPoolByteArrayInsert = NewGodotErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_insert))
-	x.GodotPoolByteArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_invert))
-	x.GodotPoolByteArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_push_back))
-	x.GodotPoolByteArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_remove))
-	x.GodotPoolByteArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_resize))
-	x.GodotPoolByteArrayRead = NewGodotPoolByteArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_read))
-	x.GodotPoolByteArrayWrite = NewGodotPoolByteArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_write))
-	x.GodotPoolByteArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_set))
-	x.GodotPoolByteArrayGet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_get))
-	x.GodotPoolByteArraySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_size))
-	x.GodotPoolByteArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_destroy))
-	x.GodotPoolIntArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_new))
-	x.GodotPoolIntArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_new_copy))
-	x.GodotPoolIntArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_new_with_array))
-	x.GodotPoolIntArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_append))
-	x.GodotPoolIntArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_append_array))
-	x.GodotPoolIntArrayInsert = NewGodotErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_insert))
-	x.GodotPoolIntArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_invert))
-	x.GodotPoolIntArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_push_back))
-	x.GodotPoolIntArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_remove))
-	x.GodotPoolIntArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_resize))
-	x.GodotPoolIntArrayRead = NewGodotPoolIntArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_read))
-	x.GodotPoolIntArrayWrite = NewGodotPoolIntArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_write))
-	x.GodotPoolIntArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_set))
-	x.GodotPoolIntArrayGet = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_get))
-	x.GodotPoolIntArraySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_size))
-	x.GodotPoolIntArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_destroy))
-	x.GodotPoolRealArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_new))
-	x.GodotPoolRealArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_new_copy))
-	x.GodotPoolRealArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_new_with_array))
-	x.GodotPoolRealArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_append))
-	x.GodotPoolRealArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_append_array))
-	x.GodotPoolRealArrayInsert = NewGodotErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_insert))
-	x.GodotPoolRealArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_invert))
-	x.GodotPoolRealArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_push_back))
-	x.GodotPoolRealArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_remove))
-	x.GodotPoolRealArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_resize))
-	x.GodotPoolRealArrayRead = NewGodotPoolRealArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_read))
-	x.GodotPoolRealArrayWrite = NewGodotPoolRealArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_write))
-	x.GodotPoolRealArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_set))
-	x.GodotPoolRealArrayGet = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_get))
-	x.GodotPoolRealArraySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_size))
-	x.GodotPoolRealArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_destroy))
-	x.GodotPoolStringArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_new))
-	x.GodotPoolStringArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_new_copy))
-	x.GodotPoolStringArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_new_with_array))
-	x.GodotPoolStringArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_append))
-	x.GodotPoolStringArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_append_array))
-	x.GodotPoolStringArrayInsert = NewGodotErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_insert))
-	x.GodotPoolStringArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_invert))
-	x.GodotPoolStringArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_push_back))
-	x.GodotPoolStringArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_remove))
-	x.GodotPoolStringArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_resize))
-	x.GodotPoolStringArrayRead = NewGodotPoolStringArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_read))
-	x.GodotPoolStringArrayWrite = NewGodotPoolStringArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_write))
-	x.GodotPoolStringArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_set))
-	x.GodotPoolStringArrayGet = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_get))
-	x.GodotPoolStringArraySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_size))
-	x.GodotPoolStringArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_destroy))
-	x.GodotPoolVector2ArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_new))
-	x.GodotPoolVector2ArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_new_copy))
-	x.GodotPoolVector2ArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_new_with_array))
-	x.GodotPoolVector2ArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_append))
-	x.GodotPoolVector2ArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_append_array))
-	x.GodotPoolVector2ArrayInsert = NewGodotErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_insert))
-	x.GodotPoolVector2ArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_invert))
-	x.GodotPoolVector2ArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_push_back))
-	x.GodotPoolVector2ArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_remove))
-	x.GodotPoolVector2ArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_resize))
-	x.GodotPoolVector2ArrayRead = NewGodotPoolVector2ArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_read))
-	x.GodotPoolVector2ArrayWrite = NewGodotPoolVector2ArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_write))
-	x.GodotPoolVector2ArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_set))
-	x.GodotPoolVector2ArrayGet = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_get))
-	x.GodotPoolVector2ArraySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_size))
-	x.GodotPoolVector2ArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_destroy))
-	x.GodotPoolVector3ArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_new))
-	x.GodotPoolVector3ArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_new_copy))
-	x.GodotPoolVector3ArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_new_with_array))
-	x.GodotPoolVector3ArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_append))
-	x.GodotPoolVector3ArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_append_array))
-	x.GodotPoolVector3ArrayInsert = NewGodotErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_insert))
-	x.GodotPoolVector3ArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_invert))
-	x.GodotPoolVector3ArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_push_back))
-	x.GodotPoolVector3ArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_remove))
-	x.GodotPoolVector3ArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_resize))
-	x.GodotPoolVector3ArrayRead = NewGodotPoolVector3ArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_read))
-	x.GodotPoolVector3ArrayWrite = NewGodotPoolVector3ArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_write))
-	x.GodotPoolVector3ArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_set))
-	x.GodotPoolVector3ArrayGet = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_get))
-	x.GodotPoolVector3ArraySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_size))
-	x.GodotPoolVector3ArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_destroy))
-	x.GodotPoolColorArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_new))
-	x.GodotPoolColorArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_new_copy))
-	x.GodotPoolColorArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_new_with_array))
-	x.GodotPoolColorArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_append))
-	x.GodotPoolColorArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_append_array))
-	x.GodotPoolColorArrayInsert = NewGodotErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_insert))
-	x.GodotPoolColorArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_invert))
-	x.GodotPoolColorArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_push_back))
-	x.GodotPoolColorArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_remove))
-	x.GodotPoolColorArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_resize))
-	x.GodotPoolColorArrayRead = NewGodotPoolColorArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_read))
-	x.GodotPoolColorArrayWrite = NewGodotPoolColorArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_write))
-	x.GodotPoolColorArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_set))
-	x.GodotPoolColorArrayGet = NewGodotColorRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_get))
-	x.GodotPoolColorArraySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_size))
-	x.GodotPoolColorArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_destroy))
-	x.GodotPoolByteArrayReadAccessPtr = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_read_access_ptr))
-	x.GodotPoolByteArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_read_access_operator_assign))
-	x.GodotPoolByteArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_read_access_destroy))
-	x.GodotPoolIntArrayReadAccessPtr = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_read_access_ptr))
-	x.GodotPoolIntArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_read_access_operator_assign))
-	x.GodotPoolIntArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_read_access_destroy))
-	x.GodotPoolRealArrayReadAccessPtr = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_read_access_ptr))
-	x.GodotPoolRealArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_read_access_operator_assign))
-	x.GodotPoolRealArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_read_access_destroy))
-	x.GodotPoolStringArrayReadAccessPtr = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_read_access_ptr))
-	x.GodotPoolStringArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_read_access_operator_assign))
-	x.GodotPoolStringArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_read_access_destroy))
-	x.GodotPoolVector2ArrayReadAccessPtr = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_read_access_ptr))
-	x.GodotPoolVector2ArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_read_access_operator_assign))
-	x.GodotPoolVector2ArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_read_access_destroy))
-	x.GodotPoolVector3ArrayReadAccessPtr = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_read_access_ptr))
-	x.GodotPoolVector3ArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_read_access_operator_assign))
-	x.GodotPoolVector3ArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_read_access_destroy))
-	x.GodotPoolColorArrayReadAccessPtr = NewGodotColorRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_read_access_ptr))
-	x.GodotPoolColorArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_read_access_operator_assign))
-	x.GodotPoolColorArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_read_access_destroy))
-	x.GodotPoolByteArrayWriteAccessPtr = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_write_access_ptr))
-	x.GodotPoolByteArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_write_access_operator_assign))
-	x.GodotPoolByteArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_write_access_destroy))
-	x.GodotPoolIntArrayWriteAccessPtr = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_write_access_ptr))
-	x.GodotPoolIntArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_write_access_operator_assign))
-	x.GodotPoolIntArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_write_access_destroy))
-	x.GodotPoolRealArrayWriteAccessPtr = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_write_access_ptr))
-	x.GodotPoolRealArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_write_access_operator_assign))
-	x.GodotPoolRealArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_write_access_destroy))
-	x.GodotPoolStringArrayWriteAccessPtr = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_write_access_ptr))
-	x.GodotPoolStringArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_write_access_operator_assign))
-	x.GodotPoolStringArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_write_access_destroy))
-	x.GodotPoolVector2ArrayWriteAccessPtr = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_write_access_ptr))
-	x.GodotPoolVector2ArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_write_access_operator_assign))
-	x.GodotPoolVector2ArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_write_access_destroy))
-	x.GodotPoolVector3ArrayWriteAccessPtr = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_write_access_ptr))
-	x.GodotPoolVector3ArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_write_access_operator_assign))
-	x.GodotPoolVector3ArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_write_access_destroy))
-	x.GodotPoolColorArrayWriteAccessPtr = NewGodotColorRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_write_access_ptr))
-	x.GodotPoolColorArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_write_access_operator_assign))
-	x.GodotPoolColorArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_write_access_destroy))
-	x.GodotArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new))
-	x.GodotArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_copy))
-	x.GodotArrayNewPoolColorArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_color_array))
-	x.GodotArrayNewPoolVector3Array = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_vector3_array))
-	x.GodotArrayNewPoolVector2Array = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_vector2_array))
-	x.GodotArrayNewPoolStringArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_string_array))
-	x.GodotArrayNewPoolRealArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_real_array))
-	x.GodotArrayNewPoolIntArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_int_array))
-	x.GodotArrayNewPoolByteArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_byte_array))
-	x.GodotArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_set))
-	x.GodotArrayGet = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_get))
-	x.GodotArrayOperatorIndex = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_operator_index))
-	x.GodotArrayOperatorIndexConst = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_operator_index_const))
-	x.GodotArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_append))
-	x.GodotArrayClear = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_clear))
-	x.GodotArrayCount = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_array_count))
-	x.GodotArrayEmpty = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_array_empty))
-	x.GodotArrayErase = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_erase))
-	x.GodotArrayFront = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_front))
-	x.GodotArrayBack = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_back))
-	x.GodotArrayFind = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_array_find))
-	x.GodotArrayFindLast = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_array_find_last))
-	x.GodotArrayHas = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_array_has))
-	x.GodotArrayHash = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_array_hash))
-	x.GodotArrayInsert = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_insert))
-	x.GodotArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_invert))
-	x.GodotArrayPopBack = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_pop_back))
-	x.GodotArrayPopFront = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_pop_front))
-	x.GodotArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_push_back))
-	x.GodotArrayPushFront = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_push_front))
-	x.GodotArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_remove))
-	x.GodotArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_resize))
-	x.GodotArrayRfind = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_array_rfind))
-	x.GodotArraySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_array_size))
-	x.GodotArraySort = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_sort))
-	x.GodotArraySortCustom = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_sort_custom))
-	x.GodotArrayBsearch = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_array_bsearch))
-	x.GodotArrayBsearchCustom = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_array_bsearch_custom))
-	x.GodotArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_destroy))
-	x.GodotDictionaryNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_new))
-	x.GodotDictionaryNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_new_copy))
-	x.GodotDictionaryDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_destroy))
-	x.GodotDictionarySize = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_size))
-	x.GodotDictionaryEmpty = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_empty))
-	x.GodotDictionaryClear = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_clear))
-	x.GodotDictionaryHas = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_has))
-	x.GodotDictionaryHasAll = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_has_all))
-	x.GodotDictionaryErase = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_erase))
-	x.GodotDictionaryHash = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_hash))
-	x.GodotDictionaryKeys = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_keys))
-	x.GodotDictionaryValues = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_values))
-	x.GodotDictionaryGet = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_get))
-	x.GodotDictionarySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_set))
-	x.GodotDictionaryOperatorIndex = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_operator_index))
-	x.GodotDictionaryOperatorIndexConst = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_operator_index_const))
-	x.GodotDictionaryNext = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_next))
-	x.GodotDictionaryOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_operator_equal))
-	x.GodotDictionaryToJson = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_to_json))
-	x.GodotNodePathNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_node_path_new))
-	x.GodotNodePathNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_node_path_new_copy))
-	x.GodotNodePathDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_node_path_destroy))
-	x.GodotNodePathAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_node_path_as_string))
-	x.GodotNodePathIsAbsolute = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_node_path_is_absolute))
-	x.GodotNodePathGetNameCount = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_name_count))
-	x.GodotNodePathGetName = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_name))
-	x.GodotNodePathGetSubnameCount = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_subname_count))
-	x.GodotNodePathGetSubname = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_subname))
-	x.GodotNodePathGetConcatenatedSubnames = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_concatenated_subnames))
-	x.GodotNodePathIsEmpty = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_node_path_is_empty))
-	x.GodotNodePathOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_node_path_operator_equal))
-	x.GodotPlaneNewWithReals = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_new_with_reals))
-	x.GodotPlaneNewWithVectors = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_new_with_vectors))
-	x.GodotPlaneNewWithNormal = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_new_with_normal))
-	x.GodotPlaneAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_plane_as_string))
-	x.GodotPlaneNormalized = NewGodotPlaneRef(unsafe.Pointer(x.ref57717e51.godot_plane_normalized))
-	x.GodotPlaneCenter = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_plane_center))
-	x.GodotPlaneGetAnyPoint = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_plane_get_any_point))
-	x.GodotPlaneIsPointOver = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_is_point_over))
-	x.GodotPlaneDistanceTo = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_plane_distance_to))
-	x.GodotPlaneHasPoint = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_has_point))
-	x.GodotPlaneProject = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_plane_project))
-	x.GodotPlaneIntersect3 = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_intersect_3))
-	x.GodotPlaneIntersectsRay = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_intersects_ray))
-	x.GodotPlaneIntersectsSegment = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_intersects_segment))
-	x.GodotPlaneOperatorNeg = NewGodotPlaneRef(unsafe.Pointer(x.ref57717e51.godot_plane_operator_neg))
-	x.GodotPlaneOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_operator_equal))
-	x.GodotPlaneSetNormal = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_set_normal))
-	x.GodotPlaneGetNormal = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_plane_get_normal))
-	x.GodotPlaneGetD = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_plane_get_d))
-	x.GodotPlaneSetD = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_set_d))
-	x.GodotRect2NewWithPositionAndSize = NewRef(unsafe.Pointer(x.ref57717e51.godot_rect2_new_with_position_and_size))
-	x.GodotRect2New = NewRef(unsafe.Pointer(x.ref57717e51.godot_rect2_new))
-	x.GodotRect2AsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_rect2_as_string))
-	x.GodotRect2GetArea = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_rect2_get_area))
-	x.GodotRect2Intersects = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_intersects))
-	x.GodotRect2Encloses = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_encloses))
-	x.GodotRect2HasNoArea = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_has_no_area))
-	x.GodotRect2Clip = NewGodotRect2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_clip))
-	x.GodotRect2Merge = NewGodotRect2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_merge))
-	x.GodotRect2HasPoint = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_has_point))
-	x.GodotRect2Grow = NewGodotRect2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_grow))
-	x.GodotRect2Expand = NewGodotRect2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_expand))
-	x.GodotRect2OperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_operator_equal))
-	x.GodotRect2GetPosition = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_get_position))
-	x.GodotRect2GetSize = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_get_size))
-	x.GodotRect2SetPosition = NewRef(unsafe.Pointer(x.ref57717e51.godot_rect2_set_position))
-	x.GodotRect2SetSize = NewRef(unsafe.Pointer(x.ref57717e51.godot_rect2_set_size))
-	x.GodotAabbNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_aabb_new))
-	x.GodotAabbGetPosition = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_position))
-	x.GodotAabbSetPosition = NewRef(unsafe.Pointer(x.ref57717e51.godot_aabb_set_position))
-	x.GodotAabbGetSize = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_size))
-	x.GodotAabbSetSize = NewRef(unsafe.Pointer(x.ref57717e51.godot_aabb_set_size))
-	x.GodotAabbAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_aabb_as_string))
-	x.GodotAabbGetArea = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_area))
-	x.GodotAabbHasNoArea = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_has_no_area))
-	x.GodotAabbHasNoSurface = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_has_no_surface))
-	x.GodotAabbIntersects = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_intersects))
-	x.GodotAabbEncloses = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_encloses))
-	x.GodotAabbMerge = NewGodotAabbRef(unsafe.Pointer(x.ref57717e51.godot_aabb_merge))
-	x.GodotAabbIntersection = NewGodotAabbRef(unsafe.Pointer(x.ref57717e51.godot_aabb_intersection))
-	x.GodotAabbIntersectsPlane = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_intersects_plane))
-	x.GodotAabbIntersectsSegment = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_intersects_segment))
-	x.GodotAabbHasPoint = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_has_point))
-	x.GodotAabbGetSupport = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_support))
-	x.GodotAabbGetLongestAxis = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_longest_axis))
-	x.GodotAabbGetLongestAxisIndex = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_longest_axis_index))
-	x.GodotAabbGetLongestAxisSize = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_longest_axis_size))
-	x.GodotAabbGetShortestAxis = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_shortest_axis))
-	x.GodotAabbGetShortestAxisIndex = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_shortest_axis_index))
-	x.GodotAabbGetShortestAxisSize = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_shortest_axis_size))
-	x.GodotAabbExpand = NewGodotAabbRef(unsafe.Pointer(x.ref57717e51.godot_aabb_expand))
-	x.GodotAabbGrow = NewGodotAabbRef(unsafe.Pointer(x.ref57717e51.godot_aabb_grow))
-	x.GodotAabbGetEndpoint = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_endpoint))
-	x.GodotAabbOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_operator_equal))
-	x.GodotRidNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_rid_new))
-	x.GodotRidGetId = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_rid_get_id))
-	x.GodotRidNewWithResource = NewRef(unsafe.Pointer(x.ref57717e51.godot_rid_new_with_resource))
-	x.GodotRidOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_rid_operator_equal))
-	x.GodotRidOperatorLess = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_rid_operator_less))
-	x.GodotTransformNewWithAxisOrigin = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_new_with_axis_origin))
-	x.GodotTransformNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_new))
-	x.GodotTransformGetBasis = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_transform_get_basis))
-	x.GodotTransformSetBasis = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_set_basis))
-	x.GodotTransformGetOrigin = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_transform_get_origin))
-	x.GodotTransformSetOrigin = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_set_origin))
-	x.GodotTransformAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_transform_as_string))
-	x.GodotTransformInverse = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_inverse))
-	x.GodotTransformAffineInverse = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_affine_inverse))
-	x.GodotTransformOrthonormalized = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_orthonormalized))
-	x.GodotTransformRotated = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_rotated))
-	x.GodotTransformScaled = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_scaled))
-	x.GodotTransformTranslated = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_translated))
-	x.GodotTransformLookingAt = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_looking_at))
-	x.GodotTransformXformPlane = NewGodotPlaneRef(unsafe.Pointer(x.ref57717e51.godot_transform_xform_plane))
-	x.GodotTransformXformInvPlane = NewGodotPlaneRef(unsafe.Pointer(x.ref57717e51.godot_transform_xform_inv_plane))
-	x.GodotTransformNewIdentity = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_new_identity))
-	x.GodotTransformOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_transform_operator_equal))
-	x.GodotTransformOperatorMultiply = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_operator_multiply))
-	x.GodotTransformXformVector3 = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_transform_xform_vector3))
-	x.GodotTransformXformInvVector3 = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_transform_xform_inv_vector3))
-	x.GodotTransformXformAabb = NewGodotAabbRef(unsafe.Pointer(x.ref57717e51.godot_transform_xform_aabb))
-	x.GodotTransformXformInvAabb = NewGodotAabbRef(unsafe.Pointer(x.ref57717e51.godot_transform_xform_inv_aabb))
-	x.GodotTransform2dNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_new))
-	x.GodotTransform2dNewAxisOrigin = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_new_axis_origin))
-	x.GodotTransform2dAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_as_string))
-	x.GodotTransform2dInverse = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_inverse))
-	x.GodotTransform2dAffineInverse = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_affine_inverse))
-	x.GodotTransform2dGetRotation = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_get_rotation))
-	x.GodotTransform2dGetOrigin = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_get_origin))
-	x.GodotTransform2dGetScale = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_get_scale))
-	x.GodotTransform2dOrthonormalized = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_orthonormalized))
-	x.GodotTransform2dRotated = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_rotated))
-	x.GodotTransform2dScaled = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_scaled))
-	x.GodotTransform2dTranslated = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_translated))
-	x.GodotTransform2dXformVector2 = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_xform_vector2))
-	x.GodotTransform2dXformInvVector2 = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_xform_inv_vector2))
-	x.GodotTransform2dBasisXformVector2 = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_basis_xform_vector2))
-	x.GodotTransform2dBasisXformInvVector2 = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_basis_xform_inv_vector2))
-	x.GodotTransform2dInterpolateWith = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_interpolate_with))
-	x.GodotTransform2dOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_operator_equal))
-	x.GodotTransform2dOperatorMultiply = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_operator_multiply))
-	x.GodotTransform2dNewIdentity = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_new_identity))
-	x.GodotTransform2dXformRect2 = NewGodotRect2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_xform_rect2))
-	x.GodotTransform2dXformInvRect2 = NewGodotRect2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_xform_inv_rect2))
-	x.GodotVariantGetType = NewGodotVariantTypeRef(unsafe.Pointer(x.ref57717e51.godot_variant_get_type))
-	x.GodotVariantNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_copy))
-	x.GodotVariantNewNil = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_nil))
-	x.GodotVariantNewBool = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_bool))
-	x.GodotVariantNewUint = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_uint))
-	x.GodotVariantNewInt = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_int))
-	x.GodotVariantNewReal = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_real))
-	x.GodotVariantNewString = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_string))
-	x.GodotVariantNewVector2 = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_vector2))
-	x.GodotVariantNewRect2 = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_rect2))
-	x.GodotVariantNewVector3 = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_vector3))
-	x.GodotVariantNewTransform2d = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_transform2d))
-	x.GodotVariantNewPlane = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_plane))
-	x.GodotVariantNewQuat = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_quat))
-	x.GodotVariantNewAabb = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_aabb))
-	x.GodotVariantNewBasis = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_basis))
-	x.GodotVariantNewTransform = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_transform))
-	x.GodotVariantNewColor = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_color))
-	x.GodotVariantNewNodePath = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_node_path))
-	x.GodotVariantNewRid = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_rid))
-	x.GodotVariantNewObject = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_object))
-	x.GodotVariantNewDictionary = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_dictionary))
-	x.GodotVariantNewArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_array))
-	x.GodotVariantNewPoolByteArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_byte_array))
-	x.GodotVariantNewPoolIntArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_int_array))
-	x.GodotVariantNewPoolRealArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_real_array))
-	x.GodotVariantNewPoolStringArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_string_array))
-	x.GodotVariantNewPoolVector2Array = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_vector2_array))
-	x.GodotVariantNewPoolVector3Array = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_vector3_array))
-	x.GodotVariantNewPoolColorArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_color_array))
-	x.GodotVariantAsBool = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_bool))
-	x.GodotVariantAsUint = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_uint))
-	x.GodotVariantAsInt = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_int))
-	x.GodotVariantAsReal = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_real))
-	x.GodotVariantAsString = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_string))
-	x.GodotVariantAsVector2 = NewGodotVector2Ref(unsafe.Pointer(x.ref57717e51.godot_variant_as_vector2))
-	x.GodotVariantAsRect2 = NewGodotRect2Ref(unsafe.Pointer(x.ref57717e51.godot_variant_as_rect2))
-	x.GodotVariantAsVector3 = NewGodotVector3Ref(unsafe.Pointer(x.ref57717e51.godot_variant_as_vector3))
-	x.GodotVariantAsTransform2d = NewGodotTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_transform2d))
-	x.GodotVariantAsPlane = NewGodotPlaneRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_plane))
-	x.GodotVariantAsQuat = NewGodotQuatRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_quat))
-	x.GodotVariantAsAabb = NewGodotAabbRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_aabb))
-	x.GodotVariantAsBasis = NewGodotBasisRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_basis))
-	x.GodotVariantAsTransform = NewGodotTransformRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_transform))
-	x.GodotVariantAsColor = NewGodotColorRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_color))
-	x.GodotVariantAsNodePath = NewGodotNodePathRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_node_path))
-	x.GodotVariantAsRid = NewGodotRidRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_rid))
-	x.GodotVariantAsObject = NewGodotObjectRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_object))
-	x.GodotVariantAsDictionary = NewGodotDictionaryRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_dictionary))
-	x.GodotVariantAsArray = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_array))
-	x.GodotVariantAsPoolByteArray = NewGodotPoolByteArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_byte_array))
-	x.GodotVariantAsPoolIntArray = NewGodotPoolIntArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_int_array))
-	x.GodotVariantAsPoolRealArray = NewGodotPoolRealArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_real_array))
-	x.GodotVariantAsPoolStringArray = NewGodotPoolStringArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_string_array))
-	x.GodotVariantAsPoolVector2Array = NewGodotPoolVector2ArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_vector2_array))
-	x.GodotVariantAsPoolVector3Array = NewGodotPoolVector3ArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_vector3_array))
-	x.GodotVariantAsPoolColorArray = NewGodotPoolColorArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_color_array))
-	x.GodotVariantCall = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_variant_call))
-	x.GodotVariantHasMethod = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_has_method))
-	x.GodotVariantOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_operator_equal))
-	x.GodotVariantOperatorLess = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_operator_less))
-	x.GodotVariantHashCompare = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_hash_compare))
-	x.GodotVariantBooleanize = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_booleanize))
-	x.GodotVariantDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_destroy))
-	x.GodotStringNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_new))
-	x.GodotStringNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_new_copy))
-	x.GodotStringNewData = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_new_data))
-	x.GodotStringNewUnicodeData = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_new_unicode_data))
-	x.GodotStringGetData = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_get_data))
-	x.GodotStringOperatorIndex = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_index))
-	x.GodotStringOperatorIndexConst = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_index_const))
-	x.GodotStringUnicodeStr = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_unicode_str))
-	x.GodotStringOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_equal))
-	x.GodotStringOperatorLess = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_less))
-	x.GodotStringOperatorPlus = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_plus))
-	x.GodotStringLength = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_length))
-	x.GodotStringBeginsWith = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_begins_with))
-	x.GodotStringBeginsWithCharArray = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_begins_with_char_array))
-	x.GodotStringBigrams = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_bigrams))
-	x.GodotStringChr = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_chr))
-	x.GodotStringEndsWith = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_ends_with))
-	x.GodotStringFind = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_find))
-	x.GodotStringFindFrom = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_find_from))
-	x.GodotStringFindmk = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findmk))
-	x.GodotStringFindmkFrom = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findmk_from))
-	x.GodotStringFindmkFromInPlace = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findmk_from_in_place))
-	x.GodotStringFindn = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findn))
-	x.GodotStringFindnFrom = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findn_from))
-	x.GodotStringFindLast = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_find_last))
-	x.GodotStringFormat = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_format))
-	x.GodotStringFormatWithCustomPlaceholder = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_format_with_custom_placeholder))
-	x.GodotStringHexEncodeBuffer = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_encode_buffer))
-	x.GodotStringHexToInt = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_to_int))
-	x.GodotStringHexToIntWithoutPrefix = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_to_int_without_prefix))
-	x.GodotStringInsert = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_insert))
-	x.GodotStringIsNumeric = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_numeric))
-	x.GodotStringIsSubsequenceOf = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_subsequence_of))
-	x.GodotStringIsSubsequenceOfi = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_subsequence_ofi))
-	x.GodotStringLpad = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_lpad))
-	x.GodotStringLpadWithCustomCharacter = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_lpad_with_custom_character))
-	x.GodotStringMatch = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_match))
-	x.GodotStringMatchn = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_matchn))
-	x.GodotStringMd5 = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_md5))
-	x.GodotStringNum = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num))
-	x.GodotStringNumInt64 = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_int64))
-	x.GodotStringNumInt64Capitalized = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_int64_capitalized))
-	x.GodotStringNumReal = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_real))
-	x.GodotStringNumScientific = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_scientific))
-	x.GodotStringNumWithDecimals = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_with_decimals))
-	x.GodotStringPadDecimals = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_pad_decimals))
-	x.GodotStringPadZeros = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_pad_zeros))
-	x.GodotStringReplaceFirst = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_replace_first))
-	x.GodotStringReplace = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_replace))
-	x.GodotStringReplacen = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_replacen))
-	x.GodotStringRfind = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_rfind))
-	x.GodotStringRfindn = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_rfindn))
-	x.GodotStringRfindFrom = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_rfind_from))
-	x.GodotStringRfindnFrom = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_rfindn_from))
-	x.GodotStringRpad = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_rpad))
-	x.GodotStringRpadWithCustomCharacter = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_rpad_with_custom_character))
-	x.GodotStringSimilarity = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_string_similarity))
-	x.GodotStringSprintf = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_sprintf))
-	x.GodotStringSubstr = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_substr))
-	x.GodotStringToDouble = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_to_double))
-	x.GodotStringToFloat = NewGodotRealRef(unsafe.Pointer(x.ref57717e51.godot_string_to_float))
-	x.GodotStringToInt = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_to_int))
-	x.GodotStringCamelcaseToUnderscore = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_camelcase_to_underscore))
-	x.GodotStringCamelcaseToUnderscoreLowercased = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_camelcase_to_underscore_lowercased))
-	x.GodotStringCapitalize = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_capitalize))
-	x.GodotStringCharToDouble = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_char_to_double))
-	x.GodotStringCharToInt = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_char_to_int))
-	x.GodotStringWcharToInt = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_wchar_to_int))
-	x.GodotStringCharToIntWithLen = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_char_to_int_with_len))
-	x.GodotStringCharToInt64WithLen = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_char_to_int64_with_len))
-	x.GodotStringHexToInt64 = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_to_int64))
-	x.GodotStringHexToInt64WithPrefix = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_to_int64_with_prefix))
-	x.GodotStringToInt64 = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_to_int64))
-	x.GodotStringUnicodeCharToDouble = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_unicode_char_to_double))
-	x.GodotStringGetSliceCount = NewGodotIntRef(unsafe.Pointer(x.ref57717e51.godot_string_get_slice_count))
-	x.GodotStringGetSlice = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_slice))
-	x.GodotStringGetSlicec = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_slicec))
-	x.GodotStringSplit = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split))
-	x.GodotStringSplitAllowEmpty = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_allow_empty))
-	x.GodotStringSplitFloats = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_floats))
-	x.GodotStringSplitFloatsAllowsEmpty = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_floats_allows_empty))
-	x.GodotStringSplitFloatsMk = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_floats_mk))
-	x.GodotStringSplitFloatsMkAllowsEmpty = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_floats_mk_allows_empty))
-	x.GodotStringSplitInts = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_ints))
-	x.GodotStringSplitIntsAllowsEmpty = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_ints_allows_empty))
-	x.GodotStringSplitIntsMk = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_ints_mk))
-	x.GodotStringSplitIntsMkAllowsEmpty = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_ints_mk_allows_empty))
-	x.GodotStringSplitSpaces = NewGodotArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_spaces))
-	x.GodotStringCharLowercase = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_char_lowercase))
-	x.GodotStringCharUppercase = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_char_uppercase))
-	x.GodotStringToLower = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_to_lower))
-	x.GodotStringToUpper = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_to_upper))
-	x.GodotStringGetBasename = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_basename))
-	x.GodotStringGetExtension = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_extension))
-	x.GodotStringLeft = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_left))
-	x.GodotStringOrdAt = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_ord_at))
-	x.GodotStringPlusFile = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_plus_file))
-	x.GodotStringRight = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_right))
-	x.GodotStringStripEdges = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_strip_edges))
-	x.GodotStringStripEscapes = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_strip_escapes))
-	x.GodotStringErase = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_erase))
-	x.GodotStringAscii = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_ascii))
-	x.GodotStringAsciiExtended = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_ascii_extended))
-	x.GodotStringUtf8 = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_utf8))
-	x.GodotStringParseUtf8 = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_parse_utf8))
-	x.GodotStringParseUtf8WithLen = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_parse_utf8_with_len))
-	x.GodotStringCharsToUtf8 = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_chars_to_utf8))
-	x.GodotStringCharsToUtf8WithLen = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_chars_to_utf8_with_len))
-	x.GodotStringHash = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash))
-	x.GodotStringHash64 = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash64))
-	x.GodotStringHashChars = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash_chars))
-	x.GodotStringHashCharsWithLen = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash_chars_with_len))
-	x.GodotStringHashUtf8Chars = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash_utf8_chars))
-	x.GodotStringHashUtf8CharsWithLen = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash_utf8_chars_with_len))
-	x.GodotStringMd5Buffer = NewGodotPoolByteArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_md5_buffer))
-	x.GodotStringMd5Text = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_md5_text))
-	x.GodotStringSha256Buffer = NewGodotPoolByteArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_sha256_buffer))
-	x.GodotStringSha256Text = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_sha256_text))
-	x.GodotStringEmpty = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_empty))
-	x.GodotStringGetBaseDir = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_base_dir))
-	x.GodotStringGetFile = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_file))
-	x.GodotStringHumanizeSize = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_humanize_size))
-	x.GodotStringIsAbsPath = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_abs_path))
-	x.GodotStringIsRelPath = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_rel_path))
-	x.GodotStringIsResourceFile = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_resource_file))
-	x.GodotStringPathTo = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_path_to))
-	x.GodotStringPathToFile = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_path_to_file))
-	x.GodotStringSimplifyPath = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_simplify_path))
-	x.GodotStringCEscape = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_c_escape))
-	x.GodotStringCEscapeMultiline = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_c_escape_multiline))
-	x.GodotStringCUnescape = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_c_unescape))
-	x.GodotStringHttpEscape = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_http_escape))
-	x.GodotStringHttpUnescape = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_http_unescape))
-	x.GodotStringJsonEscape = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_json_escape))
-	x.GodotStringWordWrap = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_word_wrap))
-	x.GodotStringXmlEscape = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_xml_escape))
-	x.GodotStringXmlEscapeWithQuotes = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_xml_escape_with_quotes))
-	x.GodotStringXmlUnescape = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_xml_unescape))
-	x.GodotStringPercentDecode = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_percent_decode))
-	x.GodotStringPercentEncode = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_percent_encode))
-	x.GodotStringIsValidFloat = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_float))
-	x.GodotStringIsValidHexNumber = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_hex_number))
-	x.GodotStringIsValidHtmlColor = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_html_color))
-	x.GodotStringIsValidIdentifier = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_identifier))
-	x.GodotStringIsValidInteger = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_integer))
-	x.GodotStringIsValidIpAddress = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_ip_address))
-	x.GodotStringDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_destroy))
-	x.GodotStringNameNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_new))
-	x.GodotStringNameNewData = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_new_data))
-	x.GodotStringNameGetName = NewGodotStringRef(unsafe.Pointer(x.ref57717e51.godot_string_name_get_name))
-	x.GodotStringNameGetHash = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_get_hash))
-	x.GodotStringNameGetDataUniquePointer = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_get_data_unique_pointer))
-	x.GodotStringNameOperatorEqual = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_name_operator_equal))
-	x.GodotStringNameOperatorLess = NewGodotBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_name_operator_less))
-	x.GodotStringNameDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_destroy))
-	x.GodotObjectDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_object_destroy))
-	x.GodotGlobalGetSingleton = NewGodotObjectRef(unsafe.Pointer(x.ref57717e51.godot_global_get_singleton))
-	x.GodotMethodBindGetMethod = NewGodotMethodBindRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_get_method))
-	x.GodotMethodBindPtrcall = NewRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_ptrcall))
-	x.GodotMethodBindCall = NewGodotVariantRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_call))
-	x.GodotGetClassConstructor = *NewGodotClassConstructorRef(unsafe.Pointer(&x.ref57717e51.godot_get_class_constructor))
-	x.GodotRegisterNativeCallType = NewRef(unsafe.Pointer(x.ref57717e51.godot_register_native_call_type))
-	x.GodotAlloc = NewRef(unsafe.Pointer(x.ref57717e51.godot_alloc))
-	x.GodotRealloc = NewRef(unsafe.Pointer(x.ref57717e51.godot_realloc))
-	x.GodotFree = NewRef(unsafe.Pointer(x.ref57717e51.godot_free))
-	x.GodotPrintError = NewRef(unsafe.Pointer(x.ref57717e51.godot_print_error))
-	x.GodotPrintWarning = NewRef(unsafe.Pointer(x.ref57717e51.godot_print_warning))
-	x.GodotPrint = NewRef(unsafe.Pointer(x.ref57717e51.godot_print))
+	packSSGdnativeApiStruct(x.Extensions, x.ref57717e51.extensions)
+	x.ColorNewRgba = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_new_rgba))
+	x.ColorNewRgb = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_new_rgb))
+	x.ColorGetR = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_r))
+	x.ColorSetR = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_set_r))
+	x.ColorGetG = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_g))
+	x.ColorSetG = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_set_g))
+	x.ColorGetB = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_b))
+	x.ColorSetB = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_set_b))
+	x.ColorGetA = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_a))
+	x.ColorSetA = NewRef(unsafe.Pointer(x.ref57717e51.godot_color_set_a))
+	x.ColorGetH = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_h))
+	x.ColorGetS = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_s))
+	x.ColorGetV = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_color_get_v))
+	x.ColorAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_color_as_string))
+	x.ColorToRgba32 = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_color_to_rgba32))
+	x.ColorToArgb32 = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_color_to_argb32))
+	x.ColorGray = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_color_gray))
+	x.ColorInverted = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_color_inverted))
+	x.ColorContrasted = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_color_contrasted))
+	x.ColorLinearInterpolate = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_color_linear_interpolate))
+	x.ColorBlend = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_color_blend))
+	x.ColorToHtml = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_color_to_html))
+	x.ColorOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_color_operator_equal))
+	x.ColorOperatorLess = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_color_operator_less))
+	x.Vector2New = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector2_new))
+	x.Vector2AsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_vector2_as_string))
+	x.Vector2Normalized = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_normalized))
+	x.Vector2Length = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_length))
+	x.Vector2Angle = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_angle))
+	x.Vector2LengthSquared = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_length_squared))
+	x.Vector2IsNormalized = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector2_is_normalized))
+	x.Vector2DistanceTo = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_distance_to))
+	x.Vector2DistanceSquaredTo = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_distance_squared_to))
+	x.Vector2AngleTo = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_angle_to))
+	x.Vector2AngleToPoint = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_angle_to_point))
+	x.Vector2LinearInterpolate = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_linear_interpolate))
+	x.Vector2CubicInterpolate = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_cubic_interpolate))
+	x.Vector2Rotated = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_rotated))
+	x.Vector2Tangent = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_tangent))
+	x.Vector2Floor = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_floor))
+	x.Vector2Snapped = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_snapped))
+	x.Vector2Aspect = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_aspect))
+	x.Vector2Dot = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_dot))
+	x.Vector2Slide = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_slide))
+	x.Vector2Bounce = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_bounce))
+	x.Vector2Reflect = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_reflect))
+	x.Vector2Abs = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_abs))
+	x.Vector2Clamped = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_clamped))
+	x.Vector2OperatorAdd = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_add))
+	x.Vector2OperatorSubstract = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_substract))
+	x.Vector2OperatorMultiplyVector = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_multiply_vector))
+	x.Vector2OperatorMultiplyScalar = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_multiply_scalar))
+	x.Vector2OperatorDivideVector = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_divide_vector))
+	x.Vector2OperatorDivideScalar = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_divide_scalar))
+	x.Vector2OperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_equal))
+	x.Vector2OperatorLess = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_less))
+	x.Vector2OperatorNeg = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_neg))
+	x.Vector2SetX = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector2_set_x))
+	x.Vector2SetY = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector2_set_y))
+	x.Vector2GetX = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_get_x))
+	x.Vector2GetY = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector2_get_y))
+	x.QuatNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_new))
+	x.QuatNewWithAxisAngle = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_new_with_axis_angle))
+	x.QuatGetX = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_get_x))
+	x.QuatSetX = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_set_x))
+	x.QuatGetY = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_get_y))
+	x.QuatSetY = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_set_y))
+	x.QuatGetZ = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_get_z))
+	x.QuatSetZ = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_set_z))
+	x.QuatGetW = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_get_w))
+	x.QuatSetW = NewRef(unsafe.Pointer(x.ref57717e51.godot_quat_set_w))
+	x.QuatAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_quat_as_string))
+	x.QuatLength = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_length))
+	x.QuatLengthSquared = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_length_squared))
+	x.QuatNormalized = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_normalized))
+	x.QuatIsNormalized = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_quat_is_normalized))
+	x.QuatInverse = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_inverse))
+	x.QuatDot = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_quat_dot))
+	x.QuatXform = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_quat_xform))
+	x.QuatSlerp = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_slerp))
+	x.QuatSlerpni = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_slerpni))
+	x.QuatCubicSlerp = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_cubic_slerp))
+	x.QuatOperatorMultiply = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_multiply))
+	x.QuatOperatorAdd = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_add))
+	x.QuatOperatorSubstract = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_substract))
+	x.QuatOperatorDivide = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_divide))
+	x.QuatOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_equal))
+	x.QuatOperatorNeg = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_neg))
+	x.BasisNewWithRows = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new_with_rows))
+	x.BasisNewWithAxisAndAngle = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new_with_axis_and_angle))
+	x.BasisNewWithEuler = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new_with_euler))
+	x.BasisAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_basis_as_string))
+	x.BasisInverse = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_inverse))
+	x.BasisTransposed = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_transposed))
+	x.BasisOrthonormalized = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_orthonormalized))
+	x.BasisDeterminant = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_basis_determinant))
+	x.BasisRotated = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_rotated))
+	x.BasisScaled = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_scaled))
+	x.BasisGetScale = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_get_scale))
+	x.BasisGetEuler = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_get_euler))
+	x.BasisTdotx = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_basis_tdotx))
+	x.BasisTdoty = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_basis_tdoty))
+	x.BasisTdotz = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_basis_tdotz))
+	x.BasisXform = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_xform))
+	x.BasisXformInv = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_xform_inv))
+	x.BasisGetOrthogonalIndex = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_basis_get_orthogonal_index))
+	x.BasisNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new))
+	x.BasisNewWithEulerQuat = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_new_with_euler_quat))
+	x.BasisGetElements = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_get_elements))
+	x.BasisGetAxis = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_get_axis))
+	x.BasisSetAxis = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_set_axis))
+	x.BasisGetRow = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_basis_get_row))
+	x.BasisSetRow = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_set_row))
+	x.BasisOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_equal))
+	x.BasisOperatorAdd = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_add))
+	x.BasisOperatorSubstract = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_substract))
+	x.BasisOperatorMultiplyVector = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_multiply_vector))
+	x.BasisOperatorMultiplyScalar = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_multiply_scalar))
+	x.Vector3New = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector3_new))
+	x.Vector3AsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_vector3_as_string))
+	x.Vector3MinAxis = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_vector3_min_axis))
+	x.Vector3MaxAxis = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_vector3_max_axis))
+	x.Vector3Length = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_length))
+	x.Vector3LengthSquared = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_length_squared))
+	x.Vector3IsNormalized = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector3_is_normalized))
+	x.Vector3Normalized = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_normalized))
+	x.Vector3Inverse = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_inverse))
+	x.Vector3Snapped = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_snapped))
+	x.Vector3Rotated = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_rotated))
+	x.Vector3LinearInterpolate = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_linear_interpolate))
+	x.Vector3CubicInterpolate = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_cubic_interpolate))
+	x.Vector3Dot = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_dot))
+	x.Vector3Cross = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_cross))
+	x.Vector3Outer = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_vector3_outer))
+	x.Vector3ToDiagonalMatrix = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_vector3_to_diagonal_matrix))
+	x.Vector3Abs = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_abs))
+	x.Vector3Floor = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_floor))
+	x.Vector3Ceil = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_ceil))
+	x.Vector3DistanceTo = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_distance_to))
+	x.Vector3DistanceSquaredTo = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_distance_squared_to))
+	x.Vector3AngleTo = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_angle_to))
+	x.Vector3Slide = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_slide))
+	x.Vector3Bounce = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_bounce))
+	x.Vector3Reflect = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_reflect))
+	x.Vector3OperatorAdd = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_add))
+	x.Vector3OperatorSubstract = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_substract))
+	x.Vector3OperatorMultiplyVector = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_multiply_vector))
+	x.Vector3OperatorMultiplyScalar = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_multiply_scalar))
+	x.Vector3OperatorDivideVector = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_divide_vector))
+	x.Vector3OperatorDivideScalar = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_divide_scalar))
+	x.Vector3OperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_equal))
+	x.Vector3OperatorLess = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_less))
+	x.Vector3OperatorNeg = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_neg))
+	x.Vector3SetAxis = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector3_set_axis))
+	x.Vector3GetAxis = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_vector3_get_axis))
+	x.PoolByteArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_new))
+	x.PoolByteArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_new_copy))
+	x.PoolByteArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_new_with_array))
+	x.PoolByteArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_append))
+	x.PoolByteArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_append_array))
+	x.PoolByteArrayInsert = NewErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_insert))
+	x.PoolByteArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_invert))
+	x.PoolByteArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_push_back))
+	x.PoolByteArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_remove))
+	x.PoolByteArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_resize))
+	x.PoolByteArrayRead = NewPoolByteArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_read))
+	x.PoolByteArrayWrite = NewPoolByteArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_write))
+	x.PoolByteArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_set))
+	x.PoolByteArrayGet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_get))
+	x.PoolByteArraySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_size))
+	x.PoolByteArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_destroy))
+	x.PoolIntArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_new))
+	x.PoolIntArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_new_copy))
+	x.PoolIntArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_new_with_array))
+	x.PoolIntArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_append))
+	x.PoolIntArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_append_array))
+	x.PoolIntArrayInsert = NewErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_insert))
+	x.PoolIntArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_invert))
+	x.PoolIntArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_push_back))
+	x.PoolIntArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_remove))
+	x.PoolIntArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_resize))
+	x.PoolIntArrayRead = NewPoolIntArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_read))
+	x.PoolIntArrayWrite = NewPoolIntArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_write))
+	x.PoolIntArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_set))
+	x.PoolIntArrayGet = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_get))
+	x.PoolIntArraySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_size))
+	x.PoolIntArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_destroy))
+	x.PoolRealArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_new))
+	x.PoolRealArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_new_copy))
+	x.PoolRealArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_new_with_array))
+	x.PoolRealArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_append))
+	x.PoolRealArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_append_array))
+	x.PoolRealArrayInsert = NewErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_insert))
+	x.PoolRealArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_invert))
+	x.PoolRealArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_push_back))
+	x.PoolRealArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_remove))
+	x.PoolRealArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_resize))
+	x.PoolRealArrayRead = NewPoolRealArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_read))
+	x.PoolRealArrayWrite = NewPoolRealArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_write))
+	x.PoolRealArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_set))
+	x.PoolRealArrayGet = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_get))
+	x.PoolRealArraySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_size))
+	x.PoolRealArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_destroy))
+	x.PoolStringArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_new))
+	x.PoolStringArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_new_copy))
+	x.PoolStringArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_new_with_array))
+	x.PoolStringArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_append))
+	x.PoolStringArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_append_array))
+	x.PoolStringArrayInsert = NewErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_insert))
+	x.PoolStringArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_invert))
+	x.PoolStringArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_push_back))
+	x.PoolStringArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_remove))
+	x.PoolStringArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_resize))
+	x.PoolStringArrayRead = NewPoolStringArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_read))
+	x.PoolStringArrayWrite = NewPoolStringArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_write))
+	x.PoolStringArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_set))
+	x.PoolStringArrayGet = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_get))
+	x.PoolStringArraySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_size))
+	x.PoolStringArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_destroy))
+	x.PoolVector2ArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_new))
+	x.PoolVector2ArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_new_copy))
+	x.PoolVector2ArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_new_with_array))
+	x.PoolVector2ArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_append))
+	x.PoolVector2ArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_append_array))
+	x.PoolVector2ArrayInsert = NewErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_insert))
+	x.PoolVector2ArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_invert))
+	x.PoolVector2ArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_push_back))
+	x.PoolVector2ArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_remove))
+	x.PoolVector2ArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_resize))
+	x.PoolVector2ArrayRead = NewPoolVector2ArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_read))
+	x.PoolVector2ArrayWrite = NewPoolVector2ArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_write))
+	x.PoolVector2ArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_set))
+	x.PoolVector2ArrayGet = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_get))
+	x.PoolVector2ArraySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_size))
+	x.PoolVector2ArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_destroy))
+	x.PoolVector3ArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_new))
+	x.PoolVector3ArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_new_copy))
+	x.PoolVector3ArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_new_with_array))
+	x.PoolVector3ArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_append))
+	x.PoolVector3ArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_append_array))
+	x.PoolVector3ArrayInsert = NewErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_insert))
+	x.PoolVector3ArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_invert))
+	x.PoolVector3ArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_push_back))
+	x.PoolVector3ArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_remove))
+	x.PoolVector3ArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_resize))
+	x.PoolVector3ArrayRead = NewPoolVector3ArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_read))
+	x.PoolVector3ArrayWrite = NewPoolVector3ArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_write))
+	x.PoolVector3ArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_set))
+	x.PoolVector3ArrayGet = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_get))
+	x.PoolVector3ArraySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_size))
+	x.PoolVector3ArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_destroy))
+	x.PoolColorArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_new))
+	x.PoolColorArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_new_copy))
+	x.PoolColorArrayNewWithArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_new_with_array))
+	x.PoolColorArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_append))
+	x.PoolColorArrayAppendArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_append_array))
+	x.PoolColorArrayInsert = NewErrorRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_insert))
+	x.PoolColorArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_invert))
+	x.PoolColorArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_push_back))
+	x.PoolColorArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_remove))
+	x.PoolColorArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_resize))
+	x.PoolColorArrayRead = NewPoolColorArrayReadAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_read))
+	x.PoolColorArrayWrite = NewPoolColorArrayWriteAccessRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_write))
+	x.PoolColorArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_set))
+	x.PoolColorArrayGet = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_get))
+	x.PoolColorArraySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_size))
+	x.PoolColorArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_destroy))
+	x.PoolByteArrayReadAccessPtr = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_read_access_ptr))
+	x.PoolByteArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_read_access_operator_assign))
+	x.PoolByteArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_read_access_destroy))
+	x.PoolIntArrayReadAccessPtr = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_read_access_ptr))
+	x.PoolIntArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_read_access_operator_assign))
+	x.PoolIntArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_read_access_destroy))
+	x.PoolRealArrayReadAccessPtr = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_read_access_ptr))
+	x.PoolRealArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_read_access_operator_assign))
+	x.PoolRealArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_read_access_destroy))
+	x.PoolStringArrayReadAccessPtr = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_read_access_ptr))
+	x.PoolStringArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_read_access_operator_assign))
+	x.PoolStringArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_read_access_destroy))
+	x.PoolVector2ArrayReadAccessPtr = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_read_access_ptr))
+	x.PoolVector2ArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_read_access_operator_assign))
+	x.PoolVector2ArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_read_access_destroy))
+	x.PoolVector3ArrayReadAccessPtr = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_read_access_ptr))
+	x.PoolVector3ArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_read_access_operator_assign))
+	x.PoolVector3ArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_read_access_destroy))
+	x.PoolColorArrayReadAccessPtr = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_read_access_ptr))
+	x.PoolColorArrayReadAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_read_access_operator_assign))
+	x.PoolColorArrayReadAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_read_access_destroy))
+	x.PoolByteArrayWriteAccessPtr = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_write_access_ptr))
+	x.PoolByteArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_write_access_operator_assign))
+	x.PoolByteArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_byte_array_write_access_destroy))
+	x.PoolIntArrayWriteAccessPtr = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_write_access_ptr))
+	x.PoolIntArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_write_access_operator_assign))
+	x.PoolIntArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_int_array_write_access_destroy))
+	x.PoolRealArrayWriteAccessPtr = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_write_access_ptr))
+	x.PoolRealArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_write_access_operator_assign))
+	x.PoolRealArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_real_array_write_access_destroy))
+	x.PoolStringArrayWriteAccessPtr = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_write_access_ptr))
+	x.PoolStringArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_write_access_operator_assign))
+	x.PoolStringArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_string_array_write_access_destroy))
+	x.PoolVector2ArrayWriteAccessPtr = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_write_access_ptr))
+	x.PoolVector2ArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_write_access_operator_assign))
+	x.PoolVector2ArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector2_array_write_access_destroy))
+	x.PoolVector3ArrayWriteAccessPtr = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_write_access_ptr))
+	x.PoolVector3ArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_write_access_operator_assign))
+	x.PoolVector3ArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_vector3_array_write_access_destroy))
+	x.PoolColorArrayWriteAccessPtr = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_write_access_ptr))
+	x.PoolColorArrayWriteAccessOperatorAssign = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_write_access_operator_assign))
+	x.PoolColorArrayWriteAccessDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_pool_color_array_write_access_destroy))
+	x.ArrayNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new))
+	x.ArrayNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_copy))
+	x.ArrayNewPoolColorArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_color_array))
+	x.ArrayNewPoolVector3Array = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_vector3_array))
+	x.ArrayNewPoolVector2Array = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_vector2_array))
+	x.ArrayNewPoolStringArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_string_array))
+	x.ArrayNewPoolRealArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_real_array))
+	x.ArrayNewPoolIntArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_int_array))
+	x.ArrayNewPoolByteArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_new_pool_byte_array))
+	x.ArraySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_set))
+	x.ArrayGet = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_get))
+	x.ArrayOperatorIndex = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_operator_index))
+	x.ArrayOperatorIndexConst = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_operator_index_const))
+	x.ArrayAppend = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_append))
+	x.ArrayClear = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_clear))
+	x.ArrayCount = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_array_count))
+	x.ArrayEmpty = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_array_empty))
+	x.ArrayErase = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_erase))
+	x.ArrayFront = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_front))
+	x.ArrayBack = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_back))
+	x.ArrayFind = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_array_find))
+	x.ArrayFindLast = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_array_find_last))
+	x.ArrayHas = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_array_has))
+	x.ArrayHash = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_array_hash))
+	x.ArrayInsert = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_insert))
+	x.ArrayInvert = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_invert))
+	x.ArrayPopBack = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_pop_back))
+	x.ArrayPopFront = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_array_pop_front))
+	x.ArrayPushBack = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_push_back))
+	x.ArrayPushFront = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_push_front))
+	x.ArrayRemove = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_remove))
+	x.ArrayResize = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_resize))
+	x.ArrayRfind = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_array_rfind))
+	x.ArraySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_array_size))
+	x.ArraySort = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_sort))
+	x.ArraySortCustom = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_sort_custom))
+	x.ArrayBsearch = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_array_bsearch))
+	x.ArrayBsearchCustom = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_array_bsearch_custom))
+	x.ArrayDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_array_destroy))
+	x.DictionaryNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_new))
+	x.DictionaryNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_new_copy))
+	x.DictionaryDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_destroy))
+	x.DictionarySize = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_size))
+	x.DictionaryEmpty = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_empty))
+	x.DictionaryClear = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_clear))
+	x.DictionaryHas = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_has))
+	x.DictionaryHasAll = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_has_all))
+	x.DictionaryErase = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_erase))
+	x.DictionaryHash = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_hash))
+	x.DictionaryKeys = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_keys))
+	x.DictionaryValues = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_values))
+	x.DictionaryGet = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_get))
+	x.DictionarySet = NewRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_set))
+	x.DictionaryOperatorIndex = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_operator_index))
+	x.DictionaryOperatorIndexConst = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_operator_index_const))
+	x.DictionaryNext = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_next))
+	x.DictionaryOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_operator_equal))
+	x.DictionaryToJson = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_dictionary_to_json))
+	x.NodePathNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_node_path_new))
+	x.NodePathNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_node_path_new_copy))
+	x.NodePathDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_node_path_destroy))
+	x.NodePathAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_node_path_as_string))
+	x.NodePathIsAbsolute = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_node_path_is_absolute))
+	x.NodePathGetNameCount = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_name_count))
+	x.NodePathGetName = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_name))
+	x.NodePathGetSubnameCount = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_subname_count))
+	x.NodePathGetSubname = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_subname))
+	x.NodePathGetConcatenatedSubnames = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_node_path_get_concatenated_subnames))
+	x.NodePathIsEmpty = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_node_path_is_empty))
+	x.NodePathOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_node_path_operator_equal))
+	x.PlaneNewWithReals = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_new_with_reals))
+	x.PlaneNewWithVectors = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_new_with_vectors))
+	x.PlaneNewWithNormal = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_new_with_normal))
+	x.PlaneAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_plane_as_string))
+	x.PlaneNormalized = NewPlaneRef(unsafe.Pointer(x.ref57717e51.godot_plane_normalized))
+	x.PlaneCenter = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_plane_center))
+	x.PlaneGetAnyPoint = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_plane_get_any_point))
+	x.PlaneIsPointOver = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_is_point_over))
+	x.PlaneDistanceTo = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_plane_distance_to))
+	x.PlaneHasPoint = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_has_point))
+	x.PlaneProject = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_plane_project))
+	x.PlaneIntersect3 = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_intersect_3))
+	x.PlaneIntersectsRay = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_intersects_ray))
+	x.PlaneIntersectsSegment = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_intersects_segment))
+	x.PlaneOperatorNeg = NewPlaneRef(unsafe.Pointer(x.ref57717e51.godot_plane_operator_neg))
+	x.PlaneOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_plane_operator_equal))
+	x.PlaneSetNormal = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_set_normal))
+	x.PlaneGetNormal = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_plane_get_normal))
+	x.PlaneGetD = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_plane_get_d))
+	x.PlaneSetD = NewRef(unsafe.Pointer(x.ref57717e51.godot_plane_set_d))
+	x.Rect2NewWithPositionAndSize = NewRef(unsafe.Pointer(x.ref57717e51.godot_rect2_new_with_position_and_size))
+	x.Rect2New = NewRef(unsafe.Pointer(x.ref57717e51.godot_rect2_new))
+	x.Rect2AsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_rect2_as_string))
+	x.Rect2GetArea = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_rect2_get_area))
+	x.Rect2Intersects = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_intersects))
+	x.Rect2Encloses = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_encloses))
+	x.Rect2HasNoArea = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_has_no_area))
+	x.Rect2Clip = NewRect2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_clip))
+	x.Rect2Merge = NewRect2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_merge))
+	x.Rect2HasPoint = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_has_point))
+	x.Rect2Grow = NewRect2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_grow))
+	x.Rect2Expand = NewRect2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_expand))
+	x.Rect2OperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_rect2_operator_equal))
+	x.Rect2GetPosition = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_get_position))
+	x.Rect2GetSize = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_rect2_get_size))
+	x.Rect2SetPosition = NewRef(unsafe.Pointer(x.ref57717e51.godot_rect2_set_position))
+	x.Rect2SetSize = NewRef(unsafe.Pointer(x.ref57717e51.godot_rect2_set_size))
+	x.AabbNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_aabb_new))
+	x.AabbGetPosition = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_position))
+	x.AabbSetPosition = NewRef(unsafe.Pointer(x.ref57717e51.godot_aabb_set_position))
+	x.AabbGetSize = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_size))
+	x.AabbSetSize = NewRef(unsafe.Pointer(x.ref57717e51.godot_aabb_set_size))
+	x.AabbAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_aabb_as_string))
+	x.AabbGetArea = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_area))
+	x.AabbHasNoArea = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_has_no_area))
+	x.AabbHasNoSurface = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_has_no_surface))
+	x.AabbIntersects = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_intersects))
+	x.AabbEncloses = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_encloses))
+	x.AabbMerge = NewAabbRef(unsafe.Pointer(x.ref57717e51.godot_aabb_merge))
+	x.AabbIntersection = NewAabbRef(unsafe.Pointer(x.ref57717e51.godot_aabb_intersection))
+	x.AabbIntersectsPlane = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_intersects_plane))
+	x.AabbIntersectsSegment = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_intersects_segment))
+	x.AabbHasPoint = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_has_point))
+	x.AabbGetSupport = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_support))
+	x.AabbGetLongestAxis = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_longest_axis))
+	x.AabbGetLongestAxisIndex = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_longest_axis_index))
+	x.AabbGetLongestAxisSize = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_longest_axis_size))
+	x.AabbGetShortestAxis = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_shortest_axis))
+	x.AabbGetShortestAxisIndex = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_shortest_axis_index))
+	x.AabbGetShortestAxisSize = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_aabb_get_shortest_axis_size))
+	x.AabbExpand = NewAabbRef(unsafe.Pointer(x.ref57717e51.godot_aabb_expand))
+	x.AabbGrow = NewAabbRef(unsafe.Pointer(x.ref57717e51.godot_aabb_grow))
+	x.AabbGetEndpoint = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_aabb_get_endpoint))
+	x.AabbOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_aabb_operator_equal))
+	x.RidNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_rid_new))
+	x.RidGetId = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_rid_get_id))
+	x.RidNewWithResource = NewRef(unsafe.Pointer(x.ref57717e51.godot_rid_new_with_resource))
+	x.RidOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_rid_operator_equal))
+	x.RidOperatorLess = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_rid_operator_less))
+	x.TransformNewWithAxisOrigin = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_new_with_axis_origin))
+	x.TransformNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_new))
+	x.TransformGetBasis = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_transform_get_basis))
+	x.TransformSetBasis = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_set_basis))
+	x.TransformGetOrigin = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_transform_get_origin))
+	x.TransformSetOrigin = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_set_origin))
+	x.TransformAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_transform_as_string))
+	x.TransformInverse = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_inverse))
+	x.TransformAffineInverse = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_affine_inverse))
+	x.TransformOrthonormalized = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_orthonormalized))
+	x.TransformRotated = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_rotated))
+	x.TransformScaled = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_scaled))
+	x.TransformTranslated = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_translated))
+	x.TransformLookingAt = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_looking_at))
+	x.TransformXformPlane = NewPlaneRef(unsafe.Pointer(x.ref57717e51.godot_transform_xform_plane))
+	x.TransformXformInvPlane = NewPlaneRef(unsafe.Pointer(x.ref57717e51.godot_transform_xform_inv_plane))
+	x.TransformNewIdentity = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform_new_identity))
+	x.TransformOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_transform_operator_equal))
+	x.TransformOperatorMultiply = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_transform_operator_multiply))
+	x.TransformXformVector3 = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_transform_xform_vector3))
+	x.TransformXformInvVector3 = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_transform_xform_inv_vector3))
+	x.TransformXformAabb = NewAabbRef(unsafe.Pointer(x.ref57717e51.godot_transform_xform_aabb))
+	x.TransformXformInvAabb = NewAabbRef(unsafe.Pointer(x.ref57717e51.godot_transform_xform_inv_aabb))
+	x.Transform2dNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_new))
+	x.Transform2dNewAxisOrigin = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_new_axis_origin))
+	x.Transform2dAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_as_string))
+	x.Transform2dInverse = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_inverse))
+	x.Transform2dAffineInverse = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_affine_inverse))
+	x.Transform2dGetRotation = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_get_rotation))
+	x.Transform2dGetOrigin = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_get_origin))
+	x.Transform2dGetScale = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_get_scale))
+	x.Transform2dOrthonormalized = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_orthonormalized))
+	x.Transform2dRotated = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_rotated))
+	x.Transform2dScaled = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_scaled))
+	x.Transform2dTranslated = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_translated))
+	x.Transform2dXformVector2 = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_xform_vector2))
+	x.Transform2dXformInvVector2 = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_xform_inv_vector2))
+	x.Transform2dBasisXformVector2 = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_basis_xform_vector2))
+	x.Transform2dBasisXformInvVector2 = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_basis_xform_inv_vector2))
+	x.Transform2dInterpolateWith = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_interpolate_with))
+	x.Transform2dOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_operator_equal))
+	x.Transform2dOperatorMultiply = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_operator_multiply))
+	x.Transform2dNewIdentity = NewRef(unsafe.Pointer(x.ref57717e51.godot_transform2d_new_identity))
+	x.Transform2dXformRect2 = NewRect2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_xform_rect2))
+	x.Transform2dXformInvRect2 = NewRect2Ref(unsafe.Pointer(x.ref57717e51.godot_transform2d_xform_inv_rect2))
+	x.VariantGetType = NewVariantTypeRef(unsafe.Pointer(x.ref57717e51.godot_variant_get_type))
+	x.VariantNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_copy))
+	x.VariantNewNil = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_nil))
+	x.VariantNewBool = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_bool))
+	x.VariantNewUint = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_uint))
+	x.VariantNewInt = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_int))
+	x.VariantNewReal = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_real))
+	x.VariantNewString = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_string))
+	x.VariantNewVector2 = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_vector2))
+	x.VariantNewRect2 = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_rect2))
+	x.VariantNewVector3 = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_vector3))
+	x.VariantNewTransform2d = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_transform2d))
+	x.VariantNewPlane = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_plane))
+	x.VariantNewQuat = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_quat))
+	x.VariantNewAabb = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_aabb))
+	x.VariantNewBasis = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_basis))
+	x.VariantNewTransform = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_transform))
+	x.VariantNewColor = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_color))
+	x.VariantNewNodePath = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_node_path))
+	x.VariantNewRid = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_rid))
+	x.VariantNewObject = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_object))
+	x.VariantNewDictionary = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_dictionary))
+	x.VariantNewArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_array))
+	x.VariantNewPoolByteArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_byte_array))
+	x.VariantNewPoolIntArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_int_array))
+	x.VariantNewPoolRealArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_real_array))
+	x.VariantNewPoolStringArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_string_array))
+	x.VariantNewPoolVector2Array = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_vector2_array))
+	x.VariantNewPoolVector3Array = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_vector3_array))
+	x.VariantNewPoolColorArray = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_new_pool_color_array))
+	x.VariantAsBool = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_bool))
+	x.VariantAsUint = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_uint))
+	x.VariantAsInt = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_int))
+	x.VariantAsReal = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_real))
+	x.VariantAsString = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_string))
+	x.VariantAsVector2 = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_variant_as_vector2))
+	x.VariantAsRect2 = NewRect2Ref(unsafe.Pointer(x.ref57717e51.godot_variant_as_rect2))
+	x.VariantAsVector3 = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_variant_as_vector3))
+	x.VariantAsTransform2d = NewTransform2dRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_transform2d))
+	x.VariantAsPlane = NewPlaneRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_plane))
+	x.VariantAsQuat = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_quat))
+	x.VariantAsAabb = NewAabbRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_aabb))
+	x.VariantAsBasis = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_basis))
+	x.VariantAsTransform = NewTransformRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_transform))
+	x.VariantAsColor = NewColorRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_color))
+	x.VariantAsNodePath = NewNodePathRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_node_path))
+	x.VariantAsRid = NewRidRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_rid))
+	x.VariantAsObject = NewObjectRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_object))
+	x.VariantAsDictionary = NewDictionaryRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_dictionary))
+	x.VariantAsArray = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_array))
+	x.VariantAsPoolByteArray = NewPoolByteArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_byte_array))
+	x.VariantAsPoolIntArray = NewPoolIntArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_int_array))
+	x.VariantAsPoolRealArray = NewPoolRealArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_real_array))
+	x.VariantAsPoolStringArray = NewPoolStringArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_string_array))
+	x.VariantAsPoolVector2Array = NewPoolVector2ArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_vector2_array))
+	x.VariantAsPoolVector3Array = NewPoolVector3ArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_vector3_array))
+	x.VariantAsPoolColorArray = NewPoolColorArrayRef(unsafe.Pointer(x.ref57717e51.godot_variant_as_pool_color_array))
+	x.VariantCall = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_variant_call))
+	x.VariantHasMethod = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_has_method))
+	x.VariantOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_operator_equal))
+	x.VariantOperatorLess = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_operator_less))
+	x.VariantHashCompare = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_hash_compare))
+	x.VariantBooleanize = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_variant_booleanize))
+	x.VariantDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_variant_destroy))
+	x.StringNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_new))
+	x.StringNewCopy = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_new_copy))
+	x.StringNewData = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_new_data))
+	x.StringNewUnicodeData = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_new_unicode_data))
+	x.StringGetData = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_get_data))
+	x.StringOperatorIndex = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_index))
+	x.StringOperatorIndexConst = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_index_const))
+	x.StringUnicodeStr = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_unicode_str))
+	x.StringOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_equal))
+	x.StringOperatorLess = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_less))
+	x.StringOperatorPlus = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_operator_plus))
+	x.StringLength = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_length))
+	x.StringBeginsWith = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_begins_with))
+	x.StringBeginsWithCharArray = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_begins_with_char_array))
+	x.StringBigrams = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_bigrams))
+	x.StringChr = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_chr))
+	x.StringEndsWith = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_ends_with))
+	x.StringFind = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_find))
+	x.StringFindFrom = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_find_from))
+	x.StringFindmk = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findmk))
+	x.StringFindmkFrom = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findmk_from))
+	x.StringFindmkFromInPlace = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findmk_from_in_place))
+	x.StringFindn = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findn))
+	x.StringFindnFrom = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_findn_from))
+	x.StringFindLast = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_find_last))
+	x.StringFormat = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_format))
+	x.StringFormatWithCustomPlaceholder = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_format_with_custom_placeholder))
+	x.StringHexEncodeBuffer = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_encode_buffer))
+	x.StringHexToInt = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_to_int))
+	x.StringHexToIntWithoutPrefix = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_to_int_without_prefix))
+	x.StringInsert = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_insert))
+	x.StringIsNumeric = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_numeric))
+	x.StringIsSubsequenceOf = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_subsequence_of))
+	x.StringIsSubsequenceOfi = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_subsequence_ofi))
+	x.StringLpad = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_lpad))
+	x.StringLpadWithCustomCharacter = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_lpad_with_custom_character))
+	x.StringMatch = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_match))
+	x.StringMatchn = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_matchn))
+	x.StringMd5 = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_md5))
+	x.StringNum = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num))
+	x.StringNumInt64 = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_int64))
+	x.StringNumInt64Capitalized = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_int64_capitalized))
+	x.StringNumReal = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_real))
+	x.StringNumScientific = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_scientific))
+	x.StringNumWithDecimals = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_num_with_decimals))
+	x.StringPadDecimals = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_pad_decimals))
+	x.StringPadZeros = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_pad_zeros))
+	x.StringReplaceFirst = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_replace_first))
+	x.StringReplace = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_replace))
+	x.StringReplacen = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_replacen))
+	x.StringRfind = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_rfind))
+	x.StringRfindn = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_rfindn))
+	x.StringRfindFrom = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_rfind_from))
+	x.StringRfindnFrom = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_rfindn_from))
+	x.StringRpad = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_rpad))
+	x.StringRpadWithCustomCharacter = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_rpad_with_custom_character))
+	x.StringSimilarity = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_string_similarity))
+	x.StringSprintf = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_sprintf))
+	x.StringSubstr = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_substr))
+	x.StringToDouble = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_to_double))
+	x.StringToFloat = NewRealRef(unsafe.Pointer(x.ref57717e51.godot_string_to_float))
+	x.StringToInt = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_to_int))
+	x.StringCamelcaseToUnderscore = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_camelcase_to_underscore))
+	x.StringCamelcaseToUnderscoreLowercased = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_camelcase_to_underscore_lowercased))
+	x.StringCapitalize = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_capitalize))
+	x.StringCharToDouble = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_char_to_double))
+	x.StringCharToInt = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_char_to_int))
+	x.StringWcharToInt = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_wchar_to_int))
+	x.StringCharToIntWithLen = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_char_to_int_with_len))
+	x.StringCharToInt64WithLen = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_char_to_int64_with_len))
+	x.StringHexToInt64 = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_to_int64))
+	x.StringHexToInt64WithPrefix = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hex_to_int64_with_prefix))
+	x.StringToInt64 = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_to_int64))
+	x.StringUnicodeCharToDouble = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_unicode_char_to_double))
+	x.StringGetSliceCount = NewIntRef(unsafe.Pointer(x.ref57717e51.godot_string_get_slice_count))
+	x.StringGetSlice = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_slice))
+	x.StringGetSlicec = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_slicec))
+	x.StringSplit = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split))
+	x.StringSplitAllowEmpty = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_allow_empty))
+	x.StringSplitFloats = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_floats))
+	x.StringSplitFloatsAllowsEmpty = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_floats_allows_empty))
+	x.StringSplitFloatsMk = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_floats_mk))
+	x.StringSplitFloatsMkAllowsEmpty = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_floats_mk_allows_empty))
+	x.StringSplitInts = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_ints))
+	x.StringSplitIntsAllowsEmpty = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_ints_allows_empty))
+	x.StringSplitIntsMk = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_ints_mk))
+	x.StringSplitIntsMkAllowsEmpty = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_ints_mk_allows_empty))
+	x.StringSplitSpaces = NewArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_split_spaces))
+	x.StringCharLowercase = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_char_lowercase))
+	x.StringCharUppercase = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_char_uppercase))
+	x.StringToLower = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_to_lower))
+	x.StringToUpper = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_to_upper))
+	x.StringGetBasename = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_basename))
+	x.StringGetExtension = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_extension))
+	x.StringLeft = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_left))
+	x.StringOrdAt = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_ord_at))
+	x.StringPlusFile = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_plus_file))
+	x.StringRight = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_right))
+	x.StringStripEdges = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_strip_edges))
+	x.StringStripEscapes = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_strip_escapes))
+	x.StringErase = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_erase))
+	x.StringAscii = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_ascii))
+	x.StringAsciiExtended = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_ascii_extended))
+	x.StringUtf8 = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_utf8))
+	x.StringParseUtf8 = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_parse_utf8))
+	x.StringParseUtf8WithLen = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_parse_utf8_with_len))
+	x.StringCharsToUtf8 = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_chars_to_utf8))
+	x.StringCharsToUtf8WithLen = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_chars_to_utf8_with_len))
+	x.StringHash = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash))
+	x.StringHash64 = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash64))
+	x.StringHashChars = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash_chars))
+	x.StringHashCharsWithLen = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash_chars_with_len))
+	x.StringHashUtf8Chars = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash_utf8_chars))
+	x.StringHashUtf8CharsWithLen = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_hash_utf8_chars_with_len))
+	x.StringMd5Buffer = NewPoolByteArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_md5_buffer))
+	x.StringMd5Text = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_md5_text))
+	x.StringSha256Buffer = NewPoolByteArrayRef(unsafe.Pointer(x.ref57717e51.godot_string_sha256_buffer))
+	x.StringSha256Text = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_sha256_text))
+	x.StringEmpty = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_empty))
+	x.StringGetBaseDir = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_base_dir))
+	x.StringGetFile = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_get_file))
+	x.StringHumanizeSize = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_humanize_size))
+	x.StringIsAbsPath = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_abs_path))
+	x.StringIsRelPath = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_rel_path))
+	x.StringIsResourceFile = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_resource_file))
+	x.StringPathTo = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_path_to))
+	x.StringPathToFile = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_path_to_file))
+	x.StringSimplifyPath = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_simplify_path))
+	x.StringCEscape = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_c_escape))
+	x.StringCEscapeMultiline = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_c_escape_multiline))
+	x.StringCUnescape = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_c_unescape))
+	x.StringHttpEscape = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_http_escape))
+	x.StringHttpUnescape = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_http_unescape))
+	x.StringJsonEscape = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_json_escape))
+	x.StringWordWrap = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_word_wrap))
+	x.StringXmlEscape = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_xml_escape))
+	x.StringXmlEscapeWithQuotes = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_xml_escape_with_quotes))
+	x.StringXmlUnescape = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_xml_unescape))
+	x.StringPercentDecode = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_percent_decode))
+	x.StringPercentEncode = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_percent_encode))
+	x.StringIsValidFloat = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_float))
+	x.StringIsValidHexNumber = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_hex_number))
+	x.StringIsValidHtmlColor = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_html_color))
+	x.StringIsValidIdentifier = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_identifier))
+	x.StringIsValidInteger = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_integer))
+	x.StringIsValidIpAddress = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_is_valid_ip_address))
+	x.StringDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_destroy))
+	x.StringNameNew = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_new))
+	x.StringNameNewData = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_new_data))
+	x.StringNameGetName = NewStringRef(unsafe.Pointer(x.ref57717e51.godot_string_name_get_name))
+	x.StringNameGetHash = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_get_hash))
+	x.StringNameGetDataUniquePointer = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_get_data_unique_pointer))
+	x.StringNameOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_name_operator_equal))
+	x.StringNameOperatorLess = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_string_name_operator_less))
+	x.StringNameDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_string_name_destroy))
+	x.ObjectDestroy = NewRef(unsafe.Pointer(x.ref57717e51.godot_object_destroy))
+	x.GlobalGetSingleton = NewObjectRef(unsafe.Pointer(x.ref57717e51.godot_global_get_singleton))
+	x.MethodBindGetMethod = NewMethodBindRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_get_method))
+	x.MethodBindPtrcall = NewRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_ptrcall))
+	x.MethodBindCall = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_call))
+	x.GetClassConstructor = *NewClassConstructorRef(unsafe.Pointer(&x.ref57717e51.godot_get_class_constructor))
+	x.RegisterNativeCallType = NewRef(unsafe.Pointer(x.ref57717e51.godot_register_native_call_type))
+	x.Alloc = NewRef(unsafe.Pointer(x.ref57717e51.godot_alloc))
+	x.Realloc = NewRef(unsafe.Pointer(x.ref57717e51.godot_realloc))
+	x.Free = NewRef(unsafe.Pointer(x.ref57717e51.godot_free))
+	x.PrintError = NewRef(unsafe.Pointer(x.ref57717e51.godot_print_error))
+	x.PrintWarning = NewRef(unsafe.Pointer(x.ref57717e51.godot_print_warning))
+	x.Print = NewRef(unsafe.Pointer(x.ref57717e51.godot_print))
 }
 
-// allocGodotMethodBindMemory allocates memory for type C.godot_method_bind in C.
+// allocMethodBindMemory allocates memory for type C.godot_method_bind in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotMethodBindMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotMethodBindValue))
+func allocMethodBindMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfMethodBindValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotMethodBindValue = unsafe.Sizeof([1]C.godot_method_bind{})
+const sizeOfMethodBindValue = unsafe.Sizeof([1]C.godot_method_bind{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotMethodBind) Ref() *C.godot_method_bind {
+func (x *MethodBind) Ref() *C.godot_method_bind {
 	if x == nil {
 		return nil
 	}
@@ -4302,33 +4302,33 @@ func (x *GodotMethodBind) Ref() *C.godot_method_bind {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotMethodBind) Free() {
+func (x *MethodBind) Free() {
 	if x != nil && x.allocs3a05c0bc != nil {
 		x.allocs3a05c0bc.(*cgoAllocMap).Free()
 		x.ref3a05c0bc = nil
 	}
 }
 
-// NewGodotMethodBindRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewMethodBindRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotMethodBindRef(ref unsafe.Pointer) *GodotMethodBind {
+func NewMethodBindRef(ref unsafe.Pointer) *MethodBind {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotMethodBind)
+	obj := new(MethodBind)
 	obj.ref3a05c0bc = (*C.godot_method_bind)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotMethodBind) PassRef() (*C.godot_method_bind, *cgoAllocMap) {
+func (x *MethodBind) PassRef() (*C.godot_method_bind, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref3a05c0bc != nil {
 		return x.ref3a05c0bc, nil
 	}
-	mem3a05c0bc := allocGodotMethodBindMemory(1)
+	mem3a05c0bc := allocMethodBindMemory(1)
 	ref3a05c0bc := (*C.godot_method_bind)(mem3a05c0bc)
 	allocs3a05c0bc := new(cgoAllocMap)
 	allocs3a05c0bc.Add(mem3a05c0bc)
@@ -4344,7 +4344,7 @@ func (x *GodotMethodBind) PassRef() (*C.godot_method_bind, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotMethodBind) PassValue() (C.godot_method_bind, *cgoAllocMap) {
+func (x MethodBind) PassValue() (C.godot_method_bind, *cgoAllocMap) {
 	if x.ref3a05c0bc != nil {
 		return *x.ref3a05c0bc, nil
 	}
@@ -4354,27 +4354,27 @@ func (x GodotMethodBind) PassValue() (C.godot_method_bind, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotMethodBind) Deref() {
+func (x *MethodBind) Deref() {
 	if x.ref3a05c0bc == nil {
 		return
 	}
 	x.DontTouchThat = *(*[1]byte)(unsafe.Pointer(&x.ref3a05c0bc._dont_touch_that))
 }
 
-// allocGodotGdnativeApiVersionMemory allocates memory for type C.godot_gdnative_api_version in C.
+// allocGdnativeApiVersionMemory allocates memory for type C.godot_gdnative_api_version in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotGdnativeApiVersionMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotGdnativeApiVersionValue))
+func allocGdnativeApiVersionMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGdnativeApiVersionValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotGdnativeApiVersionValue = unsafe.Sizeof([1]C.godot_gdnative_api_version{})
+const sizeOfGdnativeApiVersionValue = unsafe.Sizeof([1]C.godot_gdnative_api_version{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotGdnativeApiVersion) Ref() *C.godot_gdnative_api_version {
+func (x *GdnativeApiVersion) Ref() *C.godot_gdnative_api_version {
 	if x == nil {
 		return nil
 	}
@@ -4383,33 +4383,33 @@ func (x *GodotGdnativeApiVersion) Ref() *C.godot_gdnative_api_version {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotGdnativeApiVersion) Free() {
+func (x *GdnativeApiVersion) Free() {
 	if x != nil && x.allocs5eed2c27 != nil {
 		x.allocs5eed2c27.(*cgoAllocMap).Free()
 		x.ref5eed2c27 = nil
 	}
 }
 
-// NewGodotGdnativeApiVersionRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewGdnativeApiVersionRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotGdnativeApiVersionRef(ref unsafe.Pointer) *GodotGdnativeApiVersion {
+func NewGdnativeApiVersionRef(ref unsafe.Pointer) *GdnativeApiVersion {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotGdnativeApiVersion)
+	obj := new(GdnativeApiVersion)
 	obj.ref5eed2c27 = (*C.godot_gdnative_api_version)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotGdnativeApiVersion) PassRef() (*C.godot_gdnative_api_version, *cgoAllocMap) {
+func (x *GdnativeApiVersion) PassRef() (*C.godot_gdnative_api_version, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref5eed2c27 != nil {
 		return x.ref5eed2c27, nil
 	}
-	mem5eed2c27 := allocGodotGdnativeApiVersionMemory(1)
+	mem5eed2c27 := allocGdnativeApiVersionMemory(1)
 	ref5eed2c27 := (*C.godot_gdnative_api_version)(mem5eed2c27)
 	allocs5eed2c27 := new(cgoAllocMap)
 	allocs5eed2c27.Add(mem5eed2c27)
@@ -4429,7 +4429,7 @@ func (x *GodotGdnativeApiVersion) PassRef() (*C.godot_gdnative_api_version, *cgo
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotGdnativeApiVersion) PassValue() (C.godot_gdnative_api_version, *cgoAllocMap) {
+func (x GdnativeApiVersion) PassValue() (C.godot_gdnative_api_version, *cgoAllocMap) {
 	if x.ref5eed2c27 != nil {
 		return *x.ref5eed2c27, nil
 	}
@@ -4439,7 +4439,7 @@ func (x GodotGdnativeApiVersion) PassValue() (C.godot_gdnative_api_version, *cgo
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotGdnativeApiVersion) Deref() {
+func (x *GdnativeApiVersion) Deref() {
 	if x.ref5eed2c27 == nil {
 		return
 	}
@@ -4448,7 +4448,7 @@ func (x *GodotGdnativeApiVersion) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotGdnativeApiStruct) Ref() *C.godot_gdnative_api_struct {
+func (x *GdnativeApiStruct) Ref() *C.godot_gdnative_api_struct {
 	if x == nil {
 		return nil
 	}
@@ -4457,33 +4457,33 @@ func (x *GodotGdnativeApiStruct) Ref() *C.godot_gdnative_api_struct {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotGdnativeApiStruct) Free() {
+func (x *GdnativeApiStruct) Free() {
 	if x != nil && x.allocs45f52b65 != nil {
 		x.allocs45f52b65.(*cgoAllocMap).Free()
 		x.ref45f52b65 = nil
 	}
 }
 
-// NewGodotGdnativeApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewGdnativeApiStructRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotGdnativeApiStructRef(ref unsafe.Pointer) *GodotGdnativeApiStruct {
+func NewGdnativeApiStructRef(ref unsafe.Pointer) *GdnativeApiStruct {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotGdnativeApiStruct)
+	obj := new(GdnativeApiStruct)
 	obj.ref45f52b65 = (*C.godot_gdnative_api_struct)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotGdnativeApiStruct) PassRef() (*C.godot_gdnative_api_struct, *cgoAllocMap) {
+func (x *GdnativeApiStruct) PassRef() (*C.godot_gdnative_api_struct, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref45f52b65 != nil {
 		return x.ref45f52b65, nil
 	}
-	mem45f52b65 := allocGodotGdnativeApiStructMemory(1)
+	mem45f52b65 := allocGdnativeApiStructMemory(1)
 	ref45f52b65 := (*C.godot_gdnative_api_struct)(mem45f52b65)
 	allocs45f52b65 := new(cgoAllocMap)
 	allocs45f52b65.Add(mem45f52b65)
@@ -4497,7 +4497,7 @@ func (x *GodotGdnativeApiStruct) PassRef() (*C.godot_gdnative_api_struct, *cgoAl
 	allocs45f52b65.Borrow(cversion_allocs)
 
 	var cnext_allocs *cgoAllocMap
-	ref45f52b65.next, cnext_allocs = unpackSGodotGdnativeApiStruct(x.Next)
+	ref45f52b65.next, cnext_allocs = unpackSGdnativeApiStruct(x.Next)
 	allocs45f52b65.Borrow(cnext_allocs)
 
 	x.ref45f52b65 = ref45f52b65
@@ -4507,7 +4507,7 @@ func (x *GodotGdnativeApiStruct) PassRef() (*C.godot_gdnative_api_struct, *cgoAl
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotGdnativeApiStruct) PassValue() (C.godot_gdnative_api_struct, *cgoAllocMap) {
+func (x GdnativeApiStruct) PassValue() (C.godot_gdnative_api_struct, *cgoAllocMap) {
 	if x.ref45f52b65 != nil {
 		return *x.ref45f52b65, nil
 	}
@@ -4517,26 +4517,26 @@ func (x GodotGdnativeApiStruct) PassValue() (C.godot_gdnative_api_struct, *cgoAl
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotGdnativeApiStruct) Deref() {
+func (x *GdnativeApiStruct) Deref() {
 	if x.ref45f52b65 == nil {
 		return
 	}
 	x.Type = (uint32)(x.ref45f52b65._type)
-	x.Version = *NewGodotGdnativeApiVersionRef(unsafe.Pointer(&x.ref45f52b65.version))
-	packSGodotGdnativeApiStruct(x.Next, x.ref45f52b65.next)
+	x.Version = *NewGdnativeApiVersionRef(unsafe.Pointer(&x.ref45f52b65.version))
+	packSGdnativeApiStruct(x.Next, x.ref45f52b65.next)
 }
 
-// allocGodotGdnativeInitOptionsMemory allocates memory for type C.godot_gdnative_init_options in C.
+// allocGdnativeInitOptionsMemory allocates memory for type C.godot_gdnative_init_options in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotGdnativeInitOptionsMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotGdnativeInitOptionsValue))
+func allocGdnativeInitOptionsMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGdnativeInitOptionsValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotGdnativeInitOptionsValue = unsafe.Sizeof([1]C.godot_gdnative_init_options{})
+const sizeOfGdnativeInitOptionsValue = unsafe.Sizeof([1]C.godot_gdnative_init_options{})
 
 // allocStructGodotGdnativeCoreApiStructMemory allocates memory for type C.struct_godot_gdnative_core_api_struct in C.
 // The caller is responsible for freeing the this memory via C.free.
@@ -4550,8 +4550,8 @@ func allocStructGodotGdnativeCoreApiStructMemory(n int) unsafe.Pointer {
 
 const sizeOfStructGodotGdnativeCoreApiStructValue = unsafe.Sizeof([1]C.struct_godot_gdnative_core_api_struct{})
 
-// unpackSGodotGdnativeCoreApiStruct transforms a sliced Go data structure into plain C format.
-func unpackSGodotGdnativeCoreApiStruct(x []GodotGdnativeCoreApiStruct) (unpacked *C.struct_godot_gdnative_core_api_struct, allocs *cgoAllocMap) {
+// unpackSGdnativeCoreApiStruct transforms a sliced Go data structure into plain C format.
+func unpackSGdnativeCoreApiStruct(x []GdnativeCoreApiStruct) (unpacked *C.struct_godot_gdnative_core_api_struct, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -4579,20 +4579,20 @@ func unpackSGodotGdnativeCoreApiStruct(x []GodotGdnativeCoreApiStruct) (unpacked
 	return
 }
 
-// allocGodotStringMemory allocates memory for type C.godot_string in C.
+// allocStringMemory allocates memory for type C.godot_string in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotStringMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotStringValue))
+func allocStringMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfStringValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotStringValue = unsafe.Sizeof([1]C.godot_string{})
+const sizeOfStringValue = unsafe.Sizeof([1]C.godot_string{})
 
-// unpackSGodotString transforms a sliced Go data structure into plain C format.
-func unpackSGodotString(x []GodotString) (unpacked *C.godot_string, allocs *cgoAllocMap) {
+// unpackSString transforms a sliced Go data structure into plain C format.
+func unpackSString(x []String) (unpacked *C.godot_string, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -4602,7 +4602,7 @@ func unpackSGodotString(x []GodotString) (unpacked *C.godot_string, allocs *cgoA
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotStringMemory(len0)
+	mem0 := allocStringMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -4620,26 +4620,26 @@ func unpackSGodotString(x []GodotString) (unpacked *C.godot_string, allocs *cgoA
 	return
 }
 
-// packSGodotGdnativeCoreApiStruct reads sliced Go data structure out from plain C format.
-func packSGodotGdnativeCoreApiStruct(v []GodotGdnativeCoreApiStruct, ptr0 *C.struct_godot_gdnative_core_api_struct) {
+// packSGdnativeCoreApiStruct reads sliced Go data structure out from plain C format.
+func packSGdnativeCoreApiStruct(v []GdnativeCoreApiStruct, ptr0 *C.struct_godot_gdnative_core_api_struct) {
 	const m = 0x7fffffff
 	for i0 := range v {
 		ptr1 := (*(*[m / sizeOfStructGodotGdnativeCoreApiStructValue]C.struct_godot_gdnative_core_api_struct)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotGdnativeCoreApiStructRef(unsafe.Pointer(&ptr1))
+		v[i0] = *NewGdnativeCoreApiStructRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// packSGodotString reads sliced Go data structure out from plain C format.
-func packSGodotString(v []GodotString, ptr0 *C.godot_string) {
+// packSString reads sliced Go data structure out from plain C format.
+func packSString(v []String, ptr0 *C.godot_string) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotStringValue]C.godot_string)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotStringRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfStringValue]C.godot_string)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewStringRef(unsafe.Pointer(&ptr1))
 	}
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotGdnativeInitOptions) Ref() *C.godot_gdnative_init_options {
+func (x *GdnativeInitOptions) Ref() *C.godot_gdnative_init_options {
 	if x == nil {
 		return nil
 	}
@@ -4648,33 +4648,33 @@ func (x *GodotGdnativeInitOptions) Ref() *C.godot_gdnative_init_options {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotGdnativeInitOptions) Free() {
+func (x *GdnativeInitOptions) Free() {
 	if x != nil && x.allocsf9d34929 != nil {
 		x.allocsf9d34929.(*cgoAllocMap).Free()
 		x.reff9d34929 = nil
 	}
 }
 
-// NewGodotGdnativeInitOptionsRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewGdnativeInitOptionsRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotGdnativeInitOptionsRef(ref unsafe.Pointer) *GodotGdnativeInitOptions {
+func NewGdnativeInitOptionsRef(ref unsafe.Pointer) *GdnativeInitOptions {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotGdnativeInitOptions)
+	obj := new(GdnativeInitOptions)
 	obj.reff9d34929 = (*C.godot_gdnative_init_options)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotGdnativeInitOptions) PassRef() (*C.godot_gdnative_init_options, *cgoAllocMap) {
+func (x *GdnativeInitOptions) PassRef() (*C.godot_gdnative_init_options, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.reff9d34929 != nil {
 		return x.reff9d34929, nil
 	}
-	memf9d34929 := allocGodotGdnativeInitOptionsMemory(1)
+	memf9d34929 := allocGdnativeInitOptionsMemory(1)
 	reff9d34929 := (*C.godot_gdnative_init_options)(memf9d34929)
 	allocsf9d34929 := new(cgoAllocMap)
 	allocsf9d34929.Add(memf9d34929)
@@ -4708,11 +4708,11 @@ func (x *GodotGdnativeInitOptions) PassRef() (*C.godot_gdnative_init_options, *c
 	allocsf9d34929.Borrow(cgd_native_library_allocs)
 
 	var capi_struct_allocs *cgoAllocMap
-	reff9d34929.api_struct, capi_struct_allocs = unpackSGodotGdnativeCoreApiStruct(x.ApiStruct)
+	reff9d34929.api_struct, capi_struct_allocs = unpackSGdnativeCoreApiStruct(x.ApiStruct)
 	allocsf9d34929.Borrow(capi_struct_allocs)
 
 	var cactive_library_path_allocs *cgoAllocMap
-	reff9d34929.active_library_path, cactive_library_path_allocs = unpackSGodotString(x.ActiveLibraryPath)
+	reff9d34929.active_library_path, cactive_library_path_allocs = unpackSString(x.ActiveLibraryPath)
 	allocsf9d34929.Borrow(cactive_library_path_allocs)
 
 	x.reff9d34929 = reff9d34929
@@ -4722,7 +4722,7 @@ func (x *GodotGdnativeInitOptions) PassRef() (*C.godot_gdnative_init_options, *c
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotGdnativeInitOptions) PassValue() (C.godot_gdnative_init_options, *cgoAllocMap) {
+func (x GdnativeInitOptions) PassValue() (C.godot_gdnative_init_options, *cgoAllocMap) {
 	if x.reff9d34929 != nil {
 		return *x.reff9d34929, nil
 	}
@@ -4732,35 +4732,35 @@ func (x GodotGdnativeInitOptions) PassValue() (C.godot_gdnative_init_options, *c
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotGdnativeInitOptions) Deref() {
+func (x *GdnativeInitOptions) Deref() {
 	if x.reff9d34929 == nil {
 		return
 	}
-	x.InEditor = (GodotBool)(x.reff9d34929.in_editor)
+	x.InEditor = (Bool)(x.reff9d34929.in_editor)
 	x.CoreApiHash = (uint64)(x.reff9d34929.core_api_hash)
 	x.EditorApiHash = (uint64)(x.reff9d34929.editor_api_hash)
 	x.NoApiHash = (uint64)(x.reff9d34929.no_api_hash)
 	x.ReportVersionMismatch = NewRef(unsafe.Pointer(x.reff9d34929.report_version_mismatch))
 	x.ReportLoadingError = NewRef(unsafe.Pointer(x.reff9d34929.report_loading_error))
-	x.GdNativeLibrary = (*GodotObject)(unsafe.Pointer(x.reff9d34929.gd_native_library))
-	packSGodotGdnativeCoreApiStruct(x.ApiStruct, x.reff9d34929.api_struct)
-	packSGodotString(x.ActiveLibraryPath, x.reff9d34929.active_library_path)
+	x.GdNativeLibrary = (*Object)(unsafe.Pointer(x.reff9d34929.gd_native_library))
+	packSGdnativeCoreApiStruct(x.ApiStruct, x.reff9d34929.api_struct)
+	packSString(x.ActiveLibraryPath, x.reff9d34929.active_library_path)
 }
 
-// allocGodotGdnativeTerminateOptionsMemory allocates memory for type C.godot_gdnative_terminate_options in C.
+// allocGdnativeTerminateOptionsMemory allocates memory for type C.godot_gdnative_terminate_options in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotGdnativeTerminateOptionsMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotGdnativeTerminateOptionsValue))
+func allocGdnativeTerminateOptionsMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGdnativeTerminateOptionsValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotGdnativeTerminateOptionsValue = unsafe.Sizeof([1]C.godot_gdnative_terminate_options{})
+const sizeOfGdnativeTerminateOptionsValue = unsafe.Sizeof([1]C.godot_gdnative_terminate_options{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotGdnativeTerminateOptions) Ref() *C.godot_gdnative_terminate_options {
+func (x *GdnativeTerminateOptions) Ref() *C.godot_gdnative_terminate_options {
 	if x == nil {
 		return nil
 	}
@@ -4769,33 +4769,33 @@ func (x *GodotGdnativeTerminateOptions) Ref() *C.godot_gdnative_terminate_option
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotGdnativeTerminateOptions) Free() {
+func (x *GdnativeTerminateOptions) Free() {
 	if x != nil && x.allocs80c63fdc != nil {
 		x.allocs80c63fdc.(*cgoAllocMap).Free()
 		x.ref80c63fdc = nil
 	}
 }
 
-// NewGodotGdnativeTerminateOptionsRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewGdnativeTerminateOptionsRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotGdnativeTerminateOptionsRef(ref unsafe.Pointer) *GodotGdnativeTerminateOptions {
+func NewGdnativeTerminateOptionsRef(ref unsafe.Pointer) *GdnativeTerminateOptions {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotGdnativeTerminateOptions)
+	obj := new(GdnativeTerminateOptions)
 	obj.ref80c63fdc = (*C.godot_gdnative_terminate_options)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotGdnativeTerminateOptions) PassRef() (*C.godot_gdnative_terminate_options, *cgoAllocMap) {
+func (x *GdnativeTerminateOptions) PassRef() (*C.godot_gdnative_terminate_options, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref80c63fdc != nil {
 		return x.ref80c63fdc, nil
 	}
-	mem80c63fdc := allocGodotGdnativeTerminateOptionsMemory(1)
+	mem80c63fdc := allocGdnativeTerminateOptionsMemory(1)
 	ref80c63fdc := (*C.godot_gdnative_terminate_options)(mem80c63fdc)
 	allocs80c63fdc := new(cgoAllocMap)
 	allocs80c63fdc.Add(mem80c63fdc)
@@ -4811,7 +4811,7 @@ func (x *GodotGdnativeTerminateOptions) PassRef() (*C.godot_gdnative_terminate_o
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotGdnativeTerminateOptions) PassValue() (C.godot_gdnative_terminate_options, *cgoAllocMap) {
+func (x GdnativeTerminateOptions) PassValue() (C.godot_gdnative_terminate_options, *cgoAllocMap) {
 	if x.ref80c63fdc != nil {
 		return *x.ref80c63fdc, nil
 	}
@@ -4821,190 +4821,190 @@ func (x GodotGdnativeTerminateOptions) PassValue() (C.godot_gdnative_terminate_o
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotGdnativeTerminateOptions) Deref() {
+func (x *GdnativeTerminateOptions) Deref() {
 	if x.ref80c63fdc == nil {
 		return
 	}
-	x.InEditor = (GodotBool)(x.ref80c63fdc.in_editor)
+	x.InEditor = (Bool)(x.ref80c63fdc.in_editor)
 }
 
-func (x GodotClassConstructor) PassRef() (ref *C.godot_class_constructor, allocs *cgoAllocMap) {
+func (x ClassConstructor) PassRef() (ref *C.godot_class_constructor, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
-	if godotClassConstructorC099ECDEFunc == nil {
-		godotClassConstructorC099ECDEFunc = x
+	if classConstructorC099ECDEFunc == nil {
+		classConstructorC099ECDEFunc = x
 	}
 	return (*C.godot_class_constructor)(C.godot_class_constructor_c099ecde), nil
 }
 
-func (x GodotClassConstructor) PassValue() (ref C.godot_class_constructor, allocs *cgoAllocMap) {
+func (x ClassConstructor) PassValue() (ref C.godot_class_constructor, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
-	if godotClassConstructorC099ECDEFunc == nil {
-		godotClassConstructorC099ECDEFunc = x
+	if classConstructorC099ECDEFunc == nil {
+		classConstructorC099ECDEFunc = x
 	}
 	return (C.godot_class_constructor)(C.godot_class_constructor_c099ecde), nil
 }
 
-func NewGodotClassConstructorRef(ref unsafe.Pointer) *GodotClassConstructor {
-	return (*GodotClassConstructor)(ref)
+func NewClassConstructorRef(ref unsafe.Pointer) *ClassConstructor {
+	return (*ClassConstructor)(ref)
 }
 
-//export godotClassConstructorC099ECDE
-func godotClassConstructorC099ECDE() C.godot_object {
-	if godotClassConstructorC099ECDEFunc != nil {
-		retc099ecde := godotClassConstructorC099ECDEFunc()
+//export classConstructorC099ECDE
+func classConstructorC099ECDE() C.godot_object {
+	if classConstructorC099ECDEFunc != nil {
+		retc099ecde := classConstructorC099ECDEFunc()
 		ret, _ := (C.godot_object)(unsafe.Pointer(retc099ecde)), cgoAllocsUnknown
 		return ret
 	}
 	panic("callback func has not been set (race?)")
 }
 
-var godotClassConstructorC099ECDEFunc GodotClassConstructor
+var classConstructorC099ECDEFunc ClassConstructor
 
-// packSGodotGdnativeInitOptions reads sliced Go data structure out from plain C format.
-func packSGodotGdnativeInitOptions(v []GodotGdnativeInitOptions, ptr0 *C.godot_gdnative_init_options) {
+// packSGdnativeInitOptions reads sliced Go data structure out from plain C format.
+func packSGdnativeInitOptions(v []GdnativeInitOptions, ptr0 *C.godot_gdnative_init_options) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotGdnativeInitOptionsValue]C.godot_gdnative_init_options)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotGdnativeInitOptionsRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfGdnativeInitOptionsValue]C.godot_gdnative_init_options)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewGdnativeInitOptionsRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-func (x GodotGdnativeInitFn) PassRef() (ref *C.godot_gdnative_init_fn, allocs *cgoAllocMap) {
+func (x GdnativeInitFn) PassRef() (ref *C.godot_gdnative_init_fn, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
-	if godotGdnativeInitFnF0F9A077Func == nil {
-		godotGdnativeInitFnF0F9A077Func = x
+	if gdnativeInitFnF0F9A077Func == nil {
+		gdnativeInitFnF0F9A077Func = x
 	}
 	return (*C.godot_gdnative_init_fn)(C.godot_gdnative_init_fn_f0f9a077), nil
 }
 
-func (x GodotGdnativeInitFn) PassValue() (ref C.godot_gdnative_init_fn, allocs *cgoAllocMap) {
+func (x GdnativeInitFn) PassValue() (ref C.godot_gdnative_init_fn, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
-	if godotGdnativeInitFnF0F9A077Func == nil {
-		godotGdnativeInitFnF0F9A077Func = x
+	if gdnativeInitFnF0F9A077Func == nil {
+		gdnativeInitFnF0F9A077Func = x
 	}
 	return (C.godot_gdnative_init_fn)(C.godot_gdnative_init_fn_f0f9a077), nil
 }
 
-func NewGodotGdnativeInitFnRef(ref unsafe.Pointer) *GodotGdnativeInitFn {
-	return (*GodotGdnativeInitFn)(ref)
+func NewGdnativeInitFnRef(ref unsafe.Pointer) *GdnativeInitFn {
+	return (*GdnativeInitFn)(ref)
 }
 
-//export godotGdnativeInitFnF0F9A077
-func godotGdnativeInitFnF0F9A077(carg0 *C.godot_gdnative_init_options) {
-	if godotGdnativeInitFnF0F9A077Func != nil {
-		var arg0f0f9a077 []GodotGdnativeInitOptions
-		packSGodotGdnativeInitOptions(arg0f0f9a077, carg0)
-		godotGdnativeInitFnF0F9A077Func(arg0f0f9a077)
+//export gdnativeInitFnF0F9A077
+func gdnativeInitFnF0F9A077(carg0 *C.godot_gdnative_init_options) {
+	if gdnativeInitFnF0F9A077Func != nil {
+		var arg0f0f9a077 []GdnativeInitOptions
+		packSGdnativeInitOptions(arg0f0f9a077, carg0)
+		gdnativeInitFnF0F9A077Func(arg0f0f9a077)
 		return
 	}
 	panic("callback func has not been set (race?)")
 }
 
-var godotGdnativeInitFnF0F9A077Func GodotGdnativeInitFn
+var gdnativeInitFnF0F9A077Func GdnativeInitFn
 
-// packSGodotGdnativeTerminateOptions reads sliced Go data structure out from plain C format.
-func packSGodotGdnativeTerminateOptions(v []GodotGdnativeTerminateOptions, ptr0 *C.godot_gdnative_terminate_options) {
+// packSGdnativeTerminateOptions reads sliced Go data structure out from plain C format.
+func packSGdnativeTerminateOptions(v []GdnativeTerminateOptions, ptr0 *C.godot_gdnative_terminate_options) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotGdnativeTerminateOptionsValue]C.godot_gdnative_terminate_options)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotGdnativeTerminateOptionsRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfGdnativeTerminateOptionsValue]C.godot_gdnative_terminate_options)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewGdnativeTerminateOptionsRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-func (x GodotGdnativeTerminateFn) PassRef() (ref *C.godot_gdnative_terminate_fn, allocs *cgoAllocMap) {
+func (x GdnativeTerminateFn) PassRef() (ref *C.godot_gdnative_terminate_fn, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
-	if godotGdnativeTerminateFn7F5590C3Func == nil {
-		godotGdnativeTerminateFn7F5590C3Func = x
+	if gdnativeTerminateFn7F5590C3Func == nil {
+		gdnativeTerminateFn7F5590C3Func = x
 	}
 	return (*C.godot_gdnative_terminate_fn)(C.godot_gdnative_terminate_fn_7f5590c3), nil
 }
 
-func (x GodotGdnativeTerminateFn) PassValue() (ref C.godot_gdnative_terminate_fn, allocs *cgoAllocMap) {
+func (x GdnativeTerminateFn) PassValue() (ref C.godot_gdnative_terminate_fn, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
-	if godotGdnativeTerminateFn7F5590C3Func == nil {
-		godotGdnativeTerminateFn7F5590C3Func = x
+	if gdnativeTerminateFn7F5590C3Func == nil {
+		gdnativeTerminateFn7F5590C3Func = x
 	}
 	return (C.godot_gdnative_terminate_fn)(C.godot_gdnative_terminate_fn_7f5590c3), nil
 }
 
-func NewGodotGdnativeTerminateFnRef(ref unsafe.Pointer) *GodotGdnativeTerminateFn {
-	return (*GodotGdnativeTerminateFn)(ref)
+func NewGdnativeTerminateFnRef(ref unsafe.Pointer) *GdnativeTerminateFn {
+	return (*GdnativeTerminateFn)(ref)
 }
 
-//export godotGdnativeTerminateFn7F5590C3
-func godotGdnativeTerminateFn7F5590C3(carg0 *C.godot_gdnative_terminate_options) {
-	if godotGdnativeTerminateFn7F5590C3Func != nil {
-		var arg07f5590c3 []GodotGdnativeTerminateOptions
-		packSGodotGdnativeTerminateOptions(arg07f5590c3, carg0)
-		godotGdnativeTerminateFn7F5590C3Func(arg07f5590c3)
+//export gdnativeTerminateFn7F5590C3
+func gdnativeTerminateFn7F5590C3(carg0 *C.godot_gdnative_terminate_options) {
+	if gdnativeTerminateFn7F5590C3Func != nil {
+		var arg07f5590c3 []GdnativeTerminateOptions
+		packSGdnativeTerminateOptions(arg07f5590c3, carg0)
+		gdnativeTerminateFn7F5590C3Func(arg07f5590c3)
 		return
 	}
 	panic("callback func has not been set (race?)")
 }
 
-var godotGdnativeTerminateFn7F5590C3Func GodotGdnativeTerminateFn
+var gdnativeTerminateFn7F5590C3Func GdnativeTerminateFn
 
-// packSGodotArray reads sliced Go data structure out from plain C format.
-func packSGodotArray(v []GodotArray, ptr0 *C.godot_array) {
+// packSArray reads sliced Go data structure out from plain C format.
+func packSArray(v []Array, ptr0 *C.godot_array) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotArrayValue]C.godot_array)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotArrayRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfArrayValue]C.godot_array)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewArrayRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-func (x GodotGdnativeProcedureFn) PassRef() (ref *C.godot_gdnative_procedure_fn, allocs *cgoAllocMap) {
+func (x GdnativeProcedureFn) PassRef() (ref *C.godot_gdnative_procedure_fn, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
-	if godotGdnativeProcedureFn5D45412Func == nil {
-		godotGdnativeProcedureFn5D45412Func = x
+	if gdnativeProcedureFn5D45412Func == nil {
+		gdnativeProcedureFn5D45412Func = x
 	}
 	return (*C.godot_gdnative_procedure_fn)(C.godot_gdnative_procedure_fn_5d45412), nil
 }
 
-func (x GodotGdnativeProcedureFn) PassValue() (ref C.godot_gdnative_procedure_fn, allocs *cgoAllocMap) {
+func (x GdnativeProcedureFn) PassValue() (ref C.godot_gdnative_procedure_fn, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
-	if godotGdnativeProcedureFn5D45412Func == nil {
-		godotGdnativeProcedureFn5D45412Func = x
+	if gdnativeProcedureFn5D45412Func == nil {
+		gdnativeProcedureFn5D45412Func = x
 	}
 	return (C.godot_gdnative_procedure_fn)(C.godot_gdnative_procedure_fn_5d45412), nil
 }
 
-func NewGodotGdnativeProcedureFnRef(ref unsafe.Pointer) *GodotGdnativeProcedureFn {
-	return (*GodotGdnativeProcedureFn)(ref)
+func NewGdnativeProcedureFnRef(ref unsafe.Pointer) *GdnativeProcedureFn {
+	return (*GdnativeProcedureFn)(ref)
 }
 
-//export godotGdnativeProcedureFn5D45412
-func godotGdnativeProcedureFn5D45412(carg0 *C.godot_array) C.godot_variant {
-	if godotGdnativeProcedureFn5D45412Func != nil {
-		var arg05d45412 []GodotArray
-		packSGodotArray(arg05d45412, carg0)
-		ret5d45412 := godotGdnativeProcedureFn5D45412Func(arg05d45412)
+//export gdnativeProcedureFn5D45412
+func gdnativeProcedureFn5D45412(carg0 *C.godot_array) C.godot_variant {
+	if gdnativeProcedureFn5D45412Func != nil {
+		var arg05d45412 []Array
+		packSArray(arg05d45412, carg0)
+		ret5d45412 := gdnativeProcedureFn5D45412Func(arg05d45412)
 		ret, _ := ret5d45412.PassValue()
 		return ret
 	}
 	panic("callback func has not been set (race?)")
 }
 
-var godotGdnativeProcedureFn5D45412Func GodotGdnativeProcedureFn
+var gdnativeProcedureFn5D45412Func GdnativeProcedureFn
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotString) Ref() *C.godot_string {
+func (x *String) Ref() *C.godot_string {
 	if x == nil {
 		return nil
 	}
@@ -5013,33 +5013,33 @@ func (x *GodotString) Ref() *C.godot_string {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotString) Free() {
+func (x *String) Free() {
 	if x != nil && x.allocs6d1ede57 != nil {
 		x.allocs6d1ede57.(*cgoAllocMap).Free()
 		x.ref6d1ede57 = nil
 	}
 }
 
-// NewGodotStringRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewStringRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotStringRef(ref unsafe.Pointer) *GodotString {
+func NewStringRef(ref unsafe.Pointer) *String {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotString)
+	obj := new(String)
 	obj.ref6d1ede57 = (*C.godot_string)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotString) PassRef() (*C.godot_string, *cgoAllocMap) {
+func (x *String) PassRef() (*C.godot_string, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref6d1ede57 != nil {
 		return x.ref6d1ede57, nil
 	}
-	mem6d1ede57 := allocGodotStringMemory(1)
+	mem6d1ede57 := allocStringMemory(1)
 	ref6d1ede57 := (*C.godot_string)(mem6d1ede57)
 	allocs6d1ede57 := new(cgoAllocMap)
 	allocs6d1ede57.Add(mem6d1ede57)
@@ -5055,7 +5055,7 @@ func (x *GodotString) PassRef() (*C.godot_string, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotString) PassValue() (C.godot_string, *cgoAllocMap) {
+func (x String) PassValue() (C.godot_string, *cgoAllocMap) {
 	if x.ref6d1ede57 != nil {
 		return *x.ref6d1ede57, nil
 	}
@@ -5065,27 +5065,27 @@ func (x GodotString) PassValue() (C.godot_string, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotString) Deref() {
+func (x *String) Deref() {
 	if x.ref6d1ede57 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.ref6d1ede57._dont_touch_that))
 }
 
-// allocGodotArrayMemory allocates memory for type C.godot_array in C.
+// allocArrayMemory allocates memory for type C.godot_array in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotArrayMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotArrayValue))
+func allocArrayMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfArrayValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotArrayValue = unsafe.Sizeof([1]C.godot_array{})
+const sizeOfArrayValue = unsafe.Sizeof([1]C.godot_array{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotArray) Ref() *C.godot_array {
+func (x *Array) Ref() *C.godot_array {
 	if x == nil {
 		return nil
 	}
@@ -5094,33 +5094,33 @@ func (x *GodotArray) Ref() *C.godot_array {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotArray) Free() {
+func (x *Array) Free() {
 	if x != nil && x.allocsb81158a5 != nil {
 		x.allocsb81158a5.(*cgoAllocMap).Free()
 		x.refb81158a5 = nil
 	}
 }
 
-// NewGodotArrayRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewArrayRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotArrayRef(ref unsafe.Pointer) *GodotArray {
+func NewArrayRef(ref unsafe.Pointer) *Array {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotArray)
+	obj := new(Array)
 	obj.refb81158a5 = (*C.godot_array)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotArray) PassRef() (*C.godot_array, *cgoAllocMap) {
+func (x *Array) PassRef() (*C.godot_array, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refb81158a5 != nil {
 		return x.refb81158a5, nil
 	}
-	memb81158a5 := allocGodotArrayMemory(1)
+	memb81158a5 := allocArrayMemory(1)
 	refb81158a5 := (*C.godot_array)(memb81158a5)
 	allocsb81158a5 := new(cgoAllocMap)
 	allocsb81158a5.Add(memb81158a5)
@@ -5136,7 +5136,7 @@ func (x *GodotArray) PassRef() (*C.godot_array, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotArray) PassValue() (C.godot_array, *cgoAllocMap) {
+func (x Array) PassValue() (C.godot_array, *cgoAllocMap) {
 	if x.refb81158a5 != nil {
 		return *x.refb81158a5, nil
 	}
@@ -5146,27 +5146,27 @@ func (x GodotArray) PassValue() (C.godot_array, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotArray) Deref() {
+func (x *Array) Deref() {
 	if x.refb81158a5 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.refb81158a5._dont_touch_that))
 }
 
-// allocGodotPoolArrayReadAccessMemory allocates memory for type C.godot_pool_array_read_access in C.
+// allocPoolArrayReadAccessMemory allocates memory for type C.godot_pool_array_read_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolArrayReadAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolArrayReadAccessValue))
+func allocPoolArrayReadAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolArrayReadAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_array_read_access{})
+const sizeOfPoolArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_array_read_access{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolArrayReadAccess) Ref() *C.godot_pool_array_read_access {
+func (x *PoolArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 	if x == nil {
 		return nil
 	}
@@ -5175,33 +5175,33 @@ func (x *GodotPoolArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolArrayReadAccess) Free() {
+func (x *PoolArrayReadAccess) Free() {
 	if x != nil && x.allocs172179be != nil {
 		x.allocs172179be.(*cgoAllocMap).Free()
 		x.ref172179be = nil
 	}
 }
 
-// NewGodotPoolArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolArrayReadAccessRef(ref unsafe.Pointer) *GodotPoolArrayReadAccess {
+func NewPoolArrayReadAccessRef(ref unsafe.Pointer) *PoolArrayReadAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolArrayReadAccess)
+	obj := new(PoolArrayReadAccess)
 	obj.ref172179be = (*C.godot_pool_array_read_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x *PoolArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref172179be != nil {
 		return x.ref172179be, nil
 	}
-	mem172179be := allocGodotPoolArrayReadAccessMemory(1)
+	mem172179be := allocPoolArrayReadAccessMemory(1)
 	ref172179be := (*C.godot_pool_array_read_access)(mem172179be)
 	allocs172179be := new(cgoAllocMap)
 	allocs172179be.Add(mem172179be)
@@ -5217,7 +5217,7 @@ func (x *GodotPoolArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x PoolArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x.ref172179be != nil {
 		return *x.ref172179be, nil
 	}
@@ -5227,7 +5227,7 @@ func (x GodotPoolArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolArrayReadAccess) Deref() {
+func (x *PoolArrayReadAccess) Deref() {
 	if x.ref172179be == nil {
 		return
 	}
@@ -5235,7 +5235,7 @@ func (x *GodotPoolArrayReadAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolByteArrayReadAccess) Ref() *C.godot_pool_array_read_access {
+func (x *PoolByteArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 	if x == nil {
 		return nil
 	}
@@ -5244,33 +5244,33 @@ func (x *GodotPoolByteArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolByteArrayReadAccess) Free() {
+func (x *PoolByteArrayReadAccess) Free() {
 	if x != nil && x.allocs172179be != nil {
 		x.allocs172179be.(*cgoAllocMap).Free()
 		x.ref172179be = nil
 	}
 }
 
-// NewGodotPoolByteArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolByteArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolByteArrayReadAccessRef(ref unsafe.Pointer) *GodotPoolByteArrayReadAccess {
+func NewPoolByteArrayReadAccessRef(ref unsafe.Pointer) *PoolByteArrayReadAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolByteArrayReadAccess)
+	obj := new(PoolByteArrayReadAccess)
 	obj.ref172179be = (*C.godot_pool_array_read_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolByteArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x *PoolByteArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref172179be != nil {
 		return x.ref172179be, nil
 	}
-	mem172179be := allocGodotPoolArrayReadAccessMemory(1)
+	mem172179be := allocPoolArrayReadAccessMemory(1)
 	ref172179be := (*C.godot_pool_array_read_access)(mem172179be)
 	allocs172179be := new(cgoAllocMap)
 	allocs172179be.Add(mem172179be)
@@ -5286,7 +5286,7 @@ func (x *GodotPoolByteArrayReadAccess) PassRef() (*C.godot_pool_array_read_acces
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolByteArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x PoolByteArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x.ref172179be != nil {
 		return *x.ref172179be, nil
 	}
@@ -5296,7 +5296,7 @@ func (x GodotPoolByteArrayReadAccess) PassValue() (C.godot_pool_array_read_acces
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolByteArrayReadAccess) Deref() {
+func (x *PoolByteArrayReadAccess) Deref() {
 	if x.ref172179be == nil {
 		return
 	}
@@ -5304,7 +5304,7 @@ func (x *GodotPoolByteArrayReadAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolIntArrayReadAccess) Ref() *C.godot_pool_array_read_access {
+func (x *PoolIntArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 	if x == nil {
 		return nil
 	}
@@ -5313,33 +5313,33 @@ func (x *GodotPoolIntArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolIntArrayReadAccess) Free() {
+func (x *PoolIntArrayReadAccess) Free() {
 	if x != nil && x.allocs172179be != nil {
 		x.allocs172179be.(*cgoAllocMap).Free()
 		x.ref172179be = nil
 	}
 }
 
-// NewGodotPoolIntArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolIntArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolIntArrayReadAccessRef(ref unsafe.Pointer) *GodotPoolIntArrayReadAccess {
+func NewPoolIntArrayReadAccessRef(ref unsafe.Pointer) *PoolIntArrayReadAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolIntArrayReadAccess)
+	obj := new(PoolIntArrayReadAccess)
 	obj.ref172179be = (*C.godot_pool_array_read_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolIntArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x *PoolIntArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref172179be != nil {
 		return x.ref172179be, nil
 	}
-	mem172179be := allocGodotPoolArrayReadAccessMemory(1)
+	mem172179be := allocPoolArrayReadAccessMemory(1)
 	ref172179be := (*C.godot_pool_array_read_access)(mem172179be)
 	allocs172179be := new(cgoAllocMap)
 	allocs172179be.Add(mem172179be)
@@ -5355,7 +5355,7 @@ func (x *GodotPoolIntArrayReadAccess) PassRef() (*C.godot_pool_array_read_access
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolIntArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x PoolIntArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x.ref172179be != nil {
 		return *x.ref172179be, nil
 	}
@@ -5365,7 +5365,7 @@ func (x GodotPoolIntArrayReadAccess) PassValue() (C.godot_pool_array_read_access
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolIntArrayReadAccess) Deref() {
+func (x *PoolIntArrayReadAccess) Deref() {
 	if x.ref172179be == nil {
 		return
 	}
@@ -5373,7 +5373,7 @@ func (x *GodotPoolIntArrayReadAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolRealArrayReadAccess) Ref() *C.godot_pool_array_read_access {
+func (x *PoolRealArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 	if x == nil {
 		return nil
 	}
@@ -5382,33 +5382,33 @@ func (x *GodotPoolRealArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolRealArrayReadAccess) Free() {
+func (x *PoolRealArrayReadAccess) Free() {
 	if x != nil && x.allocs172179be != nil {
 		x.allocs172179be.(*cgoAllocMap).Free()
 		x.ref172179be = nil
 	}
 }
 
-// NewGodotPoolRealArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolRealArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolRealArrayReadAccessRef(ref unsafe.Pointer) *GodotPoolRealArrayReadAccess {
+func NewPoolRealArrayReadAccessRef(ref unsafe.Pointer) *PoolRealArrayReadAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolRealArrayReadAccess)
+	obj := new(PoolRealArrayReadAccess)
 	obj.ref172179be = (*C.godot_pool_array_read_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolRealArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x *PoolRealArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref172179be != nil {
 		return x.ref172179be, nil
 	}
-	mem172179be := allocGodotPoolArrayReadAccessMemory(1)
+	mem172179be := allocPoolArrayReadAccessMemory(1)
 	ref172179be := (*C.godot_pool_array_read_access)(mem172179be)
 	allocs172179be := new(cgoAllocMap)
 	allocs172179be.Add(mem172179be)
@@ -5424,7 +5424,7 @@ func (x *GodotPoolRealArrayReadAccess) PassRef() (*C.godot_pool_array_read_acces
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolRealArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x PoolRealArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x.ref172179be != nil {
 		return *x.ref172179be, nil
 	}
@@ -5434,7 +5434,7 @@ func (x GodotPoolRealArrayReadAccess) PassValue() (C.godot_pool_array_read_acces
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolRealArrayReadAccess) Deref() {
+func (x *PoolRealArrayReadAccess) Deref() {
 	if x.ref172179be == nil {
 		return
 	}
@@ -5442,7 +5442,7 @@ func (x *GodotPoolRealArrayReadAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolStringArrayReadAccess) Ref() *C.godot_pool_array_read_access {
+func (x *PoolStringArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 	if x == nil {
 		return nil
 	}
@@ -5451,33 +5451,33 @@ func (x *GodotPoolStringArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolStringArrayReadAccess) Free() {
+func (x *PoolStringArrayReadAccess) Free() {
 	if x != nil && x.allocs172179be != nil {
 		x.allocs172179be.(*cgoAllocMap).Free()
 		x.ref172179be = nil
 	}
 }
 
-// NewGodotPoolStringArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolStringArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolStringArrayReadAccessRef(ref unsafe.Pointer) *GodotPoolStringArrayReadAccess {
+func NewPoolStringArrayReadAccessRef(ref unsafe.Pointer) *PoolStringArrayReadAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolStringArrayReadAccess)
+	obj := new(PoolStringArrayReadAccess)
 	obj.ref172179be = (*C.godot_pool_array_read_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolStringArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x *PoolStringArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref172179be != nil {
 		return x.ref172179be, nil
 	}
-	mem172179be := allocGodotPoolArrayReadAccessMemory(1)
+	mem172179be := allocPoolArrayReadAccessMemory(1)
 	ref172179be := (*C.godot_pool_array_read_access)(mem172179be)
 	allocs172179be := new(cgoAllocMap)
 	allocs172179be.Add(mem172179be)
@@ -5493,7 +5493,7 @@ func (x *GodotPoolStringArrayReadAccess) PassRef() (*C.godot_pool_array_read_acc
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolStringArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x PoolStringArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x.ref172179be != nil {
 		return *x.ref172179be, nil
 	}
@@ -5503,7 +5503,7 @@ func (x GodotPoolStringArrayReadAccess) PassValue() (C.godot_pool_array_read_acc
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolStringArrayReadAccess) Deref() {
+func (x *PoolStringArrayReadAccess) Deref() {
 	if x.ref172179be == nil {
 		return
 	}
@@ -5511,7 +5511,7 @@ func (x *GodotPoolStringArrayReadAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolVector2ArrayReadAccess) Ref() *C.godot_pool_array_read_access {
+func (x *PoolVector2ArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 	if x == nil {
 		return nil
 	}
@@ -5520,33 +5520,33 @@ func (x *GodotPoolVector2ArrayReadAccess) Ref() *C.godot_pool_array_read_access 
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolVector2ArrayReadAccess) Free() {
+func (x *PoolVector2ArrayReadAccess) Free() {
 	if x != nil && x.allocs172179be != nil {
 		x.allocs172179be.(*cgoAllocMap).Free()
 		x.ref172179be = nil
 	}
 }
 
-// NewGodotPoolVector2ArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolVector2ArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolVector2ArrayReadAccessRef(ref unsafe.Pointer) *GodotPoolVector2ArrayReadAccess {
+func NewPoolVector2ArrayReadAccessRef(ref unsafe.Pointer) *PoolVector2ArrayReadAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolVector2ArrayReadAccess)
+	obj := new(PoolVector2ArrayReadAccess)
 	obj.ref172179be = (*C.godot_pool_array_read_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolVector2ArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x *PoolVector2ArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref172179be != nil {
 		return x.ref172179be, nil
 	}
-	mem172179be := allocGodotPoolArrayReadAccessMemory(1)
+	mem172179be := allocPoolArrayReadAccessMemory(1)
 	ref172179be := (*C.godot_pool_array_read_access)(mem172179be)
 	allocs172179be := new(cgoAllocMap)
 	allocs172179be.Add(mem172179be)
@@ -5562,7 +5562,7 @@ func (x *GodotPoolVector2ArrayReadAccess) PassRef() (*C.godot_pool_array_read_ac
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolVector2ArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x PoolVector2ArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x.ref172179be != nil {
 		return *x.ref172179be, nil
 	}
@@ -5572,7 +5572,7 @@ func (x GodotPoolVector2ArrayReadAccess) PassValue() (C.godot_pool_array_read_ac
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolVector2ArrayReadAccess) Deref() {
+func (x *PoolVector2ArrayReadAccess) Deref() {
 	if x.ref172179be == nil {
 		return
 	}
@@ -5580,7 +5580,7 @@ func (x *GodotPoolVector2ArrayReadAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolVector3ArrayReadAccess) Ref() *C.godot_pool_array_read_access {
+func (x *PoolVector3ArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 	if x == nil {
 		return nil
 	}
@@ -5589,33 +5589,33 @@ func (x *GodotPoolVector3ArrayReadAccess) Ref() *C.godot_pool_array_read_access 
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolVector3ArrayReadAccess) Free() {
+func (x *PoolVector3ArrayReadAccess) Free() {
 	if x != nil && x.allocs172179be != nil {
 		x.allocs172179be.(*cgoAllocMap).Free()
 		x.ref172179be = nil
 	}
 }
 
-// NewGodotPoolVector3ArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolVector3ArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolVector3ArrayReadAccessRef(ref unsafe.Pointer) *GodotPoolVector3ArrayReadAccess {
+func NewPoolVector3ArrayReadAccessRef(ref unsafe.Pointer) *PoolVector3ArrayReadAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolVector3ArrayReadAccess)
+	obj := new(PoolVector3ArrayReadAccess)
 	obj.ref172179be = (*C.godot_pool_array_read_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolVector3ArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x *PoolVector3ArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref172179be != nil {
 		return x.ref172179be, nil
 	}
-	mem172179be := allocGodotPoolArrayReadAccessMemory(1)
+	mem172179be := allocPoolArrayReadAccessMemory(1)
 	ref172179be := (*C.godot_pool_array_read_access)(mem172179be)
 	allocs172179be := new(cgoAllocMap)
 	allocs172179be.Add(mem172179be)
@@ -5631,7 +5631,7 @@ func (x *GodotPoolVector3ArrayReadAccess) PassRef() (*C.godot_pool_array_read_ac
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolVector3ArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x PoolVector3ArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x.ref172179be != nil {
 		return *x.ref172179be, nil
 	}
@@ -5641,7 +5641,7 @@ func (x GodotPoolVector3ArrayReadAccess) PassValue() (C.godot_pool_array_read_ac
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolVector3ArrayReadAccess) Deref() {
+func (x *PoolVector3ArrayReadAccess) Deref() {
 	if x.ref172179be == nil {
 		return
 	}
@@ -5649,7 +5649,7 @@ func (x *GodotPoolVector3ArrayReadAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolColorArrayReadAccess) Ref() *C.godot_pool_array_read_access {
+func (x *PoolColorArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 	if x == nil {
 		return nil
 	}
@@ -5658,33 +5658,33 @@ func (x *GodotPoolColorArrayReadAccess) Ref() *C.godot_pool_array_read_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolColorArrayReadAccess) Free() {
+func (x *PoolColorArrayReadAccess) Free() {
 	if x != nil && x.allocs172179be != nil {
 		x.allocs172179be.(*cgoAllocMap).Free()
 		x.ref172179be = nil
 	}
 }
 
-// NewGodotPoolColorArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolColorArrayReadAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolColorArrayReadAccessRef(ref unsafe.Pointer) *GodotPoolColorArrayReadAccess {
+func NewPoolColorArrayReadAccessRef(ref unsafe.Pointer) *PoolColorArrayReadAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolColorArrayReadAccess)
+	obj := new(PoolColorArrayReadAccess)
 	obj.ref172179be = (*C.godot_pool_array_read_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolColorArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x *PoolColorArrayReadAccess) PassRef() (*C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref172179be != nil {
 		return x.ref172179be, nil
 	}
-	mem172179be := allocGodotPoolArrayReadAccessMemory(1)
+	mem172179be := allocPoolArrayReadAccessMemory(1)
 	ref172179be := (*C.godot_pool_array_read_access)(mem172179be)
 	allocs172179be := new(cgoAllocMap)
 	allocs172179be.Add(mem172179be)
@@ -5700,7 +5700,7 @@ func (x *GodotPoolColorArrayReadAccess) PassRef() (*C.godot_pool_array_read_acce
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolColorArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
+func (x PoolColorArrayReadAccess) PassValue() (C.godot_pool_array_read_access, *cgoAllocMap) {
 	if x.ref172179be != nil {
 		return *x.ref172179be, nil
 	}
@@ -5710,27 +5710,27 @@ func (x GodotPoolColorArrayReadAccess) PassValue() (C.godot_pool_array_read_acce
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolColorArrayReadAccess) Deref() {
+func (x *PoolColorArrayReadAccess) Deref() {
 	if x.ref172179be == nil {
 		return
 	}
 	x.DontTouchThat = *(*[1]byte)(unsafe.Pointer(&x.ref172179be._dont_touch_that))
 }
 
-// allocGodotPoolArrayWriteAccessMemory allocates memory for type C.godot_pool_array_write_access in C.
+// allocPoolArrayWriteAccessMemory allocates memory for type C.godot_pool_array_write_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolArrayWriteAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolArrayWriteAccessValue))
+func allocPoolArrayWriteAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolArrayWriteAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_array_write_access{})
+const sizeOfPoolArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_array_write_access{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
+func (x *PoolArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 	if x == nil {
 		return nil
 	}
@@ -5739,33 +5739,33 @@ func (x *GodotPoolArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolArrayWriteAccess) Free() {
+func (x *PoolArrayWriteAccess) Free() {
 	if x != nil && x.allocsbe0648b != nil {
 		x.allocsbe0648b.(*cgoAllocMap).Free()
 		x.refbe0648b = nil
 	}
 }
 
-// NewGodotPoolArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolArrayWriteAccessRef(ref unsafe.Pointer) *GodotPoolArrayWriteAccess {
+func NewPoolArrayWriteAccessRef(ref unsafe.Pointer) *PoolArrayWriteAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolArrayWriteAccess)
+	obj := new(PoolArrayWriteAccess)
 	obj.refbe0648b = (*C.godot_pool_array_write_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x *PoolArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbe0648b != nil {
 		return x.refbe0648b, nil
 	}
-	membe0648b := allocGodotPoolArrayWriteAccessMemory(1)
+	membe0648b := allocPoolArrayWriteAccessMemory(1)
 	refbe0648b := (*C.godot_pool_array_write_access)(membe0648b)
 	allocsbe0648b := new(cgoAllocMap)
 	allocsbe0648b.Add(membe0648b)
@@ -5781,7 +5781,7 @@ func (x *GodotPoolArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access,
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x PoolArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x.refbe0648b != nil {
 		return *x.refbe0648b, nil
 	}
@@ -5791,7 +5791,7 @@ func (x GodotPoolArrayWriteAccess) PassValue() (C.godot_pool_array_write_access,
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolArrayWriteAccess) Deref() {
+func (x *PoolArrayWriteAccess) Deref() {
 	if x.refbe0648b == nil {
 		return
 	}
@@ -5799,7 +5799,7 @@ func (x *GodotPoolArrayWriteAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolByteArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
+func (x *PoolByteArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 	if x == nil {
 		return nil
 	}
@@ -5808,33 +5808,33 @@ func (x *GodotPoolByteArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolByteArrayWriteAccess) Free() {
+func (x *PoolByteArrayWriteAccess) Free() {
 	if x != nil && x.allocsbe0648b != nil {
 		x.allocsbe0648b.(*cgoAllocMap).Free()
 		x.refbe0648b = nil
 	}
 }
 
-// NewGodotPoolByteArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolByteArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolByteArrayWriteAccessRef(ref unsafe.Pointer) *GodotPoolByteArrayWriteAccess {
+func NewPoolByteArrayWriteAccessRef(ref unsafe.Pointer) *PoolByteArrayWriteAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolByteArrayWriteAccess)
+	obj := new(PoolByteArrayWriteAccess)
 	obj.refbe0648b = (*C.godot_pool_array_write_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolByteArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x *PoolByteArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbe0648b != nil {
 		return x.refbe0648b, nil
 	}
-	membe0648b := allocGodotPoolArrayWriteAccessMemory(1)
+	membe0648b := allocPoolArrayWriteAccessMemory(1)
 	refbe0648b := (*C.godot_pool_array_write_access)(membe0648b)
 	allocsbe0648b := new(cgoAllocMap)
 	allocsbe0648b.Add(membe0648b)
@@ -5850,7 +5850,7 @@ func (x *GodotPoolByteArrayWriteAccess) PassRef() (*C.godot_pool_array_write_acc
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolByteArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x PoolByteArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x.refbe0648b != nil {
 		return *x.refbe0648b, nil
 	}
@@ -5860,7 +5860,7 @@ func (x GodotPoolByteArrayWriteAccess) PassValue() (C.godot_pool_array_write_acc
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolByteArrayWriteAccess) Deref() {
+func (x *PoolByteArrayWriteAccess) Deref() {
 	if x.refbe0648b == nil {
 		return
 	}
@@ -5868,7 +5868,7 @@ func (x *GodotPoolByteArrayWriteAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolIntArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
+func (x *PoolIntArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 	if x == nil {
 		return nil
 	}
@@ -5877,33 +5877,33 @@ func (x *GodotPoolIntArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolIntArrayWriteAccess) Free() {
+func (x *PoolIntArrayWriteAccess) Free() {
 	if x != nil && x.allocsbe0648b != nil {
 		x.allocsbe0648b.(*cgoAllocMap).Free()
 		x.refbe0648b = nil
 	}
 }
 
-// NewGodotPoolIntArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolIntArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolIntArrayWriteAccessRef(ref unsafe.Pointer) *GodotPoolIntArrayWriteAccess {
+func NewPoolIntArrayWriteAccessRef(ref unsafe.Pointer) *PoolIntArrayWriteAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolIntArrayWriteAccess)
+	obj := new(PoolIntArrayWriteAccess)
 	obj.refbe0648b = (*C.godot_pool_array_write_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolIntArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x *PoolIntArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbe0648b != nil {
 		return x.refbe0648b, nil
 	}
-	membe0648b := allocGodotPoolArrayWriteAccessMemory(1)
+	membe0648b := allocPoolArrayWriteAccessMemory(1)
 	refbe0648b := (*C.godot_pool_array_write_access)(membe0648b)
 	allocsbe0648b := new(cgoAllocMap)
 	allocsbe0648b.Add(membe0648b)
@@ -5919,7 +5919,7 @@ func (x *GodotPoolIntArrayWriteAccess) PassRef() (*C.godot_pool_array_write_acce
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolIntArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x PoolIntArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x.refbe0648b != nil {
 		return *x.refbe0648b, nil
 	}
@@ -5929,7 +5929,7 @@ func (x GodotPoolIntArrayWriteAccess) PassValue() (C.godot_pool_array_write_acce
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolIntArrayWriteAccess) Deref() {
+func (x *PoolIntArrayWriteAccess) Deref() {
 	if x.refbe0648b == nil {
 		return
 	}
@@ -5937,7 +5937,7 @@ func (x *GodotPoolIntArrayWriteAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolRealArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
+func (x *PoolRealArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 	if x == nil {
 		return nil
 	}
@@ -5946,33 +5946,33 @@ func (x *GodotPoolRealArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolRealArrayWriteAccess) Free() {
+func (x *PoolRealArrayWriteAccess) Free() {
 	if x != nil && x.allocsbe0648b != nil {
 		x.allocsbe0648b.(*cgoAllocMap).Free()
 		x.refbe0648b = nil
 	}
 }
 
-// NewGodotPoolRealArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolRealArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolRealArrayWriteAccessRef(ref unsafe.Pointer) *GodotPoolRealArrayWriteAccess {
+func NewPoolRealArrayWriteAccessRef(ref unsafe.Pointer) *PoolRealArrayWriteAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolRealArrayWriteAccess)
+	obj := new(PoolRealArrayWriteAccess)
 	obj.refbe0648b = (*C.godot_pool_array_write_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolRealArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x *PoolRealArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbe0648b != nil {
 		return x.refbe0648b, nil
 	}
-	membe0648b := allocGodotPoolArrayWriteAccessMemory(1)
+	membe0648b := allocPoolArrayWriteAccessMemory(1)
 	refbe0648b := (*C.godot_pool_array_write_access)(membe0648b)
 	allocsbe0648b := new(cgoAllocMap)
 	allocsbe0648b.Add(membe0648b)
@@ -5988,7 +5988,7 @@ func (x *GodotPoolRealArrayWriteAccess) PassRef() (*C.godot_pool_array_write_acc
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolRealArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x PoolRealArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x.refbe0648b != nil {
 		return *x.refbe0648b, nil
 	}
@@ -5998,7 +5998,7 @@ func (x GodotPoolRealArrayWriteAccess) PassValue() (C.godot_pool_array_write_acc
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolRealArrayWriteAccess) Deref() {
+func (x *PoolRealArrayWriteAccess) Deref() {
 	if x.refbe0648b == nil {
 		return
 	}
@@ -6006,7 +6006,7 @@ func (x *GodotPoolRealArrayWriteAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolStringArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
+func (x *PoolStringArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 	if x == nil {
 		return nil
 	}
@@ -6015,33 +6015,33 @@ func (x *GodotPoolStringArrayWriteAccess) Ref() *C.godot_pool_array_write_access
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolStringArrayWriteAccess) Free() {
+func (x *PoolStringArrayWriteAccess) Free() {
 	if x != nil && x.allocsbe0648b != nil {
 		x.allocsbe0648b.(*cgoAllocMap).Free()
 		x.refbe0648b = nil
 	}
 }
 
-// NewGodotPoolStringArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolStringArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolStringArrayWriteAccessRef(ref unsafe.Pointer) *GodotPoolStringArrayWriteAccess {
+func NewPoolStringArrayWriteAccessRef(ref unsafe.Pointer) *PoolStringArrayWriteAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolStringArrayWriteAccess)
+	obj := new(PoolStringArrayWriteAccess)
 	obj.refbe0648b = (*C.godot_pool_array_write_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolStringArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x *PoolStringArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbe0648b != nil {
 		return x.refbe0648b, nil
 	}
-	membe0648b := allocGodotPoolArrayWriteAccessMemory(1)
+	membe0648b := allocPoolArrayWriteAccessMemory(1)
 	refbe0648b := (*C.godot_pool_array_write_access)(membe0648b)
 	allocsbe0648b := new(cgoAllocMap)
 	allocsbe0648b.Add(membe0648b)
@@ -6057,7 +6057,7 @@ func (x *GodotPoolStringArrayWriteAccess) PassRef() (*C.godot_pool_array_write_a
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolStringArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x PoolStringArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x.refbe0648b != nil {
 		return *x.refbe0648b, nil
 	}
@@ -6067,7 +6067,7 @@ func (x GodotPoolStringArrayWriteAccess) PassValue() (C.godot_pool_array_write_a
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolStringArrayWriteAccess) Deref() {
+func (x *PoolStringArrayWriteAccess) Deref() {
 	if x.refbe0648b == nil {
 		return
 	}
@@ -6075,7 +6075,7 @@ func (x *GodotPoolStringArrayWriteAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolVector2ArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
+func (x *PoolVector2ArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 	if x == nil {
 		return nil
 	}
@@ -6084,33 +6084,33 @@ func (x *GodotPoolVector2ArrayWriteAccess) Ref() *C.godot_pool_array_write_acces
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolVector2ArrayWriteAccess) Free() {
+func (x *PoolVector2ArrayWriteAccess) Free() {
 	if x != nil && x.allocsbe0648b != nil {
 		x.allocsbe0648b.(*cgoAllocMap).Free()
 		x.refbe0648b = nil
 	}
 }
 
-// NewGodotPoolVector2ArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolVector2ArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolVector2ArrayWriteAccessRef(ref unsafe.Pointer) *GodotPoolVector2ArrayWriteAccess {
+func NewPoolVector2ArrayWriteAccessRef(ref unsafe.Pointer) *PoolVector2ArrayWriteAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolVector2ArrayWriteAccess)
+	obj := new(PoolVector2ArrayWriteAccess)
 	obj.refbe0648b = (*C.godot_pool_array_write_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolVector2ArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x *PoolVector2ArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbe0648b != nil {
 		return x.refbe0648b, nil
 	}
-	membe0648b := allocGodotPoolArrayWriteAccessMemory(1)
+	membe0648b := allocPoolArrayWriteAccessMemory(1)
 	refbe0648b := (*C.godot_pool_array_write_access)(membe0648b)
 	allocsbe0648b := new(cgoAllocMap)
 	allocsbe0648b.Add(membe0648b)
@@ -6126,7 +6126,7 @@ func (x *GodotPoolVector2ArrayWriteAccess) PassRef() (*C.godot_pool_array_write_
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolVector2ArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x PoolVector2ArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x.refbe0648b != nil {
 		return *x.refbe0648b, nil
 	}
@@ -6136,7 +6136,7 @@ func (x GodotPoolVector2ArrayWriteAccess) PassValue() (C.godot_pool_array_write_
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolVector2ArrayWriteAccess) Deref() {
+func (x *PoolVector2ArrayWriteAccess) Deref() {
 	if x.refbe0648b == nil {
 		return
 	}
@@ -6144,7 +6144,7 @@ func (x *GodotPoolVector2ArrayWriteAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolVector3ArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
+func (x *PoolVector3ArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 	if x == nil {
 		return nil
 	}
@@ -6153,33 +6153,33 @@ func (x *GodotPoolVector3ArrayWriteAccess) Ref() *C.godot_pool_array_write_acces
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolVector3ArrayWriteAccess) Free() {
+func (x *PoolVector3ArrayWriteAccess) Free() {
 	if x != nil && x.allocsbe0648b != nil {
 		x.allocsbe0648b.(*cgoAllocMap).Free()
 		x.refbe0648b = nil
 	}
 }
 
-// NewGodotPoolVector3ArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolVector3ArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolVector3ArrayWriteAccessRef(ref unsafe.Pointer) *GodotPoolVector3ArrayWriteAccess {
+func NewPoolVector3ArrayWriteAccessRef(ref unsafe.Pointer) *PoolVector3ArrayWriteAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolVector3ArrayWriteAccess)
+	obj := new(PoolVector3ArrayWriteAccess)
 	obj.refbe0648b = (*C.godot_pool_array_write_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolVector3ArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x *PoolVector3ArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbe0648b != nil {
 		return x.refbe0648b, nil
 	}
-	membe0648b := allocGodotPoolArrayWriteAccessMemory(1)
+	membe0648b := allocPoolArrayWriteAccessMemory(1)
 	refbe0648b := (*C.godot_pool_array_write_access)(membe0648b)
 	allocsbe0648b := new(cgoAllocMap)
 	allocsbe0648b.Add(membe0648b)
@@ -6195,7 +6195,7 @@ func (x *GodotPoolVector3ArrayWriteAccess) PassRef() (*C.godot_pool_array_write_
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolVector3ArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x PoolVector3ArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x.refbe0648b != nil {
 		return *x.refbe0648b, nil
 	}
@@ -6205,7 +6205,7 @@ func (x GodotPoolVector3ArrayWriteAccess) PassValue() (C.godot_pool_array_write_
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolVector3ArrayWriteAccess) Deref() {
+func (x *PoolVector3ArrayWriteAccess) Deref() {
 	if x.refbe0648b == nil {
 		return
 	}
@@ -6213,7 +6213,7 @@ func (x *GodotPoolVector3ArrayWriteAccess) Deref() {
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolColorArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
+func (x *PoolColorArrayWriteAccess) Ref() *C.godot_pool_array_write_access {
 	if x == nil {
 		return nil
 	}
@@ -6222,33 +6222,33 @@ func (x *GodotPoolColorArrayWriteAccess) Ref() *C.godot_pool_array_write_access 
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolColorArrayWriteAccess) Free() {
+func (x *PoolColorArrayWriteAccess) Free() {
 	if x != nil && x.allocsbe0648b != nil {
 		x.allocsbe0648b.(*cgoAllocMap).Free()
 		x.refbe0648b = nil
 	}
 }
 
-// NewGodotPoolColorArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolColorArrayWriteAccessRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolColorArrayWriteAccessRef(ref unsafe.Pointer) *GodotPoolColorArrayWriteAccess {
+func NewPoolColorArrayWriteAccessRef(ref unsafe.Pointer) *PoolColorArrayWriteAccess {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolColorArrayWriteAccess)
+	obj := new(PoolColorArrayWriteAccess)
 	obj.refbe0648b = (*C.godot_pool_array_write_access)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolColorArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x *PoolColorArrayWriteAccess) PassRef() (*C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbe0648b != nil {
 		return x.refbe0648b, nil
 	}
-	membe0648b := allocGodotPoolArrayWriteAccessMemory(1)
+	membe0648b := allocPoolArrayWriteAccessMemory(1)
 	refbe0648b := (*C.godot_pool_array_write_access)(membe0648b)
 	allocsbe0648b := new(cgoAllocMap)
 	allocsbe0648b.Add(membe0648b)
@@ -6264,7 +6264,7 @@ func (x *GodotPoolColorArrayWriteAccess) PassRef() (*C.godot_pool_array_write_ac
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolColorArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
+func (x PoolColorArrayWriteAccess) PassValue() (C.godot_pool_array_write_access, *cgoAllocMap) {
 	if x.refbe0648b != nil {
 		return *x.refbe0648b, nil
 	}
@@ -6274,27 +6274,27 @@ func (x GodotPoolColorArrayWriteAccess) PassValue() (C.godot_pool_array_write_ac
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolColorArrayWriteAccess) Deref() {
+func (x *PoolColorArrayWriteAccess) Deref() {
 	if x.refbe0648b == nil {
 		return
 	}
 	x.DontTouchThat = *(*[1]byte)(unsafe.Pointer(&x.refbe0648b._dont_touch_that))
 }
 
-// allocGodotPoolByteArrayMemory allocates memory for type C.godot_pool_byte_array in C.
+// allocPoolByteArrayMemory allocates memory for type C.godot_pool_byte_array in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolByteArrayMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolByteArrayValue))
+func allocPoolByteArrayMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolByteArrayValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolByteArrayValue = unsafe.Sizeof([1]C.godot_pool_byte_array{})
+const sizeOfPoolByteArrayValue = unsafe.Sizeof([1]C.godot_pool_byte_array{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolByteArray) Ref() *C.godot_pool_byte_array {
+func (x *PoolByteArray) Ref() *C.godot_pool_byte_array {
 	if x == nil {
 		return nil
 	}
@@ -6303,33 +6303,33 @@ func (x *GodotPoolByteArray) Ref() *C.godot_pool_byte_array {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolByteArray) Free() {
+func (x *PoolByteArray) Free() {
 	if x != nil && x.allocsbf60ed2 != nil {
 		x.allocsbf60ed2.(*cgoAllocMap).Free()
 		x.refbf60ed2 = nil
 	}
 }
 
-// NewGodotPoolByteArrayRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolByteArrayRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolByteArrayRef(ref unsafe.Pointer) *GodotPoolByteArray {
+func NewPoolByteArrayRef(ref unsafe.Pointer) *PoolByteArray {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolByteArray)
+	obj := new(PoolByteArray)
 	obj.refbf60ed2 = (*C.godot_pool_byte_array)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolByteArray) PassRef() (*C.godot_pool_byte_array, *cgoAllocMap) {
+func (x *PoolByteArray) PassRef() (*C.godot_pool_byte_array, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbf60ed2 != nil {
 		return x.refbf60ed2, nil
 	}
-	membf60ed2 := allocGodotPoolByteArrayMemory(1)
+	membf60ed2 := allocPoolByteArrayMemory(1)
 	refbf60ed2 := (*C.godot_pool_byte_array)(membf60ed2)
 	allocsbf60ed2 := new(cgoAllocMap)
 	allocsbf60ed2.Add(membf60ed2)
@@ -6345,7 +6345,7 @@ func (x *GodotPoolByteArray) PassRef() (*C.godot_pool_byte_array, *cgoAllocMap) 
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolByteArray) PassValue() (C.godot_pool_byte_array, *cgoAllocMap) {
+func (x PoolByteArray) PassValue() (C.godot_pool_byte_array, *cgoAllocMap) {
 	if x.refbf60ed2 != nil {
 		return *x.refbf60ed2, nil
 	}
@@ -6355,27 +6355,27 @@ func (x GodotPoolByteArray) PassValue() (C.godot_pool_byte_array, *cgoAllocMap) 
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolByteArray) Deref() {
+func (x *PoolByteArray) Deref() {
 	if x.refbf60ed2 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.refbf60ed2._dont_touch_that))
 }
 
-// allocGodotPoolIntArrayMemory allocates memory for type C.godot_pool_int_array in C.
+// allocPoolIntArrayMemory allocates memory for type C.godot_pool_int_array in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolIntArrayMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolIntArrayValue))
+func allocPoolIntArrayMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolIntArrayValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolIntArrayValue = unsafe.Sizeof([1]C.godot_pool_int_array{})
+const sizeOfPoolIntArrayValue = unsafe.Sizeof([1]C.godot_pool_int_array{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolIntArray) Ref() *C.godot_pool_int_array {
+func (x *PoolIntArray) Ref() *C.godot_pool_int_array {
 	if x == nil {
 		return nil
 	}
@@ -6384,33 +6384,33 @@ func (x *GodotPoolIntArray) Ref() *C.godot_pool_int_array {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolIntArray) Free() {
+func (x *PoolIntArray) Free() {
 	if x != nil && x.allocs5d4f26e6 != nil {
 		x.allocs5d4f26e6.(*cgoAllocMap).Free()
 		x.ref5d4f26e6 = nil
 	}
 }
 
-// NewGodotPoolIntArrayRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolIntArrayRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolIntArrayRef(ref unsafe.Pointer) *GodotPoolIntArray {
+func NewPoolIntArrayRef(ref unsafe.Pointer) *PoolIntArray {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolIntArray)
+	obj := new(PoolIntArray)
 	obj.ref5d4f26e6 = (*C.godot_pool_int_array)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolIntArray) PassRef() (*C.godot_pool_int_array, *cgoAllocMap) {
+func (x *PoolIntArray) PassRef() (*C.godot_pool_int_array, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref5d4f26e6 != nil {
 		return x.ref5d4f26e6, nil
 	}
-	mem5d4f26e6 := allocGodotPoolIntArrayMemory(1)
+	mem5d4f26e6 := allocPoolIntArrayMemory(1)
 	ref5d4f26e6 := (*C.godot_pool_int_array)(mem5d4f26e6)
 	allocs5d4f26e6 := new(cgoAllocMap)
 	allocs5d4f26e6.Add(mem5d4f26e6)
@@ -6426,7 +6426,7 @@ func (x *GodotPoolIntArray) PassRef() (*C.godot_pool_int_array, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolIntArray) PassValue() (C.godot_pool_int_array, *cgoAllocMap) {
+func (x PoolIntArray) PassValue() (C.godot_pool_int_array, *cgoAllocMap) {
 	if x.ref5d4f26e6 != nil {
 		return *x.ref5d4f26e6, nil
 	}
@@ -6436,27 +6436,27 @@ func (x GodotPoolIntArray) PassValue() (C.godot_pool_int_array, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolIntArray) Deref() {
+func (x *PoolIntArray) Deref() {
 	if x.ref5d4f26e6 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.ref5d4f26e6._dont_touch_that))
 }
 
-// allocGodotPoolRealArrayMemory allocates memory for type C.godot_pool_real_array in C.
+// allocPoolRealArrayMemory allocates memory for type C.godot_pool_real_array in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolRealArrayMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolRealArrayValue))
+func allocPoolRealArrayMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolRealArrayValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolRealArrayValue = unsafe.Sizeof([1]C.godot_pool_real_array{})
+const sizeOfPoolRealArrayValue = unsafe.Sizeof([1]C.godot_pool_real_array{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolRealArray) Ref() *C.godot_pool_real_array {
+func (x *PoolRealArray) Ref() *C.godot_pool_real_array {
 	if x == nil {
 		return nil
 	}
@@ -6465,33 +6465,33 @@ func (x *GodotPoolRealArray) Ref() *C.godot_pool_real_array {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolRealArray) Free() {
+func (x *PoolRealArray) Free() {
 	if x != nil && x.allocsc76f44c3 != nil {
 		x.allocsc76f44c3.(*cgoAllocMap).Free()
 		x.refc76f44c3 = nil
 	}
 }
 
-// NewGodotPoolRealArrayRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolRealArrayRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolRealArrayRef(ref unsafe.Pointer) *GodotPoolRealArray {
+func NewPoolRealArrayRef(ref unsafe.Pointer) *PoolRealArray {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolRealArray)
+	obj := new(PoolRealArray)
 	obj.refc76f44c3 = (*C.godot_pool_real_array)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolRealArray) PassRef() (*C.godot_pool_real_array, *cgoAllocMap) {
+func (x *PoolRealArray) PassRef() (*C.godot_pool_real_array, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refc76f44c3 != nil {
 		return x.refc76f44c3, nil
 	}
-	memc76f44c3 := allocGodotPoolRealArrayMemory(1)
+	memc76f44c3 := allocPoolRealArrayMemory(1)
 	refc76f44c3 := (*C.godot_pool_real_array)(memc76f44c3)
 	allocsc76f44c3 := new(cgoAllocMap)
 	allocsc76f44c3.Add(memc76f44c3)
@@ -6507,7 +6507,7 @@ func (x *GodotPoolRealArray) PassRef() (*C.godot_pool_real_array, *cgoAllocMap) 
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolRealArray) PassValue() (C.godot_pool_real_array, *cgoAllocMap) {
+func (x PoolRealArray) PassValue() (C.godot_pool_real_array, *cgoAllocMap) {
 	if x.refc76f44c3 != nil {
 		return *x.refc76f44c3, nil
 	}
@@ -6517,27 +6517,27 @@ func (x GodotPoolRealArray) PassValue() (C.godot_pool_real_array, *cgoAllocMap) 
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolRealArray) Deref() {
+func (x *PoolRealArray) Deref() {
 	if x.refc76f44c3 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.refc76f44c3._dont_touch_that))
 }
 
-// allocGodotPoolStringArrayMemory allocates memory for type C.godot_pool_string_array in C.
+// allocPoolStringArrayMemory allocates memory for type C.godot_pool_string_array in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolStringArrayMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolStringArrayValue))
+func allocPoolStringArrayMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolStringArrayValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolStringArrayValue = unsafe.Sizeof([1]C.godot_pool_string_array{})
+const sizeOfPoolStringArrayValue = unsafe.Sizeof([1]C.godot_pool_string_array{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolStringArray) Ref() *C.godot_pool_string_array {
+func (x *PoolStringArray) Ref() *C.godot_pool_string_array {
 	if x == nil {
 		return nil
 	}
@@ -6546,33 +6546,33 @@ func (x *GodotPoolStringArray) Ref() *C.godot_pool_string_array {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolStringArray) Free() {
+func (x *PoolStringArray) Free() {
 	if x != nil && x.allocsf6fe5d9 != nil {
 		x.allocsf6fe5d9.(*cgoAllocMap).Free()
 		x.reff6fe5d9 = nil
 	}
 }
 
-// NewGodotPoolStringArrayRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolStringArrayRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolStringArrayRef(ref unsafe.Pointer) *GodotPoolStringArray {
+func NewPoolStringArrayRef(ref unsafe.Pointer) *PoolStringArray {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolStringArray)
+	obj := new(PoolStringArray)
 	obj.reff6fe5d9 = (*C.godot_pool_string_array)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolStringArray) PassRef() (*C.godot_pool_string_array, *cgoAllocMap) {
+func (x *PoolStringArray) PassRef() (*C.godot_pool_string_array, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.reff6fe5d9 != nil {
 		return x.reff6fe5d9, nil
 	}
-	memf6fe5d9 := allocGodotPoolStringArrayMemory(1)
+	memf6fe5d9 := allocPoolStringArrayMemory(1)
 	reff6fe5d9 := (*C.godot_pool_string_array)(memf6fe5d9)
 	allocsf6fe5d9 := new(cgoAllocMap)
 	allocsf6fe5d9.Add(memf6fe5d9)
@@ -6588,7 +6588,7 @@ func (x *GodotPoolStringArray) PassRef() (*C.godot_pool_string_array, *cgoAllocM
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolStringArray) PassValue() (C.godot_pool_string_array, *cgoAllocMap) {
+func (x PoolStringArray) PassValue() (C.godot_pool_string_array, *cgoAllocMap) {
 	if x.reff6fe5d9 != nil {
 		return *x.reff6fe5d9, nil
 	}
@@ -6598,27 +6598,27 @@ func (x GodotPoolStringArray) PassValue() (C.godot_pool_string_array, *cgoAllocM
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolStringArray) Deref() {
+func (x *PoolStringArray) Deref() {
 	if x.reff6fe5d9 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.reff6fe5d9._dont_touch_that))
 }
 
-// allocGodotPoolVector2ArrayMemory allocates memory for type C.godot_pool_vector2_array in C.
+// allocPoolVector2ArrayMemory allocates memory for type C.godot_pool_vector2_array in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolVector2ArrayMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolVector2ArrayValue))
+func allocPoolVector2ArrayMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolVector2ArrayValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolVector2ArrayValue = unsafe.Sizeof([1]C.godot_pool_vector2_array{})
+const sizeOfPoolVector2ArrayValue = unsafe.Sizeof([1]C.godot_pool_vector2_array{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolVector2Array) Ref() *C.godot_pool_vector2_array {
+func (x *PoolVector2Array) Ref() *C.godot_pool_vector2_array {
 	if x == nil {
 		return nil
 	}
@@ -6627,33 +6627,33 @@ func (x *GodotPoolVector2Array) Ref() *C.godot_pool_vector2_array {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolVector2Array) Free() {
+func (x *PoolVector2Array) Free() {
 	if x != nil && x.allocs7f6b2885 != nil {
 		x.allocs7f6b2885.(*cgoAllocMap).Free()
 		x.ref7f6b2885 = nil
 	}
 }
 
-// NewGodotPoolVector2ArrayRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolVector2ArrayRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolVector2ArrayRef(ref unsafe.Pointer) *GodotPoolVector2Array {
+func NewPoolVector2ArrayRef(ref unsafe.Pointer) *PoolVector2Array {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolVector2Array)
+	obj := new(PoolVector2Array)
 	obj.ref7f6b2885 = (*C.godot_pool_vector2_array)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolVector2Array) PassRef() (*C.godot_pool_vector2_array, *cgoAllocMap) {
+func (x *PoolVector2Array) PassRef() (*C.godot_pool_vector2_array, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref7f6b2885 != nil {
 		return x.ref7f6b2885, nil
 	}
-	mem7f6b2885 := allocGodotPoolVector2ArrayMemory(1)
+	mem7f6b2885 := allocPoolVector2ArrayMemory(1)
 	ref7f6b2885 := (*C.godot_pool_vector2_array)(mem7f6b2885)
 	allocs7f6b2885 := new(cgoAllocMap)
 	allocs7f6b2885.Add(mem7f6b2885)
@@ -6669,7 +6669,7 @@ func (x *GodotPoolVector2Array) PassRef() (*C.godot_pool_vector2_array, *cgoAllo
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolVector2Array) PassValue() (C.godot_pool_vector2_array, *cgoAllocMap) {
+func (x PoolVector2Array) PassValue() (C.godot_pool_vector2_array, *cgoAllocMap) {
 	if x.ref7f6b2885 != nil {
 		return *x.ref7f6b2885, nil
 	}
@@ -6679,27 +6679,27 @@ func (x GodotPoolVector2Array) PassValue() (C.godot_pool_vector2_array, *cgoAllo
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolVector2Array) Deref() {
+func (x *PoolVector2Array) Deref() {
 	if x.ref7f6b2885 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.ref7f6b2885._dont_touch_that))
 }
 
-// allocGodotPoolVector3ArrayMemory allocates memory for type C.godot_pool_vector3_array in C.
+// allocPoolVector3ArrayMemory allocates memory for type C.godot_pool_vector3_array in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolVector3ArrayMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolVector3ArrayValue))
+func allocPoolVector3ArrayMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolVector3ArrayValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolVector3ArrayValue = unsafe.Sizeof([1]C.godot_pool_vector3_array{})
+const sizeOfPoolVector3ArrayValue = unsafe.Sizeof([1]C.godot_pool_vector3_array{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolVector3Array) Ref() *C.godot_pool_vector3_array {
+func (x *PoolVector3Array) Ref() *C.godot_pool_vector3_array {
 	if x == nil {
 		return nil
 	}
@@ -6708,33 +6708,33 @@ func (x *GodotPoolVector3Array) Ref() *C.godot_pool_vector3_array {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolVector3Array) Free() {
+func (x *PoolVector3Array) Free() {
 	if x != nil && x.allocsd91c2331 != nil {
 		x.allocsd91c2331.(*cgoAllocMap).Free()
 		x.refd91c2331 = nil
 	}
 }
 
-// NewGodotPoolVector3ArrayRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolVector3ArrayRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolVector3ArrayRef(ref unsafe.Pointer) *GodotPoolVector3Array {
+func NewPoolVector3ArrayRef(ref unsafe.Pointer) *PoolVector3Array {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolVector3Array)
+	obj := new(PoolVector3Array)
 	obj.refd91c2331 = (*C.godot_pool_vector3_array)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolVector3Array) PassRef() (*C.godot_pool_vector3_array, *cgoAllocMap) {
+func (x *PoolVector3Array) PassRef() (*C.godot_pool_vector3_array, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refd91c2331 != nil {
 		return x.refd91c2331, nil
 	}
-	memd91c2331 := allocGodotPoolVector3ArrayMemory(1)
+	memd91c2331 := allocPoolVector3ArrayMemory(1)
 	refd91c2331 := (*C.godot_pool_vector3_array)(memd91c2331)
 	allocsd91c2331 := new(cgoAllocMap)
 	allocsd91c2331.Add(memd91c2331)
@@ -6750,7 +6750,7 @@ func (x *GodotPoolVector3Array) PassRef() (*C.godot_pool_vector3_array, *cgoAllo
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolVector3Array) PassValue() (C.godot_pool_vector3_array, *cgoAllocMap) {
+func (x PoolVector3Array) PassValue() (C.godot_pool_vector3_array, *cgoAllocMap) {
 	if x.refd91c2331 != nil {
 		return *x.refd91c2331, nil
 	}
@@ -6760,27 +6760,27 @@ func (x GodotPoolVector3Array) PassValue() (C.godot_pool_vector3_array, *cgoAllo
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolVector3Array) Deref() {
+func (x *PoolVector3Array) Deref() {
 	if x.refd91c2331 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.refd91c2331._dont_touch_that))
 }
 
-// allocGodotPoolColorArrayMemory allocates memory for type C.godot_pool_color_array in C.
+// allocPoolColorArrayMemory allocates memory for type C.godot_pool_color_array in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolColorArrayMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolColorArrayValue))
+func allocPoolColorArrayMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolColorArrayValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolColorArrayValue = unsafe.Sizeof([1]C.godot_pool_color_array{})
+const sizeOfPoolColorArrayValue = unsafe.Sizeof([1]C.godot_pool_color_array{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPoolColorArray) Ref() *C.godot_pool_color_array {
+func (x *PoolColorArray) Ref() *C.godot_pool_color_array {
 	if x == nil {
 		return nil
 	}
@@ -6789,33 +6789,33 @@ func (x *GodotPoolColorArray) Ref() *C.godot_pool_color_array {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPoolColorArray) Free() {
+func (x *PoolColorArray) Free() {
 	if x != nil && x.allocsd5cae78e != nil {
 		x.allocsd5cae78e.(*cgoAllocMap).Free()
 		x.refd5cae78e = nil
 	}
 }
 
-// NewGodotPoolColorArrayRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPoolColorArrayRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPoolColorArrayRef(ref unsafe.Pointer) *GodotPoolColorArray {
+func NewPoolColorArrayRef(ref unsafe.Pointer) *PoolColorArray {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPoolColorArray)
+	obj := new(PoolColorArray)
 	obj.refd5cae78e = (*C.godot_pool_color_array)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPoolColorArray) PassRef() (*C.godot_pool_color_array, *cgoAllocMap) {
+func (x *PoolColorArray) PassRef() (*C.godot_pool_color_array, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refd5cae78e != nil {
 		return x.refd5cae78e, nil
 	}
-	memd5cae78e := allocGodotPoolColorArrayMemory(1)
+	memd5cae78e := allocPoolColorArrayMemory(1)
 	refd5cae78e := (*C.godot_pool_color_array)(memd5cae78e)
 	allocsd5cae78e := new(cgoAllocMap)
 	allocsd5cae78e.Add(memd5cae78e)
@@ -6831,7 +6831,7 @@ func (x *GodotPoolColorArray) PassRef() (*C.godot_pool_color_array, *cgoAllocMap
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPoolColorArray) PassValue() (C.godot_pool_color_array, *cgoAllocMap) {
+func (x PoolColorArray) PassValue() (C.godot_pool_color_array, *cgoAllocMap) {
 	if x.refd5cae78e != nil {
 		return *x.refd5cae78e, nil
 	}
@@ -6841,27 +6841,27 @@ func (x GodotPoolColorArray) PassValue() (C.godot_pool_color_array, *cgoAllocMap
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPoolColorArray) Deref() {
+func (x *PoolColorArray) Deref() {
 	if x.refd5cae78e == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.refd5cae78e._dont_touch_that))
 }
 
-// allocGodotColorMemory allocates memory for type C.godot_color in C.
+// allocColorMemory allocates memory for type C.godot_color in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotColorMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotColorValue))
+func allocColorMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfColorValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotColorValue = unsafe.Sizeof([1]C.godot_color{})
+const sizeOfColorValue = unsafe.Sizeof([1]C.godot_color{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotColor) Ref() *C.godot_color {
+func (x *Color) Ref() *C.godot_color {
 	if x == nil {
 		return nil
 	}
@@ -6870,33 +6870,33 @@ func (x *GodotColor) Ref() *C.godot_color {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotColor) Free() {
+func (x *Color) Free() {
 	if x != nil && x.allocs7f4bfefb != nil {
 		x.allocs7f4bfefb.(*cgoAllocMap).Free()
 		x.ref7f4bfefb = nil
 	}
 }
 
-// NewGodotColorRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewColorRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotColorRef(ref unsafe.Pointer) *GodotColor {
+func NewColorRef(ref unsafe.Pointer) *Color {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotColor)
+	obj := new(Color)
 	obj.ref7f4bfefb = (*C.godot_color)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotColor) PassRef() (*C.godot_color, *cgoAllocMap) {
+func (x *Color) PassRef() (*C.godot_color, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref7f4bfefb != nil {
 		return x.ref7f4bfefb, nil
 	}
-	mem7f4bfefb := allocGodotColorMemory(1)
+	mem7f4bfefb := allocColorMemory(1)
 	ref7f4bfefb := (*C.godot_color)(mem7f4bfefb)
 	allocs7f4bfefb := new(cgoAllocMap)
 	allocs7f4bfefb.Add(mem7f4bfefb)
@@ -6912,7 +6912,7 @@ func (x *GodotColor) PassRef() (*C.godot_color, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotColor) PassValue() (C.godot_color, *cgoAllocMap) {
+func (x Color) PassValue() (C.godot_color, *cgoAllocMap) {
 	if x.ref7f4bfefb != nil {
 		return *x.ref7f4bfefb, nil
 	}
@@ -6922,27 +6922,27 @@ func (x GodotColor) PassValue() (C.godot_color, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotColor) Deref() {
+func (x *Color) Deref() {
 	if x.ref7f4bfefb == nil {
 		return
 	}
 	x.DontTouchThat = *(*[16]byte)(unsafe.Pointer(&x.ref7f4bfefb._dont_touch_that))
 }
 
-// allocGodotVector2Memory allocates memory for type C.godot_vector2 in C.
+// allocVector2Memory allocates memory for type C.godot_vector2 in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotVector2Memory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotVector2Value))
+func allocVector2Memory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfVector2Value))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotVector2Value = unsafe.Sizeof([1]C.godot_vector2{})
+const sizeOfVector2Value = unsafe.Sizeof([1]C.godot_vector2{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotVector2) Ref() *C.godot_vector2 {
+func (x *Vector2) Ref() *C.godot_vector2 {
 	if x == nil {
 		return nil
 	}
@@ -6951,33 +6951,33 @@ func (x *GodotVector2) Ref() *C.godot_vector2 {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotVector2) Free() {
+func (x *Vector2) Free() {
 	if x != nil && x.allocsbc81274e != nil {
 		x.allocsbc81274e.(*cgoAllocMap).Free()
 		x.refbc81274e = nil
 	}
 }
 
-// NewGodotVector2Ref creates a new wrapper struct with underlying reference set to the original C object.
+// NewVector2Ref creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotVector2Ref(ref unsafe.Pointer) *GodotVector2 {
+func NewVector2Ref(ref unsafe.Pointer) *Vector2 {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotVector2)
+	obj := new(Vector2)
 	obj.refbc81274e = (*C.godot_vector2)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotVector2) PassRef() (*C.godot_vector2, *cgoAllocMap) {
+func (x *Vector2) PassRef() (*C.godot_vector2, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refbc81274e != nil {
 		return x.refbc81274e, nil
 	}
-	membc81274e := allocGodotVector2Memory(1)
+	membc81274e := allocVector2Memory(1)
 	refbc81274e := (*C.godot_vector2)(membc81274e)
 	allocsbc81274e := new(cgoAllocMap)
 	allocsbc81274e.Add(membc81274e)
@@ -6993,7 +6993,7 @@ func (x *GodotVector2) PassRef() (*C.godot_vector2, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotVector2) PassValue() (C.godot_vector2, *cgoAllocMap) {
+func (x Vector2) PassValue() (C.godot_vector2, *cgoAllocMap) {
 	if x.refbc81274e != nil {
 		return *x.refbc81274e, nil
 	}
@@ -7003,27 +7003,27 @@ func (x GodotVector2) PassValue() (C.godot_vector2, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotVector2) Deref() {
+func (x *Vector2) Deref() {
 	if x.refbc81274e == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.refbc81274e._dont_touch_that))
 }
 
-// allocGodotVector3Memory allocates memory for type C.godot_vector3 in C.
+// allocVector3Memory allocates memory for type C.godot_vector3 in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotVector3Memory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotVector3Value))
+func allocVector3Memory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfVector3Value))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotVector3Value = unsafe.Sizeof([1]C.godot_vector3{})
+const sizeOfVector3Value = unsafe.Sizeof([1]C.godot_vector3{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotVector3) Ref() *C.godot_vector3 {
+func (x *Vector3) Ref() *C.godot_vector3 {
 	if x == nil {
 		return nil
 	}
@@ -7032,33 +7032,33 @@ func (x *GodotVector3) Ref() *C.godot_vector3 {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotVector3) Free() {
+func (x *Vector3) Free() {
 	if x != nil && x.allocscb8617d8 != nil {
 		x.allocscb8617d8.(*cgoAllocMap).Free()
 		x.refcb8617d8 = nil
 	}
 }
 
-// NewGodotVector3Ref creates a new wrapper struct with underlying reference set to the original C object.
+// NewVector3Ref creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotVector3Ref(ref unsafe.Pointer) *GodotVector3 {
+func NewVector3Ref(ref unsafe.Pointer) *Vector3 {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotVector3)
+	obj := new(Vector3)
 	obj.refcb8617d8 = (*C.godot_vector3)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotVector3) PassRef() (*C.godot_vector3, *cgoAllocMap) {
+func (x *Vector3) PassRef() (*C.godot_vector3, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refcb8617d8 != nil {
 		return x.refcb8617d8, nil
 	}
-	memcb8617d8 := allocGodotVector3Memory(1)
+	memcb8617d8 := allocVector3Memory(1)
 	refcb8617d8 := (*C.godot_vector3)(memcb8617d8)
 	allocscb8617d8 := new(cgoAllocMap)
 	allocscb8617d8.Add(memcb8617d8)
@@ -7074,7 +7074,7 @@ func (x *GodotVector3) PassRef() (*C.godot_vector3, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotVector3) PassValue() (C.godot_vector3, *cgoAllocMap) {
+func (x Vector3) PassValue() (C.godot_vector3, *cgoAllocMap) {
 	if x.refcb8617d8 != nil {
 		return *x.refcb8617d8, nil
 	}
@@ -7084,27 +7084,27 @@ func (x GodotVector3) PassValue() (C.godot_vector3, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotVector3) Deref() {
+func (x *Vector3) Deref() {
 	if x.refcb8617d8 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[12]byte)(unsafe.Pointer(&x.refcb8617d8._dont_touch_that))
 }
 
-// allocGodotBasisMemory allocates memory for type C.godot_basis in C.
+// allocBasisMemory allocates memory for type C.godot_basis in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotBasisMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotBasisValue))
+func allocBasisMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfBasisValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotBasisValue = unsafe.Sizeof([1]C.godot_basis{})
+const sizeOfBasisValue = unsafe.Sizeof([1]C.godot_basis{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotBasis) Ref() *C.godot_basis {
+func (x *Basis) Ref() *C.godot_basis {
 	if x == nil {
 		return nil
 	}
@@ -7113,33 +7113,33 @@ func (x *GodotBasis) Ref() *C.godot_basis {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotBasis) Free() {
+func (x *Basis) Free() {
 	if x != nil && x.allocs94d3d325 != nil {
 		x.allocs94d3d325.(*cgoAllocMap).Free()
 		x.ref94d3d325 = nil
 	}
 }
 
-// NewGodotBasisRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewBasisRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotBasisRef(ref unsafe.Pointer) *GodotBasis {
+func NewBasisRef(ref unsafe.Pointer) *Basis {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotBasis)
+	obj := new(Basis)
 	obj.ref94d3d325 = (*C.godot_basis)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotBasis) PassRef() (*C.godot_basis, *cgoAllocMap) {
+func (x *Basis) PassRef() (*C.godot_basis, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref94d3d325 != nil {
 		return x.ref94d3d325, nil
 	}
-	mem94d3d325 := allocGodotBasisMemory(1)
+	mem94d3d325 := allocBasisMemory(1)
 	ref94d3d325 := (*C.godot_basis)(mem94d3d325)
 	allocs94d3d325 := new(cgoAllocMap)
 	allocs94d3d325.Add(mem94d3d325)
@@ -7155,7 +7155,7 @@ func (x *GodotBasis) PassRef() (*C.godot_basis, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotBasis) PassValue() (C.godot_basis, *cgoAllocMap) {
+func (x Basis) PassValue() (C.godot_basis, *cgoAllocMap) {
 	if x.ref94d3d325 != nil {
 		return *x.ref94d3d325, nil
 	}
@@ -7165,27 +7165,27 @@ func (x GodotBasis) PassValue() (C.godot_basis, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotBasis) Deref() {
+func (x *Basis) Deref() {
 	if x.ref94d3d325 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[36]byte)(unsafe.Pointer(&x.ref94d3d325._dont_touch_that))
 }
 
-// allocGodotQuatMemory allocates memory for type C.godot_quat in C.
+// allocQuatMemory allocates memory for type C.godot_quat in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotQuatMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotQuatValue))
+func allocQuatMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfQuatValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotQuatValue = unsafe.Sizeof([1]C.godot_quat{})
+const sizeOfQuatValue = unsafe.Sizeof([1]C.godot_quat{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotQuat) Ref() *C.godot_quat {
+func (x *Quat) Ref() *C.godot_quat {
 	if x == nil {
 		return nil
 	}
@@ -7194,33 +7194,33 @@ func (x *GodotQuat) Ref() *C.godot_quat {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotQuat) Free() {
+func (x *Quat) Free() {
 	if x != nil && x.allocsfaf33e0b != nil {
 		x.allocsfaf33e0b.(*cgoAllocMap).Free()
 		x.reffaf33e0b = nil
 	}
 }
 
-// NewGodotQuatRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewQuatRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotQuatRef(ref unsafe.Pointer) *GodotQuat {
+func NewQuatRef(ref unsafe.Pointer) *Quat {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotQuat)
+	obj := new(Quat)
 	obj.reffaf33e0b = (*C.godot_quat)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotQuat) PassRef() (*C.godot_quat, *cgoAllocMap) {
+func (x *Quat) PassRef() (*C.godot_quat, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.reffaf33e0b != nil {
 		return x.reffaf33e0b, nil
 	}
-	memfaf33e0b := allocGodotQuatMemory(1)
+	memfaf33e0b := allocQuatMemory(1)
 	reffaf33e0b := (*C.godot_quat)(memfaf33e0b)
 	allocsfaf33e0b := new(cgoAllocMap)
 	allocsfaf33e0b.Add(memfaf33e0b)
@@ -7236,7 +7236,7 @@ func (x *GodotQuat) PassRef() (*C.godot_quat, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotQuat) PassValue() (C.godot_quat, *cgoAllocMap) {
+func (x Quat) PassValue() (C.godot_quat, *cgoAllocMap) {
 	if x.reffaf33e0b != nil {
 		return *x.reffaf33e0b, nil
 	}
@@ -7246,27 +7246,27 @@ func (x GodotQuat) PassValue() (C.godot_quat, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotQuat) Deref() {
+func (x *Quat) Deref() {
 	if x.reffaf33e0b == nil {
 		return
 	}
 	x.DontTouchThat = *(*[16]byte)(unsafe.Pointer(&x.reffaf33e0b._dont_touch_that))
 }
 
-// allocGodotVariantMemory allocates memory for type C.godot_variant in C.
+// allocVariantMemory allocates memory for type C.godot_variant in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotVariantMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotVariantValue))
+func allocVariantMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfVariantValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotVariantValue = unsafe.Sizeof([1]C.godot_variant{})
+const sizeOfVariantValue = unsafe.Sizeof([1]C.godot_variant{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotVariant) Ref() *C.godot_variant {
+func (x *Variant) Ref() *C.godot_variant {
 	if x == nil {
 		return nil
 	}
@@ -7275,33 +7275,33 @@ func (x *GodotVariant) Ref() *C.godot_variant {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotVariant) Free() {
+func (x *Variant) Free() {
 	if x != nil && x.allocsabb5c0da != nil {
 		x.allocsabb5c0da.(*cgoAllocMap).Free()
 		x.refabb5c0da = nil
 	}
 }
 
-// NewGodotVariantRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewVariantRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotVariantRef(ref unsafe.Pointer) *GodotVariant {
+func NewVariantRef(ref unsafe.Pointer) *Variant {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotVariant)
+	obj := new(Variant)
 	obj.refabb5c0da = (*C.godot_variant)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotVariant) PassRef() (*C.godot_variant, *cgoAllocMap) {
+func (x *Variant) PassRef() (*C.godot_variant, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refabb5c0da != nil {
 		return x.refabb5c0da, nil
 	}
-	memabb5c0da := allocGodotVariantMemory(1)
+	memabb5c0da := allocVariantMemory(1)
 	refabb5c0da := (*C.godot_variant)(memabb5c0da)
 	allocsabb5c0da := new(cgoAllocMap)
 	allocsabb5c0da.Add(memabb5c0da)
@@ -7317,7 +7317,7 @@ func (x *GodotVariant) PassRef() (*C.godot_variant, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotVariant) PassValue() (C.godot_variant, *cgoAllocMap) {
+func (x Variant) PassValue() (C.godot_variant, *cgoAllocMap) {
 	if x.refabb5c0da != nil {
 		return *x.refabb5c0da, nil
 	}
@@ -7327,27 +7327,27 @@ func (x GodotVariant) PassValue() (C.godot_variant, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotVariant) Deref() {
+func (x *Variant) Deref() {
 	if x.refabb5c0da == nil {
 		return
 	}
 	x.DontTouchThat = *(*[24]byte)(unsafe.Pointer(&x.refabb5c0da._dont_touch_that))
 }
 
-// allocGodotVariantCallErrorMemory allocates memory for type C.godot_variant_call_error in C.
+// allocVariantCallErrorMemory allocates memory for type C.godot_variant_call_error in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotVariantCallErrorMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotVariantCallErrorValue))
+func allocVariantCallErrorMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfVariantCallErrorValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotVariantCallErrorValue = unsafe.Sizeof([1]C.godot_variant_call_error{})
+const sizeOfVariantCallErrorValue = unsafe.Sizeof([1]C.godot_variant_call_error{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotVariantCallError) Ref() *C.godot_variant_call_error {
+func (x *VariantCallError) Ref() *C.godot_variant_call_error {
 	if x == nil {
 		return nil
 	}
@@ -7356,33 +7356,33 @@ func (x *GodotVariantCallError) Ref() *C.godot_variant_call_error {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotVariantCallError) Free() {
+func (x *VariantCallError) Free() {
 	if x != nil && x.allocs3ce71027 != nil {
 		x.allocs3ce71027.(*cgoAllocMap).Free()
 		x.ref3ce71027 = nil
 	}
 }
 
-// NewGodotVariantCallErrorRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewVariantCallErrorRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotVariantCallErrorRef(ref unsafe.Pointer) *GodotVariantCallError {
+func NewVariantCallErrorRef(ref unsafe.Pointer) *VariantCallError {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotVariantCallError)
+	obj := new(VariantCallError)
 	obj.ref3ce71027 = (*C.godot_variant_call_error)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotVariantCallError) PassRef() (*C.godot_variant_call_error, *cgoAllocMap) {
+func (x *VariantCallError) PassRef() (*C.godot_variant_call_error, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref3ce71027 != nil {
 		return x.ref3ce71027, nil
 	}
-	mem3ce71027 := allocGodotVariantCallErrorMemory(1)
+	mem3ce71027 := allocVariantCallErrorMemory(1)
 	ref3ce71027 := (*C.godot_variant_call_error)(mem3ce71027)
 	allocs3ce71027 := new(cgoAllocMap)
 	allocs3ce71027.Add(mem3ce71027)
@@ -7406,7 +7406,7 @@ func (x *GodotVariantCallError) PassRef() (*C.godot_variant_call_error, *cgoAllo
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotVariantCallError) PassValue() (C.godot_variant_call_error, *cgoAllocMap) {
+func (x VariantCallError) PassValue() (C.godot_variant_call_error, *cgoAllocMap) {
 	if x.ref3ce71027 != nil {
 		return *x.ref3ce71027, nil
 	}
@@ -7416,29 +7416,29 @@ func (x GodotVariantCallError) PassValue() (C.godot_variant_call_error, *cgoAllo
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotVariantCallError) Deref() {
+func (x *VariantCallError) Deref() {
 	if x.ref3ce71027 == nil {
 		return
 	}
-	x.Error = (GodotVariantCallErrorError)(x.ref3ce71027.error)
+	x.Error = (VariantCallErrorError)(x.ref3ce71027.error)
 	x.Argument = (int32)(x.ref3ce71027.argument)
-	x.Expected = (GodotVariantType)(x.ref3ce71027.expected)
+	x.Expected = (VariantType)(x.ref3ce71027.expected)
 }
 
-// allocGodotAabbMemory allocates memory for type C.godot_aabb in C.
+// allocAabbMemory allocates memory for type C.godot_aabb in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotAabbMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotAabbValue))
+func allocAabbMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfAabbValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotAabbValue = unsafe.Sizeof([1]C.godot_aabb{})
+const sizeOfAabbValue = unsafe.Sizeof([1]C.godot_aabb{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotAabb) Ref() *C.godot_aabb {
+func (x *Aabb) Ref() *C.godot_aabb {
 	if x == nil {
 		return nil
 	}
@@ -7447,33 +7447,33 @@ func (x *GodotAabb) Ref() *C.godot_aabb {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotAabb) Free() {
+func (x *Aabb) Free() {
 	if x != nil && x.allocs6e3c84aa != nil {
 		x.allocs6e3c84aa.(*cgoAllocMap).Free()
 		x.ref6e3c84aa = nil
 	}
 }
 
-// NewGodotAabbRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewAabbRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotAabbRef(ref unsafe.Pointer) *GodotAabb {
+func NewAabbRef(ref unsafe.Pointer) *Aabb {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotAabb)
+	obj := new(Aabb)
 	obj.ref6e3c84aa = (*C.godot_aabb)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotAabb) PassRef() (*C.godot_aabb, *cgoAllocMap) {
+func (x *Aabb) PassRef() (*C.godot_aabb, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref6e3c84aa != nil {
 		return x.ref6e3c84aa, nil
 	}
-	mem6e3c84aa := allocGodotAabbMemory(1)
+	mem6e3c84aa := allocAabbMemory(1)
 	ref6e3c84aa := (*C.godot_aabb)(mem6e3c84aa)
 	allocs6e3c84aa := new(cgoAllocMap)
 	allocs6e3c84aa.Add(mem6e3c84aa)
@@ -7489,7 +7489,7 @@ func (x *GodotAabb) PassRef() (*C.godot_aabb, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotAabb) PassValue() (C.godot_aabb, *cgoAllocMap) {
+func (x Aabb) PassValue() (C.godot_aabb, *cgoAllocMap) {
 	if x.ref6e3c84aa != nil {
 		return *x.ref6e3c84aa, nil
 	}
@@ -7499,27 +7499,27 @@ func (x GodotAabb) PassValue() (C.godot_aabb, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotAabb) Deref() {
+func (x *Aabb) Deref() {
 	if x.ref6e3c84aa == nil {
 		return
 	}
 	x.DontTouchThat = *(*[24]byte)(unsafe.Pointer(&x.ref6e3c84aa._dont_touch_that))
 }
 
-// allocGodotPlaneMemory allocates memory for type C.godot_plane in C.
+// allocPlaneMemory allocates memory for type C.godot_plane in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPlaneMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPlaneValue))
+func allocPlaneMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPlaneValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPlaneValue = unsafe.Sizeof([1]C.godot_plane{})
+const sizeOfPlaneValue = unsafe.Sizeof([1]C.godot_plane{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPlane) Ref() *C.godot_plane {
+func (x *Plane) Ref() *C.godot_plane {
 	if x == nil {
 		return nil
 	}
@@ -7528,33 +7528,33 @@ func (x *GodotPlane) Ref() *C.godot_plane {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPlane) Free() {
+func (x *Plane) Free() {
 	if x != nil && x.allocsd8ae9b92 != nil {
 		x.allocsd8ae9b92.(*cgoAllocMap).Free()
 		x.refd8ae9b92 = nil
 	}
 }
 
-// NewGodotPlaneRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPlaneRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPlaneRef(ref unsafe.Pointer) *GodotPlane {
+func NewPlaneRef(ref unsafe.Pointer) *Plane {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPlane)
+	obj := new(Plane)
 	obj.refd8ae9b92 = (*C.godot_plane)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPlane) PassRef() (*C.godot_plane, *cgoAllocMap) {
+func (x *Plane) PassRef() (*C.godot_plane, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refd8ae9b92 != nil {
 		return x.refd8ae9b92, nil
 	}
-	memd8ae9b92 := allocGodotPlaneMemory(1)
+	memd8ae9b92 := allocPlaneMemory(1)
 	refd8ae9b92 := (*C.godot_plane)(memd8ae9b92)
 	allocsd8ae9b92 := new(cgoAllocMap)
 	allocsd8ae9b92.Add(memd8ae9b92)
@@ -7570,7 +7570,7 @@ func (x *GodotPlane) PassRef() (*C.godot_plane, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPlane) PassValue() (C.godot_plane, *cgoAllocMap) {
+func (x Plane) PassValue() (C.godot_plane, *cgoAllocMap) {
 	if x.refd8ae9b92 != nil {
 		return *x.refd8ae9b92, nil
 	}
@@ -7580,27 +7580,27 @@ func (x GodotPlane) PassValue() (C.godot_plane, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPlane) Deref() {
+func (x *Plane) Deref() {
 	if x.refd8ae9b92 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[16]byte)(unsafe.Pointer(&x.refd8ae9b92._dont_touch_that))
 }
 
-// allocGodotDictionaryMemory allocates memory for type C.godot_dictionary in C.
+// allocDictionaryMemory allocates memory for type C.godot_dictionary in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotDictionaryMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotDictionaryValue))
+func allocDictionaryMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfDictionaryValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotDictionaryValue = unsafe.Sizeof([1]C.godot_dictionary{})
+const sizeOfDictionaryValue = unsafe.Sizeof([1]C.godot_dictionary{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotDictionary) Ref() *C.godot_dictionary {
+func (x *Dictionary) Ref() *C.godot_dictionary {
 	if x == nil {
 		return nil
 	}
@@ -7609,33 +7609,33 @@ func (x *GodotDictionary) Ref() *C.godot_dictionary {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotDictionary) Free() {
+func (x *Dictionary) Free() {
 	if x != nil && x.allocsb267a9b9 != nil {
 		x.allocsb267a9b9.(*cgoAllocMap).Free()
 		x.refb267a9b9 = nil
 	}
 }
 
-// NewGodotDictionaryRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewDictionaryRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotDictionaryRef(ref unsafe.Pointer) *GodotDictionary {
+func NewDictionaryRef(ref unsafe.Pointer) *Dictionary {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotDictionary)
+	obj := new(Dictionary)
 	obj.refb267a9b9 = (*C.godot_dictionary)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotDictionary) PassRef() (*C.godot_dictionary, *cgoAllocMap) {
+func (x *Dictionary) PassRef() (*C.godot_dictionary, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refb267a9b9 != nil {
 		return x.refb267a9b9, nil
 	}
-	memb267a9b9 := allocGodotDictionaryMemory(1)
+	memb267a9b9 := allocDictionaryMemory(1)
 	refb267a9b9 := (*C.godot_dictionary)(memb267a9b9)
 	allocsb267a9b9 := new(cgoAllocMap)
 	allocsb267a9b9.Add(memb267a9b9)
@@ -7651,7 +7651,7 @@ func (x *GodotDictionary) PassRef() (*C.godot_dictionary, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotDictionary) PassValue() (C.godot_dictionary, *cgoAllocMap) {
+func (x Dictionary) PassValue() (C.godot_dictionary, *cgoAllocMap) {
 	if x.refb267a9b9 != nil {
 		return *x.refb267a9b9, nil
 	}
@@ -7661,27 +7661,27 @@ func (x GodotDictionary) PassValue() (C.godot_dictionary, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotDictionary) Deref() {
+func (x *Dictionary) Deref() {
 	if x.refb267a9b9 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.refb267a9b9._dont_touch_that))
 }
 
-// allocGodotNodePathMemory allocates memory for type C.godot_node_path in C.
+// allocNodePathMemory allocates memory for type C.godot_node_path in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotNodePathMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotNodePathValue))
+func allocNodePathMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfNodePathValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotNodePathValue = unsafe.Sizeof([1]C.godot_node_path{})
+const sizeOfNodePathValue = unsafe.Sizeof([1]C.godot_node_path{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotNodePath) Ref() *C.godot_node_path {
+func (x *NodePath) Ref() *C.godot_node_path {
 	if x == nil {
 		return nil
 	}
@@ -7690,33 +7690,33 @@ func (x *GodotNodePath) Ref() *C.godot_node_path {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotNodePath) Free() {
+func (x *NodePath) Free() {
 	if x != nil && x.allocs6c34dff3 != nil {
 		x.allocs6c34dff3.(*cgoAllocMap).Free()
 		x.ref6c34dff3 = nil
 	}
 }
 
-// NewGodotNodePathRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewNodePathRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotNodePathRef(ref unsafe.Pointer) *GodotNodePath {
+func NewNodePathRef(ref unsafe.Pointer) *NodePath {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotNodePath)
+	obj := new(NodePath)
 	obj.ref6c34dff3 = (*C.godot_node_path)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotNodePath) PassRef() (*C.godot_node_path, *cgoAllocMap) {
+func (x *NodePath) PassRef() (*C.godot_node_path, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref6c34dff3 != nil {
 		return x.ref6c34dff3, nil
 	}
-	mem6c34dff3 := allocGodotNodePathMemory(1)
+	mem6c34dff3 := allocNodePathMemory(1)
 	ref6c34dff3 := (*C.godot_node_path)(mem6c34dff3)
 	allocs6c34dff3 := new(cgoAllocMap)
 	allocs6c34dff3.Add(mem6c34dff3)
@@ -7732,7 +7732,7 @@ func (x *GodotNodePath) PassRef() (*C.godot_node_path, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotNodePath) PassValue() (C.godot_node_path, *cgoAllocMap) {
+func (x NodePath) PassValue() (C.godot_node_path, *cgoAllocMap) {
 	if x.ref6c34dff3 != nil {
 		return *x.ref6c34dff3, nil
 	}
@@ -7742,27 +7742,27 @@ func (x GodotNodePath) PassValue() (C.godot_node_path, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotNodePath) Deref() {
+func (x *NodePath) Deref() {
 	if x.ref6c34dff3 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.ref6c34dff3._dont_touch_that))
 }
 
-// allocGodotRect2Memory allocates memory for type C.godot_rect2 in C.
+// allocRect2Memory allocates memory for type C.godot_rect2 in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotRect2Memory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotRect2Value))
+func allocRect2Memory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfRect2Value))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotRect2Value = unsafe.Sizeof([1]C.godot_rect2{})
+const sizeOfRect2Value = unsafe.Sizeof([1]C.godot_rect2{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotRect2) Ref() *C.godot_rect2 {
+func (x *Rect2) Ref() *C.godot_rect2 {
 	if x == nil {
 		return nil
 	}
@@ -7771,33 +7771,33 @@ func (x *GodotRect2) Ref() *C.godot_rect2 {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotRect2) Free() {
+func (x *Rect2) Free() {
 	if x != nil && x.allocs99c06d9a != nil {
 		x.allocs99c06d9a.(*cgoAllocMap).Free()
 		x.ref99c06d9a = nil
 	}
 }
 
-// NewGodotRect2Ref creates a new wrapper struct with underlying reference set to the original C object.
+// NewRect2Ref creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotRect2Ref(ref unsafe.Pointer) *GodotRect2 {
+func NewRect2Ref(ref unsafe.Pointer) *Rect2 {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotRect2)
+	obj := new(Rect2)
 	obj.ref99c06d9a = (*C.godot_rect2)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotRect2) PassRef() (*C.godot_rect2, *cgoAllocMap) {
+func (x *Rect2) PassRef() (*C.godot_rect2, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref99c06d9a != nil {
 		return x.ref99c06d9a, nil
 	}
-	mem99c06d9a := allocGodotRect2Memory(1)
+	mem99c06d9a := allocRect2Memory(1)
 	ref99c06d9a := (*C.godot_rect2)(mem99c06d9a)
 	allocs99c06d9a := new(cgoAllocMap)
 	allocs99c06d9a.Add(mem99c06d9a)
@@ -7813,7 +7813,7 @@ func (x *GodotRect2) PassRef() (*C.godot_rect2, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotRect2) PassValue() (C.godot_rect2, *cgoAllocMap) {
+func (x Rect2) PassValue() (C.godot_rect2, *cgoAllocMap) {
 	if x.ref99c06d9a != nil {
 		return *x.ref99c06d9a, nil
 	}
@@ -7823,27 +7823,27 @@ func (x GodotRect2) PassValue() (C.godot_rect2, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotRect2) Deref() {
+func (x *Rect2) Deref() {
 	if x.ref99c06d9a == nil {
 		return
 	}
 	x.DontTouchThat = *(*[16]byte)(unsafe.Pointer(&x.ref99c06d9a._dont_touch_that))
 }
 
-// allocGodotRidMemory allocates memory for type C.godot_rid in C.
+// allocRidMemory allocates memory for type C.godot_rid in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotRidMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotRidValue))
+func allocRidMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfRidValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotRidValue = unsafe.Sizeof([1]C.godot_rid{})
+const sizeOfRidValue = unsafe.Sizeof([1]C.godot_rid{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotRid) Ref() *C.godot_rid {
+func (x *Rid) Ref() *C.godot_rid {
 	if x == nil {
 		return nil
 	}
@@ -7852,33 +7852,33 @@ func (x *GodotRid) Ref() *C.godot_rid {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotRid) Free() {
+func (x *Rid) Free() {
 	if x != nil && x.allocs67320fc7 != nil {
 		x.allocs67320fc7.(*cgoAllocMap).Free()
 		x.ref67320fc7 = nil
 	}
 }
 
-// NewGodotRidRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewRidRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotRidRef(ref unsafe.Pointer) *GodotRid {
+func NewRidRef(ref unsafe.Pointer) *Rid {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotRid)
+	obj := new(Rid)
 	obj.ref67320fc7 = (*C.godot_rid)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotRid) PassRef() (*C.godot_rid, *cgoAllocMap) {
+func (x *Rid) PassRef() (*C.godot_rid, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref67320fc7 != nil {
 		return x.ref67320fc7, nil
 	}
-	mem67320fc7 := allocGodotRidMemory(1)
+	mem67320fc7 := allocRidMemory(1)
 	ref67320fc7 := (*C.godot_rid)(mem67320fc7)
 	allocs67320fc7 := new(cgoAllocMap)
 	allocs67320fc7.Add(mem67320fc7)
@@ -7894,7 +7894,7 @@ func (x *GodotRid) PassRef() (*C.godot_rid, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotRid) PassValue() (C.godot_rid, *cgoAllocMap) {
+func (x Rid) PassValue() (C.godot_rid, *cgoAllocMap) {
 	if x.ref67320fc7 != nil {
 		return *x.ref67320fc7, nil
 	}
@@ -7904,27 +7904,27 @@ func (x GodotRid) PassValue() (C.godot_rid, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotRid) Deref() {
+func (x *Rid) Deref() {
 	if x.ref67320fc7 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.ref67320fc7._dont_touch_that))
 }
 
-// allocGodotTransformMemory allocates memory for type C.godot_transform in C.
+// allocTransformMemory allocates memory for type C.godot_transform in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotTransformMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotTransformValue))
+func allocTransformMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfTransformValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotTransformValue = unsafe.Sizeof([1]C.godot_transform{})
+const sizeOfTransformValue = unsafe.Sizeof([1]C.godot_transform{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotTransform) Ref() *C.godot_transform {
+func (x *Transform) Ref() *C.godot_transform {
 	if x == nil {
 		return nil
 	}
@@ -7933,33 +7933,33 @@ func (x *GodotTransform) Ref() *C.godot_transform {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotTransform) Free() {
+func (x *Transform) Free() {
 	if x != nil && x.allocsd77658c7 != nil {
 		x.allocsd77658c7.(*cgoAllocMap).Free()
 		x.refd77658c7 = nil
 	}
 }
 
-// NewGodotTransformRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewTransformRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotTransformRef(ref unsafe.Pointer) *GodotTransform {
+func NewTransformRef(ref unsafe.Pointer) *Transform {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotTransform)
+	obj := new(Transform)
 	obj.refd77658c7 = (*C.godot_transform)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotTransform) PassRef() (*C.godot_transform, *cgoAllocMap) {
+func (x *Transform) PassRef() (*C.godot_transform, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refd77658c7 != nil {
 		return x.refd77658c7, nil
 	}
-	memd77658c7 := allocGodotTransformMemory(1)
+	memd77658c7 := allocTransformMemory(1)
 	refd77658c7 := (*C.godot_transform)(memd77658c7)
 	allocsd77658c7 := new(cgoAllocMap)
 	allocsd77658c7.Add(memd77658c7)
@@ -7975,7 +7975,7 @@ func (x *GodotTransform) PassRef() (*C.godot_transform, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotTransform) PassValue() (C.godot_transform, *cgoAllocMap) {
+func (x Transform) PassValue() (C.godot_transform, *cgoAllocMap) {
 	if x.refd77658c7 != nil {
 		return *x.refd77658c7, nil
 	}
@@ -7985,27 +7985,27 @@ func (x GodotTransform) PassValue() (C.godot_transform, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotTransform) Deref() {
+func (x *Transform) Deref() {
 	if x.refd77658c7 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[48]byte)(unsafe.Pointer(&x.refd77658c7._dont_touch_that))
 }
 
-// allocGodotTransform2dMemory allocates memory for type C.godot_transform2d in C.
+// allocTransform2dMemory allocates memory for type C.godot_transform2d in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotTransform2dMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotTransform2dValue))
+func allocTransform2dMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfTransform2dValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotTransform2dValue = unsafe.Sizeof([1]C.godot_transform2d{})
+const sizeOfTransform2dValue = unsafe.Sizeof([1]C.godot_transform2d{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotTransform2d) Ref() *C.godot_transform2d {
+func (x *Transform2d) Ref() *C.godot_transform2d {
 	if x == nil {
 		return nil
 	}
@@ -8014,33 +8014,33 @@ func (x *GodotTransform2d) Ref() *C.godot_transform2d {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotTransform2d) Free() {
+func (x *Transform2d) Free() {
 	if x != nil && x.allocs77dacf6 != nil {
 		x.allocs77dacf6.(*cgoAllocMap).Free()
 		x.ref77dacf6 = nil
 	}
 }
 
-// NewGodotTransform2dRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewTransform2dRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotTransform2dRef(ref unsafe.Pointer) *GodotTransform2d {
+func NewTransform2dRef(ref unsafe.Pointer) *Transform2d {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotTransform2d)
+	obj := new(Transform2d)
 	obj.ref77dacf6 = (*C.godot_transform2d)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotTransform2d) PassRef() (*C.godot_transform2d, *cgoAllocMap) {
+func (x *Transform2d) PassRef() (*C.godot_transform2d, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref77dacf6 != nil {
 		return x.ref77dacf6, nil
 	}
-	mem77dacf6 := allocGodotTransform2dMemory(1)
+	mem77dacf6 := allocTransform2dMemory(1)
 	ref77dacf6 := (*C.godot_transform2d)(mem77dacf6)
 	allocs77dacf6 := new(cgoAllocMap)
 	allocs77dacf6.Add(mem77dacf6)
@@ -8056,7 +8056,7 @@ func (x *GodotTransform2d) PassRef() (*C.godot_transform2d, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotTransform2d) PassValue() (C.godot_transform2d, *cgoAllocMap) {
+func (x Transform2d) PassValue() (C.godot_transform2d, *cgoAllocMap) {
 	if x.ref77dacf6 != nil {
 		return *x.ref77dacf6, nil
 	}
@@ -8066,27 +8066,27 @@ func (x GodotTransform2d) PassValue() (C.godot_transform2d, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotTransform2d) Deref() {
+func (x *Transform2d) Deref() {
 	if x.ref77dacf6 == nil {
 		return
 	}
 	x.DontTouchThat = *(*[24]byte)(unsafe.Pointer(&x.ref77dacf6._dont_touch_that))
 }
 
-// allocGodotStringNameMemory allocates memory for type C.godot_string_name in C.
+// allocStringNameMemory allocates memory for type C.godot_string_name in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotStringNameMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotStringNameValue))
+func allocStringNameMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfStringNameValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotStringNameValue = unsafe.Sizeof([1]C.godot_string_name{})
+const sizeOfStringNameValue = unsafe.Sizeof([1]C.godot_string_name{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotStringName) Ref() *C.godot_string_name {
+func (x *StringName) Ref() *C.godot_string_name {
 	if x == nil {
 		return nil
 	}
@@ -8095,33 +8095,33 @@ func (x *GodotStringName) Ref() *C.godot_string_name {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotStringName) Free() {
+func (x *StringName) Free() {
 	if x != nil && x.allocs895548fc != nil {
 		x.allocs895548fc.(*cgoAllocMap).Free()
 		x.ref895548fc = nil
 	}
 }
 
-// NewGodotStringNameRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewStringNameRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotStringNameRef(ref unsafe.Pointer) *GodotStringName {
+func NewStringNameRef(ref unsafe.Pointer) *StringName {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotStringName)
+	obj := new(StringName)
 	obj.ref895548fc = (*C.godot_string_name)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotStringName) PassRef() (*C.godot_string_name, *cgoAllocMap) {
+func (x *StringName) PassRef() (*C.godot_string_name, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref895548fc != nil {
 		return x.ref895548fc, nil
 	}
-	mem895548fc := allocGodotStringNameMemory(1)
+	mem895548fc := allocStringNameMemory(1)
 	ref895548fc := (*C.godot_string_name)(mem895548fc)
 	allocs895548fc := new(cgoAllocMap)
 	allocs895548fc.Add(mem895548fc)
@@ -8137,7 +8137,7 @@ func (x *GodotStringName) PassRef() (*C.godot_string_name, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotStringName) PassValue() (C.godot_string_name, *cgoAllocMap) {
+func (x StringName) PassValue() (C.godot_string_name, *cgoAllocMap) {
 	if x.ref895548fc != nil {
 		return *x.ref895548fc, nil
 	}
@@ -8147,27 +8147,27 @@ func (x GodotStringName) PassValue() (C.godot_string_name, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotStringName) Deref() {
+func (x *StringName) Deref() {
 	if x.ref895548fc == nil {
 		return
 	}
 	x.DontTouchThat = *(*[8]byte)(unsafe.Pointer(&x.ref895548fc._dont_touch_that))
 }
 
-// allocGodotArvrInterfaceGdnativeMemory allocates memory for type C.godot_arvr_interface_gdnative in C.
+// allocArvrInterfaceGdnativeMemory allocates memory for type C.godot_arvr_interface_gdnative in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotArvrInterfaceGdnativeMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotArvrInterfaceGdnativeValue))
+func allocArvrInterfaceGdnativeMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfArvrInterfaceGdnativeValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotArvrInterfaceGdnativeValue = unsafe.Sizeof([1]C.godot_arvr_interface_gdnative{})
+const sizeOfArvrInterfaceGdnativeValue = unsafe.Sizeof([1]C.godot_arvr_interface_gdnative{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotArvrInterfaceGdnative) Ref() *C.godot_arvr_interface_gdnative {
+func (x *ArvrInterfaceGdnative) Ref() *C.godot_arvr_interface_gdnative {
 	if x == nil {
 		return nil
 	}
@@ -8176,33 +8176,33 @@ func (x *GodotArvrInterfaceGdnative) Ref() *C.godot_arvr_interface_gdnative {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotArvrInterfaceGdnative) Free() {
+func (x *ArvrInterfaceGdnative) Free() {
 	if x != nil && x.allocsf96a0b88 != nil {
 		x.allocsf96a0b88.(*cgoAllocMap).Free()
 		x.reff96a0b88 = nil
 	}
 }
 
-// NewGodotArvrInterfaceGdnativeRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewArvrInterfaceGdnativeRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotArvrInterfaceGdnativeRef(ref unsafe.Pointer) *GodotArvrInterfaceGdnative {
+func NewArvrInterfaceGdnativeRef(ref unsafe.Pointer) *ArvrInterfaceGdnative {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotArvrInterfaceGdnative)
+	obj := new(ArvrInterfaceGdnative)
 	obj.reff96a0b88 = (*C.godot_arvr_interface_gdnative)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotArvrInterfaceGdnative) PassRef() (*C.godot_arvr_interface_gdnative, *cgoAllocMap) {
+func (x *ArvrInterfaceGdnative) PassRef() (*C.godot_arvr_interface_gdnative, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.reff96a0b88 != nil {
 		return x.reff96a0b88, nil
 	}
-	memf96a0b88 := allocGodotArvrInterfaceGdnativeMemory(1)
+	memf96a0b88 := allocArvrInterfaceGdnativeMemory(1)
 	reff96a0b88 := (*C.godot_arvr_interface_gdnative)(memf96a0b88)
 	allocsf96a0b88 := new(cgoAllocMap)
 	allocsf96a0b88.Add(memf96a0b88)
@@ -8274,7 +8274,7 @@ func (x *GodotArvrInterfaceGdnative) PassRef() (*C.godot_arvr_interface_gdnative
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotArvrInterfaceGdnative) PassValue() (C.godot_arvr_interface_gdnative, *cgoAllocMap) {
+func (x ArvrInterfaceGdnative) PassValue() (C.godot_arvr_interface_gdnative, *cgoAllocMap) {
 	if x.reff96a0b88 != nil {
 		return *x.reff96a0b88, nil
 	}
@@ -8284,41 +8284,41 @@ func (x GodotArvrInterfaceGdnative) PassValue() (C.godot_arvr_interface_gdnative
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotArvrInterfaceGdnative) Deref() {
+func (x *ArvrInterfaceGdnative) Deref() {
 	if x.reff96a0b88 == nil {
 		return
 	}
 	x.Constructor = NewRef(unsafe.Pointer(x.reff96a0b88.constructor))
 	x.Destructor = NewRef(unsafe.Pointer(x.reff96a0b88.destructor))
-	x.GetName = NewGodotStringRef(unsafe.Pointer(x.reff96a0b88.get_name))
-	x.GetCapabilities = NewGodotIntRef(unsafe.Pointer(x.reff96a0b88.get_capabilities))
-	x.GetAnchorDetectionIsEnabled = NewGodotBoolRef(unsafe.Pointer(x.reff96a0b88.get_anchor_detection_is_enabled))
+	x.GetName = NewStringRef(unsafe.Pointer(x.reff96a0b88.get_name))
+	x.GetCapabilities = NewIntRef(unsafe.Pointer(x.reff96a0b88.get_capabilities))
+	x.GetAnchorDetectionIsEnabled = NewBoolRef(unsafe.Pointer(x.reff96a0b88.get_anchor_detection_is_enabled))
 	x.SetAnchorDetectionIsEnabled = NewRef(unsafe.Pointer(x.reff96a0b88.set_anchor_detection_is_enabled))
-	x.IsStereo = NewGodotBoolRef(unsafe.Pointer(x.reff96a0b88.is_stereo))
-	x.IsInitialized = NewGodotBoolRef(unsafe.Pointer(x.reff96a0b88.is_initialized))
-	x.Initialize = NewGodotBoolRef(unsafe.Pointer(x.reff96a0b88.initialize))
+	x.IsStereo = NewBoolRef(unsafe.Pointer(x.reff96a0b88.is_stereo))
+	x.IsInitialized = NewBoolRef(unsafe.Pointer(x.reff96a0b88.is_initialized))
+	x.Initialize = NewBoolRef(unsafe.Pointer(x.reff96a0b88.initialize))
 	x.Uninitialize = NewRef(unsafe.Pointer(x.reff96a0b88.uninitialize))
-	x.GetRenderTargetsize = NewGodotVector2Ref(unsafe.Pointer(x.reff96a0b88.get_render_targetsize))
-	x.GetTransformForEye = NewGodotTransformRef(unsafe.Pointer(x.reff96a0b88.get_transform_for_eye))
+	x.GetRenderTargetsize = NewVector2Ref(unsafe.Pointer(x.reff96a0b88.get_render_targetsize))
+	x.GetTransformForEye = NewTransformRef(unsafe.Pointer(x.reff96a0b88.get_transform_for_eye))
 	x.FillProjectionForEye = NewRef(unsafe.Pointer(x.reff96a0b88.fill_projection_for_eye))
 	x.CommitForEye = NewRef(unsafe.Pointer(x.reff96a0b88.commit_for_eye))
 	x.Process = NewRef(unsafe.Pointer(x.reff96a0b88.process))
 }
 
-// allocGodotPropertyAttributesMemory allocates memory for type C.godot_property_attributes in C.
+// allocPropertyAttributesMemory allocates memory for type C.godot_property_attributes in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPropertyAttributesMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPropertyAttributesValue))
+func allocPropertyAttributesMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPropertyAttributesValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPropertyAttributesValue = unsafe.Sizeof([1]C.godot_property_attributes{})
+const sizeOfPropertyAttributesValue = unsafe.Sizeof([1]C.godot_property_attributes{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPropertyAttributes) Ref() *C.godot_property_attributes {
+func (x *PropertyAttributes) Ref() *C.godot_property_attributes {
 	if x == nil {
 		return nil
 	}
@@ -8327,33 +8327,33 @@ func (x *GodotPropertyAttributes) Ref() *C.godot_property_attributes {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPropertyAttributes) Free() {
+func (x *PropertyAttributes) Free() {
 	if x != nil && x.allocs431c473b != nil {
 		x.allocs431c473b.(*cgoAllocMap).Free()
 		x.ref431c473b = nil
 	}
 }
 
-// NewGodotPropertyAttributesRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPropertyAttributesRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPropertyAttributesRef(ref unsafe.Pointer) *GodotPropertyAttributes {
+func NewPropertyAttributesRef(ref unsafe.Pointer) *PropertyAttributes {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPropertyAttributes)
+	obj := new(PropertyAttributes)
 	obj.ref431c473b = (*C.godot_property_attributes)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPropertyAttributes) PassRef() (*C.godot_property_attributes, *cgoAllocMap) {
+func (x *PropertyAttributes) PassRef() (*C.godot_property_attributes, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref431c473b != nil {
 		return x.ref431c473b, nil
 	}
-	mem431c473b := allocGodotPropertyAttributesMemory(1)
+	mem431c473b := allocPropertyAttributesMemory(1)
 	ref431c473b := (*C.godot_property_attributes)(mem431c473b)
 	allocs431c473b := new(cgoAllocMap)
 	allocs431c473b.Add(mem431c473b)
@@ -8389,7 +8389,7 @@ func (x *GodotPropertyAttributes) PassRef() (*C.godot_property_attributes, *cgoA
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPropertyAttributes) PassValue() (C.godot_property_attributes, *cgoAllocMap) {
+func (x PropertyAttributes) PassValue() (C.godot_property_attributes, *cgoAllocMap) {
 	if x.ref431c473b != nil {
 		return *x.ref431c473b, nil
 	}
@@ -8399,32 +8399,32 @@ func (x GodotPropertyAttributes) PassValue() (C.godot_property_attributes, *cgoA
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPropertyAttributes) Deref() {
+func (x *PropertyAttributes) Deref() {
 	if x.ref431c473b == nil {
 		return
 	}
-	x.RsetType = (GodotMethodRpcMode)(x.ref431c473b.rset_type)
-	x.Type = (GodotInt)(x.ref431c473b._type)
-	x.Hint = (GodotPropertyHint)(x.ref431c473b.hint)
-	x.HintString = *NewGodotStringRef(unsafe.Pointer(&x.ref431c473b.hint_string))
-	x.Usage = (GodotPropertyUsageFlags)(x.ref431c473b.usage)
-	x.DefaultValue = *NewGodotVariantRef(unsafe.Pointer(&x.ref431c473b.default_value))
+	x.RsetType = (MethodRpcMode)(x.ref431c473b.rset_type)
+	x.Type = (Int)(x.ref431c473b._type)
+	x.Hint = (PropertyHint)(x.ref431c473b.hint)
+	x.HintString = *NewStringRef(unsafe.Pointer(&x.ref431c473b.hint_string))
+	x.Usage = (PropertyUsageFlags)(x.ref431c473b.usage)
+	x.DefaultValue = *NewVariantRef(unsafe.Pointer(&x.ref431c473b.default_value))
 }
 
-// allocGodotInstanceCreateFuncMemory allocates memory for type C.godot_instance_create_func in C.
+// allocInstanceCreateFuncMemory allocates memory for type C.godot_instance_create_func in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotInstanceCreateFuncMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotInstanceCreateFuncValue))
+func allocInstanceCreateFuncMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfInstanceCreateFuncValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotInstanceCreateFuncValue = unsafe.Sizeof([1]C.godot_instance_create_func{})
+const sizeOfInstanceCreateFuncValue = unsafe.Sizeof([1]C.godot_instance_create_func{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotInstanceCreateFunc) Ref() *C.godot_instance_create_func {
+func (x *InstanceCreateFunc) Ref() *C.godot_instance_create_func {
 	if x == nil {
 		return nil
 	}
@@ -8433,33 +8433,33 @@ func (x *GodotInstanceCreateFunc) Ref() *C.godot_instance_create_func {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotInstanceCreateFunc) Free() {
+func (x *InstanceCreateFunc) Free() {
 	if x != nil && x.allocs70ecb5db != nil {
 		x.allocs70ecb5db.(*cgoAllocMap).Free()
 		x.ref70ecb5db = nil
 	}
 }
 
-// NewGodotInstanceCreateFuncRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewInstanceCreateFuncRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotInstanceCreateFuncRef(ref unsafe.Pointer) *GodotInstanceCreateFunc {
+func NewInstanceCreateFuncRef(ref unsafe.Pointer) *InstanceCreateFunc {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotInstanceCreateFunc)
+	obj := new(InstanceCreateFunc)
 	obj.ref70ecb5db = (*C.godot_instance_create_func)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotInstanceCreateFunc) PassRef() (*C.godot_instance_create_func, *cgoAllocMap) {
+func (x *InstanceCreateFunc) PassRef() (*C.godot_instance_create_func, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref70ecb5db != nil {
 		return x.ref70ecb5db, nil
 	}
-	mem70ecb5db := allocGodotInstanceCreateFuncMemory(1)
+	mem70ecb5db := allocInstanceCreateFuncMemory(1)
 	ref70ecb5db := (*C.godot_instance_create_func)(mem70ecb5db)
 	allocs70ecb5db := new(cgoAllocMap)
 	allocs70ecb5db.Add(mem70ecb5db)
@@ -8483,7 +8483,7 @@ func (x *GodotInstanceCreateFunc) PassRef() (*C.godot_instance_create_func, *cgo
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotInstanceCreateFunc) PassValue() (C.godot_instance_create_func, *cgoAllocMap) {
+func (x InstanceCreateFunc) PassValue() (C.godot_instance_create_func, *cgoAllocMap) {
 	if x.ref70ecb5db != nil {
 		return *x.ref70ecb5db, nil
 	}
@@ -8493,7 +8493,7 @@ func (x GodotInstanceCreateFunc) PassValue() (C.godot_instance_create_func, *cgo
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotInstanceCreateFunc) Deref() {
+func (x *InstanceCreateFunc) Deref() {
 	if x.ref70ecb5db == nil {
 		return
 	}
@@ -8502,20 +8502,20 @@ func (x *GodotInstanceCreateFunc) Deref() {
 	x.FreeFunc = NewRef(unsafe.Pointer(x.ref70ecb5db.free_func))
 }
 
-// allocGodotInstanceDestroyFuncMemory allocates memory for type C.godot_instance_destroy_func in C.
+// allocInstanceDestroyFuncMemory allocates memory for type C.godot_instance_destroy_func in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotInstanceDestroyFuncMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotInstanceDestroyFuncValue))
+func allocInstanceDestroyFuncMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfInstanceDestroyFuncValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotInstanceDestroyFuncValue = unsafe.Sizeof([1]C.godot_instance_destroy_func{})
+const sizeOfInstanceDestroyFuncValue = unsafe.Sizeof([1]C.godot_instance_destroy_func{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotInstanceDestroyFunc) Ref() *C.godot_instance_destroy_func {
+func (x *InstanceDestroyFunc) Ref() *C.godot_instance_destroy_func {
 	if x == nil {
 		return nil
 	}
@@ -8524,33 +8524,33 @@ func (x *GodotInstanceDestroyFunc) Ref() *C.godot_instance_destroy_func {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotInstanceDestroyFunc) Free() {
+func (x *InstanceDestroyFunc) Free() {
 	if x != nil && x.allocsd0d05668 != nil {
 		x.allocsd0d05668.(*cgoAllocMap).Free()
 		x.refd0d05668 = nil
 	}
 }
 
-// NewGodotInstanceDestroyFuncRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewInstanceDestroyFuncRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotInstanceDestroyFuncRef(ref unsafe.Pointer) *GodotInstanceDestroyFunc {
+func NewInstanceDestroyFuncRef(ref unsafe.Pointer) *InstanceDestroyFunc {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotInstanceDestroyFunc)
+	obj := new(InstanceDestroyFunc)
 	obj.refd0d05668 = (*C.godot_instance_destroy_func)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotInstanceDestroyFunc) PassRef() (*C.godot_instance_destroy_func, *cgoAllocMap) {
+func (x *InstanceDestroyFunc) PassRef() (*C.godot_instance_destroy_func, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refd0d05668 != nil {
 		return x.refd0d05668, nil
 	}
-	memd0d05668 := allocGodotInstanceDestroyFuncMemory(1)
+	memd0d05668 := allocInstanceDestroyFuncMemory(1)
 	refd0d05668 := (*C.godot_instance_destroy_func)(memd0d05668)
 	allocsd0d05668 := new(cgoAllocMap)
 	allocsd0d05668.Add(memd0d05668)
@@ -8574,7 +8574,7 @@ func (x *GodotInstanceDestroyFunc) PassRef() (*C.godot_instance_destroy_func, *c
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotInstanceDestroyFunc) PassValue() (C.godot_instance_destroy_func, *cgoAllocMap) {
+func (x InstanceDestroyFunc) PassValue() (C.godot_instance_destroy_func, *cgoAllocMap) {
 	if x.refd0d05668 != nil {
 		return *x.refd0d05668, nil
 	}
@@ -8584,7 +8584,7 @@ func (x GodotInstanceDestroyFunc) PassValue() (C.godot_instance_destroy_func, *c
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotInstanceDestroyFunc) Deref() {
+func (x *InstanceDestroyFunc) Deref() {
 	if x.refd0d05668 == nil {
 		return
 	}
@@ -8593,20 +8593,20 @@ func (x *GodotInstanceDestroyFunc) Deref() {
 	x.FreeFunc = NewRef(unsafe.Pointer(x.refd0d05668.free_func))
 }
 
-// allocGodotMethodAttributesMemory allocates memory for type C.godot_method_attributes in C.
+// allocMethodAttributesMemory allocates memory for type C.godot_method_attributes in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotMethodAttributesMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotMethodAttributesValue))
+func allocMethodAttributesMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfMethodAttributesValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotMethodAttributesValue = unsafe.Sizeof([1]C.godot_method_attributes{})
+const sizeOfMethodAttributesValue = unsafe.Sizeof([1]C.godot_method_attributes{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotMethodAttributes) Ref() *C.godot_method_attributes {
+func (x *MethodAttributes) Ref() *C.godot_method_attributes {
 	if x == nil {
 		return nil
 	}
@@ -8615,33 +8615,33 @@ func (x *GodotMethodAttributes) Ref() *C.godot_method_attributes {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotMethodAttributes) Free() {
+func (x *MethodAttributes) Free() {
 	if x != nil && x.allocs66a6c5c9 != nil {
 		x.allocs66a6c5c9.(*cgoAllocMap).Free()
 		x.ref66a6c5c9 = nil
 	}
 }
 
-// NewGodotMethodAttributesRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewMethodAttributesRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotMethodAttributesRef(ref unsafe.Pointer) *GodotMethodAttributes {
+func NewMethodAttributesRef(ref unsafe.Pointer) *MethodAttributes {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotMethodAttributes)
+	obj := new(MethodAttributes)
 	obj.ref66a6c5c9 = (*C.godot_method_attributes)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotMethodAttributes) PassRef() (*C.godot_method_attributes, *cgoAllocMap) {
+func (x *MethodAttributes) PassRef() (*C.godot_method_attributes, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref66a6c5c9 != nil {
 		return x.ref66a6c5c9, nil
 	}
-	mem66a6c5c9 := allocGodotMethodAttributesMemory(1)
+	mem66a6c5c9 := allocMethodAttributesMemory(1)
 	ref66a6c5c9 := (*C.godot_method_attributes)(mem66a6c5c9)
 	allocs66a6c5c9 := new(cgoAllocMap)
 	allocs66a6c5c9.Add(mem66a6c5c9)
@@ -8657,7 +8657,7 @@ func (x *GodotMethodAttributes) PassRef() (*C.godot_method_attributes, *cgoAlloc
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotMethodAttributes) PassValue() (C.godot_method_attributes, *cgoAllocMap) {
+func (x MethodAttributes) PassValue() (C.godot_method_attributes, *cgoAllocMap) {
 	if x.ref66a6c5c9 != nil {
 		return *x.ref66a6c5c9, nil
 	}
@@ -8667,27 +8667,27 @@ func (x GodotMethodAttributes) PassValue() (C.godot_method_attributes, *cgoAlloc
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotMethodAttributes) Deref() {
+func (x *MethodAttributes) Deref() {
 	if x.ref66a6c5c9 == nil {
 		return
 	}
-	x.RpcType = (GodotMethodRpcMode)(x.ref66a6c5c9.rpc_type)
+	x.RpcType = (MethodRpcMode)(x.ref66a6c5c9.rpc_type)
 }
 
-// allocGodotInstanceMethodMemory allocates memory for type C.godot_instance_method in C.
+// allocInstanceMethodMemory allocates memory for type C.godot_instance_method in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotInstanceMethodMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotInstanceMethodValue))
+func allocInstanceMethodMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfInstanceMethodValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotInstanceMethodValue = unsafe.Sizeof([1]C.godot_instance_method{})
+const sizeOfInstanceMethodValue = unsafe.Sizeof([1]C.godot_instance_method{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotInstanceMethod) Ref() *C.godot_instance_method {
+func (x *InstanceMethod) Ref() *C.godot_instance_method {
 	if x == nil {
 		return nil
 	}
@@ -8696,33 +8696,33 @@ func (x *GodotInstanceMethod) Ref() *C.godot_instance_method {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotInstanceMethod) Free() {
+func (x *InstanceMethod) Free() {
 	if x != nil && x.allocs10e1583e != nil {
 		x.allocs10e1583e.(*cgoAllocMap).Free()
 		x.ref10e1583e = nil
 	}
 }
 
-// NewGodotInstanceMethodRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewInstanceMethodRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotInstanceMethodRef(ref unsafe.Pointer) *GodotInstanceMethod {
+func NewInstanceMethodRef(ref unsafe.Pointer) *InstanceMethod {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotInstanceMethod)
+	obj := new(InstanceMethod)
 	obj.ref10e1583e = (*C.godot_instance_method)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotInstanceMethod) PassRef() (*C.godot_instance_method, *cgoAllocMap) {
+func (x *InstanceMethod) PassRef() (*C.godot_instance_method, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref10e1583e != nil {
 		return x.ref10e1583e, nil
 	}
-	mem10e1583e := allocGodotInstanceMethodMemory(1)
+	mem10e1583e := allocInstanceMethodMemory(1)
 	ref10e1583e := (*C.godot_instance_method)(mem10e1583e)
 	allocs10e1583e := new(cgoAllocMap)
 	allocs10e1583e.Add(mem10e1583e)
@@ -8746,7 +8746,7 @@ func (x *GodotInstanceMethod) PassRef() (*C.godot_instance_method, *cgoAllocMap)
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotInstanceMethod) PassValue() (C.godot_instance_method, *cgoAllocMap) {
+func (x InstanceMethod) PassValue() (C.godot_instance_method, *cgoAllocMap) {
 	if x.ref10e1583e != nil {
 		return *x.ref10e1583e, nil
 	}
@@ -8756,29 +8756,29 @@ func (x GodotInstanceMethod) PassValue() (C.godot_instance_method, *cgoAllocMap)
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotInstanceMethod) Deref() {
+func (x *InstanceMethod) Deref() {
 	if x.ref10e1583e == nil {
 		return
 	}
-	x.Method = NewGodotVariantRef(unsafe.Pointer(x.ref10e1583e.method))
+	x.Method = NewVariantRef(unsafe.Pointer(x.ref10e1583e.method))
 	x.MethodData = (unsafe.Pointer)(unsafe.Pointer(x.ref10e1583e.method_data))
 	x.FreeFunc = NewRef(unsafe.Pointer(x.ref10e1583e.free_func))
 }
 
-// allocGodotPropertySetFuncMemory allocates memory for type C.godot_property_set_func in C.
+// allocPropertySetFuncMemory allocates memory for type C.godot_property_set_func in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPropertySetFuncMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPropertySetFuncValue))
+func allocPropertySetFuncMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPropertySetFuncValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPropertySetFuncValue = unsafe.Sizeof([1]C.godot_property_set_func{})
+const sizeOfPropertySetFuncValue = unsafe.Sizeof([1]C.godot_property_set_func{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPropertySetFunc) Ref() *C.godot_property_set_func {
+func (x *PropertySetFunc) Ref() *C.godot_property_set_func {
 	if x == nil {
 		return nil
 	}
@@ -8787,33 +8787,33 @@ func (x *GodotPropertySetFunc) Ref() *C.godot_property_set_func {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPropertySetFunc) Free() {
+func (x *PropertySetFunc) Free() {
 	if x != nil && x.allocsc9844af != nil {
 		x.allocsc9844af.(*cgoAllocMap).Free()
 		x.refc9844af = nil
 	}
 }
 
-// NewGodotPropertySetFuncRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPropertySetFuncRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPropertySetFuncRef(ref unsafe.Pointer) *GodotPropertySetFunc {
+func NewPropertySetFuncRef(ref unsafe.Pointer) *PropertySetFunc {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPropertySetFunc)
+	obj := new(PropertySetFunc)
 	obj.refc9844af = (*C.godot_property_set_func)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPropertySetFunc) PassRef() (*C.godot_property_set_func, *cgoAllocMap) {
+func (x *PropertySetFunc) PassRef() (*C.godot_property_set_func, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refc9844af != nil {
 		return x.refc9844af, nil
 	}
-	memc9844af := allocGodotPropertySetFuncMemory(1)
+	memc9844af := allocPropertySetFuncMemory(1)
 	refc9844af := (*C.godot_property_set_func)(memc9844af)
 	allocsc9844af := new(cgoAllocMap)
 	allocsc9844af.Add(memc9844af)
@@ -8837,7 +8837,7 @@ func (x *GodotPropertySetFunc) PassRef() (*C.godot_property_set_func, *cgoAllocM
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPropertySetFunc) PassValue() (C.godot_property_set_func, *cgoAllocMap) {
+func (x PropertySetFunc) PassValue() (C.godot_property_set_func, *cgoAllocMap) {
 	if x.refc9844af != nil {
 		return *x.refc9844af, nil
 	}
@@ -8847,7 +8847,7 @@ func (x GodotPropertySetFunc) PassValue() (C.godot_property_set_func, *cgoAllocM
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPropertySetFunc) Deref() {
+func (x *PropertySetFunc) Deref() {
 	if x.refc9844af == nil {
 		return
 	}
@@ -8856,20 +8856,20 @@ func (x *GodotPropertySetFunc) Deref() {
 	x.FreeFunc = NewRef(unsafe.Pointer(x.refc9844af.free_func))
 }
 
-// allocGodotPropertyGetFuncMemory allocates memory for type C.godot_property_get_func in C.
+// allocPropertyGetFuncMemory allocates memory for type C.godot_property_get_func in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPropertyGetFuncMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPropertyGetFuncValue))
+func allocPropertyGetFuncMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPropertyGetFuncValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPropertyGetFuncValue = unsafe.Sizeof([1]C.godot_property_get_func{})
+const sizeOfPropertyGetFuncValue = unsafe.Sizeof([1]C.godot_property_get_func{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPropertyGetFunc) Ref() *C.godot_property_get_func {
+func (x *PropertyGetFunc) Ref() *C.godot_property_get_func {
 	if x == nil {
 		return nil
 	}
@@ -8878,33 +8878,33 @@ func (x *GodotPropertyGetFunc) Ref() *C.godot_property_get_func {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPropertyGetFunc) Free() {
+func (x *PropertyGetFunc) Free() {
 	if x != nil && x.allocsf4697b7e != nil {
 		x.allocsf4697b7e.(*cgoAllocMap).Free()
 		x.reff4697b7e = nil
 	}
 }
 
-// NewGodotPropertyGetFuncRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPropertyGetFuncRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPropertyGetFuncRef(ref unsafe.Pointer) *GodotPropertyGetFunc {
+func NewPropertyGetFuncRef(ref unsafe.Pointer) *PropertyGetFunc {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPropertyGetFunc)
+	obj := new(PropertyGetFunc)
 	obj.reff4697b7e = (*C.godot_property_get_func)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPropertyGetFunc) PassRef() (*C.godot_property_get_func, *cgoAllocMap) {
+func (x *PropertyGetFunc) PassRef() (*C.godot_property_get_func, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.reff4697b7e != nil {
 		return x.reff4697b7e, nil
 	}
-	memf4697b7e := allocGodotPropertyGetFuncMemory(1)
+	memf4697b7e := allocPropertyGetFuncMemory(1)
 	reff4697b7e := (*C.godot_property_get_func)(memf4697b7e)
 	allocsf4697b7e := new(cgoAllocMap)
 	allocsf4697b7e.Add(memf4697b7e)
@@ -8928,7 +8928,7 @@ func (x *GodotPropertyGetFunc) PassRef() (*C.godot_property_get_func, *cgoAllocM
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPropertyGetFunc) PassValue() (C.godot_property_get_func, *cgoAllocMap) {
+func (x PropertyGetFunc) PassValue() (C.godot_property_get_func, *cgoAllocMap) {
 	if x.reff4697b7e != nil {
 		return *x.reff4697b7e, nil
 	}
@@ -8938,29 +8938,29 @@ func (x GodotPropertyGetFunc) PassValue() (C.godot_property_get_func, *cgoAllocM
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPropertyGetFunc) Deref() {
+func (x *PropertyGetFunc) Deref() {
 	if x.reff4697b7e == nil {
 		return
 	}
-	x.GetFunc = NewGodotVariantRef(unsafe.Pointer(x.reff4697b7e.get_func))
+	x.GetFunc = NewVariantRef(unsafe.Pointer(x.reff4697b7e.get_func))
 	x.MethodData = (unsafe.Pointer)(unsafe.Pointer(x.reff4697b7e.method_data))
 	x.FreeFunc = NewRef(unsafe.Pointer(x.reff4697b7e.free_func))
 }
 
-// allocGodotSignalArgumentMemory allocates memory for type C.godot_signal_argument in C.
+// allocSignalArgumentMemory allocates memory for type C.godot_signal_argument in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotSignalArgumentMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotSignalArgumentValue))
+func allocSignalArgumentMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfSignalArgumentValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotSignalArgumentValue = unsafe.Sizeof([1]C.godot_signal_argument{})
+const sizeOfSignalArgumentValue = unsafe.Sizeof([1]C.godot_signal_argument{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotSignalArgument) Ref() *C.godot_signal_argument {
+func (x *SignalArgument) Ref() *C.godot_signal_argument {
 	if x == nil {
 		return nil
 	}
@@ -8969,33 +8969,33 @@ func (x *GodotSignalArgument) Ref() *C.godot_signal_argument {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotSignalArgument) Free() {
+func (x *SignalArgument) Free() {
 	if x != nil && x.allocsc21e72ac != nil {
 		x.allocsc21e72ac.(*cgoAllocMap).Free()
 		x.refc21e72ac = nil
 	}
 }
 
-// NewGodotSignalArgumentRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewSignalArgumentRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotSignalArgumentRef(ref unsafe.Pointer) *GodotSignalArgument {
+func NewSignalArgumentRef(ref unsafe.Pointer) *SignalArgument {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotSignalArgument)
+	obj := new(SignalArgument)
 	obj.refc21e72ac = (*C.godot_signal_argument)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotSignalArgument) PassRef() (*C.godot_signal_argument, *cgoAllocMap) {
+func (x *SignalArgument) PassRef() (*C.godot_signal_argument, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refc21e72ac != nil {
 		return x.refc21e72ac, nil
 	}
-	memc21e72ac := allocGodotSignalArgumentMemory(1)
+	memc21e72ac := allocSignalArgumentMemory(1)
 	refc21e72ac := (*C.godot_signal_argument)(memc21e72ac)
 	allocsc21e72ac := new(cgoAllocMap)
 	allocsc21e72ac.Add(memc21e72ac)
@@ -9031,7 +9031,7 @@ func (x *GodotSignalArgument) PassRef() (*C.godot_signal_argument, *cgoAllocMap)
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotSignalArgument) PassValue() (C.godot_signal_argument, *cgoAllocMap) {
+func (x SignalArgument) PassValue() (C.godot_signal_argument, *cgoAllocMap) {
 	if x.refc21e72ac != nil {
 		return *x.refc21e72ac, nil
 	}
@@ -9041,32 +9041,32 @@ func (x GodotSignalArgument) PassValue() (C.godot_signal_argument, *cgoAllocMap)
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotSignalArgument) Deref() {
+func (x *SignalArgument) Deref() {
 	if x.refc21e72ac == nil {
 		return
 	}
-	x.Name = *NewGodotStringRef(unsafe.Pointer(&x.refc21e72ac.name))
-	x.Type = (GodotInt)(x.refc21e72ac._type)
-	x.Hint = (GodotPropertyHint)(x.refc21e72ac.hint)
-	x.HintString = *NewGodotStringRef(unsafe.Pointer(&x.refc21e72ac.hint_string))
-	x.Usage = (GodotPropertyUsageFlags)(x.refc21e72ac.usage)
-	x.DefaultValue = *NewGodotVariantRef(unsafe.Pointer(&x.refc21e72ac.default_value))
+	x.Name = *NewStringRef(unsafe.Pointer(&x.refc21e72ac.name))
+	x.Type = (Int)(x.refc21e72ac._type)
+	x.Hint = (PropertyHint)(x.refc21e72ac.hint)
+	x.HintString = *NewStringRef(unsafe.Pointer(&x.refc21e72ac.hint_string))
+	x.Usage = (PropertyUsageFlags)(x.refc21e72ac.usage)
+	x.DefaultValue = *NewVariantRef(unsafe.Pointer(&x.refc21e72ac.default_value))
 }
 
-// allocGodotSignalMemory allocates memory for type C.godot_signal in C.
+// allocSignalMemory allocates memory for type C.godot_signal in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotSignalMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotSignalValue))
+func allocSignalMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfSignalValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotSignalValue = unsafe.Sizeof([1]C.godot_signal{})
+const sizeOfSignalValue = unsafe.Sizeof([1]C.godot_signal{})
 
-// unpackSGodotSignalArgument transforms a sliced Go data structure into plain C format.
-func unpackSGodotSignalArgument(x []GodotSignalArgument) (unpacked *C.godot_signal_argument, allocs *cgoAllocMap) {
+// unpackSSignalArgument transforms a sliced Go data structure into plain C format.
+func unpackSSignalArgument(x []SignalArgument) (unpacked *C.godot_signal_argument, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -9076,7 +9076,7 @@ func unpackSGodotSignalArgument(x []GodotSignalArgument) (unpacked *C.godot_sign
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotSignalArgumentMemory(len0)
+	mem0 := allocSignalArgumentMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -9094,8 +9094,8 @@ func unpackSGodotSignalArgument(x []GodotSignalArgument) (unpacked *C.godot_sign
 	return
 }
 
-// unpackSGodotVariant transforms a sliced Go data structure into plain C format.
-func unpackSGodotVariant(x []GodotVariant) (unpacked *C.godot_variant, allocs *cgoAllocMap) {
+// unpackSVariant transforms a sliced Go data structure into plain C format.
+func unpackSVariant(x []Variant) (unpacked *C.godot_variant, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -9105,7 +9105,7 @@ func unpackSGodotVariant(x []GodotVariant) (unpacked *C.godot_variant, allocs *c
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotVariantMemory(len0)
+	mem0 := allocVariantMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -9123,26 +9123,26 @@ func unpackSGodotVariant(x []GodotVariant) (unpacked *C.godot_variant, allocs *c
 	return
 }
 
-// packSGodotSignalArgument reads sliced Go data structure out from plain C format.
-func packSGodotSignalArgument(v []GodotSignalArgument, ptr0 *C.godot_signal_argument) {
+// packSSignalArgument reads sliced Go data structure out from plain C format.
+func packSSignalArgument(v []SignalArgument, ptr0 *C.godot_signal_argument) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotSignalArgumentValue]C.godot_signal_argument)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotSignalArgumentRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfSignalArgumentValue]C.godot_signal_argument)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewSignalArgumentRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// packSGodotVariant reads sliced Go data structure out from plain C format.
-func packSGodotVariant(v []GodotVariant, ptr0 *C.godot_variant) {
+// packSVariant reads sliced Go data structure out from plain C format.
+func packSVariant(v []Variant, ptr0 *C.godot_variant) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotVariantValue]C.godot_variant)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotVariantRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfVariantValue]C.godot_variant)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewVariantRef(unsafe.Pointer(&ptr1))
 	}
 }
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotSignal) Ref() *C.godot_signal {
+func (x *Signal) Ref() *C.godot_signal {
 	if x == nil {
 		return nil
 	}
@@ -9151,33 +9151,33 @@ func (x *GodotSignal) Ref() *C.godot_signal {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotSignal) Free() {
+func (x *Signal) Free() {
 	if x != nil && x.allocs87acf90b != nil {
 		x.allocs87acf90b.(*cgoAllocMap).Free()
 		x.ref87acf90b = nil
 	}
 }
 
-// NewGodotSignalRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewSignalRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotSignalRef(ref unsafe.Pointer) *GodotSignal {
+func NewSignalRef(ref unsafe.Pointer) *Signal {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotSignal)
+	obj := new(Signal)
 	obj.ref87acf90b = (*C.godot_signal)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotSignal) PassRef() (*C.godot_signal, *cgoAllocMap) {
+func (x *Signal) PassRef() (*C.godot_signal, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref87acf90b != nil {
 		return x.ref87acf90b, nil
 	}
-	mem87acf90b := allocGodotSignalMemory(1)
+	mem87acf90b := allocSignalMemory(1)
 	ref87acf90b := (*C.godot_signal)(mem87acf90b)
 	allocs87acf90b := new(cgoAllocMap)
 	allocs87acf90b.Add(mem87acf90b)
@@ -9191,7 +9191,7 @@ func (x *GodotSignal) PassRef() (*C.godot_signal, *cgoAllocMap) {
 	allocs87acf90b.Borrow(cnum_args_allocs)
 
 	var cargs_allocs *cgoAllocMap
-	ref87acf90b.args, cargs_allocs = unpackSGodotSignalArgument(x.Args)
+	ref87acf90b.args, cargs_allocs = unpackSSignalArgument(x.Args)
 	allocs87acf90b.Borrow(cargs_allocs)
 
 	var cnum_default_args_allocs *cgoAllocMap
@@ -9199,7 +9199,7 @@ func (x *GodotSignal) PassRef() (*C.godot_signal, *cgoAllocMap) {
 	allocs87acf90b.Borrow(cnum_default_args_allocs)
 
 	var cdefault_args_allocs *cgoAllocMap
-	ref87acf90b.default_args, cdefault_args_allocs = unpackSGodotVariant(x.DefaultArgs)
+	ref87acf90b.default_args, cdefault_args_allocs = unpackSVariant(x.DefaultArgs)
 	allocs87acf90b.Borrow(cdefault_args_allocs)
 
 	x.ref87acf90b = ref87acf90b
@@ -9209,7 +9209,7 @@ func (x *GodotSignal) PassRef() (*C.godot_signal, *cgoAllocMap) {
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotSignal) PassValue() (C.godot_signal, *cgoAllocMap) {
+func (x Signal) PassValue() (C.godot_signal, *cgoAllocMap) {
 	if x.ref87acf90b != nil {
 		return *x.ref87acf90b, nil
 	}
@@ -9219,31 +9219,31 @@ func (x GodotSignal) PassValue() (C.godot_signal, *cgoAllocMap) {
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotSignal) Deref() {
+func (x *Signal) Deref() {
 	if x.ref87acf90b == nil {
 		return
 	}
-	x.Name = *NewGodotStringRef(unsafe.Pointer(&x.ref87acf90b.name))
+	x.Name = *NewStringRef(unsafe.Pointer(&x.ref87acf90b.name))
 	x.NumArgs = (int32)(x.ref87acf90b.num_args)
-	packSGodotSignalArgument(x.Args, x.ref87acf90b.args)
+	packSSignalArgument(x.Args, x.ref87acf90b.args)
 	x.NumDefaultArgs = (int32)(x.ref87acf90b.num_default_args)
-	packSGodotVariant(x.DefaultArgs, x.ref87acf90b.default_args)
+	packSVariant(x.DefaultArgs, x.ref87acf90b.default_args)
 }
 
-// allocGodotPluginscriptInstanceDescMemory allocates memory for type C.godot_pluginscript_instance_desc in C.
+// allocPluginscriptInstanceDescMemory allocates memory for type C.godot_pluginscript_instance_desc in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPluginscriptInstanceDescMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPluginscriptInstanceDescValue))
+func allocPluginscriptInstanceDescMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPluginscriptInstanceDescValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPluginscriptInstanceDescValue = unsafe.Sizeof([1]C.godot_pluginscript_instance_desc{})
+const sizeOfPluginscriptInstanceDescValue = unsafe.Sizeof([1]C.godot_pluginscript_instance_desc{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPluginscriptInstanceDesc) Ref() *C.godot_pluginscript_instance_desc {
+func (x *PluginscriptInstanceDesc) Ref() *C.godot_pluginscript_instance_desc {
 	if x == nil {
 		return nil
 	}
@@ -9252,33 +9252,33 @@ func (x *GodotPluginscriptInstanceDesc) Ref() *C.godot_pluginscript_instance_des
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPluginscriptInstanceDesc) Free() {
+func (x *PluginscriptInstanceDesc) Free() {
 	if x != nil && x.allocsc0c19139 != nil {
 		x.allocsc0c19139.(*cgoAllocMap).Free()
 		x.refc0c19139 = nil
 	}
 }
 
-// NewGodotPluginscriptInstanceDescRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPluginscriptInstanceDescRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPluginscriptInstanceDescRef(ref unsafe.Pointer) *GodotPluginscriptInstanceDesc {
+func NewPluginscriptInstanceDescRef(ref unsafe.Pointer) *PluginscriptInstanceDesc {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPluginscriptInstanceDesc)
+	obj := new(PluginscriptInstanceDesc)
 	obj.refc0c19139 = (*C.godot_pluginscript_instance_desc)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPluginscriptInstanceDesc) PassRef() (*C.godot_pluginscript_instance_desc, *cgoAllocMap) {
+func (x *PluginscriptInstanceDesc) PassRef() (*C.godot_pluginscript_instance_desc, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refc0c19139 != nil {
 		return x.refc0c19139, nil
 	}
-	memc0c19139 := allocGodotPluginscriptInstanceDescMemory(1)
+	memc0c19139 := allocPluginscriptInstanceDescMemory(1)
 	refc0c19139 := (*C.godot_pluginscript_instance_desc)(memc0c19139)
 	allocsc0c19139 := new(cgoAllocMap)
 	allocsc0c19139.Add(memc0c19139)
@@ -9330,7 +9330,7 @@ func (x *GodotPluginscriptInstanceDesc) PassRef() (*C.godot_pluginscript_instanc
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPluginscriptInstanceDesc) PassValue() (C.godot_pluginscript_instance_desc, *cgoAllocMap) {
+func (x PluginscriptInstanceDesc) PassValue() (C.godot_pluginscript_instance_desc, *cgoAllocMap) {
 	if x.refc0c19139 != nil {
 		return *x.refc0c19139, nil
 	}
@@ -9340,36 +9340,36 @@ func (x GodotPluginscriptInstanceDesc) PassValue() (C.godot_pluginscript_instanc
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPluginscriptInstanceDesc) Deref() {
+func (x *PluginscriptInstanceDesc) Deref() {
 	if x.refc0c19139 == nil {
 		return
 	}
-	x.Init = NewGodotPluginscriptInstanceDataRef(unsafe.Pointer(x.refc0c19139.init))
+	x.Init = NewPluginscriptInstanceDataRef(unsafe.Pointer(x.refc0c19139.init))
 	x.Finish = NewRef(unsafe.Pointer(x.refc0c19139.finish))
-	x.SetProp = NewGodotBoolRef(unsafe.Pointer(x.refc0c19139.set_prop))
-	x.GetProp = NewGodotBoolRef(unsafe.Pointer(x.refc0c19139.get_prop))
-	x.CallMethod = NewGodotVariantRef(unsafe.Pointer(x.refc0c19139.call_method))
+	x.SetProp = NewBoolRef(unsafe.Pointer(x.refc0c19139.set_prop))
+	x.GetProp = NewBoolRef(unsafe.Pointer(x.refc0c19139.get_prop))
+	x.CallMethod = NewVariantRef(unsafe.Pointer(x.refc0c19139.call_method))
 	x.Notification = NewRef(unsafe.Pointer(x.refc0c19139.notification))
-	x.GetRpcMode = NewGodotMethodRpcModeRef(unsafe.Pointer(x.refc0c19139.get_rpc_mode))
-	x.GetRsetMode = NewGodotMethodRpcModeRef(unsafe.Pointer(x.refc0c19139.get_rset_mode))
+	x.GetRpcMode = NewMethodRpcModeRef(unsafe.Pointer(x.refc0c19139.get_rpc_mode))
+	x.GetRsetMode = NewMethodRpcModeRef(unsafe.Pointer(x.refc0c19139.get_rset_mode))
 	x.RefcountIncremented = NewRef(unsafe.Pointer(x.refc0c19139.refcount_incremented))
 	x.RefcountDecremented = NewRef(unsafe.Pointer(x.refc0c19139.refcount_decremented))
 }
 
-// allocGodotPluginscriptScriptManifestMemory allocates memory for type C.godot_pluginscript_script_manifest in C.
+// allocPluginscriptScriptManifestMemory allocates memory for type C.godot_pluginscript_script_manifest in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPluginscriptScriptManifestMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPluginscriptScriptManifestValue))
+func allocPluginscriptScriptManifestMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPluginscriptScriptManifestValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPluginscriptScriptManifestValue = unsafe.Sizeof([1]C.godot_pluginscript_script_manifest{})
+const sizeOfPluginscriptScriptManifestValue = unsafe.Sizeof([1]C.godot_pluginscript_script_manifest{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPluginscriptScriptManifest) Ref() *C.godot_pluginscript_script_manifest {
+func (x *PluginscriptScriptManifest) Ref() *C.godot_pluginscript_script_manifest {
 	if x == nil {
 		return nil
 	}
@@ -9378,33 +9378,33 @@ func (x *GodotPluginscriptScriptManifest) Ref() *C.godot_pluginscript_script_man
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPluginscriptScriptManifest) Free() {
+func (x *PluginscriptScriptManifest) Free() {
 	if x != nil && x.allocsfbf02dfd != nil {
 		x.allocsfbf02dfd.(*cgoAllocMap).Free()
 		x.reffbf02dfd = nil
 	}
 }
 
-// NewGodotPluginscriptScriptManifestRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPluginscriptScriptManifestRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPluginscriptScriptManifestRef(ref unsafe.Pointer) *GodotPluginscriptScriptManifest {
+func NewPluginscriptScriptManifestRef(ref unsafe.Pointer) *PluginscriptScriptManifest {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPluginscriptScriptManifest)
+	obj := new(PluginscriptScriptManifest)
 	obj.reffbf02dfd = (*C.godot_pluginscript_script_manifest)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPluginscriptScriptManifest) PassRef() (*C.godot_pluginscript_script_manifest, *cgoAllocMap) {
+func (x *PluginscriptScriptManifest) PassRef() (*C.godot_pluginscript_script_manifest, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.reffbf02dfd != nil {
 		return x.reffbf02dfd, nil
 	}
-	memfbf02dfd := allocGodotPluginscriptScriptManifestMemory(1)
+	memfbf02dfd := allocPluginscriptScriptManifestMemory(1)
 	reffbf02dfd := (*C.godot_pluginscript_script_manifest)(memfbf02dfd)
 	allocsfbf02dfd := new(cgoAllocMap)
 	allocsfbf02dfd.Add(memfbf02dfd)
@@ -9448,7 +9448,7 @@ func (x *GodotPluginscriptScriptManifest) PassRef() (*C.godot_pluginscript_scrip
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPluginscriptScriptManifest) PassValue() (C.godot_pluginscript_script_manifest, *cgoAllocMap) {
+func (x PluginscriptScriptManifest) PassValue() (C.godot_pluginscript_script_manifest, *cgoAllocMap) {
 	if x.reffbf02dfd != nil {
 		return *x.reffbf02dfd, nil
 	}
@@ -9458,34 +9458,34 @@ func (x GodotPluginscriptScriptManifest) PassValue() (C.godot_pluginscript_scrip
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPluginscriptScriptManifest) Deref() {
+func (x *PluginscriptScriptManifest) Deref() {
 	if x.reffbf02dfd == nil {
 		return
 	}
-	x.Data = (*GodotPluginscriptScriptData)(unsafe.Pointer(x.reffbf02dfd.data))
-	x.Name = *NewGodotStringNameRef(unsafe.Pointer(&x.reffbf02dfd.name))
-	x.IsTool = (GodotBool)(x.reffbf02dfd.is_tool)
-	x.Base = *NewGodotStringNameRef(unsafe.Pointer(&x.reffbf02dfd.base))
-	x.MemberLines = *NewGodotDictionaryRef(unsafe.Pointer(&x.reffbf02dfd.member_lines))
-	x.Methods = *NewGodotArrayRef(unsafe.Pointer(&x.reffbf02dfd.methods))
-	x.Signals = *NewGodotArrayRef(unsafe.Pointer(&x.reffbf02dfd.signals))
-	x.Properties = *NewGodotArrayRef(unsafe.Pointer(&x.reffbf02dfd.properties))
+	x.Data = (*PluginscriptScriptData)(unsafe.Pointer(x.reffbf02dfd.data))
+	x.Name = *NewStringNameRef(unsafe.Pointer(&x.reffbf02dfd.name))
+	x.IsTool = (Bool)(x.reffbf02dfd.is_tool)
+	x.Base = *NewStringNameRef(unsafe.Pointer(&x.reffbf02dfd.base))
+	x.MemberLines = *NewDictionaryRef(unsafe.Pointer(&x.reffbf02dfd.member_lines))
+	x.Methods = *NewArrayRef(unsafe.Pointer(&x.reffbf02dfd.methods))
+	x.Signals = *NewArrayRef(unsafe.Pointer(&x.reffbf02dfd.signals))
+	x.Properties = *NewArrayRef(unsafe.Pointer(&x.reffbf02dfd.properties))
 }
 
-// allocGodotPluginscriptScriptDescMemory allocates memory for type C.godot_pluginscript_script_desc in C.
+// allocPluginscriptScriptDescMemory allocates memory for type C.godot_pluginscript_script_desc in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPluginscriptScriptDescMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPluginscriptScriptDescValue))
+func allocPluginscriptScriptDescMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPluginscriptScriptDescValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPluginscriptScriptDescValue = unsafe.Sizeof([1]C.godot_pluginscript_script_desc{})
+const sizeOfPluginscriptScriptDescValue = unsafe.Sizeof([1]C.godot_pluginscript_script_desc{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPluginscriptScriptDesc) Ref() *C.godot_pluginscript_script_desc {
+func (x *PluginscriptScriptDesc) Ref() *C.godot_pluginscript_script_desc {
 	if x == nil {
 		return nil
 	}
@@ -9494,33 +9494,33 @@ func (x *GodotPluginscriptScriptDesc) Ref() *C.godot_pluginscript_script_desc {
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPluginscriptScriptDesc) Free() {
+func (x *PluginscriptScriptDesc) Free() {
 	if x != nil && x.allocs1aab3210 != nil {
 		x.allocs1aab3210.(*cgoAllocMap).Free()
 		x.ref1aab3210 = nil
 	}
 }
 
-// NewGodotPluginscriptScriptDescRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPluginscriptScriptDescRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPluginscriptScriptDescRef(ref unsafe.Pointer) *GodotPluginscriptScriptDesc {
+func NewPluginscriptScriptDescRef(ref unsafe.Pointer) *PluginscriptScriptDesc {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPluginscriptScriptDesc)
+	obj := new(PluginscriptScriptDesc)
 	obj.ref1aab3210 = (*C.godot_pluginscript_script_desc)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPluginscriptScriptDesc) PassRef() (*C.godot_pluginscript_script_desc, *cgoAllocMap) {
+func (x *PluginscriptScriptDesc) PassRef() (*C.godot_pluginscript_script_desc, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref1aab3210 != nil {
 		return x.ref1aab3210, nil
 	}
-	mem1aab3210 := allocGodotPluginscriptScriptDescMemory(1)
+	mem1aab3210 := allocPluginscriptScriptDescMemory(1)
 	ref1aab3210 := (*C.godot_pluginscript_script_desc)(mem1aab3210)
 	allocs1aab3210 := new(cgoAllocMap)
 	allocs1aab3210.Add(mem1aab3210)
@@ -9544,7 +9544,7 @@ func (x *GodotPluginscriptScriptDesc) PassRef() (*C.godot_pluginscript_script_de
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPluginscriptScriptDesc) PassValue() (C.godot_pluginscript_script_desc, *cgoAllocMap) {
+func (x PluginscriptScriptDesc) PassValue() (C.godot_pluginscript_script_desc, *cgoAllocMap) {
 	if x.ref1aab3210 != nil {
 		return *x.ref1aab3210, nil
 	}
@@ -9554,29 +9554,29 @@ func (x GodotPluginscriptScriptDesc) PassValue() (C.godot_pluginscript_script_de
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPluginscriptScriptDesc) Deref() {
+func (x *PluginscriptScriptDesc) Deref() {
 	if x.ref1aab3210 == nil {
 		return
 	}
-	x.Init = NewGodotPluginscriptScriptManifestRef(unsafe.Pointer(x.ref1aab3210.init))
+	x.Init = NewPluginscriptScriptManifestRef(unsafe.Pointer(x.ref1aab3210.init))
 	x.Finish = NewRef(unsafe.Pointer(x.ref1aab3210.finish))
-	x.InstanceDesc = *NewGodotPluginscriptInstanceDescRef(unsafe.Pointer(&x.ref1aab3210.instance_desc))
+	x.InstanceDesc = *NewPluginscriptInstanceDescRef(unsafe.Pointer(&x.ref1aab3210.instance_desc))
 }
 
-// allocGodotPluginscriptProfilingDataMemory allocates memory for type C.godot_pluginscript_profiling_data in C.
+// allocPluginscriptProfilingDataMemory allocates memory for type C.godot_pluginscript_profiling_data in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPluginscriptProfilingDataMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPluginscriptProfilingDataValue))
+func allocPluginscriptProfilingDataMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPluginscriptProfilingDataValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPluginscriptProfilingDataValue = unsafe.Sizeof([1]C.godot_pluginscript_profiling_data{})
+const sizeOfPluginscriptProfilingDataValue = unsafe.Sizeof([1]C.godot_pluginscript_profiling_data{})
 
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPluginscriptProfilingData) Ref() *C.godot_pluginscript_profiling_data {
+func (x *PluginscriptProfilingData) Ref() *C.godot_pluginscript_profiling_data {
 	if x == nil {
 		return nil
 	}
@@ -9585,33 +9585,33 @@ func (x *GodotPluginscriptProfilingData) Ref() *C.godot_pluginscript_profiling_d
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPluginscriptProfilingData) Free() {
+func (x *PluginscriptProfilingData) Free() {
 	if x != nil && x.allocs9c004e5a != nil {
 		x.allocs9c004e5a.(*cgoAllocMap).Free()
 		x.ref9c004e5a = nil
 	}
 }
 
-// NewGodotPluginscriptProfilingDataRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPluginscriptProfilingDataRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPluginscriptProfilingDataRef(ref unsafe.Pointer) *GodotPluginscriptProfilingData {
+func NewPluginscriptProfilingDataRef(ref unsafe.Pointer) *PluginscriptProfilingData {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPluginscriptProfilingData)
+	obj := new(PluginscriptProfilingData)
 	obj.ref9c004e5a = (*C.godot_pluginscript_profiling_data)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPluginscriptProfilingData) PassRef() (*C.godot_pluginscript_profiling_data, *cgoAllocMap) {
+func (x *PluginscriptProfilingData) PassRef() (*C.godot_pluginscript_profiling_data, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.ref9c004e5a != nil {
 		return x.ref9c004e5a, nil
 	}
-	mem9c004e5a := allocGodotPluginscriptProfilingDataMemory(1)
+	mem9c004e5a := allocPluginscriptProfilingDataMemory(1)
 	ref9c004e5a := (*C.godot_pluginscript_profiling_data)(mem9c004e5a)
 	allocs9c004e5a := new(cgoAllocMap)
 	allocs9c004e5a.Add(mem9c004e5a)
@@ -9639,7 +9639,7 @@ func (x *GodotPluginscriptProfilingData) PassRef() (*C.godot_pluginscript_profil
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPluginscriptProfilingData) PassValue() (C.godot_pluginscript_profiling_data, *cgoAllocMap) {
+func (x PluginscriptProfilingData) PassValue() (C.godot_pluginscript_profiling_data, *cgoAllocMap) {
 	if x.ref9c004e5a != nil {
 		return *x.ref9c004e5a, nil
 	}
@@ -9649,27 +9649,27 @@ func (x GodotPluginscriptProfilingData) PassValue() (C.godot_pluginscript_profil
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPluginscriptProfilingData) Deref() {
+func (x *PluginscriptProfilingData) Deref() {
 	if x.ref9c004e5a == nil {
 		return
 	}
-	x.Signature = *NewGodotStringNameRef(unsafe.Pointer(&x.ref9c004e5a.signature))
-	x.CallCount = (GodotInt)(x.ref9c004e5a.call_count)
-	x.TotalTime = (GodotInt)(x.ref9c004e5a.total_time)
-	x.SelfTime = (GodotInt)(x.ref9c004e5a.self_time)
+	x.Signature = *NewStringNameRef(unsafe.Pointer(&x.ref9c004e5a.signature))
+	x.CallCount = (Int)(x.ref9c004e5a.call_count)
+	x.TotalTime = (Int)(x.ref9c004e5a.total_time)
+	x.SelfTime = (Int)(x.ref9c004e5a.self_time)
 }
 
-// allocGodotPluginscriptLanguageDescMemory allocates memory for type C.godot_pluginscript_language_desc in C.
+// allocPluginscriptLanguageDescMemory allocates memory for type C.godot_pluginscript_language_desc in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPluginscriptLanguageDescMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPluginscriptLanguageDescValue))
+func allocPluginscriptLanguageDescMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPluginscriptLanguageDescValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPluginscriptLanguageDescValue = unsafe.Sizeof([1]C.godot_pluginscript_language_desc{})
+const sizeOfPluginscriptLanguageDescValue = unsafe.Sizeof([1]C.godot_pluginscript_language_desc{})
 
 // unpackPCharString represents the data from Go string as *C.char and avoids copying.
 func unpackPCharString(str string) (*C.char, *cgoAllocMap) {
@@ -9693,33 +9693,6 @@ func allocPCharMemory(n int) unsafe.Pointer {
 }
 
 const sizeOfPCharValue = unsafe.Sizeof([1]*C.char{})
-
-// unpackSString transforms a sliced Go data structure into plain C format.
-func unpackSString(x []string) (unpacked **C.char, allocs *cgoAllocMap) {
-	if x == nil {
-		return nil, nil
-	}
-	allocs = new(cgoAllocMap)
-	defer runtime.SetFinalizer(&unpacked, func(***C.char) {
-		go allocs.Free()
-	})
-
-	len0 := len(x)
-	mem0 := allocPCharMemory(len0)
-	allocs.Add(mem0)
-	h0 := &sliceHeader{
-		Data: uintptr(mem0),
-		Cap:  len0,
-		Len:  len0,
-	}
-	v0 := *(*[]*C.char)(unsafe.Pointer(h0))
-	for i0 := range x {
-		v0[i0], _ = unpackPCharString(x[i0])
-	}
-	h := (*sliceHeader)(unsafe.Pointer(&v0))
-	unpacked = (**C.char)(unsafe.Pointer(h.Data))
-	return
-}
 
 // packPCharString creates a Go string backed by *C.char and avoids copying.
 func packPCharString(p *C.char) (raw string) {
@@ -9746,17 +9719,8 @@ func (raw RawString) Copy() string {
 	return C.GoStringN((*C.char)(unsafe.Pointer(h.Data)), C.int(h.Len))
 }
 
-// packSString reads sliced Go data structure out from plain C format.
-func packSString(v []string, ptr0 **C.char) {
-	const m = 0x7fffffff
-	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfPtr]*C.char)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = packPCharString(ptr1)
-	}
-}
-
 // Ref returns the underlying reference to C object or nil if struct is nil.
-func (x *GodotPluginscriptLanguageDesc) Ref() *C.godot_pluginscript_language_desc {
+func (x *PluginscriptLanguageDesc) Ref() *C.godot_pluginscript_language_desc {
 	if x == nil {
 		return nil
 	}
@@ -9765,33 +9729,33 @@ func (x *GodotPluginscriptLanguageDesc) Ref() *C.godot_pluginscript_language_des
 
 // Free invokes alloc map's free mechanism that cleanups any allocated memory using C free.
 // Does nothing if struct is nil or has no allocation map.
-func (x *GodotPluginscriptLanguageDesc) Free() {
+func (x *PluginscriptLanguageDesc) Free() {
 	if x != nil && x.allocsdac22bbe != nil {
 		x.allocsdac22bbe.(*cgoAllocMap).Free()
 		x.refdac22bbe = nil
 	}
 }
 
-// NewGodotPluginscriptLanguageDescRef creates a new wrapper struct with underlying reference set to the original C object.
+// NewPluginscriptLanguageDescRef creates a new wrapper struct with underlying reference set to the original C object.
 // Returns nil if the provided pointer to C object is nil too.
-func NewGodotPluginscriptLanguageDescRef(ref unsafe.Pointer) *GodotPluginscriptLanguageDesc {
+func NewPluginscriptLanguageDescRef(ref unsafe.Pointer) *PluginscriptLanguageDesc {
 	if ref == nil {
 		return nil
 	}
-	obj := new(GodotPluginscriptLanguageDesc)
+	obj := new(PluginscriptLanguageDesc)
 	obj.refdac22bbe = (*C.godot_pluginscript_language_desc)(unsafe.Pointer(ref))
 	return obj
 }
 
 // PassRef returns the underlying C object, otherwise it will allocate one and set its values
 // from this wrapping struct, counting allocations into an allocation map.
-func (x *GodotPluginscriptLanguageDesc) PassRef() (*C.godot_pluginscript_language_desc, *cgoAllocMap) {
+func (x *PluginscriptLanguageDesc) PassRef() (*C.godot_pluginscript_language_desc, *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	} else if x.refdac22bbe != nil {
 		return x.refdac22bbe, nil
 	}
-	memdac22bbe := allocGodotPluginscriptLanguageDescMemory(1)
+	memdac22bbe := allocPluginscriptLanguageDescMemory(1)
 	refdac22bbe := (*C.godot_pluginscript_language_desc)(memdac22bbe)
 	allocsdac22bbe := new(cgoAllocMap)
 	allocsdac22bbe.Add(memdac22bbe)
@@ -9943,7 +9907,7 @@ func (x *GodotPluginscriptLanguageDesc) PassRef() (*C.godot_pluginscript_languag
 }
 
 // PassValue does the same as PassRef except that it will try to dereference the returned pointer.
-func (x GodotPluginscriptLanguageDesc) PassValue() (C.godot_pluginscript_language_desc, *cgoAllocMap) {
+func (x PluginscriptLanguageDesc) PassValue() (C.godot_pluginscript_language_desc, *cgoAllocMap) {
 	if x.refdac22bbe != nil {
 		return *x.refdac22bbe, nil
 	}
@@ -9953,7 +9917,7 @@ func (x GodotPluginscriptLanguageDesc) PassValue() (C.godot_pluginscript_languag
 
 // Deref uses the underlying reference to C object and fills the wrapping struct with values.
 // Do not forget to call this method whether you get a struct for C object and want to read its values.
-func (x *GodotPluginscriptLanguageDesc) Deref() {
+func (x *PluginscriptLanguageDesc) Deref() {
 	if x.refdac22bbe == nil {
 		return
 	}
@@ -9961,29 +9925,29 @@ func (x *GodotPluginscriptLanguageDesc) Deref() {
 	x.Type = packPCharString(x.refdac22bbe._type)
 	x.Extension = packPCharString(x.refdac22bbe.extension)
 	packSString(x.RecognizedExtensions, x.refdac22bbe.recognized_extensions)
-	x.Init = NewGodotPluginscriptLanguageDataRef(unsafe.Pointer(x.refdac22bbe.init))
+	x.Init = NewPluginscriptLanguageDataRef(unsafe.Pointer(x.refdac22bbe.init))
 	x.Finish = NewRef(unsafe.Pointer(x.refdac22bbe.finish))
 	packSString(x.ReservedWords, x.refdac22bbe.reserved_words)
 	packSString(x.CommentDelimiters, x.refdac22bbe.comment_delimiters)
 	packSString(x.StringDelimiters, x.refdac22bbe.string_delimiters)
-	x.HasNamedClasses = (GodotBool)(x.refdac22bbe.has_named_classes)
-	x.SupportsBuiltinMode = (GodotBool)(x.refdac22bbe.supports_builtin_mode)
-	x.GetTemplateSourceCode = NewGodotStringRef(unsafe.Pointer(x.refdac22bbe.get_template_source_code))
-	x.Validate = NewGodotBoolRef(unsafe.Pointer(x.refdac22bbe.validate))
+	x.HasNamedClasses = (Bool)(x.refdac22bbe.has_named_classes)
+	x.SupportsBuiltinMode = (Bool)(x.refdac22bbe.supports_builtin_mode)
+	x.GetTemplateSourceCode = NewStringRef(unsafe.Pointer(x.refdac22bbe.get_template_source_code))
+	x.Validate = NewBoolRef(unsafe.Pointer(x.refdac22bbe.validate))
 	x.FindFunction = NewRef(unsafe.Pointer(x.refdac22bbe.find_function))
-	x.MakeFunction = NewGodotStringRef(unsafe.Pointer(x.refdac22bbe.make_function))
-	x.CompleteCode = NewGodotErrorRef(unsafe.Pointer(x.refdac22bbe.complete_code))
+	x.MakeFunction = NewStringRef(unsafe.Pointer(x.refdac22bbe.make_function))
+	x.CompleteCode = NewErrorRef(unsafe.Pointer(x.refdac22bbe.complete_code))
 	x.AutoIndentCode = NewRef(unsafe.Pointer(x.refdac22bbe.auto_indent_code))
 	x.AddGlobalConstant = NewRef(unsafe.Pointer(x.refdac22bbe.add_global_constant))
-	x.DebugGetError = NewGodotStringRef(unsafe.Pointer(x.refdac22bbe.debug_get_error))
+	x.DebugGetError = NewStringRef(unsafe.Pointer(x.refdac22bbe.debug_get_error))
 	x.DebugGetStackLevelCount = NewRef(unsafe.Pointer(x.refdac22bbe.debug_get_stack_level_count))
 	x.DebugGetStackLevelLine = NewRef(unsafe.Pointer(x.refdac22bbe.debug_get_stack_level_line))
-	x.DebugGetStackLevelFunction = NewGodotStringRef(unsafe.Pointer(x.refdac22bbe.debug_get_stack_level_function))
-	x.DebugGetStackLevelSource = NewGodotStringRef(unsafe.Pointer(x.refdac22bbe.debug_get_stack_level_source))
+	x.DebugGetStackLevelFunction = NewStringRef(unsafe.Pointer(x.refdac22bbe.debug_get_stack_level_function))
+	x.DebugGetStackLevelSource = NewStringRef(unsafe.Pointer(x.refdac22bbe.debug_get_stack_level_source))
 	x.DebugGetStackLevelLocals = NewRef(unsafe.Pointer(x.refdac22bbe.debug_get_stack_level_locals))
 	x.DebugGetStackLevelMembers = NewRef(unsafe.Pointer(x.refdac22bbe.debug_get_stack_level_members))
 	x.DebugGetGlobals = NewRef(unsafe.Pointer(x.refdac22bbe.debug_get_globals))
-	x.DebugParseStackLevelExpression = NewGodotStringRef(unsafe.Pointer(x.refdac22bbe.debug_parse_stack_level_expression))
+	x.DebugParseStackLevelExpression = NewStringRef(unsafe.Pointer(x.refdac22bbe.debug_parse_stack_level_expression))
 	x.GetPublicFunctions = NewRef(unsafe.Pointer(x.refdac22bbe.get_public_functions))
 	x.GetPublicConstants = NewRef(unsafe.Pointer(x.refdac22bbe.get_public_constants))
 	x.ProfilingStart = NewRef(unsafe.Pointer(x.refdac22bbe.profiling_start))
@@ -9991,11 +9955,11 @@ func (x *GodotPluginscriptLanguageDesc) Deref() {
 	x.ProfilingGetAccumulatedData = NewRef(unsafe.Pointer(x.refdac22bbe.profiling_get_accumulated_data))
 	x.ProfilingGetFrameData = NewRef(unsafe.Pointer(x.refdac22bbe.profiling_get_frame_data))
 	x.ProfilingFrame = NewRef(unsafe.Pointer(x.refdac22bbe.profiling_frame))
-	x.ScriptDesc = *NewGodotPluginscriptScriptDescRef(unsafe.Pointer(&x.refdac22bbe.script_desc))
+	x.ScriptDesc = *NewPluginscriptScriptDescRef(unsafe.Pointer(&x.refdac22bbe.script_desc))
 }
 
-// unpackArgSGodotMethodBind transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotMethodBind(x []GodotMethodBind) (unpacked *C.godot_method_bind, allocs *cgoAllocMap) {
+// unpackArgSMethodBind transforms a sliced Go data structure into plain C format.
+func unpackArgSMethodBind(x []MethodBind) (unpacked *C.godot_method_bind, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10005,7 +9969,7 @@ func unpackArgSGodotMethodBind(x []GodotMethodBind) (unpacked *C.godot_method_bi
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotMethodBindMemory(len0)
+	mem0 := allocMethodBindMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10023,29 +9987,29 @@ func unpackArgSGodotMethodBind(x []GodotMethodBind) (unpacked *C.godot_method_bi
 	return
 }
 
-// packSGodotMethodBind reads sliced Go data structure out from plain C format.
-func packSGodotMethodBind(v []GodotMethodBind, ptr0 *C.godot_method_bind) {
+// packSMethodBind reads sliced Go data structure out from plain C format.
+func packSMethodBind(v []MethodBind, ptr0 *C.godot_method_bind) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotMethodBindValue]C.godot_method_bind)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotMethodBindRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfMethodBindValue]C.godot_method_bind)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewMethodBindRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocPGodotVariantMemory allocates memory for type *C.godot_variant in C.
+// allocPVariantMemory allocates memory for type *C.godot_variant in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocPGodotVariantMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPGodotVariantValue))
+func allocPVariantMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPVariantValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfPGodotVariantValue = unsafe.Sizeof([1]*C.godot_variant{})
+const sizeOfPVariantValue = unsafe.Sizeof([1]*C.godot_variant{})
 
-// unpackArgSSGodotVariant transforms a sliced Go data structure into plain C format.
-func unpackArgSSGodotVariant(x [][]GodotVariant) (unpacked **C.godot_variant, allocs *cgoAllocMap) {
+// unpackArgSSVariant transforms a sliced Go data structure into plain C format.
+func unpackArgSSVariant(x [][]Variant) (unpacked **C.godot_variant, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10055,7 +10019,7 @@ func unpackArgSSGodotVariant(x [][]GodotVariant) (unpacked **C.godot_variant, al
 	})
 
 	len0 := len(x)
-	mem0 := allocPGodotVariantMemory(len0)
+	mem0 := allocPVariantMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10065,7 +10029,7 @@ func unpackArgSSGodotVariant(x [][]GodotVariant) (unpacked **C.godot_variant, al
 	v0 := *(*[]*C.godot_variant)(unsafe.Pointer(h0))
 	for i0 := range x {
 		len1 := len(x[i0])
-		mem1 := allocGodotVariantMemory(len1)
+		mem1 := allocVariantMemory(len1)
 		allocs.Add(mem1)
 		h1 := &sliceHeader{
 			Data: uintptr(mem1),
@@ -10086,20 +10050,20 @@ func unpackArgSSGodotVariant(x [][]GodotVariant) (unpacked **C.godot_variant, al
 	return
 }
 
-// packSSGodotVariant reads sliced Go data structure out from plain C format.
-func packSSGodotVariant(v [][]GodotVariant, ptr0 **C.godot_variant) {
+// packSSVariant reads sliced Go data structure out from plain C format.
+func packSSVariant(v [][]Variant, ptr0 **C.godot_variant) {
 	const m = 0x7fffffff
 	for i0 := range v {
 		ptr1 := (*(*[m / sizeOfPtr]*C.godot_variant)(unsafe.Pointer(ptr0)))[i0]
 		for i1 := range v[i0] {
-			ptr2 := (*(*[m / sizeOfGodotVariantValue]C.godot_variant)(unsafe.Pointer(ptr1)))[i1]
-			v[i0][i1] = *NewGodotVariantRef(unsafe.Pointer(&ptr2))
+			ptr2 := (*(*[m / sizeOfVariantValue]C.godot_variant)(unsafe.Pointer(ptr1)))[i1]
+			v[i0][i1] = *NewVariantRef(unsafe.Pointer(&ptr2))
 		}
 	}
 }
 
-// unpackArgSGodotVariantCallError transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotVariantCallError(x []GodotVariantCallError) (unpacked *C.godot_variant_call_error, allocs *cgoAllocMap) {
+// unpackArgSVariantCallError transforms a sliced Go data structure into plain C format.
+func unpackArgSVariantCallError(x []VariantCallError) (unpacked *C.godot_variant_call_error, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10109,7 +10073,7 @@ func unpackArgSGodotVariantCallError(x []GodotVariantCallError) (unpacked *C.god
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotVariantCallErrorMemory(len0)
+	mem0 := allocVariantCallErrorMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10127,17 +10091,17 @@ func unpackArgSGodotVariantCallError(x []GodotVariantCallError) (unpacked *C.god
 	return
 }
 
-// packSGodotVariantCallError reads sliced Go data structure out from plain C format.
-func packSGodotVariantCallError(v []GodotVariantCallError, ptr0 *C.godot_variant_call_error) {
+// packSVariantCallError reads sliced Go data structure out from plain C format.
+func packSVariantCallError(v []VariantCallError, ptr0 *C.godot_variant_call_error) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotVariantCallErrorValue]C.godot_variant_call_error)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotVariantCallErrorRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfVariantCallErrorValue]C.godot_variant_call_error)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewVariantCallErrorRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotString transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotString(x []GodotString) (unpacked *C.godot_string, allocs *cgoAllocMap) {
+// unpackArgSString transforms a sliced Go data structure into plain C format.
+func unpackArgSString(x []String) (unpacked *C.godot_string, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10147,7 +10111,7 @@ func unpackArgSGodotString(x []GodotString) (unpacked *C.godot_string, allocs *c
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotStringMemory(len0)
+	mem0 := allocStringMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10165,8 +10129,8 @@ func unpackArgSGodotString(x []GodotString) (unpacked *C.godot_string, allocs *c
 	return
 }
 
-// unpackArgSGodotArray transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotArray(x []GodotArray) (unpacked *C.godot_array, allocs *cgoAllocMap) {
+// unpackArgSArray transforms a sliced Go data structure into plain C format.
+func unpackArgSArray(x []Array) (unpacked *C.godot_array, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10176,7 +10140,7 @@ func unpackArgSGodotArray(x []GodotArray) (unpacked *C.godot_array, allocs *cgoA
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotArrayMemory(len0)
+	mem0 := allocArrayMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10194,8 +10158,8 @@ func unpackArgSGodotArray(x []GodotArray) (unpacked *C.godot_array, allocs *cgoA
 	return
 }
 
-// unpackArgSGodotVariant transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotVariant(x []GodotVariant) (unpacked *C.godot_variant, allocs *cgoAllocMap) {
+// unpackArgSVariant transforms a sliced Go data structure into plain C format.
+func unpackArgSVariant(x []Variant) (unpacked *C.godot_variant, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10205,7 +10169,7 @@ func unpackArgSGodotVariant(x []GodotVariant) (unpacked *C.godot_variant, allocs
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotVariantMemory(len0)
+	mem0 := allocVariantMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10281,8 +10245,8 @@ func packSSInt32(v [][]int32, ptr0 **C.wchar_t) {
 	}
 }
 
-// unpackArgSGodotPoolColorArray transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolColorArray(x []GodotPoolColorArray) (unpacked *C.godot_pool_color_array, allocs *cgoAllocMap) {
+// unpackArgSPoolColorArray transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolColorArray(x []PoolColorArray) (unpacked *C.godot_pool_color_array, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10292,7 +10256,7 @@ func unpackArgSGodotPoolColorArray(x []GodotPoolColorArray) (unpacked *C.godot_p
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolColorArrayMemory(len0)
+	mem0 := allocPoolColorArrayMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10310,17 +10274,17 @@ func unpackArgSGodotPoolColorArray(x []GodotPoolColorArray) (unpacked *C.godot_p
 	return
 }
 
-// packSGodotPoolColorArray reads sliced Go data structure out from plain C format.
-func packSGodotPoolColorArray(v []GodotPoolColorArray, ptr0 *C.godot_pool_color_array) {
+// packSPoolColorArray reads sliced Go data structure out from plain C format.
+func packSPoolColorArray(v []PoolColorArray, ptr0 *C.godot_pool_color_array) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolColorArrayValue]C.godot_pool_color_array)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolColorArrayRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolColorArrayValue]C.godot_pool_color_array)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolColorArrayRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPoolVector3Array transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolVector3Array(x []GodotPoolVector3Array) (unpacked *C.godot_pool_vector3_array, allocs *cgoAllocMap) {
+// unpackArgSPoolVector3Array transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolVector3Array(x []PoolVector3Array) (unpacked *C.godot_pool_vector3_array, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10330,7 +10294,7 @@ func unpackArgSGodotPoolVector3Array(x []GodotPoolVector3Array) (unpacked *C.god
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolVector3ArrayMemory(len0)
+	mem0 := allocPoolVector3ArrayMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10348,17 +10312,17 @@ func unpackArgSGodotPoolVector3Array(x []GodotPoolVector3Array) (unpacked *C.god
 	return
 }
 
-// packSGodotPoolVector3Array reads sliced Go data structure out from plain C format.
-func packSGodotPoolVector3Array(v []GodotPoolVector3Array, ptr0 *C.godot_pool_vector3_array) {
+// packSPoolVector3Array reads sliced Go data structure out from plain C format.
+func packSPoolVector3Array(v []PoolVector3Array, ptr0 *C.godot_pool_vector3_array) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolVector3ArrayValue]C.godot_pool_vector3_array)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolVector3ArrayRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolVector3ArrayValue]C.godot_pool_vector3_array)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolVector3ArrayRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPoolVector2Array transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolVector2Array(x []GodotPoolVector2Array) (unpacked *C.godot_pool_vector2_array, allocs *cgoAllocMap) {
+// unpackArgSPoolVector2Array transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolVector2Array(x []PoolVector2Array) (unpacked *C.godot_pool_vector2_array, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10368,7 +10332,7 @@ func unpackArgSGodotPoolVector2Array(x []GodotPoolVector2Array) (unpacked *C.god
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolVector2ArrayMemory(len0)
+	mem0 := allocPoolVector2ArrayMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10386,17 +10350,17 @@ func unpackArgSGodotPoolVector2Array(x []GodotPoolVector2Array) (unpacked *C.god
 	return
 }
 
-// packSGodotPoolVector2Array reads sliced Go data structure out from plain C format.
-func packSGodotPoolVector2Array(v []GodotPoolVector2Array, ptr0 *C.godot_pool_vector2_array) {
+// packSPoolVector2Array reads sliced Go data structure out from plain C format.
+func packSPoolVector2Array(v []PoolVector2Array, ptr0 *C.godot_pool_vector2_array) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolVector2ArrayValue]C.godot_pool_vector2_array)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolVector2ArrayRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolVector2ArrayValue]C.godot_pool_vector2_array)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolVector2ArrayRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPoolStringArray transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolStringArray(x []GodotPoolStringArray) (unpacked *C.godot_pool_string_array, allocs *cgoAllocMap) {
+// unpackArgSPoolStringArray transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolStringArray(x []PoolStringArray) (unpacked *C.godot_pool_string_array, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10406,7 +10370,7 @@ func unpackArgSGodotPoolStringArray(x []GodotPoolStringArray) (unpacked *C.godot
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolStringArrayMemory(len0)
+	mem0 := allocPoolStringArrayMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10424,17 +10388,17 @@ func unpackArgSGodotPoolStringArray(x []GodotPoolStringArray) (unpacked *C.godot
 	return
 }
 
-// packSGodotPoolStringArray reads sliced Go data structure out from plain C format.
-func packSGodotPoolStringArray(v []GodotPoolStringArray, ptr0 *C.godot_pool_string_array) {
+// packSPoolStringArray reads sliced Go data structure out from plain C format.
+func packSPoolStringArray(v []PoolStringArray, ptr0 *C.godot_pool_string_array) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolStringArrayValue]C.godot_pool_string_array)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolStringArrayRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolStringArrayValue]C.godot_pool_string_array)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolStringArrayRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPoolRealArray transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolRealArray(x []GodotPoolRealArray) (unpacked *C.godot_pool_real_array, allocs *cgoAllocMap) {
+// unpackArgSPoolRealArray transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolRealArray(x []PoolRealArray) (unpacked *C.godot_pool_real_array, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10444,7 +10408,7 @@ func unpackArgSGodotPoolRealArray(x []GodotPoolRealArray) (unpacked *C.godot_poo
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolRealArrayMemory(len0)
+	mem0 := allocPoolRealArrayMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10462,17 +10426,17 @@ func unpackArgSGodotPoolRealArray(x []GodotPoolRealArray) (unpacked *C.godot_poo
 	return
 }
 
-// packSGodotPoolRealArray reads sliced Go data structure out from plain C format.
-func packSGodotPoolRealArray(v []GodotPoolRealArray, ptr0 *C.godot_pool_real_array) {
+// packSPoolRealArray reads sliced Go data structure out from plain C format.
+func packSPoolRealArray(v []PoolRealArray, ptr0 *C.godot_pool_real_array) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolRealArrayValue]C.godot_pool_real_array)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolRealArrayRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolRealArrayValue]C.godot_pool_real_array)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolRealArrayRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPoolIntArray transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolIntArray(x []GodotPoolIntArray) (unpacked *C.godot_pool_int_array, allocs *cgoAllocMap) {
+// unpackArgSPoolIntArray transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolIntArray(x []PoolIntArray) (unpacked *C.godot_pool_int_array, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10482,7 +10446,7 @@ func unpackArgSGodotPoolIntArray(x []GodotPoolIntArray) (unpacked *C.godot_pool_
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolIntArrayMemory(len0)
+	mem0 := allocPoolIntArrayMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10500,17 +10464,17 @@ func unpackArgSGodotPoolIntArray(x []GodotPoolIntArray) (unpacked *C.godot_pool_
 	return
 }
 
-// packSGodotPoolIntArray reads sliced Go data structure out from plain C format.
-func packSGodotPoolIntArray(v []GodotPoolIntArray, ptr0 *C.godot_pool_int_array) {
+// packSPoolIntArray reads sliced Go data structure out from plain C format.
+func packSPoolIntArray(v []PoolIntArray, ptr0 *C.godot_pool_int_array) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolIntArrayValue]C.godot_pool_int_array)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolIntArrayRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolIntArrayValue]C.godot_pool_int_array)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolIntArrayRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPoolByteArray transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolByteArray(x []GodotPoolByteArray) (unpacked *C.godot_pool_byte_array, allocs *cgoAllocMap) {
+// unpackArgSPoolByteArray transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolByteArray(x []PoolByteArray) (unpacked *C.godot_pool_byte_array, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10520,7 +10484,7 @@ func unpackArgSGodotPoolByteArray(x []GodotPoolByteArray) (unpacked *C.godot_poo
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolByteArrayMemory(len0)
+	mem0 := allocPoolByteArrayMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10538,17 +10502,17 @@ func unpackArgSGodotPoolByteArray(x []GodotPoolByteArray) (unpacked *C.godot_poo
 	return
 }
 
-// packSGodotPoolByteArray reads sliced Go data structure out from plain C format.
-func packSGodotPoolByteArray(v []GodotPoolByteArray, ptr0 *C.godot_pool_byte_array) {
+// packSPoolByteArray reads sliced Go data structure out from plain C format.
+func packSPoolByteArray(v []PoolByteArray, ptr0 *C.godot_pool_byte_array) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolByteArrayValue]C.godot_pool_byte_array)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolByteArrayRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolByteArrayValue]C.godot_pool_byte_array)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolByteArrayRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotVector2 transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotVector2(x []GodotVector2) (unpacked *C.godot_vector2, allocs *cgoAllocMap) {
+// unpackArgSVector2 transforms a sliced Go data structure into plain C format.
+func unpackArgSVector2(x []Vector2) (unpacked *C.godot_vector2, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10558,7 +10522,7 @@ func unpackArgSGodotVector2(x []GodotVector2) (unpacked *C.godot_vector2, allocs
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotVector2Memory(len0)
+	mem0 := allocVector2Memory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10576,17 +10540,17 @@ func unpackArgSGodotVector2(x []GodotVector2) (unpacked *C.godot_vector2, allocs
 	return
 }
 
-// packSGodotVector2 reads sliced Go data structure out from plain C format.
-func packSGodotVector2(v []GodotVector2, ptr0 *C.godot_vector2) {
+// packSVector2 reads sliced Go data structure out from plain C format.
+func packSVector2(v []Vector2, ptr0 *C.godot_vector2) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotVector2Value]C.godot_vector2)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotVector2Ref(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfVector2Value]C.godot_vector2)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewVector2Ref(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotVector3 transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotVector3(x []GodotVector3) (unpacked *C.godot_vector3, allocs *cgoAllocMap) {
+// unpackArgSVector3 transforms a sliced Go data structure into plain C format.
+func unpackArgSVector3(x []Vector3) (unpacked *C.godot_vector3, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10596,7 +10560,7 @@ func unpackArgSGodotVector3(x []GodotVector3) (unpacked *C.godot_vector3, allocs
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotVector3Memory(len0)
+	mem0 := allocVector3Memory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10614,17 +10578,17 @@ func unpackArgSGodotVector3(x []GodotVector3) (unpacked *C.godot_vector3, allocs
 	return
 }
 
-// packSGodotVector3 reads sliced Go data structure out from plain C format.
-func packSGodotVector3(v []GodotVector3, ptr0 *C.godot_vector3) {
+// packSVector3 reads sliced Go data structure out from plain C format.
+func packSVector3(v []Vector3, ptr0 *C.godot_vector3) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotVector3Value]C.godot_vector3)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotVector3Ref(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfVector3Value]C.godot_vector3)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewVector3Ref(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotColor transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotColor(x []GodotColor) (unpacked *C.godot_color, allocs *cgoAllocMap) {
+// unpackArgSColor transforms a sliced Go data structure into plain C format.
+func unpackArgSColor(x []Color) (unpacked *C.godot_color, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10634,7 +10598,7 @@ func unpackArgSGodotColor(x []GodotColor) (unpacked *C.godot_color, allocs *cgoA
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotColorMemory(len0)
+	mem0 := allocColorMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10652,29 +10616,29 @@ func unpackArgSGodotColor(x []GodotColor) (unpacked *C.godot_color, allocs *cgoA
 	return
 }
 
-// packSGodotColor reads sliced Go data structure out from plain C format.
-func packSGodotColor(v []GodotColor, ptr0 *C.godot_color) {
+// packSColor reads sliced Go data structure out from plain C format.
+func packSColor(v []Color, ptr0 *C.godot_color) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotColorValue]C.godot_color)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotColorRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfColorValue]C.godot_color)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewColorRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolByteArrayReadAccessMemory allocates memory for type C.godot_pool_byte_array_read_access in C.
+// allocPoolByteArrayReadAccessMemory allocates memory for type C.godot_pool_byte_array_read_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolByteArrayReadAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolByteArrayReadAccessValue))
+func allocPoolByteArrayReadAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolByteArrayReadAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolByteArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_byte_array_read_access{})
+const sizeOfPoolByteArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_byte_array_read_access{})
 
-// unpackArgSGodotPoolByteArrayReadAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolByteArrayReadAccess(x []GodotPoolByteArrayReadAccess) (unpacked *C.godot_pool_byte_array_read_access, allocs *cgoAllocMap) {
+// unpackArgSPoolByteArrayReadAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolByteArrayReadAccess(x []PoolByteArrayReadAccess) (unpacked *C.godot_pool_byte_array_read_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10684,7 +10648,7 @@ func unpackArgSGodotPoolByteArrayReadAccess(x []GodotPoolByteArrayReadAccess) (u
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolByteArrayReadAccessMemory(len0)
+	mem0 := allocPoolByteArrayReadAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10702,12 +10666,12 @@ func unpackArgSGodotPoolByteArrayReadAccess(x []GodotPoolByteArrayReadAccess) (u
 	return
 }
 
-// packSGodotPoolByteArrayReadAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolByteArrayReadAccess(v []GodotPoolByteArrayReadAccess, ptr0 *C.godot_pool_byte_array_read_access) {
+// packSPoolByteArrayReadAccess reads sliced Go data structure out from plain C format.
+func packSPoolByteArrayReadAccess(v []PoolByteArrayReadAccess, ptr0 *C.godot_pool_byte_array_read_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolByteArrayReadAccessValue]C.godot_pool_byte_array_read_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolByteArrayReadAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolByteArrayReadAccessValue]C.godot_pool_byte_array_read_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolByteArrayReadAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
@@ -10724,20 +10688,20 @@ func packPUint8TString(p *C.uint8_t) (raw string) {
 	return
 }
 
-// allocGodotPoolIntArrayReadAccessMemory allocates memory for type C.godot_pool_int_array_read_access in C.
+// allocPoolIntArrayReadAccessMemory allocates memory for type C.godot_pool_int_array_read_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolIntArrayReadAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolIntArrayReadAccessValue))
+func allocPoolIntArrayReadAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolIntArrayReadAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolIntArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_int_array_read_access{})
+const sizeOfPoolIntArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_int_array_read_access{})
 
-// unpackArgSGodotPoolIntArrayReadAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolIntArrayReadAccess(x []GodotPoolIntArrayReadAccess) (unpacked *C.godot_pool_int_array_read_access, allocs *cgoAllocMap) {
+// unpackArgSPoolIntArrayReadAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolIntArrayReadAccess(x []PoolIntArrayReadAccess) (unpacked *C.godot_pool_int_array_read_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10747,7 +10711,7 @@ func unpackArgSGodotPoolIntArrayReadAccess(x []GodotPoolIntArrayReadAccess) (unp
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolIntArrayReadAccessMemory(len0)
+	mem0 := allocPoolIntArrayReadAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10765,29 +10729,29 @@ func unpackArgSGodotPoolIntArrayReadAccess(x []GodotPoolIntArrayReadAccess) (unp
 	return
 }
 
-// packSGodotPoolIntArrayReadAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolIntArrayReadAccess(v []GodotPoolIntArrayReadAccess, ptr0 *C.godot_pool_int_array_read_access) {
+// packSPoolIntArrayReadAccess reads sliced Go data structure out from plain C format.
+func packSPoolIntArrayReadAccess(v []PoolIntArrayReadAccess, ptr0 *C.godot_pool_int_array_read_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolIntArrayReadAccessValue]C.godot_pool_int_array_read_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolIntArrayReadAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolIntArrayReadAccessValue]C.godot_pool_int_array_read_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolIntArrayReadAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolRealArrayReadAccessMemory allocates memory for type C.godot_pool_real_array_read_access in C.
+// allocPoolRealArrayReadAccessMemory allocates memory for type C.godot_pool_real_array_read_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolRealArrayReadAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolRealArrayReadAccessValue))
+func allocPoolRealArrayReadAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolRealArrayReadAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolRealArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_real_array_read_access{})
+const sizeOfPoolRealArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_real_array_read_access{})
 
-// unpackArgSGodotPoolRealArrayReadAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolRealArrayReadAccess(x []GodotPoolRealArrayReadAccess) (unpacked *C.godot_pool_real_array_read_access, allocs *cgoAllocMap) {
+// unpackArgSPoolRealArrayReadAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolRealArrayReadAccess(x []PoolRealArrayReadAccess) (unpacked *C.godot_pool_real_array_read_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10797,7 +10761,7 @@ func unpackArgSGodotPoolRealArrayReadAccess(x []GodotPoolRealArrayReadAccess) (u
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolRealArrayReadAccessMemory(len0)
+	mem0 := allocPoolRealArrayReadAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10815,29 +10779,29 @@ func unpackArgSGodotPoolRealArrayReadAccess(x []GodotPoolRealArrayReadAccess) (u
 	return
 }
 
-// packSGodotPoolRealArrayReadAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolRealArrayReadAccess(v []GodotPoolRealArrayReadAccess, ptr0 *C.godot_pool_real_array_read_access) {
+// packSPoolRealArrayReadAccess reads sliced Go data structure out from plain C format.
+func packSPoolRealArrayReadAccess(v []PoolRealArrayReadAccess, ptr0 *C.godot_pool_real_array_read_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolRealArrayReadAccessValue]C.godot_pool_real_array_read_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolRealArrayReadAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolRealArrayReadAccessValue]C.godot_pool_real_array_read_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolRealArrayReadAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolStringArrayReadAccessMemory allocates memory for type C.godot_pool_string_array_read_access in C.
+// allocPoolStringArrayReadAccessMemory allocates memory for type C.godot_pool_string_array_read_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolStringArrayReadAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolStringArrayReadAccessValue))
+func allocPoolStringArrayReadAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolStringArrayReadAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolStringArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_string_array_read_access{})
+const sizeOfPoolStringArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_string_array_read_access{})
 
-// unpackArgSGodotPoolStringArrayReadAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolStringArrayReadAccess(x []GodotPoolStringArrayReadAccess) (unpacked *C.godot_pool_string_array_read_access, allocs *cgoAllocMap) {
+// unpackArgSPoolStringArrayReadAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolStringArrayReadAccess(x []PoolStringArrayReadAccess) (unpacked *C.godot_pool_string_array_read_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10847,7 +10811,7 @@ func unpackArgSGodotPoolStringArrayReadAccess(x []GodotPoolStringArrayReadAccess
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolStringArrayReadAccessMemory(len0)
+	mem0 := allocPoolStringArrayReadAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10865,29 +10829,29 @@ func unpackArgSGodotPoolStringArrayReadAccess(x []GodotPoolStringArrayReadAccess
 	return
 }
 
-// packSGodotPoolStringArrayReadAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolStringArrayReadAccess(v []GodotPoolStringArrayReadAccess, ptr0 *C.godot_pool_string_array_read_access) {
+// packSPoolStringArrayReadAccess reads sliced Go data structure out from plain C format.
+func packSPoolStringArrayReadAccess(v []PoolStringArrayReadAccess, ptr0 *C.godot_pool_string_array_read_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolStringArrayReadAccessValue]C.godot_pool_string_array_read_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolStringArrayReadAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolStringArrayReadAccessValue]C.godot_pool_string_array_read_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolStringArrayReadAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolVector2ArrayReadAccessMemory allocates memory for type C.godot_pool_vector2_array_read_access in C.
+// allocPoolVector2ArrayReadAccessMemory allocates memory for type C.godot_pool_vector2_array_read_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolVector2ArrayReadAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolVector2ArrayReadAccessValue))
+func allocPoolVector2ArrayReadAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolVector2ArrayReadAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolVector2ArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_vector2_array_read_access{})
+const sizeOfPoolVector2ArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_vector2_array_read_access{})
 
-// unpackArgSGodotPoolVector2ArrayReadAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolVector2ArrayReadAccess(x []GodotPoolVector2ArrayReadAccess) (unpacked *C.godot_pool_vector2_array_read_access, allocs *cgoAllocMap) {
+// unpackArgSPoolVector2ArrayReadAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolVector2ArrayReadAccess(x []PoolVector2ArrayReadAccess) (unpacked *C.godot_pool_vector2_array_read_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10897,7 +10861,7 @@ func unpackArgSGodotPoolVector2ArrayReadAccess(x []GodotPoolVector2ArrayReadAcce
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolVector2ArrayReadAccessMemory(len0)
+	mem0 := allocPoolVector2ArrayReadAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10915,29 +10879,29 @@ func unpackArgSGodotPoolVector2ArrayReadAccess(x []GodotPoolVector2ArrayReadAcce
 	return
 }
 
-// packSGodotPoolVector2ArrayReadAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolVector2ArrayReadAccess(v []GodotPoolVector2ArrayReadAccess, ptr0 *C.godot_pool_vector2_array_read_access) {
+// packSPoolVector2ArrayReadAccess reads sliced Go data structure out from plain C format.
+func packSPoolVector2ArrayReadAccess(v []PoolVector2ArrayReadAccess, ptr0 *C.godot_pool_vector2_array_read_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolVector2ArrayReadAccessValue]C.godot_pool_vector2_array_read_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolVector2ArrayReadAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolVector2ArrayReadAccessValue]C.godot_pool_vector2_array_read_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolVector2ArrayReadAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolVector3ArrayReadAccessMemory allocates memory for type C.godot_pool_vector3_array_read_access in C.
+// allocPoolVector3ArrayReadAccessMemory allocates memory for type C.godot_pool_vector3_array_read_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolVector3ArrayReadAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolVector3ArrayReadAccessValue))
+func allocPoolVector3ArrayReadAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolVector3ArrayReadAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolVector3ArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_vector3_array_read_access{})
+const sizeOfPoolVector3ArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_vector3_array_read_access{})
 
-// unpackArgSGodotPoolVector3ArrayReadAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolVector3ArrayReadAccess(x []GodotPoolVector3ArrayReadAccess) (unpacked *C.godot_pool_vector3_array_read_access, allocs *cgoAllocMap) {
+// unpackArgSPoolVector3ArrayReadAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolVector3ArrayReadAccess(x []PoolVector3ArrayReadAccess) (unpacked *C.godot_pool_vector3_array_read_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10947,7 +10911,7 @@ func unpackArgSGodotPoolVector3ArrayReadAccess(x []GodotPoolVector3ArrayReadAcce
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolVector3ArrayReadAccessMemory(len0)
+	mem0 := allocPoolVector3ArrayReadAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -10965,29 +10929,29 @@ func unpackArgSGodotPoolVector3ArrayReadAccess(x []GodotPoolVector3ArrayReadAcce
 	return
 }
 
-// packSGodotPoolVector3ArrayReadAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolVector3ArrayReadAccess(v []GodotPoolVector3ArrayReadAccess, ptr0 *C.godot_pool_vector3_array_read_access) {
+// packSPoolVector3ArrayReadAccess reads sliced Go data structure out from plain C format.
+func packSPoolVector3ArrayReadAccess(v []PoolVector3ArrayReadAccess, ptr0 *C.godot_pool_vector3_array_read_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolVector3ArrayReadAccessValue]C.godot_pool_vector3_array_read_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolVector3ArrayReadAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolVector3ArrayReadAccessValue]C.godot_pool_vector3_array_read_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolVector3ArrayReadAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolColorArrayReadAccessMemory allocates memory for type C.godot_pool_color_array_read_access in C.
+// allocPoolColorArrayReadAccessMemory allocates memory for type C.godot_pool_color_array_read_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolColorArrayReadAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolColorArrayReadAccessValue))
+func allocPoolColorArrayReadAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolColorArrayReadAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolColorArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_color_array_read_access{})
+const sizeOfPoolColorArrayReadAccessValue = unsafe.Sizeof([1]C.godot_pool_color_array_read_access{})
 
-// unpackArgSGodotPoolColorArrayReadAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolColorArrayReadAccess(x []GodotPoolColorArrayReadAccess) (unpacked *C.godot_pool_color_array_read_access, allocs *cgoAllocMap) {
+// unpackArgSPoolColorArrayReadAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolColorArrayReadAccess(x []PoolColorArrayReadAccess) (unpacked *C.godot_pool_color_array_read_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -10997,7 +10961,7 @@ func unpackArgSGodotPoolColorArrayReadAccess(x []GodotPoolColorArrayReadAccess) 
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolColorArrayReadAccessMemory(len0)
+	mem0 := allocPoolColorArrayReadAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11015,29 +10979,29 @@ func unpackArgSGodotPoolColorArrayReadAccess(x []GodotPoolColorArrayReadAccess) 
 	return
 }
 
-// packSGodotPoolColorArrayReadAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolColorArrayReadAccess(v []GodotPoolColorArrayReadAccess, ptr0 *C.godot_pool_color_array_read_access) {
+// packSPoolColorArrayReadAccess reads sliced Go data structure out from plain C format.
+func packSPoolColorArrayReadAccess(v []PoolColorArrayReadAccess, ptr0 *C.godot_pool_color_array_read_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolColorArrayReadAccessValue]C.godot_pool_color_array_read_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolColorArrayReadAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolColorArrayReadAccessValue]C.godot_pool_color_array_read_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolColorArrayReadAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolByteArrayWriteAccessMemory allocates memory for type C.godot_pool_byte_array_write_access in C.
+// allocPoolByteArrayWriteAccessMemory allocates memory for type C.godot_pool_byte_array_write_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolByteArrayWriteAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolByteArrayWriteAccessValue))
+func allocPoolByteArrayWriteAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolByteArrayWriteAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolByteArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_byte_array_write_access{})
+const sizeOfPoolByteArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_byte_array_write_access{})
 
-// unpackArgSGodotPoolByteArrayWriteAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolByteArrayWriteAccess(x []GodotPoolByteArrayWriteAccess) (unpacked *C.godot_pool_byte_array_write_access, allocs *cgoAllocMap) {
+// unpackArgSPoolByteArrayWriteAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolByteArrayWriteAccess(x []PoolByteArrayWriteAccess) (unpacked *C.godot_pool_byte_array_write_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11047,7 +11011,7 @@ func unpackArgSGodotPoolByteArrayWriteAccess(x []GodotPoolByteArrayWriteAccess) 
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolByteArrayWriteAccessMemory(len0)
+	mem0 := allocPoolByteArrayWriteAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11065,29 +11029,29 @@ func unpackArgSGodotPoolByteArrayWriteAccess(x []GodotPoolByteArrayWriteAccess) 
 	return
 }
 
-// packSGodotPoolByteArrayWriteAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolByteArrayWriteAccess(v []GodotPoolByteArrayWriteAccess, ptr0 *C.godot_pool_byte_array_write_access) {
+// packSPoolByteArrayWriteAccess reads sliced Go data structure out from plain C format.
+func packSPoolByteArrayWriteAccess(v []PoolByteArrayWriteAccess, ptr0 *C.godot_pool_byte_array_write_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolByteArrayWriteAccessValue]C.godot_pool_byte_array_write_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolByteArrayWriteAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolByteArrayWriteAccessValue]C.godot_pool_byte_array_write_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolByteArrayWriteAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolIntArrayWriteAccessMemory allocates memory for type C.godot_pool_int_array_write_access in C.
+// allocPoolIntArrayWriteAccessMemory allocates memory for type C.godot_pool_int_array_write_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolIntArrayWriteAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolIntArrayWriteAccessValue))
+func allocPoolIntArrayWriteAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolIntArrayWriteAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolIntArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_int_array_write_access{})
+const sizeOfPoolIntArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_int_array_write_access{})
 
-// unpackArgSGodotPoolIntArrayWriteAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolIntArrayWriteAccess(x []GodotPoolIntArrayWriteAccess) (unpacked *C.godot_pool_int_array_write_access, allocs *cgoAllocMap) {
+// unpackArgSPoolIntArrayWriteAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolIntArrayWriteAccess(x []PoolIntArrayWriteAccess) (unpacked *C.godot_pool_int_array_write_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11097,7 +11061,7 @@ func unpackArgSGodotPoolIntArrayWriteAccess(x []GodotPoolIntArrayWriteAccess) (u
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolIntArrayWriteAccessMemory(len0)
+	mem0 := allocPoolIntArrayWriteAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11115,29 +11079,29 @@ func unpackArgSGodotPoolIntArrayWriteAccess(x []GodotPoolIntArrayWriteAccess) (u
 	return
 }
 
-// packSGodotPoolIntArrayWriteAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolIntArrayWriteAccess(v []GodotPoolIntArrayWriteAccess, ptr0 *C.godot_pool_int_array_write_access) {
+// packSPoolIntArrayWriteAccess reads sliced Go data structure out from plain C format.
+func packSPoolIntArrayWriteAccess(v []PoolIntArrayWriteAccess, ptr0 *C.godot_pool_int_array_write_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolIntArrayWriteAccessValue]C.godot_pool_int_array_write_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolIntArrayWriteAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolIntArrayWriteAccessValue]C.godot_pool_int_array_write_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolIntArrayWriteAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolRealArrayWriteAccessMemory allocates memory for type C.godot_pool_real_array_write_access in C.
+// allocPoolRealArrayWriteAccessMemory allocates memory for type C.godot_pool_real_array_write_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolRealArrayWriteAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolRealArrayWriteAccessValue))
+func allocPoolRealArrayWriteAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolRealArrayWriteAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolRealArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_real_array_write_access{})
+const sizeOfPoolRealArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_real_array_write_access{})
 
-// unpackArgSGodotPoolRealArrayWriteAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolRealArrayWriteAccess(x []GodotPoolRealArrayWriteAccess) (unpacked *C.godot_pool_real_array_write_access, allocs *cgoAllocMap) {
+// unpackArgSPoolRealArrayWriteAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolRealArrayWriteAccess(x []PoolRealArrayWriteAccess) (unpacked *C.godot_pool_real_array_write_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11147,7 +11111,7 @@ func unpackArgSGodotPoolRealArrayWriteAccess(x []GodotPoolRealArrayWriteAccess) 
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolRealArrayWriteAccessMemory(len0)
+	mem0 := allocPoolRealArrayWriteAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11165,29 +11129,29 @@ func unpackArgSGodotPoolRealArrayWriteAccess(x []GodotPoolRealArrayWriteAccess) 
 	return
 }
 
-// packSGodotPoolRealArrayWriteAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolRealArrayWriteAccess(v []GodotPoolRealArrayWriteAccess, ptr0 *C.godot_pool_real_array_write_access) {
+// packSPoolRealArrayWriteAccess reads sliced Go data structure out from plain C format.
+func packSPoolRealArrayWriteAccess(v []PoolRealArrayWriteAccess, ptr0 *C.godot_pool_real_array_write_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolRealArrayWriteAccessValue]C.godot_pool_real_array_write_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolRealArrayWriteAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolRealArrayWriteAccessValue]C.godot_pool_real_array_write_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolRealArrayWriteAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolStringArrayWriteAccessMemory allocates memory for type C.godot_pool_string_array_write_access in C.
+// allocPoolStringArrayWriteAccessMemory allocates memory for type C.godot_pool_string_array_write_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolStringArrayWriteAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolStringArrayWriteAccessValue))
+func allocPoolStringArrayWriteAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolStringArrayWriteAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolStringArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_string_array_write_access{})
+const sizeOfPoolStringArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_string_array_write_access{})
 
-// unpackArgSGodotPoolStringArrayWriteAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolStringArrayWriteAccess(x []GodotPoolStringArrayWriteAccess) (unpacked *C.godot_pool_string_array_write_access, allocs *cgoAllocMap) {
+// unpackArgSPoolStringArrayWriteAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolStringArrayWriteAccess(x []PoolStringArrayWriteAccess) (unpacked *C.godot_pool_string_array_write_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11197,7 +11161,7 @@ func unpackArgSGodotPoolStringArrayWriteAccess(x []GodotPoolStringArrayWriteAcce
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolStringArrayWriteAccessMemory(len0)
+	mem0 := allocPoolStringArrayWriteAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11215,29 +11179,29 @@ func unpackArgSGodotPoolStringArrayWriteAccess(x []GodotPoolStringArrayWriteAcce
 	return
 }
 
-// packSGodotPoolStringArrayWriteAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolStringArrayWriteAccess(v []GodotPoolStringArrayWriteAccess, ptr0 *C.godot_pool_string_array_write_access) {
+// packSPoolStringArrayWriteAccess reads sliced Go data structure out from plain C format.
+func packSPoolStringArrayWriteAccess(v []PoolStringArrayWriteAccess, ptr0 *C.godot_pool_string_array_write_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolStringArrayWriteAccessValue]C.godot_pool_string_array_write_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolStringArrayWriteAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolStringArrayWriteAccessValue]C.godot_pool_string_array_write_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolStringArrayWriteAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolVector2ArrayWriteAccessMemory allocates memory for type C.godot_pool_vector2_array_write_access in C.
+// allocPoolVector2ArrayWriteAccessMemory allocates memory for type C.godot_pool_vector2_array_write_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolVector2ArrayWriteAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolVector2ArrayWriteAccessValue))
+func allocPoolVector2ArrayWriteAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolVector2ArrayWriteAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolVector2ArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_vector2_array_write_access{})
+const sizeOfPoolVector2ArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_vector2_array_write_access{})
 
-// unpackArgSGodotPoolVector2ArrayWriteAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolVector2ArrayWriteAccess(x []GodotPoolVector2ArrayWriteAccess) (unpacked *C.godot_pool_vector2_array_write_access, allocs *cgoAllocMap) {
+// unpackArgSPoolVector2ArrayWriteAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolVector2ArrayWriteAccess(x []PoolVector2ArrayWriteAccess) (unpacked *C.godot_pool_vector2_array_write_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11247,7 +11211,7 @@ func unpackArgSGodotPoolVector2ArrayWriteAccess(x []GodotPoolVector2ArrayWriteAc
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolVector2ArrayWriteAccessMemory(len0)
+	mem0 := allocPoolVector2ArrayWriteAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11265,29 +11229,29 @@ func unpackArgSGodotPoolVector2ArrayWriteAccess(x []GodotPoolVector2ArrayWriteAc
 	return
 }
 
-// packSGodotPoolVector2ArrayWriteAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolVector2ArrayWriteAccess(v []GodotPoolVector2ArrayWriteAccess, ptr0 *C.godot_pool_vector2_array_write_access) {
+// packSPoolVector2ArrayWriteAccess reads sliced Go data structure out from plain C format.
+func packSPoolVector2ArrayWriteAccess(v []PoolVector2ArrayWriteAccess, ptr0 *C.godot_pool_vector2_array_write_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolVector2ArrayWriteAccessValue]C.godot_pool_vector2_array_write_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolVector2ArrayWriteAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolVector2ArrayWriteAccessValue]C.godot_pool_vector2_array_write_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolVector2ArrayWriteAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolVector3ArrayWriteAccessMemory allocates memory for type C.godot_pool_vector3_array_write_access in C.
+// allocPoolVector3ArrayWriteAccessMemory allocates memory for type C.godot_pool_vector3_array_write_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolVector3ArrayWriteAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolVector3ArrayWriteAccessValue))
+func allocPoolVector3ArrayWriteAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolVector3ArrayWriteAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolVector3ArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_vector3_array_write_access{})
+const sizeOfPoolVector3ArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_vector3_array_write_access{})
 
-// unpackArgSGodotPoolVector3ArrayWriteAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolVector3ArrayWriteAccess(x []GodotPoolVector3ArrayWriteAccess) (unpacked *C.godot_pool_vector3_array_write_access, allocs *cgoAllocMap) {
+// unpackArgSPoolVector3ArrayWriteAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolVector3ArrayWriteAccess(x []PoolVector3ArrayWriteAccess) (unpacked *C.godot_pool_vector3_array_write_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11297,7 +11261,7 @@ func unpackArgSGodotPoolVector3ArrayWriteAccess(x []GodotPoolVector3ArrayWriteAc
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolVector3ArrayWriteAccessMemory(len0)
+	mem0 := allocPoolVector3ArrayWriteAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11315,29 +11279,29 @@ func unpackArgSGodotPoolVector3ArrayWriteAccess(x []GodotPoolVector3ArrayWriteAc
 	return
 }
 
-// packSGodotPoolVector3ArrayWriteAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolVector3ArrayWriteAccess(v []GodotPoolVector3ArrayWriteAccess, ptr0 *C.godot_pool_vector3_array_write_access) {
+// packSPoolVector3ArrayWriteAccess reads sliced Go data structure out from plain C format.
+func packSPoolVector3ArrayWriteAccess(v []PoolVector3ArrayWriteAccess, ptr0 *C.godot_pool_vector3_array_write_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolVector3ArrayWriteAccessValue]C.godot_pool_vector3_array_write_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolVector3ArrayWriteAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolVector3ArrayWriteAccessValue]C.godot_pool_vector3_array_write_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolVector3ArrayWriteAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// allocGodotPoolColorArrayWriteAccessMemory allocates memory for type C.godot_pool_color_array_write_access in C.
+// allocPoolColorArrayWriteAccessMemory allocates memory for type C.godot_pool_color_array_write_access in C.
 // The caller is responsible for freeing the this memory via C.free.
-func allocGodotPoolColorArrayWriteAccessMemory(n int) unsafe.Pointer {
-	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfGodotPoolColorArrayWriteAccessValue))
+func allocPoolColorArrayWriteAccessMemory(n int) unsafe.Pointer {
+	mem, err := C.calloc(C.size_t(n), (C.size_t)(sizeOfPoolColorArrayWriteAccessValue))
 	if err != nil {
 		panic("memory alloc error: " + err.Error())
 	}
 	return mem
 }
 
-const sizeOfGodotPoolColorArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_color_array_write_access{})
+const sizeOfPoolColorArrayWriteAccessValue = unsafe.Sizeof([1]C.godot_pool_color_array_write_access{})
 
-// unpackArgSGodotPoolColorArrayWriteAccess transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPoolColorArrayWriteAccess(x []GodotPoolColorArrayWriteAccess) (unpacked *C.godot_pool_color_array_write_access, allocs *cgoAllocMap) {
+// unpackArgSPoolColorArrayWriteAccess transforms a sliced Go data structure into plain C format.
+func unpackArgSPoolColorArrayWriteAccess(x []PoolColorArrayWriteAccess) (unpacked *C.godot_pool_color_array_write_access, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11347,7 +11311,7 @@ func unpackArgSGodotPoolColorArrayWriteAccess(x []GodotPoolColorArrayWriteAccess
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPoolColorArrayWriteAccessMemory(len0)
+	mem0 := allocPoolColorArrayWriteAccessMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11365,17 +11329,17 @@ func unpackArgSGodotPoolColorArrayWriteAccess(x []GodotPoolColorArrayWriteAccess
 	return
 }
 
-// packSGodotPoolColorArrayWriteAccess reads sliced Go data structure out from plain C format.
-func packSGodotPoolColorArrayWriteAccess(v []GodotPoolColorArrayWriteAccess, ptr0 *C.godot_pool_color_array_write_access) {
+// packSPoolColorArrayWriteAccess reads sliced Go data structure out from plain C format.
+func packSPoolColorArrayWriteAccess(v []PoolColorArrayWriteAccess, ptr0 *C.godot_pool_color_array_write_access) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPoolColorArrayWriteAccessValue]C.godot_pool_color_array_write_access)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPoolColorArrayWriteAccessRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPoolColorArrayWriteAccessValue]C.godot_pool_color_array_write_access)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPoolColorArrayWriteAccessRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotBasis transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotBasis(x []GodotBasis) (unpacked *C.godot_basis, allocs *cgoAllocMap) {
+// unpackArgSBasis transforms a sliced Go data structure into plain C format.
+func unpackArgSBasis(x []Basis) (unpacked *C.godot_basis, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11385,7 +11349,7 @@ func unpackArgSGodotBasis(x []GodotBasis) (unpacked *C.godot_basis, allocs *cgoA
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotBasisMemory(len0)
+	mem0 := allocBasisMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11403,17 +11367,17 @@ func unpackArgSGodotBasis(x []GodotBasis) (unpacked *C.godot_basis, allocs *cgoA
 	return
 }
 
-// packSGodotBasis reads sliced Go data structure out from plain C format.
-func packSGodotBasis(v []GodotBasis, ptr0 *C.godot_basis) {
+// packSBasis reads sliced Go data structure out from plain C format.
+func packSBasis(v []Basis, ptr0 *C.godot_basis) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotBasisValue]C.godot_basis)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotBasisRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfBasisValue]C.godot_basis)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewBasisRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotQuat transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotQuat(x []GodotQuat) (unpacked *C.godot_quat, allocs *cgoAllocMap) {
+// unpackArgSQuat transforms a sliced Go data structure into plain C format.
+func unpackArgSQuat(x []Quat) (unpacked *C.godot_quat, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11423,7 +11387,7 @@ func unpackArgSGodotQuat(x []GodotQuat) (unpacked *C.godot_quat, allocs *cgoAllo
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotQuatMemory(len0)
+	mem0 := allocQuatMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11441,17 +11405,17 @@ func unpackArgSGodotQuat(x []GodotQuat) (unpacked *C.godot_quat, allocs *cgoAllo
 	return
 }
 
-// packSGodotQuat reads sliced Go data structure out from plain C format.
-func packSGodotQuat(v []GodotQuat, ptr0 *C.godot_quat) {
+// packSQuat reads sliced Go data structure out from plain C format.
+func packSQuat(v []Quat, ptr0 *C.godot_quat) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotQuatValue]C.godot_quat)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotQuatRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfQuatValue]C.godot_quat)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewQuatRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotRect2 transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotRect2(x []GodotRect2) (unpacked *C.godot_rect2, allocs *cgoAllocMap) {
+// unpackArgSRect2 transforms a sliced Go data structure into plain C format.
+func unpackArgSRect2(x []Rect2) (unpacked *C.godot_rect2, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11461,7 +11425,7 @@ func unpackArgSGodotRect2(x []GodotRect2) (unpacked *C.godot_rect2, allocs *cgoA
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotRect2Memory(len0)
+	mem0 := allocRect2Memory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11479,17 +11443,17 @@ func unpackArgSGodotRect2(x []GodotRect2) (unpacked *C.godot_rect2, allocs *cgoA
 	return
 }
 
-// packSGodotRect2 reads sliced Go data structure out from plain C format.
-func packSGodotRect2(v []GodotRect2, ptr0 *C.godot_rect2) {
+// packSRect2 reads sliced Go data structure out from plain C format.
+func packSRect2(v []Rect2, ptr0 *C.godot_rect2) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotRect2Value]C.godot_rect2)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotRect2Ref(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfRect2Value]C.godot_rect2)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewRect2Ref(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotTransform2d transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotTransform2d(x []GodotTransform2d) (unpacked *C.godot_transform2d, allocs *cgoAllocMap) {
+// unpackArgSTransform2d transforms a sliced Go data structure into plain C format.
+func unpackArgSTransform2d(x []Transform2d) (unpacked *C.godot_transform2d, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11499,7 +11463,7 @@ func unpackArgSGodotTransform2d(x []GodotTransform2d) (unpacked *C.godot_transfo
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotTransform2dMemory(len0)
+	mem0 := allocTransform2dMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11517,17 +11481,17 @@ func unpackArgSGodotTransform2d(x []GodotTransform2d) (unpacked *C.godot_transfo
 	return
 }
 
-// packSGodotTransform2d reads sliced Go data structure out from plain C format.
-func packSGodotTransform2d(v []GodotTransform2d, ptr0 *C.godot_transform2d) {
+// packSTransform2d reads sliced Go data structure out from plain C format.
+func packSTransform2d(v []Transform2d, ptr0 *C.godot_transform2d) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotTransform2dValue]C.godot_transform2d)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotTransform2dRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfTransform2dValue]C.godot_transform2d)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewTransform2dRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPlane transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPlane(x []GodotPlane) (unpacked *C.godot_plane, allocs *cgoAllocMap) {
+// unpackArgSPlane transforms a sliced Go data structure into plain C format.
+func unpackArgSPlane(x []Plane) (unpacked *C.godot_plane, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11537,7 +11501,7 @@ func unpackArgSGodotPlane(x []GodotPlane) (unpacked *C.godot_plane, allocs *cgoA
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPlaneMemory(len0)
+	mem0 := allocPlaneMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11555,17 +11519,17 @@ func unpackArgSGodotPlane(x []GodotPlane) (unpacked *C.godot_plane, allocs *cgoA
 	return
 }
 
-// packSGodotPlane reads sliced Go data structure out from plain C format.
-func packSGodotPlane(v []GodotPlane, ptr0 *C.godot_plane) {
+// packSPlane reads sliced Go data structure out from plain C format.
+func packSPlane(v []Plane, ptr0 *C.godot_plane) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPlaneValue]C.godot_plane)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPlaneRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPlaneValue]C.godot_plane)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPlaneRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotAabb transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotAabb(x []GodotAabb) (unpacked *C.godot_aabb, allocs *cgoAllocMap) {
+// unpackArgSAabb transforms a sliced Go data structure into plain C format.
+func unpackArgSAabb(x []Aabb) (unpacked *C.godot_aabb, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11575,7 +11539,7 @@ func unpackArgSGodotAabb(x []GodotAabb) (unpacked *C.godot_aabb, allocs *cgoAllo
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotAabbMemory(len0)
+	mem0 := allocAabbMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11593,17 +11557,17 @@ func unpackArgSGodotAabb(x []GodotAabb) (unpacked *C.godot_aabb, allocs *cgoAllo
 	return
 }
 
-// packSGodotAabb reads sliced Go data structure out from plain C format.
-func packSGodotAabb(v []GodotAabb, ptr0 *C.godot_aabb) {
+// packSAabb reads sliced Go data structure out from plain C format.
+func packSAabb(v []Aabb, ptr0 *C.godot_aabb) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotAabbValue]C.godot_aabb)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotAabbRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfAabbValue]C.godot_aabb)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewAabbRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotTransform transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotTransform(x []GodotTransform) (unpacked *C.godot_transform, allocs *cgoAllocMap) {
+// unpackArgSTransform transforms a sliced Go data structure into plain C format.
+func unpackArgSTransform(x []Transform) (unpacked *C.godot_transform, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11613,7 +11577,7 @@ func unpackArgSGodotTransform(x []GodotTransform) (unpacked *C.godot_transform, 
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotTransformMemory(len0)
+	mem0 := allocTransformMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11631,17 +11595,17 @@ func unpackArgSGodotTransform(x []GodotTransform) (unpacked *C.godot_transform, 
 	return
 }
 
-// packSGodotTransform reads sliced Go data structure out from plain C format.
-func packSGodotTransform(v []GodotTransform, ptr0 *C.godot_transform) {
+// packSTransform reads sliced Go data structure out from plain C format.
+func packSTransform(v []Transform, ptr0 *C.godot_transform) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotTransformValue]C.godot_transform)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotTransformRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfTransformValue]C.godot_transform)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewTransformRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotNodePath transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotNodePath(x []GodotNodePath) (unpacked *C.godot_node_path, allocs *cgoAllocMap) {
+// unpackArgSNodePath transforms a sliced Go data structure into plain C format.
+func unpackArgSNodePath(x []NodePath) (unpacked *C.godot_node_path, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11651,7 +11615,7 @@ func unpackArgSGodotNodePath(x []GodotNodePath) (unpacked *C.godot_node_path, al
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotNodePathMemory(len0)
+	mem0 := allocNodePathMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11669,17 +11633,17 @@ func unpackArgSGodotNodePath(x []GodotNodePath) (unpacked *C.godot_node_path, al
 	return
 }
 
-// packSGodotNodePath reads sliced Go data structure out from plain C format.
-func packSGodotNodePath(v []GodotNodePath, ptr0 *C.godot_node_path) {
+// packSNodePath reads sliced Go data structure out from plain C format.
+func packSNodePath(v []NodePath, ptr0 *C.godot_node_path) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotNodePathValue]C.godot_node_path)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotNodePathRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfNodePathValue]C.godot_node_path)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewNodePathRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotRid transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotRid(x []GodotRid) (unpacked *C.godot_rid, allocs *cgoAllocMap) {
+// unpackArgSRid transforms a sliced Go data structure into plain C format.
+func unpackArgSRid(x []Rid) (unpacked *C.godot_rid, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11689,7 +11653,7 @@ func unpackArgSGodotRid(x []GodotRid) (unpacked *C.godot_rid, allocs *cgoAllocMa
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotRidMemory(len0)
+	mem0 := allocRidMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11707,17 +11671,17 @@ func unpackArgSGodotRid(x []GodotRid) (unpacked *C.godot_rid, allocs *cgoAllocMa
 	return
 }
 
-// packSGodotRid reads sliced Go data structure out from plain C format.
-func packSGodotRid(v []GodotRid, ptr0 *C.godot_rid) {
+// packSRid reads sliced Go data structure out from plain C format.
+func packSRid(v []Rid, ptr0 *C.godot_rid) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotRidValue]C.godot_rid)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotRidRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfRidValue]C.godot_rid)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewRidRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotDictionary transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotDictionary(x []GodotDictionary) (unpacked *C.godot_dictionary, allocs *cgoAllocMap) {
+// unpackArgSDictionary transforms a sliced Go data structure into plain C format.
+func unpackArgSDictionary(x []Dictionary) (unpacked *C.godot_dictionary, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11727,7 +11691,7 @@ func unpackArgSGodotDictionary(x []GodotDictionary) (unpacked *C.godot_dictionar
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotDictionaryMemory(len0)
+	mem0 := allocDictionaryMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11745,17 +11709,17 @@ func unpackArgSGodotDictionary(x []GodotDictionary) (unpacked *C.godot_dictionar
 	return
 }
 
-// packSGodotDictionary reads sliced Go data structure out from plain C format.
-func packSGodotDictionary(v []GodotDictionary, ptr0 *C.godot_dictionary) {
+// packSDictionary reads sliced Go data structure out from plain C format.
+func packSDictionary(v []Dictionary, ptr0 *C.godot_dictionary) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotDictionaryValue]C.godot_dictionary)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotDictionaryRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfDictionaryValue]C.godot_dictionary)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewDictionaryRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotStringName transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotStringName(x []GodotStringName) (unpacked *C.godot_string_name, allocs *cgoAllocMap) {
+// unpackArgSStringName transforms a sliced Go data structure into plain C format.
+func unpackArgSStringName(x []StringName) (unpacked *C.godot_string_name, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11765,7 +11729,7 @@ func unpackArgSGodotStringName(x []GodotStringName) (unpacked *C.godot_string_na
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotStringNameMemory(len0)
+	mem0 := allocStringNameMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11783,17 +11747,17 @@ func unpackArgSGodotStringName(x []GodotStringName) (unpacked *C.godot_string_na
 	return
 }
 
-// packSGodotStringName reads sliced Go data structure out from plain C format.
-func packSGodotStringName(v []GodotStringName, ptr0 *C.godot_string_name) {
+// packSStringName reads sliced Go data structure out from plain C format.
+func packSStringName(v []StringName, ptr0 *C.godot_string_name) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotStringNameValue]C.godot_string_name)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotStringNameRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfStringNameValue]C.godot_string_name)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewStringNameRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotArvrInterfaceGdnative transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotArvrInterfaceGdnative(x []GodotArvrInterfaceGdnative) (unpacked *C.godot_arvr_interface_gdnative, allocs *cgoAllocMap) {
+// unpackArgSArvrInterfaceGdnative transforms a sliced Go data structure into plain C format.
+func unpackArgSArvrInterfaceGdnative(x []ArvrInterfaceGdnative) (unpacked *C.godot_arvr_interface_gdnative, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11803,7 +11767,7 @@ func unpackArgSGodotArvrInterfaceGdnative(x []GodotArvrInterfaceGdnative) (unpac
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotArvrInterfaceGdnativeMemory(len0)
+	mem0 := allocArvrInterfaceGdnativeMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11821,17 +11785,17 @@ func unpackArgSGodotArvrInterfaceGdnative(x []GodotArvrInterfaceGdnative) (unpac
 	return
 }
 
-// packSGodotArvrInterfaceGdnative reads sliced Go data structure out from plain C format.
-func packSGodotArvrInterfaceGdnative(v []GodotArvrInterfaceGdnative, ptr0 *C.godot_arvr_interface_gdnative) {
+// packSArvrInterfaceGdnative reads sliced Go data structure out from plain C format.
+func packSArvrInterfaceGdnative(v []ArvrInterfaceGdnative, ptr0 *C.godot_arvr_interface_gdnative) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotArvrInterfaceGdnativeValue]C.godot_arvr_interface_gdnative)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotArvrInterfaceGdnativeRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfArvrInterfaceGdnativeValue]C.godot_arvr_interface_gdnative)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewArvrInterfaceGdnativeRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPropertyAttributes transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPropertyAttributes(x []GodotPropertyAttributes) (unpacked *C.godot_property_attributes, allocs *cgoAllocMap) {
+// unpackArgSPropertyAttributes transforms a sliced Go data structure into plain C format.
+func unpackArgSPropertyAttributes(x []PropertyAttributes) (unpacked *C.godot_property_attributes, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11841,7 +11805,7 @@ func unpackArgSGodotPropertyAttributes(x []GodotPropertyAttributes) (unpacked *C
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPropertyAttributesMemory(len0)
+	mem0 := allocPropertyAttributesMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11859,17 +11823,17 @@ func unpackArgSGodotPropertyAttributes(x []GodotPropertyAttributes) (unpacked *C
 	return
 }
 
-// packSGodotPropertyAttributes reads sliced Go data structure out from plain C format.
-func packSGodotPropertyAttributes(v []GodotPropertyAttributes, ptr0 *C.godot_property_attributes) {
+// packSPropertyAttributes reads sliced Go data structure out from plain C format.
+func packSPropertyAttributes(v []PropertyAttributes, ptr0 *C.godot_property_attributes) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPropertyAttributesValue]C.godot_property_attributes)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPropertyAttributesRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPropertyAttributesValue]C.godot_property_attributes)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPropertyAttributesRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotSignal transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotSignal(x []GodotSignal) (unpacked *C.godot_signal, allocs *cgoAllocMap) {
+// unpackArgSSignal transforms a sliced Go data structure into plain C format.
+func unpackArgSSignal(x []Signal) (unpacked *C.godot_signal, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11879,7 +11843,7 @@ func unpackArgSGodotSignal(x []GodotSignal) (unpacked *C.godot_signal, allocs *c
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotSignalMemory(len0)
+	mem0 := allocSignalMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11897,17 +11861,17 @@ func unpackArgSGodotSignal(x []GodotSignal) (unpacked *C.godot_signal, allocs *c
 	return
 }
 
-// packSGodotSignal reads sliced Go data structure out from plain C format.
-func packSGodotSignal(v []GodotSignal, ptr0 *C.godot_signal) {
+// packSSignal reads sliced Go data structure out from plain C format.
+func packSSignal(v []Signal, ptr0 *C.godot_signal) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotSignalValue]C.godot_signal)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotSignalRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfSignalValue]C.godot_signal)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewSignalRef(unsafe.Pointer(&ptr1))
 	}
 }
 
-// unpackArgSGodotPluginscriptLanguageDesc transforms a sliced Go data structure into plain C format.
-func unpackArgSGodotPluginscriptLanguageDesc(x []GodotPluginscriptLanguageDesc) (unpacked *C.godot_pluginscript_language_desc, allocs *cgoAllocMap) {
+// unpackArgSPluginscriptLanguageDesc transforms a sliced Go data structure into plain C format.
+func unpackArgSPluginscriptLanguageDesc(x []PluginscriptLanguageDesc) (unpacked *C.godot_pluginscript_language_desc, allocs *cgoAllocMap) {
 	if x == nil {
 		return nil, nil
 	}
@@ -11917,7 +11881,7 @@ func unpackArgSGodotPluginscriptLanguageDesc(x []GodotPluginscriptLanguageDesc) 
 	})
 
 	len0 := len(x)
-	mem0 := allocGodotPluginscriptLanguageDescMemory(len0)
+	mem0 := allocPluginscriptLanguageDescMemory(len0)
 	allocs.Add(mem0)
 	h0 := &sliceHeader{
 		Data: uintptr(mem0),
@@ -11935,11 +11899,11 @@ func unpackArgSGodotPluginscriptLanguageDesc(x []GodotPluginscriptLanguageDesc) 
 	return
 }
 
-// packSGodotPluginscriptLanguageDesc reads sliced Go data structure out from plain C format.
-func packSGodotPluginscriptLanguageDesc(v []GodotPluginscriptLanguageDesc, ptr0 *C.godot_pluginscript_language_desc) {
+// packSPluginscriptLanguageDesc reads sliced Go data structure out from plain C format.
+func packSPluginscriptLanguageDesc(v []PluginscriptLanguageDesc, ptr0 *C.godot_pluginscript_language_desc) {
 	const m = 0x7fffffff
 	for i0 := range v {
-		ptr1 := (*(*[m / sizeOfGodotPluginscriptLanguageDescValue]C.godot_pluginscript_language_desc)(unsafe.Pointer(ptr0)))[i0]
-		v[i0] = *NewGodotPluginscriptLanguageDescRef(unsafe.Pointer(&ptr1))
+		ptr1 := (*(*[m / sizeOfPluginscriptLanguageDescValue]C.godot_pluginscript_language_desc)(unsafe.Pointer(ptr0)))[i0]
+		v[i0] = *NewPluginscriptLanguageDescRef(unsafe.Pointer(&ptr1))
 	}
 }

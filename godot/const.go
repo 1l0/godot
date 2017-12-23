@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 06:36:13 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 06:43:30 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -12,46 +12,46 @@ package godot
 */
 import "C"
 
-// GodotVariantType as declared in gdnative/variant.h:85
-type GodotVariantType int32
+// VariantType as declared in gdnative/variant.h:85
+type VariantType int32
 
-// GodotVariantType enumeration from gdnative/variant.h:85
+// VariantType enumeration from gdnative/variant.h:85
 const ()
 
-// GodotVariantCallErrorError as declared in gdnative/variant.h:94
-type GodotVariantCallErrorError int32
+// VariantCallErrorError as declared in gdnative/variant.h:94
+type VariantCallErrorError int32
 
-// GodotVariantCallErrorError enumeration from gdnative/variant.h:94
+// VariantCallErrorError enumeration from gdnative/variant.h:94
 const ()
 
-// GodotError as declared in gdnative/gdnative.h:120
-type GodotError int32
+// Error as declared in gdnative/gdnative.h:120
+type Error int32
 
-// GodotError enumeration from gdnative/gdnative.h:120
+// Error enumeration from gdnative/gdnative.h:120
 const ()
 
-// GodotVector3Axis as declared in gdnative/vector3.h:64
-type GodotVector3Axis int32
+// Vector3Axis as declared in gdnative/vector3.h:64
+type Vector3Axis int32
 
-// GodotVector3Axis enumeration from gdnative/vector3.h:64
+// Vector3Axis enumeration from gdnative/vector3.h:64
 const ()
 
-// GodotMethodRpcMode as declared in nativescript/godot_nativescript.h:45
-type GodotMethodRpcMode int32
+// MethodRpcMode as declared in nativescript/godot_nativescript.h:45
+type MethodRpcMode int32
 
-// GodotMethodRpcMode enumeration from nativescript/godot_nativescript.h:45
+// MethodRpcMode enumeration from nativescript/godot_nativescript.h:45
 const ()
 
-// GodotPropertyHint as declared in nativescript/godot_nativescript.h:82
-type GodotPropertyHint int32
+// PropertyHint as declared in nativescript/godot_nativescript.h:82
+type PropertyHint int32
 
-// GodotPropertyHint enumeration from nativescript/godot_nativescript.h:82
+// PropertyHint enumeration from nativescript/godot_nativescript.h:82
 const ()
 
-// GodotPropertyUsageFlags as declared in nativescript/godot_nativescript.h:107
-type GodotPropertyUsageFlags int32
+// PropertyUsageFlags as declared in nativescript/godot_nativescript.h:107
+type PropertyUsageFlags int32
 
-// GodotPropertyUsageFlags enumeration from nativescript/godot_nativescript.h:107
+// PropertyUsageFlags enumeration from nativescript/godot_nativescript.h:107
 const ()
 
 // GdnativeApiTypes as declared in godot_headers/gdnative_api_struct.gen.h:35
