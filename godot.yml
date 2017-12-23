@@ -15,7 +15,7 @@ PARSER:
   SourcesPaths: ["gdnative_api_struct.gen.h"]
 TRANSLATOR:
   ConstRules:
-    defines: eval
+    defines: cgo
   Rules:
     global: 
       - {transform: lower}
