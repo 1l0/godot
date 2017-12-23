@@ -8,7 +8,33 @@
 
 #define __attribute__(x)
 
-%include "gdnative_api_struct.gen.h"
 %include "gdnative/gdnative.h"
+%include "gdnative/aabb.h"
+%include "gdnative/array.h"
+%include "gdnative/basis.h"
+%include "gdnative/color.h"
+%include "gdnative/dictionary.h"
+%include "gdnative/node_path.h"
+%include "gdnative/plane.h"
+%include "gdnative/pool_arrays.h"
+%include "gdnative/quat.h"
+%include "gdnative/rect2.h"
+%include "gdnative/rid.h"
+%include "gdnative/string_name.h"
+%include "gdnative/string.h"
+%include "gdnative/transform.h"
+%include "gdnative/transform2d.h"
+%include "gdnative/variant.h"
+%include "gdnative/vector2.h"
+%include "gdnative/vector3.h"
+
+%include "arvr/godot_arvr.h"
+
+%include "nativescript/godot_nativescript.h" 
+
+%include "pluginscript/godot_pluginscript.h" 
+
+%include "gdnative_api_struct.gen.h"
+
 
 
