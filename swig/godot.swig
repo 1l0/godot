@@ -8,6 +8,8 @@
 
 #define __attribute__(x)
 
+%include "gdnative_api_struct.gen.h"
+
 %include "gdnative/gdnative.h"
 %include "gdnative/aabb.h"
 %include "gdnative/array.h"
@@ -34,7 +36,7 @@
 
 %include "pluginscript/godot_pluginscript.h" 
 
-%include "gdnative_api_struct.gen.h"
+
 
 
 
