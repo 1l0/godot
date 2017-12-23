@@ -805,7 +805,7 @@ type Int int32
 type Real float32
 
 // Object type as declared in gdnative/gdnative.h:136
-type Object [0]byte
+type Object interface{}
 
 // MethodBind as declared in gdnative/gdnative.h:219
 type MethodBind struct {
