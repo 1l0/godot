@@ -3,8 +3,8 @@
 #include "gdnative_api_struct.gen.h"
 %}
 
-%rename("%(camelcase)s") "";
-//%rename("%(strip:[godot_])s") "";
+/*%rename("%(camelcase)s") "";
+%rename("%(strip:[godot_])s") "";*/
 
 #define __attribute__(x)
 
