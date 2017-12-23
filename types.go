@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:11:06 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:39:47 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -58,7 +58,7 @@ type GdnativeExtArvrApiStruct struct {
 	allocs64de5bf5             interface{}
 }
 
-// GdnativeCoreApiStruct as declared in godot_headers/gdnative_api_struct.gen.h:809
+// GdnativeCoreApiStruct as declared in godot_headers/gdnative_api_struct.gen.h:810
 type GdnativeCoreApiStruct struct {
 	Type                                      uint32
 	Version                                   GdnativeApiVersion
@@ -114,7 +114,7 @@ type GdnativeCoreApiStruct struct {
 	Vector2Abs                                Vector2
 	Vector2Clamped                            Vector2
 	Vector2OperatorAdd                        Vector2
-	Vector2OperatorSubstract                  Vector2
+	Vector2OperatorSubtract                   Vector2
 	Vector2OperatorMultiplyVector             Vector2
 	Vector2OperatorMultiplyScalar             Vector2
 	Vector2OperatorDivideVector               Vector2
@@ -149,7 +149,7 @@ type GdnativeCoreApiStruct struct {
 	QuatCubicSlerp                            Quat
 	QuatOperatorMultiply                      Quat
 	QuatOperatorAdd                           Quat
-	QuatOperatorSubstract                     Quat
+	QuatOperatorSubtract                      Quat
 	QuatOperatorDivide                        Quat
 	QuatOperatorEqual                         Bool
 	QuatOperatorNeg                           Quat
@@ -180,7 +180,7 @@ type GdnativeCoreApiStruct struct {
 	BasisSetRow                               *func(pSelf []Basis, pRow Int, pValue []Vector3)
 	BasisOperatorEqual                        Bool
 	BasisOperatorAdd                          Basis
-	BasisOperatorSubstract                    Basis
+	BasisOperatorSubtract                     Basis
 	BasisOperatorMultiplyVector               Basis
 	BasisOperatorMultiplyScalar               Basis
 	Vector3New                                *func(rDest []Vector3, pX Real, pY Real, pZ Real)
@@ -210,7 +210,7 @@ type GdnativeCoreApiStruct struct {
 	Vector3Bounce                             Vector3
 	Vector3Reflect                            Vector3
 	Vector3OperatorAdd                        Vector3
-	Vector3OperatorSubstract                  Vector3
+	Vector3OperatorSubtract                   Vector3
 	Vector3OperatorMultiplyVector             Vector3
 	Vector3OperatorMultiplyScalar             Vector3
 	Vector3OperatorDivideVector               Vector3
@@ -783,6 +783,7 @@ type GdnativeCoreApiStruct struct {
 	MethodBindPtrcall                         *func(pMethodBind []MethodBind, pInstance *Object, pArgs []unsafe.Pointer, pRet unsafe.Pointer)
 	MethodBindCall                            Variant
 	GetClassConstructor                       ClassConstructor
+	GetGlobalConstants                        Dictionary
 	RegisterNativeCallType                    *func(callType string, pCallback NativeCallCb)
 	Alloc                                     *func(pBytes int32) unsafe.Pointer
 	Realloc                                   *func(pPtr unsafe.Pointer, pBytes int32) unsafe.Pointer
@@ -794,26 +795,26 @@ type GdnativeCoreApiStruct struct {
 	allocs57717e51                            interface{}
 }
 
-// Bool type as declared in gdnative/gdnative.h:124
+// Bool type as declared in gdnative/gdnative.h:122
 type Bool bool
 
-// Int type as declared in gdnative/gdnative.h:131
+// Int type as declared in gdnative/gdnative.h:129
 type Int int32
 
-// Real type as declared in gdnative/gdnative.h:135
+// Real type as declared in gdnative/gdnative.h:133
 type Real float32
 
-// Object type as declared in gdnative/gdnative.h:138
+// Object type as declared in gdnative/gdnative.h:136
 type Object [0]byte
 
-// MethodBind as declared in gdnative/gdnative.h:225
+// MethodBind as declared in gdnative/gdnative.h:219
 type MethodBind struct {
 	DontTouchThat  [1]byte
 	ref3a05c0bc    *C.godot_method_bind
 	allocs3a05c0bc interface{}
 }
 
-// GdnativeApiVersion as declared in gdnative/gdnative.h:235
+// GdnativeApiVersion as declared in gdnative/gdnative.h:229
 type GdnativeApiVersion struct {
 	Major          uint32
 	Minor          uint32
@@ -821,7 +822,7 @@ type GdnativeApiVersion struct {
 	allocs5eed2c27 interface{}
 }
 
-// GdnativeApiStruct as declared in gdnative/gdnative.h:237
+// GdnativeApiStruct as declared in gdnative/gdnative.h:231
 type GdnativeApiStruct struct {
 	Type           uint32
 	Version        GdnativeApiVersion
@@ -830,7 +831,7 @@ type GdnativeApiStruct struct {
 	allocs45f52b65 interface{}
 }
 
-// GdnativeInitOptions as declared in gdnative/gdnative.h:257
+// GdnativeInitOptions as declared in gdnative/gdnative.h:251
 type GdnativeInitOptions struct {
 	InEditor              Bool
 	CoreApiHash           uint64
@@ -845,23 +846,23 @@ type GdnativeInitOptions struct {
 	allocsf9d34929        interface{}
 }
 
-// GdnativeTerminateOptions as declared in gdnative/gdnative.h:261
+// GdnativeTerminateOptions as declared in gdnative/gdnative.h:255
 type GdnativeTerminateOptions struct {
 	InEditor       Bool
 	ref80c63fdc    *C.godot_gdnative_terminate_options
 	allocs80c63fdc interface{}
 }
 
-// ClassConstructor type as declared in gdnative/gdnative.h:264
+// ClassConstructor type as declared in gdnative/gdnative.h:258
 type ClassConstructor func() *Object
 
-// GdnativeInitFn type as declared in gdnative/gdnative.h:271
+// GdnativeInitFn type as declared in gdnative/gdnative.h:265
 type GdnativeInitFn func(arg0 []GdnativeInitOptions)
 
-// GdnativeTerminateFn type as declared in gdnative/gdnative.h:272
+// GdnativeTerminateFn type as declared in gdnative/gdnative.h:266
 type GdnativeTerminateFn func(arg0 []GdnativeTerminateOptions)
 
-// GdnativeProcedureFn type as declared in gdnative/gdnative.h:273
+// GdnativeProcedureFn type as declared in gdnative/gdnative.h:267
 type GdnativeProcedureFn func(arg0 []Array) Variant
 
 // String as declared in gdnative/string.h:46

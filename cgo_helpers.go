@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:11:06 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:39:47 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -823,9 +823,9 @@ func (x *GdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struct, *c
 	ref57717e51.godot_vector2_operator_add, cgodot_vector2_operator_add_allocs = x.Vector2OperatorAdd.PassRef()
 	allocs57717e51.Borrow(cgodot_vector2_operator_add_allocs)
 
-	var cgodot_vector2_operator_substract_allocs *cgoAllocMap
-	ref57717e51.godot_vector2_operator_substract, cgodot_vector2_operator_substract_allocs = x.Vector2OperatorSubstract.PassRef()
-	allocs57717e51.Borrow(cgodot_vector2_operator_substract_allocs)
+	var cgodot_vector2_operator_subtract_allocs *cgoAllocMap
+	ref57717e51.godot_vector2_operator_subtract, cgodot_vector2_operator_subtract_allocs = x.Vector2OperatorSubtract.PassRef()
+	allocs57717e51.Borrow(cgodot_vector2_operator_subtract_allocs)
 
 	var cgodot_vector2_operator_multiply_vector_allocs *cgoAllocMap
 	ref57717e51.godot_vector2_operator_multiply_vector, cgodot_vector2_operator_multiply_vector_allocs = x.Vector2OperatorMultiplyVector.PassRef()
@@ -963,9 +963,9 @@ func (x *GdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struct, *c
 	ref57717e51.godot_quat_operator_add, cgodot_quat_operator_add_allocs = x.QuatOperatorAdd.PassRef()
 	allocs57717e51.Borrow(cgodot_quat_operator_add_allocs)
 
-	var cgodot_quat_operator_substract_allocs *cgoAllocMap
-	ref57717e51.godot_quat_operator_substract, cgodot_quat_operator_substract_allocs = x.QuatOperatorSubstract.PassRef()
-	allocs57717e51.Borrow(cgodot_quat_operator_substract_allocs)
+	var cgodot_quat_operator_subtract_allocs *cgoAllocMap
+	ref57717e51.godot_quat_operator_subtract, cgodot_quat_operator_subtract_allocs = x.QuatOperatorSubtract.PassRef()
+	allocs57717e51.Borrow(cgodot_quat_operator_subtract_allocs)
 
 	var cgodot_quat_operator_divide_allocs *cgoAllocMap
 	ref57717e51.godot_quat_operator_divide, cgodot_quat_operator_divide_allocs = x.QuatOperatorDivide.PassRef()
@@ -1087,9 +1087,9 @@ func (x *GdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struct, *c
 	ref57717e51.godot_basis_operator_add, cgodot_basis_operator_add_allocs = x.BasisOperatorAdd.PassRef()
 	allocs57717e51.Borrow(cgodot_basis_operator_add_allocs)
 
-	var cgodot_basis_operator_substract_allocs *cgoAllocMap
-	ref57717e51.godot_basis_operator_substract, cgodot_basis_operator_substract_allocs = x.BasisOperatorSubstract.PassRef()
-	allocs57717e51.Borrow(cgodot_basis_operator_substract_allocs)
+	var cgodot_basis_operator_subtract_allocs *cgoAllocMap
+	ref57717e51.godot_basis_operator_subtract, cgodot_basis_operator_subtract_allocs = x.BasisOperatorSubtract.PassRef()
+	allocs57717e51.Borrow(cgodot_basis_operator_subtract_allocs)
 
 	var cgodot_basis_operator_multiply_vector_allocs *cgoAllocMap
 	ref57717e51.godot_basis_operator_multiply_vector, cgodot_basis_operator_multiply_vector_allocs = x.BasisOperatorMultiplyVector.PassRef()
@@ -1207,9 +1207,9 @@ func (x *GdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struct, *c
 	ref57717e51.godot_vector3_operator_add, cgodot_vector3_operator_add_allocs = x.Vector3OperatorAdd.PassRef()
 	allocs57717e51.Borrow(cgodot_vector3_operator_add_allocs)
 
-	var cgodot_vector3_operator_substract_allocs *cgoAllocMap
-	ref57717e51.godot_vector3_operator_substract, cgodot_vector3_operator_substract_allocs = x.Vector3OperatorSubstract.PassRef()
-	allocs57717e51.Borrow(cgodot_vector3_operator_substract_allocs)
+	var cgodot_vector3_operator_subtract_allocs *cgoAllocMap
+	ref57717e51.godot_vector3_operator_subtract, cgodot_vector3_operator_subtract_allocs = x.Vector3OperatorSubtract.PassRef()
+	allocs57717e51.Borrow(cgodot_vector3_operator_subtract_allocs)
 
 	var cgodot_vector3_operator_multiply_vector_allocs *cgoAllocMap
 	ref57717e51.godot_vector3_operator_multiply_vector, cgodot_vector3_operator_multiply_vector_allocs = x.Vector3OperatorMultiplyVector.PassRef()
@@ -3499,6 +3499,10 @@ func (x *GdnativeCoreApiStruct) PassRef() (*C.godot_gdnative_core_api_struct, *c
 	ref57717e51.godot_get_class_constructor, cgodot_get_class_constructor_allocs = x.GetClassConstructor.PassValue()
 	allocs57717e51.Borrow(cgodot_get_class_constructor_allocs)
 
+	var cgodot_get_global_constants_allocs *cgoAllocMap
+	ref57717e51.godot_get_global_constants, cgodot_get_global_constants_allocs = x.GetGlobalConstants.PassRef()
+	allocs57717e51.Borrow(cgodot_get_global_constants_allocs)
+
 	var cgodot_register_native_call_type_allocs *cgoAllocMap
 	ref57717e51.godot_register_native_call_type, cgodot_register_native_call_type_allocs = x.RegisterNativeCallType.PassRef()
 	allocs57717e51.Borrow(cgodot_register_native_call_type_allocs)
@@ -3602,7 +3606,7 @@ func (x *GdnativeCoreApiStruct) Deref() {
 	x.Vector2Abs = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_abs))
 	x.Vector2Clamped = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_clamped))
 	x.Vector2OperatorAdd = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_add))
-	x.Vector2OperatorSubstract = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_substract))
+	x.Vector2OperatorSubtract = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_subtract))
 	x.Vector2OperatorMultiplyVector = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_multiply_vector))
 	x.Vector2OperatorMultiplyScalar = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_multiply_scalar))
 	x.Vector2OperatorDivideVector = NewVector2Ref(unsafe.Pointer(x.ref57717e51.godot_vector2_operator_divide_vector))
@@ -3637,7 +3641,7 @@ func (x *GdnativeCoreApiStruct) Deref() {
 	x.QuatCubicSlerp = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_cubic_slerp))
 	x.QuatOperatorMultiply = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_multiply))
 	x.QuatOperatorAdd = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_add))
-	x.QuatOperatorSubstract = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_substract))
+	x.QuatOperatorSubtract = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_subtract))
 	x.QuatOperatorDivide = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_divide))
 	x.QuatOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_equal))
 	x.QuatOperatorNeg = NewQuatRef(unsafe.Pointer(x.ref57717e51.godot_quat_operator_neg))
@@ -3668,7 +3672,7 @@ func (x *GdnativeCoreApiStruct) Deref() {
 	x.BasisSetRow = NewRef(unsafe.Pointer(x.ref57717e51.godot_basis_set_row))
 	x.BasisOperatorEqual = NewBoolRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_equal))
 	x.BasisOperatorAdd = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_add))
-	x.BasisOperatorSubstract = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_substract))
+	x.BasisOperatorSubtract = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_subtract))
 	x.BasisOperatorMultiplyVector = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_multiply_vector))
 	x.BasisOperatorMultiplyScalar = NewBasisRef(unsafe.Pointer(x.ref57717e51.godot_basis_operator_multiply_scalar))
 	x.Vector3New = NewRef(unsafe.Pointer(x.ref57717e51.godot_vector3_new))
@@ -3698,7 +3702,7 @@ func (x *GdnativeCoreApiStruct) Deref() {
 	x.Vector3Bounce = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_bounce))
 	x.Vector3Reflect = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_reflect))
 	x.Vector3OperatorAdd = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_add))
-	x.Vector3OperatorSubstract = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_substract))
+	x.Vector3OperatorSubtract = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_subtract))
 	x.Vector3OperatorMultiplyVector = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_multiply_vector))
 	x.Vector3OperatorMultiplyScalar = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_multiply_scalar))
 	x.Vector3OperatorDivideVector = NewVector3Ref(unsafe.Pointer(x.ref57717e51.godot_vector3_operator_divide_vector))
@@ -4271,6 +4275,7 @@ func (x *GdnativeCoreApiStruct) Deref() {
 	x.MethodBindPtrcall = NewRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_ptrcall))
 	x.MethodBindCall = NewVariantRef(unsafe.Pointer(x.ref57717e51.godot_method_bind_call))
 	x.GetClassConstructor = *NewClassConstructorRef(unsafe.Pointer(&x.ref57717e51.godot_get_class_constructor))
+	x.GetGlobalConstants = NewDictionaryRef(unsafe.Pointer(x.ref57717e51.godot_get_global_constants))
 	x.RegisterNativeCallType = NewRef(unsafe.Pointer(x.ref57717e51.godot_register_native_call_type))
 	x.Alloc = NewRef(unsafe.Pointer(x.ref57717e51.godot_alloc))
 	x.Realloc = NewRef(unsafe.Pointer(x.ref57717e51.godot_realloc))

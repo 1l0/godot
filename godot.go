@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:11:06 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:39:47 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -13,13 +13,13 @@ package godot
 import "C"
 import "unsafe"
 
-// ObjectDestroy function as declared in gdnative/gdnative.h:207
+// ObjectDestroy function as declared in gdnative/gdnative.h:205
 func ObjectDestroy(pO *Object) {
 	cpO, _ := (C.godot_object)(unsafe.Pointer(pO)), cgoAllocsUnknown
 	C.godot_object_destroy(cpO)
 }
 
-// GlobalGetSingleton function as declared in gdnative/gdnative.h:215
+// GlobalGetSingleton function as declared in gdnative/gdnative.h:213
 func GlobalGetSingleton(pName []byte) *Object {
 	cpName, _ := (*C.char)(unsafe.Pointer((*sliceHeader)(unsafe.Pointer(&pName)).Data)), cgoAllocsUnknown
 	__ret := C.godot_global_get_singleton(cpName)
@@ -27,14 +27,7 @@ func GlobalGetSingleton(pName []byte) *Object {
 	return __v
 }
 
-// GetStackBottom function as declared in gdnative/gdnative.h:219
-func GetStackBottom() unsafe.Pointer {
-	__ret := C.godot_get_stack_bottom()
-	__v := *(*unsafe.Pointer)(unsafe.Pointer(&__ret))
-	return __v
-}
-
-// MethodBindGetMethod function as declared in gdnative/gdnative.h:227
+// MethodBindGetMethod function as declared in gdnative/gdnative.h:221
 func MethodBindGetMethod(pClassname string, pMethodname string) *MethodBind {
 	cpClassname, _ := unpackPCharString(pClassname)
 	cpMethodname, _ := unpackPCharString(pMethodname)
@@ -43,7 +36,7 @@ func MethodBindGetMethod(pClassname string, pMethodname string) *MethodBind {
 	return __v
 }
 
-// MethodBindPtrcall function as declared in gdnative/gdnative.h:228
+// MethodBindPtrcall function as declared in gdnative/gdnative.h:222
 func MethodBindPtrcall(pMethodBind []MethodBind, pInstance *Object, pArgs []unsafe.Pointer, pRet unsafe.Pointer) {
 	cpMethodBind, _ := unpackArgSMethodBind(pMethodBind)
 	cpInstance, _ := (C.godot_object)(unsafe.Pointer(pInstance)), cgoAllocsUnknown
@@ -53,7 +46,7 @@ func MethodBindPtrcall(pMethodBind []MethodBind, pInstance *Object, pArgs []unsa
 	packSMethodBind(pMethodBind, cpMethodBind)
 }
 
-// MethodBindCall function as declared in gdnative/gdnative.h:229
+// MethodBindCall function as declared in gdnative/gdnative.h:223
 func MethodBindCall(pMethodBind []MethodBind, pInstance *Object, pArgs [][]Variant, pArgCount int32, pCallError []VariantCallError) Variant {
 	cpMethodBind, _ := unpackArgSMethodBind(pMethodBind)
 	cpInstance, _ := (C.godot_object)(unsafe.Pointer(pInstance)), cgoAllocsUnknown
@@ -68,7 +61,7 @@ func MethodBindCall(pMethodBind []MethodBind, pInstance *Object, pArgs [][]Varia
 	return __v
 }
 
-// GetClassConstructor function as declared in gdnative/gdnative.h:266
+// GetClassConstructor function as declared in gdnative/gdnative.h:260
 func GetClassConstructor(pClassname string) ClassConstructor {
 	cpClassname, _ := unpackPCharString(pClassname)
 	__ret := C.godot_get_class_constructor(cpClassname)
@@ -76,21 +69,21 @@ func GetClassConstructor(pClassname string) ClassConstructor {
 	return __v
 }
 
-// GetGlobalConstants function as declared in gdnative/gdnative.h:268
+// GetGlobalConstants function as declared in gdnative/gdnative.h:262
 func GetGlobalConstants() Dictionary {
 	__ret := C.godot_get_global_constants()
 	__v := *NewDictionaryRef(unsafe.Pointer(&__ret))
 	return __v
 }
 
-// RegisterNativeCallType function as declared in gdnative/gdnative.h:278
+// RegisterNativeCallType function as declared in gdnative/gdnative.h:272
 func RegisterNativeCallType(pCallType string, pCallback NativeCallCb) {
 	cpCallType, _ := unpackPCharString(pCallType)
 	cpCallback, _ := pCallback.PassValue()
 	C.godot_register_native_call_type(cpCallType, cpCallback)
 }
 
-// Alloc function as declared in gdnative/gdnative.h:281
+// Alloc function as declared in gdnative/gdnative.h:275
 func Alloc(pBytes int32) unsafe.Pointer {
 	cpBytes, _ := (C.int)(pBytes), cgoAllocsUnknown
 	__ret := C.godot_alloc(cpBytes)
@@ -98,7 +91,7 @@ func Alloc(pBytes int32) unsafe.Pointer {
 	return __v
 }
 
-// Realloc function as declared in gdnative/gdnative.h:282
+// Realloc function as declared in gdnative/gdnative.h:276
 func Realloc(pPtr unsafe.Pointer, pBytes int32) unsafe.Pointer {
 	cpPtr, _ := pPtr, cgoAllocsUnknown
 	cpBytes, _ := (C.int)(pBytes), cgoAllocsUnknown
@@ -107,13 +100,13 @@ func Realloc(pPtr unsafe.Pointer, pBytes int32) unsafe.Pointer {
 	return __v
 }
 
-// Free function as declared in gdnative/gdnative.h:283
+// Free function as declared in gdnative/gdnative.h:277
 func Free(pPtr unsafe.Pointer) {
 	cpPtr, _ := pPtr, cgoAllocsUnknown
 	C.godot_free(cpPtr)
 }
 
-// PrintError function as declared in gdnative/gdnative.h:286
+// PrintError function as declared in gdnative/gdnative.h:280
 func PrintError(pDescription string, pFunction string, pFile string, pLine int32) {
 	cpDescription, _ := unpackPCharString(pDescription)
 	cpFunction, _ := unpackPCharString(pFunction)
@@ -122,7 +115,7 @@ func PrintError(pDescription string, pFunction string, pFile string, pLine int32
 	C.godot_print_error(cpDescription, cpFunction, cpFile, cpLine)
 }
 
-// PrintWarning function as declared in gdnative/gdnative.h:287
+// PrintWarning function as declared in gdnative/gdnative.h:281
 func PrintWarning(pDescription string, pFunction string, pFile string, pLine int32) {
 	cpDescription, _ := unpackPCharString(pDescription)
 	cpFunction, _ := unpackPCharString(pFunction)
@@ -131,7 +124,7 @@ func PrintWarning(pDescription string, pFunction string, pFile string, pLine int
 	C.godot_print_warning(cpDescription, cpFunction, cpFile, cpLine)
 }
 
-// Print function as declared in gdnative/gdnative.h:288
+// Print function as declared in gdnative/gdnative.h:282
 func Print(pMessage []String) {
 	cpMessage, _ := unpackArgSString(pMessage)
 	C.godot_print(cpMessage)
@@ -3729,11 +3722,11 @@ func Vector2OperatorAdd(pSelf []Vector2, pB []Vector2) Vector2 {
 	return __v
 }
 
-// Vector2OperatorSubstract function as declared in gdnative/vector2.h:109
-func Vector2OperatorSubstract(pSelf []Vector2, pB []Vector2) Vector2 {
+// Vector2OperatorSubtract function as declared in gdnative/vector2.h:109
+func Vector2OperatorSubtract(pSelf []Vector2, pB []Vector2) Vector2 {
 	cpSelf, _ := unpackArgSVector2(pSelf)
 	cpB, _ := unpackArgSVector2(pB)
-	__ret := C.godot_vector2_operator_substract(cpSelf, cpB)
+	__ret := C.godot_vector2_operator_subtract(cpSelf, cpB)
 	packSVector2(pB, cpB)
 	packSVector2(pSelf, cpSelf)
 	__v := *NewVector2Ref(unsafe.Pointer(&__ret))
@@ -4126,11 +4119,11 @@ func Vector3OperatorAdd(pSelf []Vector3, pB []Vector3) Vector3 {
 	return __v
 }
 
-// Vector3OperatorSubstract function as declared in gdnative/vector3.h:120
-func Vector3OperatorSubstract(pSelf []Vector3, pB []Vector3) Vector3 {
+// Vector3OperatorSubtract function as declared in gdnative/vector3.h:120
+func Vector3OperatorSubtract(pSelf []Vector3, pB []Vector3) Vector3 {
 	cpSelf, _ := unpackArgSVector3(pSelf)
 	cpB, _ := unpackArgSVector3(pB)
-	__ret := C.godot_vector3_operator_substract(cpSelf, cpB)
+	__ret := C.godot_vector3_operator_subtract(cpSelf, cpB)
 	packSVector3(pB, cpB)
 	packSVector3(pSelf, cpSelf)
 	__v := *NewVector3Ref(unsafe.Pointer(&__ret))
@@ -4498,11 +4491,11 @@ func BasisOperatorAdd(pSelf []Basis, pB []Basis) Basis {
 	return __v
 }
 
-// BasisOperatorSubstract function as declared in gdnative/basis.h:114
-func BasisOperatorSubstract(pSelf []Basis, pB []Basis) Basis {
+// BasisOperatorSubtract function as declared in gdnative/basis.h:114
+func BasisOperatorSubtract(pSelf []Basis, pB []Basis) Basis {
 	cpSelf, _ := unpackArgSBasis(pSelf)
 	cpB, _ := unpackArgSBasis(pB)
-	__ret := C.godot_basis_operator_substract(cpSelf, cpB)
+	__ret := C.godot_basis_operator_subtract(cpSelf, cpB)
 	packSBasis(pB, cpB)
 	packSBasis(pSelf, cpSelf)
 	__v := *NewBasisRef(unsafe.Pointer(&__ret))
@@ -4756,11 +4749,11 @@ func QuatOperatorAdd(pSelf []Quat, pB []Quat) Quat {
 	return __v
 }
 
-// QuatOperatorSubstract function as declared in gdnative/quat.h:101
-func QuatOperatorSubstract(pSelf []Quat, pB []Quat) Quat {
+// QuatOperatorSubtract function as declared in gdnative/quat.h:101
+func QuatOperatorSubtract(pSelf []Quat, pB []Quat) Quat {
 	cpSelf, _ := unpackArgSQuat(pSelf)
 	cpB, _ := unpackArgSQuat(pB)
-	__ret := C.godot_quat_operator_substract(cpSelf, cpB)
+	__ret := C.godot_quat_operator_subtract(cpSelf, cpB)
 	packSQuat(pB, cpB)
 	packSQuat(pSelf, cpSelf)
 	__v := *NewQuatRef(unsafe.Pointer(&__ret))

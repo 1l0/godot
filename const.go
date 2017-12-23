@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:11:06 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 07:39:47 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -24,10 +24,10 @@ type VariantCallErrorError int32
 // VariantCallErrorError enumeration from gdnative/variant.h:94
 const ()
 
-// Error as declared in gdnative/gdnative.h:120
+// Error as declared in gdnative/gdnative.h:118
 type Error int32
 
-// Error enumeration from gdnative/gdnative.h:120
+// Error enumeration from gdnative/gdnative.h:118
 const ()
 
 // Vector3Axis as declared in gdnative/vector3.h:64

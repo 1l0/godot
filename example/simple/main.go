@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/1l0/godot/godot"
+	"github.com/1l0/godot"
 )
 
 func main() {}
