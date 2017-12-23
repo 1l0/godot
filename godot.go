@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 08:35:17 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 08:40:03 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -14,16 +14,16 @@ import "C"
 import "unsafe"
 
 // ObjectDestroy function as declared in gdnative/gdnative.h:205
-func ObjectDestroy(pO unsafe.Pointer) {
-	cpO, _ := pO, cgoAllocsUnknown
+func ObjectDestroy(pO *Object) {
+	cpO, _ := (C.godot_object)(unsafe.Pointer(pO)), cgoAllocsUnknown
 	C.godot_object_destroy(cpO)
 }
 
 // GlobalGetSingleton function as declared in gdnative/gdnative.h:213
-func GlobalGetSingleton(pName []byte) unsafe.Pointer {
+func GlobalGetSingleton(pName []byte) *Object {
 	cpName, _ := (*C.char)(unsafe.Pointer((*sliceHeader)(unsafe.Pointer(&pName)).Data)), cgoAllocsUnknown
 	__ret := C.godot_global_get_singleton(cpName)
-	__v := *(*unsafe.Pointer)(unsafe.Pointer(&__ret))
+	__v := *(**Object)(unsafe.Pointer(&__ret))
 	return __v
 }
 
@@ -37,9 +37,9 @@ func MethodBindGetMethod(pClassname string, pMethodname string) *MethodBind {
 }
 
 // MethodBindPtrcall function as declared in gdnative/gdnative.h:222
-func MethodBindPtrcall(pMethodBind []MethodBind, pInstance unsafe.Pointer, pArgs []unsafe.Pointer, pRet unsafe.Pointer) {
+func MethodBindPtrcall(pMethodBind []MethodBind, pInstance *Object, pArgs []unsafe.Pointer, pRet unsafe.Pointer) {
 	cpMethodBind, _ := unpackArgSMethodBind(pMethodBind)
-	cpInstance, _ := pInstance, cgoAllocsUnknown
+	cpInstance, _ := (C.godot_object)(unsafe.Pointer(pInstance)), cgoAllocsUnknown
 	cpArgs, _ := (*unsafe.Pointer)(unsafe.Pointer((*sliceHeader)(unsafe.Pointer(&pArgs)).Data)), cgoAllocsUnknown
 	cpRet, _ := pRet, cgoAllocsUnknown
 	C.godot_method_bind_ptrcall(cpMethodBind, cpInstance, cpArgs, cpRet)
@@ -47,9 +47,9 @@ func MethodBindPtrcall(pMethodBind []MethodBind, pInstance unsafe.Pointer, pArgs
 }
 
 // MethodBindCall function as declared in gdnative/gdnative.h:223
-func MethodBindCall(pMethodBind []MethodBind, pInstance unsafe.Pointer, pArgs [][]Variant, pArgCount int32, pCallError []VariantCallError) Variant {
+func MethodBindCall(pMethodBind []MethodBind, pInstance *Object, pArgs [][]Variant, pArgCount int32, pCallError []VariantCallError) Variant {
 	cpMethodBind, _ := unpackArgSMethodBind(pMethodBind)
-	cpInstance, _ := pInstance, cgoAllocsUnknown
+	cpInstance, _ := (C.godot_object)(unsafe.Pointer(pInstance)), cgoAllocsUnknown
 	cpArgs, _ := unpackArgSSVariant(pArgs)
 	cpArgCount, _ := (C.int)(pArgCount), cgoAllocsUnknown
 	cpCallError, _ := unpackArgSVariantCallError(pCallError)
@@ -1872,9 +1872,9 @@ func ArraySort(pSelf []Array) {
 }
 
 // ArraySortCustom function as declared in gdnative/array.h:125
-func ArraySortCustom(pSelf []Array, pObj unsafe.Pointer, pFunc []String) {
+func ArraySortCustom(pSelf []Array, pObj *Object, pFunc []String) {
 	cpSelf, _ := unpackArgSArray(pSelf)
-	cpObj, _ := pObj, cgoAllocsUnknown
+	cpObj, _ := (C.godot_object)(unsafe.Pointer(pObj)), cgoAllocsUnknown
 	cpFunc, _ := unpackArgSString(pFunc)
 	C.godot_array_sort_custom(cpSelf, cpObj, cpFunc)
 	packSString(pFunc, cpFunc)
@@ -1894,10 +1894,10 @@ func ArrayBsearch(pSelf []Array, pValue []Variant, pBefore Bool) Int {
 }
 
 // ArrayBsearchCustom function as declared in gdnative/array.h:129
-func ArrayBsearchCustom(pSelf []Array, pValue []Variant, pObj unsafe.Pointer, pFunc []String, pBefore Bool) Int {
+func ArrayBsearchCustom(pSelf []Array, pValue []Variant, pObj *Object, pFunc []String, pBefore Bool) Int {
 	cpSelf, _ := unpackArgSArray(pSelf)
 	cpValue, _ := unpackArgSVariant(pValue)
-	cpObj, _ := pObj, cgoAllocsUnknown
+	cpObj, _ := (C.godot_object)(unsafe.Pointer(pObj)), cgoAllocsUnknown
 	cpFunc, _ := unpackArgSString(pFunc)
 	cpBefore, _ := (C.godot_bool)(pBefore), cgoAllocsUnknown
 	__ret := C.godot_array_bsearch_custom(cpSelf, cpValue, cpObj, cpFunc, cpBefore)
@@ -4965,9 +4965,9 @@ func VariantNewRid(rDest []Variant, pRid []Rid) {
 }
 
 // VariantNewObject function as declared in gdnative/variant.h:154
-func VariantNewObject(rDest []Variant, pObj unsafe.Pointer) {
+func VariantNewObject(rDest []Variant, pObj *Object) {
 	crDest, _ := unpackArgSVariant(rDest)
-	cpObj, _ := pObj, cgoAllocsUnknown
+	cpObj, _ := (C.godot_object)(unsafe.Pointer(pObj)), cgoAllocsUnknown
 	C.godot_variant_new_object(crDest, cpObj)
 	packSVariant(rDest, crDest)
 }
@@ -5207,11 +5207,11 @@ func VariantAsRid(pSelf []Variant) Rid {
 }
 
 // VariantAsObject function as declared in gdnative/variant.h:182
-func VariantAsObject(pSelf []Variant) unsafe.Pointer {
+func VariantAsObject(pSelf []Variant) *Object {
 	cpSelf, _ := unpackArgSVariant(pSelf)
 	__ret := C.godot_variant_as_object(cpSelf)
 	packSVariant(pSelf, cpSelf)
-	__v := *(*unsafe.Pointer)(unsafe.Pointer(&__ret))
+	__v := *(**Object)(unsafe.Pointer(&__ret))
 	return __v
 }
 
@@ -6336,9 +6336,9 @@ func RidGetId(pSelf []Rid) Int {
 }
 
 // RidNewWithResource function as declared in gdnative/rid.h:63
-func RidNewWithResource(rDest []Rid, pFrom unsafe.Pointer) {
+func RidNewWithResource(rDest []Rid, pFrom *Object) {
 	crDest, _ := unpackArgSRid(rDest)
-	cpFrom, _ := pFrom, cgoAllocsUnknown
+	cpFrom, _ := (C.godot_object)(unsafe.Pointer(pFrom)), cgoAllocsUnknown
 	C.godot_rid_new_with_resource(crDest, cpFrom)
 	packSRid(rDest, crDest)
 }
@@ -7047,8 +7047,8 @@ func NativescriptRegisterSignal(pGdnativeHandle unsafe.Pointer, pName string, pS
 }
 
 // NativescriptGetUserdata function as declared in nativescript/godot_nativescript.h:185
-func NativescriptGetUserdata(pInstance unsafe.Pointer) unsafe.Pointer {
-	cpInstance, _ := pInstance, cgoAllocsUnknown
+func NativescriptGetUserdata(pInstance *Object) unsafe.Pointer {
+	cpInstance, _ := (C.godot_object)(unsafe.Pointer(pInstance)), cgoAllocsUnknown
 	__ret := C.godot_nativescript_get_userdata(cpInstance)
 	__v := *(*unsafe.Pointer)(unsafe.Pointer(&__ret))
 	return __v

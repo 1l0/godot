@@ -1,4 +1,4 @@
-// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 08:35:17 JST.
+// WARNING: This file has automatically been generated on Sun, 24 Dec 2017 08:40:03 JST.
 // By https://git.io/c-for-go. DO NOT EDIT.
 
 package godot
@@ -23,7 +23,7 @@ type GdnativeExtNativescriptApiStruct struct {
 	NativescriptRegisterMethod    *func(pGdnativeHandle unsafe.Pointer, pName string, pFunctionName string, pAttr MethodAttributes, pMethod InstanceMethod)
 	NativescriptRegisterProperty  *func(pGdnativeHandle unsafe.Pointer, pName string, pPath string, pAttr []PropertyAttributes, pSetFunc PropertySetFunc, pGetFunc PropertyGetFunc)
 	NativescriptRegisterSignal    *func(pGdnativeHandle unsafe.Pointer, pName string, pSignal []Signal)
-	NativescriptGetUserdata       *func(pInstance unsafe.Pointer) unsafe.Pointer
+	NativescriptGetUserdata       *func(pInstance *Object) unsafe.Pointer
 	reff0cd6324                   *C.godot_gdnative_ext_nativescript_api_struct
 	allocsf0cd6324                interface{}
 }
@@ -409,7 +409,7 @@ type GdnativeCoreApiStruct struct {
 	ArrayRfind                                Int
 	ArraySize                                 Int
 	ArraySort                                 *func(pSelf []Array)
-	ArraySortCustom                           *func(pSelf []Array, pObj unsafe.Pointer, pFunc []String)
+	ArraySortCustom                           *func(pSelf []Array, pObj *Object, pFunc []String)
 	ArrayBsearch                              Int
 	ArrayBsearchCustom                        Int
 	ArrayDestroy                              *func(pSelf []Array)
@@ -510,7 +510,7 @@ type GdnativeCoreApiStruct struct {
 	AabbOperatorEqual                         Bool
 	RidNew                                    *func(rDest []Rid)
 	RidGetId                                  Int
-	RidNewWithResource                        *func(rDest []Rid, pFrom unsafe.Pointer)
+	RidNewWithResource                        *func(rDest []Rid, pFrom *Object)
 	RidOperatorEqual                          Bool
 	RidOperatorLess                           Bool
 	TransformNewWithAxisOrigin                *func(rDest []Transform, pXAxis []Vector3, pYAxis []Vector3, pZAxis []Vector3, pOrigin []Vector3)
@@ -578,7 +578,7 @@ type GdnativeCoreApiStruct struct {
 	VariantNewColor                           *func(rDest []Variant, pColor []Color)
 	VariantNewNodePath                        *func(rDest []Variant, pNp []NodePath)
 	VariantNewRid                             *func(rDest []Variant, pRid []Rid)
-	VariantNewObject                          *func(rDest []Variant, pObj unsafe.Pointer)
+	VariantNewObject                          *func(rDest []Variant, pObj *Object)
 	VariantNewDictionary                      *func(rDest []Variant, pDict []Dictionary)
 	VariantNewArray                           *func(rDest []Variant, pArr []Array)
 	VariantNewPoolByteArray                   *func(rDest []Variant, pPba []PoolByteArray)
@@ -777,10 +777,10 @@ type GdnativeCoreApiStruct struct {
 	StringNameOperatorEqual                   Bool
 	StringNameOperatorLess                    Bool
 	StringNameDestroy                         *func(pSelf []StringName)
-	ObjectDestroy                             *func(pO unsafe.Pointer)
+	ObjectDestroy                             *func(pO *Object)
 	GlobalGetSingleton                        Object
 	MethodBindGetMethod                       MethodBind
-	MethodBindPtrcall                         *func(pMethodBind []MethodBind, pInstance unsafe.Pointer, pArgs []unsafe.Pointer, pRet unsafe.Pointer)
+	MethodBindPtrcall                         *func(pMethodBind []MethodBind, pInstance *Object, pArgs []unsafe.Pointer, pRet unsafe.Pointer)
 	MethodBindCall                            Variant
 	GetClassConstructor                       ClassConstructor
 	GetGlobalConstants                        Dictionary
@@ -803,6 +803,9 @@ type Int int32
 
 // Real type as declared in gdnative/gdnative.h:133
 type Real float32
+
+// Object type as declared in gdnative/gdnative.h:136
+type Object [0]byte
 
 // MethodBind as declared in gdnative/gdnative.h:219
 type MethodBind struct {
@@ -834,9 +837,9 @@ type GdnativeInitOptions struct {
 	CoreApiHash           uint64
 	EditorApiHash         uint64
 	NoApiHash             uint64
-	ReportVersionMismatch *func(pLibrary unsafe.Pointer, pWhat string, pWant GdnativeApiVersion, pHave GdnativeApiVersion)
-	ReportLoadingError    *func(pLibrary unsafe.Pointer, pWhat string)
-	GdNativeLibrary       unsafe.Pointer
+	ReportVersionMismatch *func(pLibrary *Object, pWhat string, pWant GdnativeApiVersion, pHave GdnativeApiVersion)
+	ReportLoadingError    *func(pLibrary *Object, pWhat string)
+	GdNativeLibrary       *Object
 	ApiStruct             []GdnativeCoreApiStruct
 	ActiveLibraryPath     []String
 	reff9d34929           *C.godot_gdnative_init_options
@@ -851,7 +854,7 @@ type GdnativeTerminateOptions struct {
 }
 
 // ClassConstructor type as declared in gdnative/gdnative.h:258
-type ClassConstructor func() unsafe.Pointer
+type ClassConstructor func() *Object
 
 // GdnativeInitFn type as declared in gdnative/gdnative.h:265
 type GdnativeInitFn func(arg0 []GdnativeInitOptions)
@@ -1153,7 +1156,7 @@ type StringName struct {
 
 // ArvrInterfaceGdnative as declared in arvr/godot_arvr.h:55
 type ArvrInterfaceGdnative struct {
-	Constructor                 *func(arg0 unsafe.Pointer) unsafe.Pointer
+	Constructor                 *func(arg0 *Object) unsafe.Pointer
 	Destructor                  *func(arg0 unsafe.Pointer)
 	GetName                     String
 	GetCapabilities             Int
@@ -1186,7 +1189,7 @@ type PropertyAttributes struct {
 
 // InstanceCreateFunc as declared in nativescript/godot_nativescript.h:124
 type InstanceCreateFunc struct {
-	CreateFunc     *func(arg0 unsafe.Pointer, arg1 unsafe.Pointer) unsafe.Pointer
+	CreateFunc     *func(arg0 *Object, arg1 unsafe.Pointer) unsafe.Pointer
 	MethodData     unsafe.Pointer
 	FreeFunc       *func(arg0 unsafe.Pointer)
 	ref70ecb5db    *C.godot_instance_create_func
@@ -1195,7 +1198,7 @@ type InstanceCreateFunc struct {
 
 // InstanceDestroyFunc as declared in nativescript/godot_nativescript.h:131
 type InstanceDestroyFunc struct {
-	DestroyFunc    *func(arg0 unsafe.Pointer, arg1 unsafe.Pointer, arg2 unsafe.Pointer)
+	DestroyFunc    *func(arg0 *Object, arg1 unsafe.Pointer, arg2 unsafe.Pointer)
 	MethodData     unsafe.Pointer
 	FreeFunc       *func(arg0 unsafe.Pointer)
 	refd0d05668    *C.godot_instance_destroy_func
@@ -1220,7 +1223,7 @@ type InstanceMethod struct {
 
 // PropertySetFunc as declared in nativescript/godot_nativescript.h:155
 type PropertySetFunc struct {
-	SetFunc       *func(arg0 unsafe.Pointer, arg1 unsafe.Pointer, arg2 unsafe.Pointer, arg3 []Variant)
+	SetFunc       *func(arg0 *Object, arg1 unsafe.Pointer, arg2 unsafe.Pointer, arg3 []Variant)
 	MethodData    unsafe.Pointer
 	FreeFunc      *func(arg0 unsafe.Pointer)
 	refc9844af    *C.godot_property_set_func
