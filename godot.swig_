@@ -9,8 +9,8 @@
 
 %include "gdnative_api_struct.gen.h"
 
-%include "gdnative/gdnative.h"
-/*%include "gdnative/aabb.h"
+/*%include "gdnative/gdnative.h"
+%include "gdnative/aabb.h"
 %include "gdnative/array.h"
 %include "gdnative/basis.h"
 %include "gdnative/color.h"
