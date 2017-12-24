@@ -8,9 +8,8 @@ GENERATOR:
     - {name: "LDFLAGS", traits: ["darwin"], flags: ["-framework Cocoa -Wl,-undefined,dynamic_lookup"]}
 PARSER:
   IncludePaths: 
+    - /usr/include
     - godot_headers
-  Defines:
-    __has_include_next(x): 1
 
   SourcesPaths: ["gdnative_api_struct.gen.h"]
 TRANSLATOR:
