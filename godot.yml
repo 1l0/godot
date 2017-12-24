@@ -14,8 +14,7 @@ PARSER:
   SourcesPaths: ["gdnative_api_struct.gen.h"]
 TRANSLATOR:
   ConstRules:
-    defines: expand
-    enum: expand
+    defines: eval
   Rules:
     global: 
       - {transform: lower}
@@ -24,8 +23,6 @@ TRANSLATOR:
       - {transform: export}
     private:
       - {transform: unexport}
-    type:
-      - {action: reject, from: "^godot_object"}
     post-global: 
       - {action: replace, from: _$}
       - {load: snakecase}
