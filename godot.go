@@ -4615,16 +4615,16 @@ func (arg1 SwigcptrGodotGdnativeExtNativescriptApiStruct) GetVersion() (_swig_re
 	return swig_r
 }
 
-func (arg1 SwigcptrGodotGdnativeExtNativescriptApiStruct) SetNext(arg2 Struct_SS_godot_gdnative_api_struct) {
+func (arg1 SwigcptrGodotGdnativeExtNativescriptApiStruct) SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	C._wrap_GodotGdnativeExtNativescriptApiStruct_Next_set_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrGodotGdnativeExtNativescriptApiStruct) GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct) {
-	var swig_r Struct_SS_godot_gdnative_api_struct
+func (arg1 SwigcptrGodotGdnativeExtNativescriptApiStruct) GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct) {
+	var swig_r SwigcptrStruct_SS_godot_gdnative_api_struct
 	_swig_i_0 := arg1
-	swig_r = (Struct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeExtNativescriptApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
+	swig_r = (SwigcptrStruct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeExtNativescriptApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -4724,8 +4724,8 @@ type GodotGdnativeExtNativescriptApiStruct interface {
 	GetType() (_swig_ret uint)
 	SetVersion(arg2 GodotGdnativeApiVersion)
 	GetVersion() (_swig_ret GodotGdnativeApiVersion)
-	SetNext(arg2 Struct_SS_godot_gdnative_api_struct)
-	GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct)
+	SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct)
+	GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct)
 	SetGodotNativescriptRegisterClass(arg2 _swig_fnptr)
 	GetGodotNativescriptRegisterClass() (_swig_ret _swig_fnptr)
 	SetGodotNativescriptRegisterToolClass(arg2 _swig_fnptr)
@@ -4775,16 +4775,16 @@ func (arg1 SwigcptrGodotGdnativeExtPluginscriptApiStruct) GetVersion() (_swig_re
 	return swig_r
 }
 
-func (arg1 SwigcptrGodotGdnativeExtPluginscriptApiStruct) SetNext(arg2 Struct_SS_godot_gdnative_api_struct) {
+func (arg1 SwigcptrGodotGdnativeExtPluginscriptApiStruct) SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	C._wrap_GodotGdnativeExtPluginscriptApiStruct_Next_set_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrGodotGdnativeExtPluginscriptApiStruct) GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct) {
-	var swig_r Struct_SS_godot_gdnative_api_struct
+func (arg1 SwigcptrGodotGdnativeExtPluginscriptApiStruct) GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct) {
+	var swig_r SwigcptrStruct_SS_godot_gdnative_api_struct
 	_swig_i_0 := arg1
-	swig_r = (Struct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeExtPluginscriptApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
+	swig_r = (SwigcptrStruct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeExtPluginscriptApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -4819,8 +4819,8 @@ type GodotGdnativeExtPluginscriptApiStruct interface {
 	GetType() (_swig_ret uint)
 	SetVersion(arg2 GodotGdnativeApiVersion)
 	GetVersion() (_swig_ret GodotGdnativeApiVersion)
-	SetNext(arg2 Struct_SS_godot_gdnative_api_struct)
-	GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct)
+	SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct)
+	GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct)
 	SetGodotPluginscriptRegisterLanguage(arg2 _swig_fnptr)
 	GetGodotPluginscriptRegisterLanguage() (_swig_ret _swig_fnptr)
 }
@@ -4860,16 +4860,16 @@ func (arg1 SwigcptrGodotGdnativeExtArvrApiStruct) GetVersion() (_swig_ret GodotG
 	return swig_r
 }
 
-func (arg1 SwigcptrGodotGdnativeExtArvrApiStruct) SetNext(arg2 Struct_SS_godot_gdnative_api_struct) {
+func (arg1 SwigcptrGodotGdnativeExtArvrApiStruct) SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	C._wrap_GodotGdnativeExtArvrApiStruct_Next_set_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrGodotGdnativeExtArvrApiStruct) GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct) {
-	var swig_r Struct_SS_godot_gdnative_api_struct
+func (arg1 SwigcptrGodotGdnativeExtArvrApiStruct) GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct) {
+	var swig_r SwigcptrStruct_SS_godot_gdnative_api_struct
 	_swig_i_0 := arg1
-	swig_r = (Struct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeExtArvrApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
+	swig_r = (SwigcptrStruct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeExtArvrApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5034,8 +5034,8 @@ type GodotGdnativeExtArvrApiStruct interface {
 	GetType() (_swig_ret uint)
 	SetVersion(arg2 GodotGdnativeApiVersion)
 	GetVersion() (_swig_ret GodotGdnativeApiVersion)
-	SetNext(arg2 Struct_SS_godot_gdnative_api_struct)
-	GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct)
+	SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct)
+	GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct)
 	SetGodotArvrRegisterInterface(arg2 _swig_fnptr)
 	GetGodotArvrRegisterInterface() (_swig_ret _swig_fnptr)
 	SetGodotArvrGetWorldscale(arg2 _swig_fnptr)
@@ -5095,16 +5095,16 @@ func (arg1 SwigcptrGodotGdnativeCoreApiStruct) GetVersion() (_swig_ret GodotGdna
 	return swig_r
 }
 
-func (arg1 SwigcptrGodotGdnativeCoreApiStruct) SetNext(arg2 Struct_SS_godot_gdnative_api_struct) {
+func (arg1 SwigcptrGodotGdnativeCoreApiStruct) SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	C._wrap_GodotGdnativeCoreApiStruct_Next_set_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrGodotGdnativeCoreApiStruct) GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct) {
-	var swig_r Struct_SS_godot_gdnative_api_struct
+func (arg1 SwigcptrGodotGdnativeCoreApiStruct) GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct) {
+	var swig_r SwigcptrStruct_SS_godot_gdnative_api_struct
 	_swig_i_0 := arg1
-	swig_r = (Struct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeCoreApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
+	swig_r = (SwigcptrStruct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeCoreApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5121,16 +5121,16 @@ func (arg1 SwigcptrGodotGdnativeCoreApiStruct) GetNumExtensions() (_swig_ret uin
 	return swig_r
 }
 
-func (arg1 SwigcptrGodotGdnativeCoreApiStruct) SetExtensions(arg2 Struct_SS_godot_gdnative_api_struct) {
+func (arg1 SwigcptrGodotGdnativeCoreApiStruct) SetExtensions(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	C._wrap_GodotGdnativeCoreApiStruct_Extensions_set_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrGodotGdnativeCoreApiStruct) GetExtensions() (_swig_ret Struct_SS_godot_gdnative_api_struct) {
-	var swig_r Struct_SS_godot_gdnative_api_struct
+func (arg1 SwigcptrGodotGdnativeCoreApiStruct) GetExtensions() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct) {
+	var swig_r SwigcptrStruct_SS_godot_gdnative_api_struct
 	_swig_i_0 := arg1
-	swig_r = (Struct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeCoreApiStruct_Extensions_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
+	swig_r = (SwigcptrStruct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeCoreApiStruct_Extensions_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -14590,12 +14590,12 @@ type GodotGdnativeCoreApiStruct interface {
 	GetType() (_swig_ret uint)
 	SetVersion(arg2 GodotGdnativeApiVersion)
 	GetVersion() (_swig_ret GodotGdnativeApiVersion)
-	SetNext(arg2 Struct_SS_godot_gdnative_api_struct)
-	GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct)
+	SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct)
+	GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct)
 	SetNumExtensions(arg2 uint)
 	GetNumExtensions() (_swig_ret uint)
-	SetExtensions(arg2 Struct_SS_godot_gdnative_api_struct)
-	GetExtensions() (_swig_ret Struct_SS_godot_gdnative_api_struct)
+	SetExtensions(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct)
+	GetExtensions() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct)
 	SetGodotColorNewRgba(arg2 _swig_fnptr)
 	GetGodotColorNewRgba() (_swig_ret _swig_fnptr)
 	SetGodotColorNewRgb(arg2 _swig_fnptr)
@@ -16575,16 +16575,16 @@ func (arg1 SwigcptrStruct_SS_godot_gdnative_api_struct) GetVersion() (_swig_ret 
 	return swig_r
 }
 
-func (arg1 SwigcptrStruct_SS_godot_gdnative_api_struct) SetNext(arg2 Struct_SS_godot_gdnative_api_struct) {
+func (arg1 SwigcptrStruct_SS_godot_gdnative_api_struct) SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	C._wrap_GodotGdnativeApiStruct_Next_set_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrStruct_SS_godot_gdnative_api_struct) GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct) {
-	var swig_r Struct_SS_godot_gdnative_api_struct
+func (arg1 SwigcptrStruct_SS_godot_gdnative_api_struct) GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct) {
+	var swig_r SwigcptrStruct_SS_godot_gdnative_api_struct
 	_swig_i_0 := arg1
-	swig_r = (Struct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
+	swig_r = (SwigcptrStruct_SS_godot_gdnative_api_struct)(SwigcptrStruct_SS_godot_gdnative_api_struct(C._wrap_GodotGdnativeApiStruct_Next_get_godot_e1a69960f6aa6f59(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -16606,8 +16606,8 @@ type GodotGdnativeApiStruct interface {
 	GetType() (_swig_ret uint)
 	SetVersion(arg2 GodotGdnativeApiVersion)
 	GetVersion() (_swig_ret GodotGdnativeApiVersion)
-	SetNext(arg2 Struct_SS_godot_gdnative_api_struct)
-	GetNext() (_swig_ret Struct_SS_godot_gdnative_api_struct)
+	SetNext(arg2 SwigcptrStruct_SS_godot_gdnative_api_struct)
+	GetNext() (_swig_ret SwigcptrStruct_SS_godot_gdnative_api_struct)
 }
 
 type SwigcptrGodotGdnativeInitOptions uintptr
