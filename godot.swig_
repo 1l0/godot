@@ -38,6 +38,7 @@
 
 %include "pluginscript/godot_pluginscript.h"
 
+%typemap(gotype) (godot_gdnative_api_struct **) %{[]GodotGdnativeApiStruct%};
 
 
 

@@ -9,26 +9,15 @@ import (
 
 func main() {}
 
-var (
-	api godot.GdnativeCoreApiStruct
-)
-
 func init() {
-	log.Println("init()")
+	//runtime.LockOSThread()
+	log.SetFlags(log.Lshortfile)
+	godot.Init(nativescriptInit)
 }
 
-//export godot_gdnative_init
-func godot_gdnative_init(options uintptr) {
-	log.Println("godot_gdnative_init()")
-
-}
-
-//export godot_gdnative_terminate
-func godot_gdnative_terminate(options uintptr) {
-
-}
-
-//export godot_nativescript_init
-func godot_nativescript_init(handle uintptr) {
-
+func nativescriptInit(handle godot.Handle) {
+	version := godot.API.GetVersion()
+	log.Printf("GDNative version: %d.%d", version.GetMajor(), version.GetMinor())
+	version = godot.NativescriptAPI.GetVersion()
+	log.Printf("Nativescript version: %d.%d", version.GetMajor(), version.GetMinor())
 }
