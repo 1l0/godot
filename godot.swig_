@@ -5,10 +5,7 @@
 
 #define __attribute__(x)
 
-//%rename("%(regex:/^(?:godot)(.*)_?$/\\1/)s") "";
 %rename("%(camelcase)s") "";
-//regex:/(\\w+)_(.*)/\\u\\2/
-//%rename("%(regex:/(\\w+)_(.*)/\\u\\2/)s") "";
 
 %include "gdnative_api_struct.gen.h"
 
@@ -38,7 +35,6 @@
 
 %include "pluginscript/godot_pluginscript.h"
 
-%typemap(gotype) (godot_gdnative_api_struct **) %{[]GodotGdnativeApiStruct%};
 
 
 
