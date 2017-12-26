@@ -42,12 +42,8 @@ func godot_gdnative_init(options *C.godot_gdnative_init_options) {
 
 //export godot_gdnative_terminate
 func godot_gdnative_terminate(options *C.godot_gdnative_terminate_options) {
-	if API != nil {
-		Swig_free(API.Swigcptr())
-	}
-	if NativescriptAPI != nil {
-		Swig_free(NativescriptAPI.Swigcptr())
-	}
+	//Swig_free(API.Swigcptr())
+	//Swig_free(NativescriptAPI.Swigcptr())
 	log.Println("SEE YOU SPACE COWBOY...")
 }
 
